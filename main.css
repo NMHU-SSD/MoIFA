@@ -1,0 +1,79 @@
+@font-face{
+  font-family: 'HypatiaSansProBold';
+  font-style: bold;
+  src: url('Assets/Fonts/hypatia-sans-pro/HypatiaSansPro-Bold.otf') format("opentype");
+}
+@font-face{
+  font-family: 'HypatiaSansProNormal';
+  font-style: normal;
+  src: url('Assets/Fonts/hypatia-sans-pro/HypatiaSansPro-Regular.otf') format("opentype");
+}
+body{
+    background-color: #808080;
+}
+.jumbotron {
+    position:relative;
+    background-color: #808080;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.navbar{
+    padding-top: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    background-color: #808080;
+    font-family: "HypatiaSansProBold";
+}
+.nav-item{
+    padding-left: 2em;
+    padding-right: 2em;
+}
+.nav-link{
+    color: black;
+    text-align: justify;
+    display: inline-block;
+}
+.container-fluid{
+    background-color: #8C2A1C;
+    padding-top: 0;
+    margin-top: 0;
+    width: auto;
+}
+.mr{
+    padding-right: 0;
+}
+.ml{
+    padding-left: 0;
+}
+.mb{
+    padding-bottom: 0;
+}
+.mt{
+    padding-top: 0;
+}
+.top-img{
+    padding-top:3%;
+}
+.top-img2{
+    padding-top:15%;
+}
+.img-size {
+  max-height: 100%;
+  max-width: 100%;
+  height: 25em;
+  width: 20em;
+}
+.img-size2 {
+  max-height: 100%;
+  max-width: 100%;
+  height: 52em;
+  width: 41em;
+}
+.font1{
+    font-family: "HypatiaSansProBold";
+}
+.font2{
+    font-family: "HypatiaSansProNormal";
+}
+
