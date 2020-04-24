@@ -10,6 +10,10 @@
 }
 body{
     background-color: #808080;
+	padding:0px;
+	margin:0px;
+    font-family: 'HypatiaSansProNormal';
+	
 }
 .jumbotron {
     position:relative;
@@ -36,10 +40,21 @@ body{
 }
 .container-fluid{
     background-color: #8C2A1C;
-    padding-top: 0;
-    margin-top: 0;
-    width: auto;
+	/* use bootstrap utilities unless you want the
+		following style applied everytime you use this class  */
+	padding-top: 0px;
+    margin-top: 0px;
+
+    /*width: auto;*/ /* <- bootstrap already uses container-fluid class to fill width of container*/
 }
+	
+/*
+already part of bootstrap utilities:
+https://getbootstrap.com/docs/4.0/utilities/spacing/
+.p-*, p*-* for padding
+.m-*, m*-* for margin
+
+remove following:
 .mr{
     padding-right: 0;
 }
@@ -52,12 +67,46 @@ body{
 .mt{
     padding-top: 0;
 }
+
+
+Padding can be defined as p-0 through p-5
+use utility to set padding (inside elements) or margins (outside elements)
+
 .top-img{
     padding-top:3%;
 }
 .top-img2{
     padding-top:15%;
 }
+
+*/
+
+
+/* 
+instead of appplying max and min height, 
+simply use img-fluid to scale width of image to width of div
+the height will auto adjust but may leave blank space in div 
+ideal to create class of shared properties
+*/
+
+.img-container, .img-container img{
+	height: 22em; /* sized to fit container - default*/
+}
+.img-container img{
+	width:100%;
+	height:100%;
+}
+
+/* apply container and image t size at specific height*/
+.fixed-height-1{
+	height: 25em;
+}
+.fixed-height-2{
+	height: 50em;
+}
+
+/*
+remove
 .img-size {
   max-height: 100%;
   max-width: 100%;
@@ -70,10 +119,45 @@ body{
   height: 52em;
   width: 41em;
 }
-.font1{
+
+*/
+
+
+/*
+using img instead of class attached to img can apply cs to all specific elements
+use object-fit: cover to ensure you are not squishing images to fit in divs 
+*/
+
+img {	
+	object-fit: cover;
+	object-position: 50% 50%; /* centered */
+}
+
+
+/* use self described css or simply apply font family to elments that would require font */
+
+h1,h2,h3,h4,h5,h6{
+	font-family: "HypatiaSansProBold";
+}
+
+
+.font-bold{
     font-family: "HypatiaSansProBold";
 }
-.font2{
+.font-normal{
     font-family: "HypatiaSansProNormal";
 }
 
+/* 
+instead of inline styling, create a class or override bootstrap classes 
+https://getbootstrap.com/docs/4.0/utilities/colors/
+
+use important flag to ensure your style is used 
+*/
+
+.bg-primary{
+	background: #808080 !important; 
+}
+.bg-secondary{
+	background: #8C2A1C !important; 
+}
