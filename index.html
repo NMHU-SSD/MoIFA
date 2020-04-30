@@ -3,133 +3,102 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="main.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 
 <body>  
-	
-	<!--   jumbotron typically used for header images (slideshow, etc), not logos 
-		use .navbar-brand for logo
-		see https://getbootstrap.com/docs/4.0/components/navbar/#nav for collapsible navbar  -->
-	
-        <!--   header piece   -->
-		
-		
-        <div class="jumbotron">
-            <div class="row">
-                <div class="col-md-4"> 
-                    <img src="Assets/Logos/MOIFA_logo.png" class="img-fluid"> 
-                </div>
-            </div>
-        </div>
-		
-        <nav class="navbar navbar-expand-lg justify-content-end">
-			
-            <ul class="navbar-nav">
-                <li class="nav-item">
+    <!--   header piece   -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary align-items-end p-0 m-0">
+        <img class="navbar-brand" src="Assets/Logos/MOIFA_logo.png" class="img-fluid">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav font-bold">
+                <li class="nav-item active">
                     <a class="nav-link" href="#">History</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item active">
                     <a class="nav-link" href="#">Photo Gallery</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item active">
                     <a class="nav-link" href="#">Education</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item active">
                     <a class="nav-link" href="#">Behind the Scenes</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">View the collection Catalog</a>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">View the Collection Catalog</a>
                 </li>
             </ul>
-        </nav>
-		
+        </div>
+    </nav>
         
         <!--  body piece -->
-		
-		<!-- 
-			https://getbootstrap.com/docs/4.0/layout/grid/
-			
-			col-md is for for browser size between 768px and 992px
-			use col for auto size and col-*-* for broswer breakpoints 
-				to resize based on browser
-			also, try using offset instead of empty col
-			-->
-		
-        <div class="container-fluid p-0 m-0">
-			
-            <div class="row ">
-               
-			    <!-- section 1 -->
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col">
-                                <img src="Assets/Logos/yokai_logo_color.svg"/>
-                            </div>
-                        </div>
-						
-                        <div class="row">
-							
-                            <div class="col-md-4">
-                                <!-- empyty for space-->
-                            </div>
-							
-                            <div class="col">
-                                <h5> 
-                                    Vivid in Japanese art and imagination are creatures that are at once ghastly and amusing.
-                                </h5>
-                                <br/>
-                                <p class="font-normal"> 
-                                    Yökai is a catchall word for ghosts, demons, monsters, shapeshifters, tricksters, and other kinds on super natural beings and mysterious phenomena. Yökai interact with the human world and spark common notions of frightful things
-                                </p>
-                            </div>
-							
-                        </div>
-						
-                    </div>
-					
-                </div>
-                
-                <!-- section 2 -->
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 m-0 p-0 fixed-height-2">
-                    <img src="Assets/placeholder_images/homescreen%20image.png" class="img-fluid p-0 m-0 fixed-height-2 w-100"/>
-                </div>
-                
-                <!-- section 3 -->
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 m-0 p-5 align-self-center">
-                    
-					<div class="row">
-						<!-- image sizing should be applied to container for responsiveness -->
-                        <div class="col m-0 p-0 img-container">
-                            <img src="Assets/placeholder_images/Art%20and%20print.png" class="img-fluid"> 
-                        </div>
-                        <div class="col m-0 p-0 img-container">
-                            <img src="Assets/placeholder_images/performing%20arts.png" class="img-fluid"> 
+    <div class="container-fluid bg-secondary">
+        <div class="row">
+            
+            
+        <!-- section 1 -->
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 m-0 p-0 align-self-center">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class = "col img-container">
+                            <img src="Assets/Logos/yokai_logo_color.svg"/>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col m-0 p-0 img-container">
-                            <img src="Assets/placeholder_images/Toys%20and%20games.png" class="img-fluid"> 
+                        <div class = "col offset-md-4 offset-xs-4 offset-lg-4 offset-sm-4">
+                            <p class="font-bold"> 
+                                Vivid in Japanese art and imagination are creatures that are at once ghastly and amusing
+                            </p>
+                            <br/>
+                            <p class="font-normal"> 
+                                Yökai is a catchall word for ghosts, demons, monsters, shapeshifters, tricksters, and other kinds on super natural beings and mysterious phenomena. Yökai interact with the human world and spark common notions of frightful things
+                            </p>
                         </div>
-                        <div class="col m-0 p-0 img-container">
-                            <img src="Assets/placeholder_images/Ghost%20stories.png" class="img-fluid"> 
-                        </div>
-                    </div>        
+                    </div>
                 </div>
             </div>
+            
+                
+            <!-- section 2 -->
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 m-0 p-0 align-self-center">
+                <img src="Assets/placeholder_images/homescreen%20image.png" class="img-fluid p-0 m-0 fixed-height-2 w-100"/>
+            </div>
+            
+            
+            <!-- section 3 -->
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 m-0 p-5 align-self-center">
+                <div class = "row">
+                    <div class="col m-0 p-0 img-container">
+                        <img src="Assets/placeholder_images/Art%20and%20print.png" class="img-fluid fixed-height-1"> 
+                    </div>
+                    <div class="col m-0 p-0 img-container">
+                        <img src="Assets/placeholder_images/performing%20arts.png" class="img-fluid  fixed-height-1"> 
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col m-0 p-0 img-container">
+                        <img src="Assets/placeholder_images/Toys%20and%20games.png" class="img-fluid  fixed-height-1"> 
+                    </div>
+                    <div class="col m-0 p-0 img-container">
+                        <img src="Assets/placeholder_images/Ghost%20stories.png" class="img-fluid  fixed-height-1"> 
+                    </div>
+                </div>        
+            </div>
         </div>
+    </div>
         
     
         <!--  footer piece -->
-		
-		<!--  try not to use inline stlying -->
-        <div class="container-fluid p-5 bg-primary">
+        <div class="container-fluid p-3 bg-primary">
             <div class="row">
-                <div class="col-md-3">
+                <div class="col-3">
                     <img src="Assets/Logos/DCA_logo.png" class="img-fluid"/>
                 </div>
             </div>
         </div>
-    
     
 </body>
