@@ -1,104 +1,77 @@
-<head>
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="main.css">
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-</head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<body>  
-    <!--   header piece   -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-primary align-items-end p-0 m-0">
-        <img class="navbar-brand" src="Assets/Logos/MOIFA_logo.png" class="img-fluid">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-            <ul class="navbar-nav font-bold">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">History</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Photo Gallery</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Education</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Behind the Scenes</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">View the Collection Catalog</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-        
-        <!--  body piece -->
-    <div class="container-fluid bg-secondary">
-        <div class="row">
-            
-            
-        <!-- section 1 -->
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 m-0 p-0 align-self-center">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class = "col img-container">
-                            <img src="Assets/Logos/yokai_logo_color.svg"/>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class = "col offset-md-4 offset-xs-4 offset-lg-4 offset-sm-4">
-                            <p class="font-bold"> 
-                                Vivid in Japanese art and imagination are creatures that are at once ghastly and amusing
-                            </p>
-                            <br/>
-                            <p class="font-normal"> 
-                                Yökai is a catchall word for ghosts, demons, monsters, shapeshifters, tricksters, and other kinds on super natural beings and mysterious phenomena. Yökai interact with the human world and spark common notions of frightful things
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-                
-            <!-- section 2 -->
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 m-0 p-0 align-self-center">
-                <img src="Assets/placeholder_images/homescreen%20image.png" class="img-fluid p-0 m-0 fixed-height-2 w-100"/>
-            </div>
-            
-            
-            <!-- section 3 -->
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 m-0 p-5 align-self-center">
-                <div class = "row">
-                    <div class="col m-0 p-0 img-container">
-                        <img src="Assets/placeholder_images/Art%20and%20print.png" class="img-fluid fixed-height-1"> 
-                    </div>
-                    <div class="col m-0 p-0 img-container">
-                        <img src="Assets/placeholder_images/performing%20arts.png" class="img-fluid  fixed-height-1"> 
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col m-0 p-0 img-container">
-                        <img src="Assets/placeholder_images/Toys%20and%20games.png" class="img-fluid  fixed-height-1"> 
-                    </div>
-                    <div class="col m-0 p-0 img-container">
-                        <img src="Assets/placeholder_images/Ghost%20stories.png" class="img-fluid  fixed-height-1"> 
-                    </div>
-                </div>        
-            </div>
-        </div>
-    </div>
-        
-    
-        <!--  footer piece -->
-        <div class="container-fluid p-3 bg-primary">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+   
+    <link rel="stylesheet" type="text/css" href="main.css">
+
+    <title>Blog</title>
+  </head>
+  <body>
+	
+	<div id="app">
+		
+		<nav class="navbar navbar-expand-lg navbar-light bg-light" >
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    			<span class="navbar-toggler-icon"></span>
+  		</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<router-link class="nav-link" to="/">logo here</router-link> 
+				
+			    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+					<li> <router-link class="nav-link" to="/Culture"> Yokai History, Art, Lore</router-link> </li>
+			    </ul>
+			 </div>
+		</nav>
+		
+		<main class="container-fluid m-0 p-0">
+			<router-view v-bind:pages="pages"></router-view>
+		</main>
+         
+			<!--  footer piece -->
+        <footer class="container-fluid p-3 bg-tertiary">
             <div class="row">
                 <div class="col-3">
                     <img src="Assets/Logos/DCA_logo.png" class="img-fluid"/>
                 </div>
             </div>
-        </div>
-    
-</body>
+		</footer>
+
+
+	</div>
+	
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	
+	
+	<!-- Vue development version, includes helpful console warnings -->
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+	<!-- Vue production version, optimized for size and speed -->
+	<!-- <script src="https://cdn.jsdelivr.net/npm/vue"></script> -->
+	
+	<!-- Vue Router -->
+	<script src="https://unpkg.com/vue-router"></script>
+	
+	<!-- App Contnt -->
+	<!-- <script src="data.js"></script> -->
+	
+	<!-- Vue Pages -->
+	<script src="Pages/Home.vue.js"></script>
+    <script src="Pages/Subpage.vue.js"></script>
+    <script src="Pages/Culture.vue.js"></script>
+    <script src="Pages/Section.vue.js"></script>
+	
+	<!-- Vue App / Router -->
+	<script src="app.js"></script>
+	
+  </body>
+</html>
