@@ -6,7 +6,7 @@ var Subpage = {
         console.log(this.pages[pageId].subpages[subpageId])
 		return { 
             subpage: this.pages[pageId].subpages[subpageId],
-            routepath: this.$route.path            
+            routepath: this.$route.path  //get current route path          
         }
 	},
     mounted(){
@@ -18,13 +18,13 @@ var Subpage = {
     methods: {
         getPageId(slug){
            var page = this.pages.find(page => page.slug == slug );
-           return this.pages.indexOf(page);
+           return this.pages.indexOf(page); //return index position
         },
         getSubPageId(slug){
             var pageId = this.getPageId(this.$route.params.pageid);           
             var subpage = this.pages[pageId].subpages.find(subpage => subpage.slug == slug );
 
-            return  this.pages[pageId].subpages.indexOf(subpage);
+            return  this.pages[pageId].subpages.indexOf(subpage);//return index position
         }
     },
     

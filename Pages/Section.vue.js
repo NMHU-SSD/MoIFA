@@ -11,22 +11,22 @@ var Section = {
 		
 	},
     methods:{
-        getPageId(slug){
-           var page = this.pages.find(page => page.slug == slug );
-           return this.pages.indexOf(page);
-        },
-        getSubPageId(slug){
-            var pageId = this.getPageId(this.$route.params.pageid);           
-            var subpage = this.pages[pageId].subpages.find(subpage => subpage.slug == slug );
-
-            return  this.pages[pageId].subpages.indexOf(subpage);
-        },
-        getSectionId(slug){
-            var pageId = this.getPageId(this.$route.params.pageid); 
-            var subpageId = this.getSubPageId(this.$route.params.subpageid)
-            var section = this.pages[pageId].subpages[subpageId].sections.find(section => section.slug == slug );
-            return this.pages[pageId].subpages[subpageId].sections.indexOf(section);
-        }
+         getPageId(slug){
+            var page = this.pages.find(page => page.slug == slug );
+            return this.pages.indexOf(page);//return index position
+         },
+         getSubPageId(slug){
+             var pageId = this.getPageId(this.$route.params.pageid);
+             var subpage = this.pages[pageId].subpages.find(subpage => subpage.slug == slug );
+ 
+             return  this.pages[pageId].subpages.indexOf(subpage);//return index position
+         },
+         getSectionId(slug){
+             var pageId = this.getPageId(this.$route.params.pageid);
+             var subpageId = this.getSubPageId(this.$route.params.subpageid)
+             var section = this.pages[pageId].subpages[subpageId].sections.find(section => section.slug == slug );
+             return this.pages[pageId].subpages[subpageId].sections.indexOf(section);//return index position
+         }
     },
 	template: `<div>
 		<h1>{{ section.title }}</h1>
