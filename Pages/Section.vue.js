@@ -12,19 +12,18 @@ var Section = {
 	},
     methods:{
          getPageId(slug){
-            var page = this.pages.find(page => page.slug == slug );
+            var page = this.pages.find(page => page.slug == slug );//find match
             return this.pages.indexOf(page);//return index position
          },
          getSubPageId(slug){
              var pageId = this.getPageId(this.$route.params.pageid);
-             var subpage = this.pages[pageId].subpages.find(subpage => subpage.slug == slug );
- 
+             var subpage = this.pages[pageId].subpages.find(subpage => subpage.slug == slug );//find match
              return  this.pages[pageId].subpages.indexOf(subpage);//return index position
          },
          getSectionId(slug){
              var pageId = this.getPageId(this.$route.params.pageid);
              var subpageId = this.getSubPageId(this.$route.params.subpageid)
-             var section = this.pages[pageId].subpages[subpageId].sections.find(section => section.slug == slug );
+             var section = this.pages[pageId].subpages[subpageId].sections.find(section => section.slug == slug );//find match
              return this.pages[pageId].subpages[subpageId].sections.indexOf(section);//return index position
          }
     },
