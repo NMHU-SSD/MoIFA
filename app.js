@@ -2,11 +2,15 @@ var routes = [
 /*home*/
 { path: '/', component: Home,name:"home"},
     
-    /*1) Yokai Culture// art, history,lore*/
-	{ path: '/Culture', component: Culture,name:"culture"},
-        /*1a)art?*/
-	    { path: '/Culture/:subid', component: Subpage,name:"subpage"},
-            { path: '/Culture/:subid/:secid', component: Section,name:"section"},
+/*1) Yokai Culture// art, history,lore*/
+{ path: '/culture', component: Culture, name:"culture",props: true},
+    
+//secondary    
+{ path: '/:pageid/:subpageid', component: Subpage, name:"subpage", props: true},
+//tertiary
+{ path: '/:pageid/:subpageid/:sectionid', component: Section, name:"section"},
+      
+	   
             //1a*)
             /*{ path: '/Culture/Art/:id', component: ''},
             //hardcode or use ids for data??
@@ -59,57 +63,73 @@ var routes = [
 ];
 
 
-
-
 var data = {
 	pages:
     [
         /*home*/
-        {title:"VIVID IN JAPANESE ART AND IMAGINATION ARE CREATURES THAT ARE AT ONCE GHASTLY AND AMUSING.",
-        body:
-         [{text: "<h1>Yōkai is a catchall word for ghosts, demons, monsters,\n shapeshifters, tricksters, and other kinds of supernatural beings \n and mysterious phenomena. Yōkai interact with the human world and spark common notions of frightful things.</h1>"},
-         { text: "Yōkai can definitely be scary, but the experience of fear can also be amusing. When frightening beings copy human behavior, they become less intimidating and can appear playful, relatable, and even cute."},
-         {text:"But yōkai are not all tame and cute. Perhaps the most terrifying yōkai are those that shed light on the faults of human society."},
-         {text:"Who are the yōkai in your world?"},
-         {text: "Have you ever felt demonized?"}, 
-         {text: "Are you a yōkai?"}
-         ],
-        featured:{source:"Assets/placeholder_images/homescreenimage.png",caption:"name,artist,date,locations"},
-        images:[
-                  {},
-              ]
+        {
+            slug: "home",
+            title:"VIVID IN JAPANESE ART AND IMAGINATION ARE CREATURES THAT ARE AT ONCE GHASTLY AND AMUSING.",
+            body:"<p>Yōkai is a catchall word for ghosts, demons, monsters,\n shapeshifters, tricksters, and other kinds of supernatural beings \n and mysterious phenomena. Yōkai interact with the human world and spark common notions of frightful things.</p> <p>Yōkai can definitely be scary, but the experience of fear can also be amusing. When frightening beings copy human behavior, they become less intimidating and can appear playful, relatable, and even cute.</p><p>But yōkai are not all tame and cute. Perhaps the most terrifying yōkai are those that shed light on the faults of human society.</p><p>Who are the yōkai in your world?<br>Have you ever felt demonized?<br>Are you a yōkai?</p>",
+            featured:   {
+                source:"Assets/placeholder_images/homescreenimage.png",
+                caption:"name,artist,date,locations"
+            },
+            images:[
+                  {
+                      source:"Assets/placeholder_images/homescreenimage.png",
+                      caption:"name,artist,date,locations"
+                  },
+            ]
         },
         
         /*1*/
-        {title: "Yokai History, Art, Lore",
-         body:"",
-         subtitle:"",
-         featured:{src:"%path%",caption:"description"},
-         subpages:[
-             {title:"Yokai: history to pop culture",
-              body:"",
-              subtitle:"",
-              sections:[
-                  {title:"Visual Art", body: "details", featured:{src:"%path%",caption:"description"}}
-              ]
-             },
-             {title:"Yokai: Creature-Lore",
-              body:"",
-              subtitle:"",
-              featured:{src:"%path%",caption:"description"},
-              images:[
-                  {
-                      
-                  }
-              ]
-             }
+        {
+            slug: "culture",
+            title: "Yokai History, Art, Lore",
+            body:"",
+            subtitle:"",
+            featured:{src:"%path%",caption:"description"},
+            subpages: [
+                {
+                    slug: "history",
+                    title:"Yokai: history to pop culture",
+                    body:"",
+                    subtitle:"",
+                    sections:[
+                        {
+                            slug: "visual-art",
+                            title:"Visual Art", 
+                            body: "details", 
+                            featured:{src:"%path%",caption:"description"}
+                        }
+                    ]
+                },
+                {
+                    slug: "creatures",
+                    title:"Yokai: Creature-Lore",
+                    body:"",
+                    subtitle:"",
+                    featured:{ 
+                        src:"%path%",
+                        caption:"description"},
+                    images:[
+                        {
+                            source:"Assets/placeholder_images/homescreenimage.png",
+                            caption:"name,artist,date,locations"
+                        }
+                    ]
+                }
             ]
         },
         
         /*2*/
-        {},
+        {
+            slug: "exhibit",
+
+            
+        },
     ]
-    
 }
 
 var router = new VueRouter({
@@ -125,13 +145,20 @@ var router = new VueRouter({
 var app = new Vue({
 	el: '#app',
     router: router,
-
-	data: {pages: data.pages, isHomepage: false},
-    created(){
-        console.log(this.$route.name)
+	data: { pages: data.pages, isHomepage: false},
+    updated(){
+        console.log(this.$route)
+        if (this.$route.name == "home"){
+            this.isHomepage = true
+        } else {
+            this.isHomepage = false
+        }
     },
-    mounted(){
-    console.log(this.$route.name)
+    watch:{
+        
+        isHomepage: function(){
+            console.log(this.isHomepage)
+        }
     }
 })
 	

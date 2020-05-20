@@ -12,29 +12,8 @@ var Home = {
                             <p class="h3 font-bold"> 
                                 {{ page.title }}
                             </p>
-                        <div class="p-1" v-for="bodyItem in page.body">
-                                
-                            <span class="font-normal">
-                                    <p v-html="bodyItem.text"></p>
-                            </span>
-                        </div>
-                            </br>
-                            <p class="font-normal">
-                                {{ page.body[0].text }}
-                            </p>
-                            <p class="font-normal">
-                                {{ page.body[1].text }}
-                            </p>
-                            <p class="font-normal">
-                                {{ page.body[2].text }}
-                            </p>
-                            <p class="font-normal">
-                                {{ page.body[3].text }}
-                                </br>
-                                {{ page.body[4].text }}
-                                </br>
-                                {{ page.body[5].text }}
-                            </p>
+                        <div v-html="page.body"></div>
+                    
                         </div>
 
 
