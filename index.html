@@ -15,19 +15,36 @@
   <body>
 	
 	<div id="app">
-		
-		<nav class="navbar navbar-expand-lg navbar-light bg-light" >
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    			<span class="navbar-toggler-icon"></span>
-  		</button>
-			<div class="collapse navbar-collapse" id="navbarSupportedContent">
-				<router-link class="nav-link" to="/">logo here</router-link> 
+        
+        
+        
+         <nav class="navbar navbar-expand-lg navbar-light bg-secondary align-items-end p-0 m-0">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class=" row collapse navbar-collapse" id="navbarNav">
+               <router-link class="col-xs-12 col-sm-12 col-md-12 col-lg-4  p-0 m-0 bg-white" to="/">
+                    <img class="navbar-brand" src="Assets/Logos/MOIFA_logo.png" class="img-fluid"/>
+               </router-link> 
 				
-			    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-					<li> <router-link class="nav-link" to="/culture"> Yokai History, Art, Lore</router-link> </li>
+			    <ul class="navbar-nav font-bold justify-content-end p-0 m-0 col-xs-12 col-sm-12 col-md-12 col-lg-8">
+					<li class="nav-item active"> 
+                        <router-link class="nav-link" to="/culture"> Yokai History, Art, Lore</router-link> 
+                    </li>
+                    <li class="nav-item active"> 
+                        <router-link class="nav-link" to="/culture"> MoIFA Exibition and Catalog</router-link> 
+                    </li>
+                    <li class="nav-item active"> 
+                        <router-link class="nav-link" to="/culture"> Educational Resources </router-link> 
+                    </li>
+                    <li class="nav-item active"> 
+                        <router-link class="nav-link" to="/culture"> Acknowledgments </router-link> 
+                    </li>
 			    </ul>
-			 </div>
-		</nav>
+            </div>
+        </nav>
+		
+		
 		
 		<main class="container-fluid m-0 p-0">
 			<router-view v-bind:pages="pages"></router-view>

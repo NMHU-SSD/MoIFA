@@ -69,16 +69,25 @@ var data = {
         /*home*/
         {
             slug: "home",
-            title:"VIVID IN JAPANESE ART AND IMAGINATION ARE CREATURES THAT ARE AT ONCE GHASTLY AND AMUSING.",
-            body:"<p>Yōkai is a catchall word for ghosts, demons, monsters,\n shapeshifters, tricksters, and other kinds of supernatural beings \n and mysterious phenomena. Yōkai interact with the human world and spark common notions of frightful things.</p> <p>Yōkai can definitely be scary, but the experience of fear can also be amusing. When frightening beings copy human behavior, they become less intimidating and can appear playful, relatable, and even cute.</p><p>But yōkai are not all tame and cute. Perhaps the most terrifying yōkai are those that shed light on the faults of human society.</p><p>Who are the yōkai in your world?<br>Have you ever felt demonized?<br>Are you a yōkai?</p>",
+            title:"<h3>VIVID IN JAPANESE ART AND IMAGINATION ARE CREATURES THAT ARE AT ONCE GHASTLY AND AMUSING.</h3>",
+            body:"<p>Yōkai is a catchall word for ghosts, demons, monsters, shapeshifters, tricksters, and other kinds of supernatural beings and mysterious phenomena. Yōkai interact with the human world and spark common notions of frightful things.</p> <p>Yōkai can definitely be scary, but the experience of fear can also be amusing. When frightening beings copy human behavior, they become less intimidating and can appear playful, relatable, and even cute.</p><p>But yōkai are not all tame and cute. Perhaps the most terrifying yōkai are those that shed light on the faults of human society.</p><p>Who are the yōkai in your world?<br>Have you ever felt demonized?<br>Are you a yōkai?</p>",
             featured:   {
-                source:"Assets/placeholder_images/homescreenimage.png",
+                source:"Assets/placeholder_images/homescreen_image.png",
+                source2:"Assets/Logos/yokai_logo_color.svg",
                 caption:"name,artist,date,locations"
             },
             images:[
                   {
-                      source:"Assets/placeholder_images/homescreenimage.png",
-                      caption:"name,artist,date,locations"
+                      source:"Assets/placeholder_images/performing_arts.png",
+                      caption:"Art and History"
+                  },
+                  {
+                      source:"Assets/placeholder_images/Ghost_stories.png",
+                      caption:"MoIFA"
+                  },
+                  {
+                      source:"Assets/placeholder_images/toys_and_games.png",
+                      caption:"Educational Resources"
                   },
             ]
         },

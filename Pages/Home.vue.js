@@ -8,18 +8,26 @@ var Home = {
 	},
 	template:  `<div class="container-fluid p-0 m-0">
                     <div class="row">
-                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 bg-tertiary align-self-top p-5">
-                            <p class="h3 font-bold"> 
-                                {{ page.title }}
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 bg-tertiary align-self-top m-0 p-5">
+                            <p class="font-bold" v-html="page.title">
                             </p>
                         <div v-html="page.body"></div>
                     
                         </div>
-
-
-                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 m-0 p-0 bg-black align-self-center">
-                        <img :src="page.featured.source" class="img-fluid pt-5 pl-5 pb-2 m-0 fixed-height-2 w-100"/>
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 m-0 p-0 bg-black align-self-center img-container">
+                            <img :src="page.featured.source" class="img-fluid  p-0 pl-5 m-0 w-100 fixed-height-2"/>
+                        <div class="img-offset" >
+                            <img :src="page.featured.source2" class="img-logo"/>
+                        </div>
                     </div>
-                </div>        
+                </div>
+                <div class="row" v-for="image,index in page.images">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 m-0 p-0">
+                        <router-link class="nav-link img-stretch p-0 m-0" to="/culture">
+                            <img class="img-stretch" :src="page.images[index].source"/>
+                            <h1 class="caption font-bold">{{ page.images[index].caption }}</h1>
+                        </router-link>
+                    </div>  
+                </div>
             </div>`
 };
