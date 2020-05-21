@@ -23,7 +23,7 @@ var Home = {
                 </div>
                 <div class="row" v-for="p,index in pages">
                     <div v-if="index > 0" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 m-0 p-0">
-                        <router-link class="nav-link img-stretch p-0 m-0" to="/culture">
+                        <router-link class="nav-link img-stretch p-0 m-0" :to="p.slug">
                             <img class="img-stretch" :src="p.featured.source"/>
                             <h1 class="caption font-bold">{{ p.title }}</h1>
                         </router-link>
