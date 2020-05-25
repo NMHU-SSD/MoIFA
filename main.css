@@ -1,3 +1,4 @@
+/*fonts*/
 @font-face{
   font-family: 'HypatiaSansProBold';
   font-style: bold;
@@ -9,6 +10,28 @@
   font-style: normal;
   src: url('Assets/Fonts/hypatia-sans-pro/HypatiaSansPro-Regular.otf') format("opentype");
 }
+.font-bold{
+    font-family: "HypatiaSansProBold";
+}
+.font-normal{
+    font-family: "HypatiaSansProNormal";
+}
+.font-size-1{
+    font-size: .8rem;
+}
+
+/*colors*/
+.color-primary{
+    color: #808080 !important;
+}
+.color-secondary{
+	color: #8C2A1C !important; 
+}
+.color-tertiary{
+	color: #E5E2C4  !important; 
+}
+
+/*backgrounds*/
 .bg-black{
     background-color: #050505 !important;
 }
@@ -21,21 +44,27 @@
 .bg-tertiary{
 	background: #E5E2C4  !important; 
 }
+
+/*navbar*/
 .nav-item{
-    padding-left: 2em;
-    padding-right: 2em;
+    padding-left: 3em;
+    padding-right: 3em;
 }
 .nav-link{
     display: inline-block;
 }
-.font-bold{
-    font-family: "HypatiaSansProBold";
+ .custom-toggler.navbar-toggler { 
+    border-color: #E5E2C4; 
+} 
+.custom-toggler .navbar-toggler-icon { 
+    background-image: url( 
+            "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(229, 226, 196, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); 
 }
-.font-normal{
-    font-family: "HypatiaSansProNormal";
-}
-.img-container, .img-container img{
-	height: 45em; 
+
+/*images/objects*/
+.img-container{
+    height: inherit;
+    width: inherit;
 }
 .img-container img{
     position: relative;
@@ -46,9 +75,14 @@ img {
 	object-fit: cover;
 	object-position: 50% 50%;
 }
-.img-stretch{
+.fixed-height-1{
+    height: 35em !important;
+}
+.fixed-height-2{
+    height: 7em;
+}
+.fluid-width{
     width: inherit;
-    height: 40em;
 }
 .caption {
   position: absolute;
@@ -58,17 +92,11 @@ img {
   color: #ffffff;
   text-align:center;
 }
-.img-offset {
-  position: absolute;
-  width: 25%;
-  top: 0%;
-  left: 0%;    
-}
-.img-logo{
-    width:100%;
-	height:100%;
-}
+
+
+/*etc*/
 .pl-6{
-    padding-left: 6rem;
+    /*needed more padding than a pl-5*/
+    padding-left: 6rem !important;
 }
 
