@@ -54,6 +54,16 @@ nav .nav-link:hover{
      color: #C9AA61 !important; 
 }
 
+/*navbar*/
+.nav-item{
+    margin-left: 3em;
+    margin-right: 3em;
+}
+.nav-link{
+    display: inline-block;
+}
+
+
 
 /*colors*/
 /*name color when possible*/
@@ -86,14 +96,7 @@ nav .nav-link:hover{
 	background: #E5E2C4  !important; 
 }
 
-/*navbar*/
-.nav-item{
-    padding-left: 3em;
-    padding-right: 3em;
-}
-.nav-link{
-    display: inline-block;
-}
+
  .custom-toggler.navbar-toggler { 
     border-color: #E5E2C4; 
 } 
