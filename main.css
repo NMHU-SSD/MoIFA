@@ -6,10 +6,41 @@
   format("opentype");
 }
 @font-face{
-  font-family: 'HypatiaSansProNormal';
+  font-family: 'AkrobatRegular';
   font-style: normal;
-  src: url('Assets/Fonts/hypatia-sans-pro/HypatiaSansPro-Regular.otf') format("opentype");
+  src: url('Assets/Fonts/Akrobat/OTF/Akrobat-Regular.otf') format("opentype");
 }
+@font-face{
+  font-family: 'AkrobatLight';
+  font-style: normal;
+  src: url('Assets/Fonts/Akrobat/OTF/Akrobat-Light.otf') format("opentype");
+}
+html, body{
+    padding: 0px;
+    margin: 0px;
+}
+main{
+    min-height: 700px;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: "HypatiaSansProBold";
+}
+p{
+  font-family: "AkrobatRegular";
+  font-size: 1.2rem;
+}
+
+
+nav {
+   font-family: "HypatiaSansProBold";
+}
+nav .nav-link {
+     color: #E5E2C4 !important; 
+}
+nav .nav-link:hover{
+     color: #C9AA61 !important; 
+}
+
 .font-bold{
     font-family: "HypatiaSansProBold";
 }
@@ -21,14 +52,19 @@
 }
 
 /*colors*/
-.color-primary{
-    color: #808080 !important;
+.color-black{ 
+    color: #050505 !important;
 }
+
+.color-primary{
+	color: #E5E2C4  !important; 
+}
+
 .color-secondary{
 	color: #8C2A1C !important; 
 }
 .color-tertiary{
-	color: #E5E2C4  !important; 
+	color: #C9AA61 !important; 
 }
 
 /*backgrounds*/
@@ -78,25 +114,29 @@ img {
 .fixed-height-1{
     height: 35em !important;
 }
-.fixed-height-2{
-    height: 7em;
+.logo{
+    height: 150px;
 }
-.fluid-width{
-    width: inherit;
+
+
+.overlay-text{
+  width: auto;
+  height: auto;
+  position: absolute;  
+  top: 50%;
+  left: 10%;  
+  color: #fff;
 }
+
+/*
 .caption {
-  position: absolute;
   height: 20em;
   top: 50%;
   left: 10%;    
   color: #ffffff;
   text-align:center;
 }
+*/
 
 
-/*etc*/
-.pl-6{
-    /*needed more padding than a pl-5*/
-    padding-left: 6rem !important;
-}
 
