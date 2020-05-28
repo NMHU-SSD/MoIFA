@@ -29,7 +29,7 @@ var app = new Vue({
         } else {
             this.isHomepage = false
         }
-        location.reload(); 
+        //location.reload(); 
     },
     watch:{
         

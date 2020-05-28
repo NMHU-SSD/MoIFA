@@ -26,16 +26,16 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                
                 <ul class="navbar-nav color-tertiary align-items-center">
-					<li class="nav-item m-sm-0"> 
+					<li class="nav-item"> 
                         <router-link class="nav-link " to="/culture"> Yokai History, Art, Lore</router-link> 
                     </li>
-                    <li class="nav-item m-sm-0"> 
-                        <router-link class="nav-link" to="/exhibition m-sm-0">Exibition and Catalog</router-link> 
+                    <li class="nav-item"> 
+                        <router-link class="nav-link" to="/exhibition">Exibition and Catalog</router-link> 
                     </li>
-                    <li class="nav-item m-sm-0"> 
+                    <li class="nav-item"> 
                         <router-link class="nav-link " to="/resources"> Educational Resources </router-link> 
                     </li>
-                    <li class="nav-item m-sm-0"> 
+                    <li class="nav-item"> 
                         <router-link class="nav-link" to="/acknowledgements"> Acknowledgments </router-link> 
                     </li>
 			    </ul>
@@ -43,10 +43,8 @@
         </nav>
 		
 		<main class="container-fluid m-0 p-0">
-			<router-view v-bind:pages="pages"></router-view>
+			<router-view :key="$route.fullPath" v-bind:pages="pages"></router-view>
 		</main>
-        
-        
       </div>
          
 			<!--  footer piece -->

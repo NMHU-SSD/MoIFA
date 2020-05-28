@@ -15,6 +15,18 @@
   font-style: normal;
   src: url('Assets/Fonts/Akrobat/OTF/Akrobat-Light.otf') format("opentype");
 }
+.font-bold{
+    font-family: "HypatiaSansProBold";
+}
+.font-normal{
+    font-family: "HypatiaSansProNormal";
+}
+.font-size-1{
+    font-size: .8rem !important;
+}
+
+
+/*HTML tags*/
 html, body{
     padding: 0px;
     margin: 0px;
@@ -22,7 +34,6 @@ html, body{
 main{
     min-height: 700px;
 }
-
 /*assign font, size, colors to actual elements insted of having multiple classes in your templates.*/
 h1, h2, h3, h4, h5, h6{
     font-family: "HypatiaSansProBold";
@@ -33,16 +44,15 @@ p{
 }
 
 
-.font-bold{
-    font-family: "HypatiaSansProBold";
+/*navbar*/
+.nav-item{
+    margin-left: 3em;
+    margin-right: 3em;
 }
-.font-normal{
-    font-family: "HypatiaSansProNormal";
+.nav-link{
+    display: inline-block;
+    font-size: 1.2rem;
 }
-.font-size-1{
-    font-size: .8rem;
-}
-
 /*proper way to implement navigation colors/states */
 nav {
    font-family: "HypatiaSansProBold";
@@ -54,15 +64,6 @@ nav .nav-link:hover{
      color: #C9AA61 !important; 
 }
 
-/*navbar*/
-.nav-item{
-    margin-left: 3em;
-    margin-right: 3em;
-}
-.nav-link{
-    display: inline-block;
-}
-
 
 
 /*colors*/
@@ -70,11 +71,9 @@ nav .nav-link:hover{
 .color-black{ 
     color: #050505 !important;
 }
-
 .color-primary{
 	color: #E5E2C4  !important; 
 }
-
 .color-secondary{
 	color: #8C2A1C !important; 
 }
@@ -95,9 +94,7 @@ nav .nav-link:hover{
 .bg-tertiary{
 	background: #E5E2C4  !important; 
 }
-
-
- .custom-toggler.navbar-toggler { 
+.custom-toggler.navbar-toggler { 
     border-color: #E5E2C4; 
 } 
 .custom-toggler .navbar-toggler-icon { 
@@ -119,16 +116,13 @@ img {
 	object-position: 50% 50%;
 }
 
-/*fixed height should increment from 1 not decrease*/
 .fixed-height-1{
     height: 35em !important;
 }
-/*better to assign fixed height per element type*/
 .logo{
     height: 150px;
 }
 
-/*describes how the text is used*/
 .overlay-text{
   width: auto;
   height: auto;
