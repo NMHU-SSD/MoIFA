@@ -29,9 +29,17 @@ var Subpage = {
         }
     },
     
-	template: `<div>
+	template: `<div class="container pt-5">
 		<h1>{{ subpage.title }}</h1>
-		<p>This is Subpage</p>
+		<h5 v-html="subpage.subtitle"></h5>
+        
+        <figure class="figure">
+            <img :src="subpage.featured.src ">
+            <figcaption class="figure-caption">{{subpage.featured.caption}}</figcaption>
+        </figure>
+
+        <p>{{ subpage.body }}</p>
+
         <ol>
             <li v-for="section in subpage.sections">
                 <router-link class="nav-link" v-bind:to="{path: routepath+'/'+ section.slug}"> {{ section.title }} </router-link>

@@ -2,6 +2,9 @@ var routes = [
 /*home*/
 { path: '/', component: Home,name:"home"},
     
+//primary for spcific page
+
+    
 //primary
 { path: '/:pageid', component: Standard, name:"standard",props: true},
     
