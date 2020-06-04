@@ -21,6 +21,8 @@ var router = new VueRouter({
   //mode: 'history'
 });
 
+Vue.use(VueLazyload);
+
 var app = new Vue({
 	el: '#app',
     router: router,
@@ -32,10 +34,8 @@ var app = new Vue({
         } else {
             this.isHomepage = false
         }
-        //location.reload(); 
     },
     watch:{
-        
         isHomepage: function(){
             console.log(this.isHomepage)
         }

@@ -15,12 +15,12 @@
   font-style: normal;
   src: url('Assets/Fonts/Akrobat/OTF/Akrobat-Light.otf') format("opentype");
 }
-.font-bold{
+/*.font-bold{
     font-family: "HypatiaSansProBold";
 }
 .font-normal{
     font-family: "HypatiaSansProNormal";
-}
+}*/
 .font-size-1{
     font-size: .8rem !important;
 }
@@ -38,9 +38,10 @@ main{
 h1, h2, h3, h4, h5, h6{
     font-family: "HypatiaSansProBold";
 }
-p{
+p, span{
   font-family: "AkrobatRegular";
   font-size: 1.2rem;
+  color: black;
 }
 
 
@@ -52,6 +53,7 @@ p{
 .nav-link{
     display: inline-block;
     font-size: 1.2rem;
+    
 }
 /*proper way to implement navigation colors/states */
 nav {
@@ -71,27 +73,33 @@ nav .nav-link:hover{
 .color-black{ 
     color: #050505 !important;
 }
-.color-primary{
+.color-tan{
 	color: #E5E2C4  !important; 
 }
-.color-secondary{
-	color: #8C2A1C !important; 
+.color-light-tan{
+    color: #F1EFE1 !important;
 }
-.color-tertiary{
+.color-dark-tan{
 	color: #C9AA61 !important; 
+}
+.color-red{
+	color: #8C2A1C !important; 
 }
 
 /*backgrounds*/
+.bg-light-tan{
+    background-color:  #F1EFE1 !important;
+}
 .bg-black{
     background-color: #050505 !important;
 }
-.bg-primary{
+.bg-grey{
     background-color: #808080 !important;
 }
-.bg-secondary{
+.bg-red{
 	background: #8C2A1C !important; 
 }
-.bg-tertiary{
+.bg-tan{
 	background: #E5E2C4  !important; 
 }
 .custom-toggler.navbar-toggler { 
@@ -119,6 +127,9 @@ img {
 .fixed-height-1{
     height: 35em !important;
 }
+.fixed-height-2{
+    height: 50em !important;
+}
 .logo{
     height: 150px;
 }
@@ -129,9 +140,19 @@ img {
   position: absolute;  
   top: 50%;
   left: 10%;  
-  color: #fff;
+}
+/*carousel*/
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%238c2a1c ' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
 }
 
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%238c2a1c' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+.carousel-caption{
+    position:static;
+}
 /* caption class should be for font/size styling for actual image caption - see figure and figure-caption to set these
 .caption {
   height: 20em;

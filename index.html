@@ -10,13 +10,12 @@
    
     <link rel="stylesheet" type="text/css" href="main.css">
 
-    <title>MoIFA</title>
+  <title>MoIFA</title>
   </head>
   <body>
 	
 	<div id="app" class="p-0 m-0">
-        
-         <nav class="navbar navbar-expand-lg navbar-light bg-secondary pl-4 pr-4 m-0">
+         <nav class="navbar navbar-expand-lg navbar-light bg-red pl-4 pr-4 m-0">
               <router-link class="navbar-brand p-0 m-0" to="/">
                     <img class="img-fluid logo" src="Assets/Logos/yokai_logo_color.svg"/>
                </router-link>    
@@ -25,7 +24,7 @@
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                
-                <ul class="navbar-nav color-tertiary align-items-center">
+                <ul class="navbar-nav align-items-center">
 					<li class="nav-item"> 
                         <router-link class="nav-link " to="/culture"> Yokai History, Art, Lore</router-link> 
                     </li>
@@ -48,7 +47,7 @@
       </div>
          
 			<!--  footer piece -->
-        <footer class="container-fluid p-3 bg-tertiary  border-top border-dark">
+        <footer class="container-fluid p-3 bg-tan  border-top border-dark">
             <div class="row">
                 <div class="col-12 col-md-6 p-5 align-self-center text-center">
                     <img src="Assets/Logos/MOIFA_logo.png" class="img-fluid"/>
@@ -64,6 +63,9 @@
 	
 
     <!-- Optional JavaScript -->
+      
+    <!--lazy loading -->
+    <script src="https://unpkg.com/vue-lazyload/vue-lazyload.js"></script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
