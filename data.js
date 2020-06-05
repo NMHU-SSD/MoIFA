@@ -40,12 +40,13 @@ var data = {
                     src:"Assets/content/yokai/visual-art/visual-art.jpg",
                     caption:"name,artist,date,locations"
                     },   
-                    slides:[
+                    sections:[
                         {
                             title:"EARLY YOKAI PAINTINGS", 
                             body: `<p> Although the variety of monster expanded, their audiences were still limited.  Scroll paintings were often painted by master artists and then copied by their students; they required much time and great skill to produce. Due to their small size, the scrolls could only be viewed by a few people at a time. Plus, scroll paintings were commonly kept in temples and shrines or in the storehouses of aristocratic families. Viewers needed access to such elite places.</p>`, 
-                            sections:[
+                            slides:[
                                 {src:"Assets/content/yokai/visual-art/parade_combined.jpg",
+                                 credit: "",
                                  caption:`<p>The Night Parade of One Hundred Demons scroll (Hyakki yagyo emaki) is an early monster painting. The oldest known version comes from the Muromachi period. It was copied over and over again.
                                  Following the creation of the Hyakki yagyo and other early monster paintings, fantastic creatures were no longer limited to horned demons. They could materialize into a variety of different beings. 
                                  Explore popular forms of yokai and yokai lore here. [link to “Yokai Lore” page]</p>`}
