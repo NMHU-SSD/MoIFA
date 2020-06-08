@@ -23,6 +23,9 @@ var router = new VueRouter({
 
 Vue.use(VueLazyload);
 
+
+Vue.component('carousel', carousel);
+
 var app = new Vue({
 	el: '#app',
     router: router,

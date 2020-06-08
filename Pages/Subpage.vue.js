@@ -41,64 +41,15 @@ var Subpage = {
             <img :src="subpage.featured.src ">
             <figcaption class="figure-caption">{{subpage.featured.caption}}</figcaption>
         </figure>-->
-
-
-        <!-- if we have slides generate them-->
-        <div v-if='subpage.slides !== null' id="carouselIndicators" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li v-for='slide,index in subpage.slides' data-target="#carouselIndicators" data-slide-to="index"></li>
-            </ol>
-            <div class="carousel-inner p-0 m-0 bg-light-tan">
-                <div v-for='slide,index in subpage.slides' v-if='index > 0' class="carousel-item">
-                    <div class='container-fluid bg-light-tan'>
-                        <div class='row justify-content-center'>
-                            <h1 class="color-red" v-html="slide.title"></h1>
-                        </div>
-                        <div class='row justify-content-center'>
-                            <p v-html='slide.body'></p>
-                        </div>
-                        <div v-for='section,i in slide.sections' class='container-fluid carousel-caption p-0 m-0 justify-content-center'>
-                            <div class='row bg-white' v-if='i%2'>   
-                                <div class='col-xs-12 col-sm-12 col-md-8 col-lg-9'> <img class="d-block w-100 m-0 p-5 fixed-height-1" v-lazy="section.src"></div>
-                                <div class='col-xs-12 col-sm-12 col-md-4 col-lg-3' v-html='section.caption'></div>
-                            </div>
-                            <div class='row bg-tan' v-else>  
-                                <div class='col-xs-12 col-sm-12 col-md-4 col-lg-3'v-html='section.caption'></div>
-                                <div class='col-xs-12 col-sm-12 col-md-8 col-lg-9'> <img class="d-block w-100 m-0 p-5 fixed-height-1" v-lazy="section.src"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Index = 0-->
-                <div v-else class="carousel-item active">
-                    <div class='container-fluid bg-light-tan'>
-                        <div class='row justify-content-center'>
-                            <h1 class="color-red" v-html="slide.title"></h1>
-                        </div>
-                        <div class='row justify-content-center'>
-                            <p v-html='slide.body'></p>
-                        </div>
-                        <div v-for='section,i in slide.sections' class='container-fluid bg-light-tan carousel-caption p-0 m-0 justify-content-center'>
-                            <div class='row bg-white' v-if='i%2'>   
-                                <div class='col-xs-12 col-sm-12 col-md-8 col-lg-9'> <img class="d-block w-100 m-0 p-5 fixed-height-1" v-lazy="section.src"></div>
-                                <div class='col-xs-12 col-sm-12 col-md-4 col-lg-3' v-html='section.caption'></div>
-                            </div>
-                            <div class='row bg-tan' v-else>  
-                                <div class='col-xs-12 col-sm-12 col-md-4 col-lg-3'v-html='section.caption'></div>
-                                <div class='col-xs-12 col-sm-12 col-md-8 col-lg-9'> <img class="d-block w-100 m-0 p-5 fixed-height-1" v-lazy="section.src"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselIndicators" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
+        <div v-for='section,index in subpage.sections'>
+            <template  v-if='section.slides > 0'>
+                <carousel :slides='section.slides' :id="'carousel'+index"></carousel>
+            </template>
+            <template v-else>
+                
+            </template>
+            
         </div>
+
 	</div>`
 };
