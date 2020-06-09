@@ -3,6 +3,10 @@ var Carousel = {
     props: ['slides', 'id'],
     template:`
         <div :id="id" class="carousel slide" data-ride="carousel">
+			<ol class="carousel-indicators">
+	
+                <li v-for="(slide,i) in slides" :data-target="'#'+id" data-slide-to="i" :class="[ (i==0 ? 'active' : '')]></li>
+			</ol>
 
             
             <div class="carousel-inner">
