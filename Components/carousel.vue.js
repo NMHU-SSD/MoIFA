@@ -4,8 +4,7 @@ var Carousel = {
     template:`
         <div :id="id" class="carousel slide" data-ride="carousel">
 			<ol class="carousel-indicators">
-	
-                <li v-for="(slide,i) in slides" :data-target="'#'+id" data-slide-to="i" :class="[ (i==0 ? 'active' : '')]></li>
+                <li v-for="(slide,i) in slides" :data-target="'#'+id" data-slide-to="i" :class="(i==0 ? 'active' : '')"></li>
 			</ol>
 
             
