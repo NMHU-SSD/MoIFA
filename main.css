@@ -30,6 +30,7 @@
 html, body{
     padding: 0px;
     margin: 0px;
+    font-family: 'AkrobatRegular';
 }
 main{
     min-height: 700px;
@@ -44,6 +45,9 @@ p, span{
   color: black;
 }
 
+.blockquote {
+    font-family: 'HypatiaSansProBold';
+}
 
 /*navbar*/
 .nav-item{
@@ -153,15 +157,7 @@ img {
 .carousel-caption{
     position:static;
 }
-/* caption class should be for font/size styling for actual image caption - see figure and figure-caption to set these
-.caption {
-  height: 20em;
-  top: 50%;
-  left: 10%;    
-  color: #ffffff;
-  text-align:center;
-}
-*/
+
 
 
 

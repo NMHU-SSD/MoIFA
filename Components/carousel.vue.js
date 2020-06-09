@@ -1,15 +1,17 @@
-var carousel = {
-    props:['slides', 'id'],
+var Carousel = {
+    name: "carousel",
+    props: ['slides', 'id'],
     template:`
         <div :id="id" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li v-for='slide,index in slides' :data-target="'#'+id" :data-slide-to="index"></li>
-            </ol>
-            <div class="carousel-inner p-0 m-0 bg-light-tan">
 
-                <div v-for="slide,index in slides" class="carousel-item">
-                    <img class="d-block w-100 m-0 p-5 fixed-height-1" v-lazy="slide.src">
+            
+            <div class="carousel-inner">
+
+                <div v-for="(slide,i) in slides" :class="['carousel-item', (i==0 ? 'active' : '')]" >
+
+                    <img class="d-block w-100" v-lazy="slide.src">
                 </div>
+
             </div>
             <a class="carousel-control-prev" :href="'#'+id" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>

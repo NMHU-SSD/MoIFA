@@ -5,17 +5,18 @@ var data = {
         {
             slug: "home",
             title:"VIVID IN JAPANESE ART AND IMAGINATION ARE CREATURES THAT ARE AT ONCE GHASTLY AND AMUSING.",
-            body:"<p><span class='font-weight-bolder'>Yōkai is a catchall word for,</span> ghosts, demons, monsters, shapeshifters, tricksters, and other kinds of supernatural beings and mysterious phenomena. Yōkai interact with the human world and spark common notions of frightful things.</p> <p >Yōkai can definitely be scary, but the experience of fear can also be amusing. When frightening beings copy human behavior, they become less intimidating and can appear playful, relatable, and even cute.</p><p>But yōkai are not all tame and cute. Perhaps the most terrifying yōkai are those that shed light on the faults of human society.</p><span class='font-weight-bolder'><p>Who are the yōkai in your world?<br>Have you ever felt demonized?<br>Are you a yōkai?</p></span>",
-            featured:   {
+            body:"<p>Yōkai is a catchall word for, ghosts, demons, monsters, shapeshifters, tricksters, and other kinds of supernatural beings and mysterious phenomena. Yōkai interact with the human world and spark common notions of frightful things.</p> <p >Yōkai can definitely be scary, but the experience of fear can also be amusing. When frightening beings copy human behavior, they become less intimidating and can appear playful, relatable, and even cute.</p><p>But yōkai are not all tame and cute. Perhaps the most terrifying yōkai are those that shed light on the faults of human society.</p><span class='font-weight-bolder'><p>Who are the yōkai in your world?<br>Have you ever felt demonized?<br>Are you a yōkai?</p></span>",
+            featured:  {
                 src:"Assets/content/homepage/ao-bozu.jpg",
-                credit:
-                `<p>
-                    <span class='font-weight-bolder'><u>AO BŌZU (BLUE MONK)</u></span> <br>  
-                    <span class='font-weight-bolder'>KŌNO JUNYA</span> <br>
-                    <span class='font-size-1'>2006</span> <br>
-                    <span class='font-size-1'>Kyoto</span> <br>
-                    <span class='font-size-1'>Papier-mâché, craft foam, paint</span>
-                </p>`
+                credit:{
+                    title: "AO BŌZU (BLUE MONK)",
+                    artist: "KŌNO JUNYA",
+                    date: "2006, Kyoto",
+                    medium: "Papier-mâché, craft foam, paint",
+                    collection: "International Folk Art Foundation Collection, Museum of International Folk Art (T.2019.48.1)"
+                },
+                link: ""
+                
             }
         },
         
@@ -35,7 +36,7 @@ var data = {
                     slug: "visual-arts",
                     title:"VISUAL ART",
                     subtitle:"HOW VISUAL ARTISTS MADE YOKAI POPULAR",
-                    body:``,
+                    body:"",
                     featured:   {
                     src:"Assets/content/yokai/visual-art/visual-art.jpg",
                     caption:"name,artist,date,locations"
@@ -43,16 +44,11 @@ var data = {
                     sections:[
                         {
                             title:"EARLY YOKAI PAINTINGS", 
-                            body: `<p>The repertoire of bizarre creatures in Japan was expanded by painters of the Muromachi period (1336 - 1573). These artists borrowed traditional characters found in serious religious images, such as horned and hideous demons (oni), and added to the assortment by illustrating oral tales of inexplicable phenomena and weird beings. These monster paintings transformed religious subjects into entertaining ones, creating funny monsters engaged in human activity.<br> 
-
-                            The Night Parade of One Hundred Demons scroll (Hyakki yagyo emaki) is an early monster painting. The oldest known version comes from the Muromachi period. It was copied over and over again.  View the scroll in its entirety at the International Research center for Japanee Studies (Nichibinken): http://lapis.nichibun.ac.jp/ema/Detail?tid=20&sid=01&did=01<br>
-
-                            Following the creation of the Hyakki yagyo and other early monster paintings, fantastic creatures were no longer limited to horned demons. They could materialize into a variety of different beings.  Explore popular forms of yokai and yokai lore here. [link to “Yokai Lore” page]<br>
-
-                            <p>Although the variety of monster expanded, their audiences were still limited.  Scroll paintings were often painted by master artists and then copied by their students; they required much time and great skill to produce. Due to their small size, the scrolls could only be viewed by a few people at a time. Plus, scroll paintings were commonly kept in temples and shrines or in the storehouses of aristocratic families. Viewers needed access to such elite places.</p>`, 
+                            body: "<p>The repertoire of bizarre creatures in Japan was expanded by painters of the Muromachi period (1336 - 1573). These artists borrowed traditional characters found in serious religious images, such as horned and hideous demons (oni), and added to the assortment by illustrating oral tales of inexplicable phenomena and weird beings. These monster paintings transformed religious subjects into entertaining ones, creating funny monsters engaged in human activity. </p><p>The Night Parade of One Hundred Demons scroll (Hyakki yagyo emaki) is an early monster painting. The oldest known version comes from the Muromachi period. It was copied over and over again.  View the scroll in its entirety at the <a href='http://lapis.nichibun.ac.jp/ema/Detail?tid=20&sid=01&did=01'>International Research center for Japanese Studies (Nichibinken)</a></p><p>Following the creation of the Hyakki yagyo and other early monster paintings, fantastic creatures were no longer limited to horned demons. They could materialize into a variety of different beings.  Explore popular forms of yokai and yokai lore <a href='#/culture/creatures'>here</a>.</p><p>Although the variety of monster expanded, their audiences were still limited.  Scroll paintings were often painted by master artists and then copied by their students; they required much time and great skill to produce. Due to their small size, the scrolls could only be viewed by a few people at a time. Plus, scroll paintings were commonly kept in temples and shrines or in the storehouses of aristocratic families. Viewers needed access to such elite places. </p>" ,
                             slides:[
-                                {src:"Assets/content/yokai/visual-art/parade_combined.jpg",
-                                 credit: `<p>
+                                {
+                                    src:"/Assets/content/yokai/visual-art/parade_scroll.jpg",
+                                    credit: `<p>
                                            <span class='font-weight-bolder'><u>Hyakki yagyo emaki (Night Parade of One Hundred Demons scroll)</u></span><br>
                                            <span class='font-weight-bolder'>Artist unknown</span><br>
                                            <span class='font-size-1'>This copy is probably Edo period (1603–1867)</span><br>
@@ -63,7 +59,8 @@ var data = {
                                  caption:`
                                         <p>The Night Parade of One Hundred Demons scroll features demons, ghosts, shapeshifters, objects that come to life as monsters (tsukumogami), and a variety of <br>
 	                                    other weird creatures that appear as bumbling beasts on parade carrying festival banners. According to one interpretation, the scroll originated from a legend<br> 
-	                                    about a horde of demons and monsters streaming down a street one night in Kyoto. The monsters and demons are weird, but full of humor.</p>`}
+	                                    about a horde of demons and monsters streaming down a street one night in Kyoto. The monsters and demons are weird, but full of humor.</p>`
+                                }
                             ]
                         },
                          {
@@ -75,14 +72,19 @@ var data = {
                             Explore Toriyama Sekien’s yokai encyclopedias. Visit the Smithsonian Libraries website [add hyperlink to italicized words: https://library.si.edu/books-online/subjects/monsters-in-art</p>
 `, 
                             slides:[
-                                {src:"Assets/content/yokai/visual-art/Sekien-1.jpg",
-                                 credit:`<p>
+                                {
+                                    src:"Assets/content/yokai/visual-art/Sekien-1.jpg",
+                                    credit:`<p>
                                            <span class='font-weight-bolder'><u>Hyakki tsurezurebukuro (volume 1)  </u></span><br>
                                            <span class='font-weight-bolder'>Toriyama Sekien</span><br>
                                            <span class='font-size-1'>1776 and 1805</span><br>
                                            <span class='font-size-1'>Ink on paper</span><br>
                                            <span class='font-size-1'>Courtesy of the Smithsonian Libraries</span>
-                                         </p>`},
+                                         </p>`
+                                },
+                                {
+                                     src:"Assets/content/yokai/visual-art/Sekien-2.jpg",        
+                                }
                             ]
                         },
                         {
@@ -258,8 +260,10 @@ var data = {
                             title:"TOYS AND GAMES", 
                             body: "details", 
                             slides:[
-                                {src:"Assets/content/yokai/toys-and-games/zukushi_print.jpg",
-                                 caption:"description"},
+                                {
+                                    src:"Assets/content/yokai/toys-and-games/zukushi_print.jpg",
+                                    caption:"description"
+                                },
                                 {src:"Assets/content/yokai/toys-and-games/A.2018.40.1(3).jpg",
                                  caption:"<p class='color-red'>description</p>"},
                                 {src:"Assets/content/yokai/toys-and-games/karuta.jpg",
@@ -375,8 +379,8 @@ var data = {
             subtitle:"Learn More about Yokai",
             body:"",
             featured:   {
-                src:"Assets/content/",
-                caption:"name,artist,date,locations"
+                src:"Assets/content/resources/tengucard.jpg",
+                caption:""
             },
             //ul of links
             links: [
@@ -393,8 +397,8 @@ var data = {
             title:"ACKNOWLEDGEMENTS",
             
             featured:   {
-                src:"Assets/content/",
-                caption:"name,artist,date,locations"
+                src:"Assets/content/acknowledements/A.2017.91.1a-c4.jpg",
+                caption:""
             },
             body:""
 

@@ -21,10 +21,10 @@ var router = new VueRouter({
   //mode: 'history'
 });
 
+
+Vue.component('carousel', Carousel);
+
 Vue.use(VueLazyload);
-
-
-Vue.component('carousel', carousel);
 
 var app = new Vue({
 	el: '#app',

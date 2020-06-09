@@ -22,7 +22,7 @@ var Standard = {
             <div class='col-12 p-0 m-0'>    
                     <div class='img-container p-0 m-0'>
                         <img class="fluid-width fixed-height-1" v-lazy="page.featured.src"/>
-                        <h1 class="overlay-text bg-red color-tan pb-0 pl-2 pr-2 pt-2 m-0" v-html="page.title"></h1>
+                        <h1 class="overlay-text bg-red color-tan pb-0 pl-2 pr-2 pt-2 m-0">{{page.title}}</h1>
                     </div>
                 </div>
             </div>
@@ -70,7 +70,7 @@ var Standard = {
                         </div>
                         <div class=' col-9 col-lg-9 col-md-8 d-none d-sm-none d-md-block d-lg-block p-5 m-0'>
                             <div class='img-container p-0 m-0'>
-                                <img v-lazy='subpage.featured.src' class='fixed-height-1'/>
+                                <img v-lazy="subpage.featured.src" />
                             </div>
                         </div>
                     </div>

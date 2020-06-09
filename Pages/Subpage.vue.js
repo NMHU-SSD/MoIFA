@@ -30,26 +30,42 @@ var Subpage = {
     },
     
 	template: `
-    <div class="container-fluid pt-5">
-		<h1 class=' text-center color-red'>{{ subpage.title }}</h1>
-		<h5 class='text-center color-red' v-html="subpage.subtitle"></h5>
-        <p v-html='subpage.body'></p>
+    <div class="container-fluid p-0">
 
+        <div class='row p-0 m-0'>
+            <div class='col-12 p-0 m-0'>    
+                    <div class='img-container p-0 m-0'>
+                        <img class="fluid-width fixed-height-1" v-lazy="subpage.featured.src"/>
+                        <h1 class="overlay-text bg-red color-tan pb-0 pl-2 pr-2 pt-2 m-0">{{subpage.title}}</h1>
+                    </div>
+                </div>
+        </div>
+        <div class="container-fluid p-5">
 
+            <h1 class="color-red display-text" v-html="subpage.subtitle"></h1>
+            <p v-html='subpage.body'></p>
 
-        <!--<figure class="figure">
-            <img :src="subpage.featured.src ">
-            <figcaption class="figure-caption">{{subpage.featured.caption}}</figcaption>
-        </figure>-->
-        <div v-for='section,index in subpage.sections'>
-            <template  v-if='section.slides > 0'>
-                <carousel :slides='section.slides' :id="'carousel'+index"></carousel>
+        </div>
+
+        <div v-for='section,index in subpage.sections' class="container-fluid p-5">
+            <h1>{{section.title}}</h1>
+
+            <div v-html='section.body'></div>
+
+            
+            <template v-if="section.slides.length > 1">
+                <carousel v-bind:slides="section.slides" :id="'carousel'+index"></carousel>
             </template>
             <template v-else>
-                
+                <figure class="figure container">
+                    <img v-lazy="section.slides[0].src" class="figure-img img-fluid">
+                    <figcaption class="figure-caption">{{section.slides[0].credit}}</figcaption>
+                </figure>
             </template>
             
         </div>
+
+
 
 	</div>`
 };
