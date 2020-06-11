@@ -40,32 +40,33 @@ var Subpage = {
                     </div>
                 </div>
         </div>
-        <div class="container-fluid p-5">
+        <div class="container-fluid p-3">
 
-            <h1 class="color-red display-text" v-html="subpage.subtitle"></h1>
+            <h1 class="color-red display-text text-center" v-html="subpage.subtitle"></h1>
             <p v-html='subpage.body'></p>
 
         </div>
 
-        <div v-for='section,index in subpage.sections' class="container-fluid p-5">
-            <h1>{{section.title}}</h1>
-
-            <div v-html='section.body'></div>
-
-            
-            <template v-if="section.slides.length > 1">
-                <carousel v-bind:slides="section.slides" :id="'carousel'+index"></carousel>
-            </template>
-            <template v-else>
-                <figure class="figure container">
-                    <img v-lazy="section.slides[0].src" class="figure-img img-fluid">
-                    <figcaption class="figure-caption">{{section.slides[0].credit}}</figcaption>
-                </figure>
-            </template>
-            
+        <div v-for='section,index in subpage.sections' :class='["container-fluid", "p-5", (index%2 ? "bg-light-tan" : "")]'>
+            <div class='container-fluid'>
+                <template v-if="section.slides.length > 1">
+                    <carousel v-bind:slides="section.slides" :id="'carousel'+index"></carousel>
+                </template>
+                <template v-else>
+                    <div class="row w-100 p-0 m-0">
+                        <figure class="figure container-fluid bg-black w-100 m-0 m-0">
+                            <img v-lazy="section.slides[0].src" class="figure-img img-fluid mx-auto w-100">
+                            <figcaption class="figure-caption">{{section.slides[0].credit}}</figcaption>
+                        </figure>
+                    </div>
+                </template>
+                <div class='row'>
+                    <div class="col-sm-12 col-md-12 col-lg-8 offset-lg-2">
+                        <h3 class='font-weight-bolder pt-5'>{{section.title}}</h3>
+                        <div v-html='section.body'></div>
+                    </div>
+                </div>
+            </div>
         </div>
-
-
-
 	</div>`
 };

@@ -2,7 +2,7 @@ var Carousel = {
     name: "carousel",
     props: ['slides', 'id'],
     template:`
-        <div :id="id" class="carousel slide" data-ride="carousel">
+        <div :id="id" class="carousel slide bg-black" data-ride="slide" data-interval="false">
 			<ol class="carousel-indicators">
                 <li v-for="(slide,i) in slides" :data-target="'#'+id" data-slide-to="i" :class="(i==0 ? 'active' : '')"></li>
 			</ol>
@@ -12,7 +12,24 @@ var Carousel = {
 
                 <div v-for="(slide,i) in slides" :class="['carousel-item', (i==0 ? 'active' : '')]" >
 
-                    <img class="d-block w-100" v-lazy="slide.src">
+                    <img class="d-block mx-auto" v-lazy="slide.src">
+                    <div class="row carousel-caption bg-red opacity-1 p-3 m-0 w-100">
+                        <div class="col-6 p-0 m-0 blockquote">
+                            <div class="blockquote text-left justify-content-start">
+                                <span v-if='slide.credit.title' class='font-weight-bolder color-white'>{{slide.credit.title}}<br></span>
+                                <span class="color-white h6" v-if="slide.credit.arist">{{slide.credit.artist}}<br></span>
+                                <span class="color-white h6" v-if="slide.credit.date">{{slide.credit.date}}<br></span>
+                                <span class="color-white h6" v-if="slide.credit.location">{{slide.credit.location}}<br></span>
+                                <span class="color-white h6" v-if="slide.credit.medium">{{slide.credit.medium}}<br></span>
+                                <span class="color-white h6" v-if="slide.credit.collection">{{slide.credit.collection}}<br></span>
+                                <span class="color-white h6" v-if="slide.credit.link">{{slide.credit.link}}</span>
+                            </div>
+                        </div>
+                        <div class="col-6 p-0 m-0">
+                            <p class="h6 color-white text-justify" v-html="slide.caption"></p>
+                        </div>
+                    </div>
+                    
                 </div>
 
             </div>

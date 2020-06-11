@@ -15,15 +15,6 @@
   font-style: normal;
   src: url('Assets/Fonts/Akrobat/OTF/Akrobat-Light.otf') format("opentype");
 }
-/*.font-bold{
-    font-family: "HypatiaSansProBold";
-}
-.font-normal{
-    font-family: "HypatiaSansProNormal";
-}*/
-.font-size-1{
-    font-size: .8rem !important;
-}
 
 
 /*HTML tags*/
@@ -89,7 +80,9 @@ nav .nav-link:hover{
 .color-red{
 	color: #8C2A1C !important; 
 }
-
+.color-white{
+	color: white !important; 
+}
 /*backgrounds*/
 .bg-light-tan{
     background-color:  #F1EFE1 !important;
@@ -127,7 +120,6 @@ img {
 	object-fit: cover;
 	object-position: 50% 50%;
 }
-
 .fixed-height-1{
     height: 35em !important;
 }
@@ -137,7 +129,6 @@ img {
 .logo{
     height: 150px;
 }
-
 .overlay-text{
   width: auto;
   height: auto;
@@ -146,17 +137,37 @@ img {
   left: 10%;  
 }
 /*carousel*/
-.carousel-control-prev-icon {
+/*.carousel-control-prev-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%238c2a1c ' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
 }
-
 .carousel-control-next-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%238c2a1c' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}*/
+.carousel-caption{
+  height: 10em;
+  left: 0%;
+  bottom:-.05em;
+}
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+.carousel-inner > .carousel-item > img{
+    height: 40em;
+}
+.opacity-1{
+    opacity: .1;
+}
+.opacity-1:hover{
+    opacity:1;
+}
+figure, .figure-img{
+    height:  40em;
 }
 
-.carousel-caption{
-    position:static;
-}
+
+
 
 
 
