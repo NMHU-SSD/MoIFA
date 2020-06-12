@@ -297,10 +297,6 @@ var data = {
                     featured:{
                         src:"Assets/content/yokai/toys-and-games/menko-cards.jpg",
                     },
-                    sections:[
-                        {   
-                            title:"",
-                            body:"",
                             slides:[
                                 {
                                     src:"Assets/content/yokai/toys-and-games/zukushi_print.jpg",
@@ -379,8 +375,8 @@ var data = {
                                     caption:`Dating to the first half of the eighteenth century, sugoroku were among the earliest yokai-themed toys. Similar to Chutes and Ladders, the game involves rolling dice and advancing a marker, trying to reach the goal. In each square, this example shows scenes from heroes’ journeys and encounters with yokai such as tsuchigumo (earth spider), Ao Bozu (a monster-monk), yamamba (mountain hag), Shuten Doji, and various oni.`
                                 }
                             ]
-                        }
-                    ]
+                        
+                    
                 },
                  {
                     slug: "festivals",
@@ -401,11 +397,11 @@ var data = {
                                 {
                                     src:"Assets/content/yokai/festivals/ushioni-matsuri.jpg",
                                     credit:
-                                    {
+                                    [{
                                         title:"Ushioni Matsuri",
                                         location:"Uwajima, Ehime Prefecture",
                                         collection:"Photo courtesy of the Uwajima City Tourist Association"
-                                    },
+                                    }],
                                     caption:""
                                 },
                                 {
@@ -454,10 +450,11 @@ var data = {
                                                 location:"Oga City, Akita Prefecture",
                                                 medium:"Wood, paint, horsehair, Velcro, nylon, baseball catcher’s mask, fiber, straw, plastic, cotton",
                                                 collection:"Museum of New Mexico Foundation, Museum of International Folk Art (A.2013.1.1-2)",
-                                                extra:"Background photo by Michael Dylan Foster, 2014"
+                                                link:""
+                                                
                                             }
                                         ],
-                                        caption:""
+                                        caption:"Background photo by Michael Dylan Foster, 2014"
                                     },
                                 
                                 
@@ -574,7 +571,6 @@ var data = {
                     [
                         {src:"Assets/content/exhibit/gallery/Y200331001.jpg"},
                         {src:"Assets/content/exhibit/gallery/Y200331002.jpg"},
-                        {src:"Assets/content/exhibit/gallery/Y200331002-hires.jpg"},
                         {src:"Assets/content/exhibit/gallery/Y200331003.jpg"},
                         {src:"Assets/content/exhibit/gallery/Y200331004.jpg"},
                         {src:"Assets/content/exhibit/gallery/Y200331006.jpg"},

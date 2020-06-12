@@ -47,6 +47,21 @@ var Subpage = {
 
         </div>
 
+          <template v-if="subpage.slides && subpage.slides.length > 1">
+                <carousel v-bind:slides="subpage.slides" id="subpageCarousel"></carousel>
+          </template>
+          <template v-else-if="subpage.slides">
+                <div class="row w-100 p-0 m-0">
+                    <figure class="figure container-fluid bg-black p-0 m-0">
+                        <div class="img-container p-0 m-0">
+                            <img v-lazy="subpage.slides[0].src" class="figure-img img-fluid mx-auto">
+                            <figcaption class="figure-caption bg-red opacity-1 p-0 m-0">{{subpage.slides[0].credit}}</figcaption>
+                        </div>
+                    </figure>
+                </div>
+            </template>
+
+        <template v-if="subpage.sections">
         <div v-for='section,index in subpage.sections' :class='["container-fluid", "p-5", (index%2 ? "bg-light-tan" : "")]'>
             <div class='container-fluid'>
                 <template v-if="section.slides.length > 1">
@@ -54,9 +69,11 @@ var Subpage = {
                 </template>
                 <template v-else>
                     <div class="row w-100 p-0 m-0">
-                        <figure class="figure container-fluid bg-black w-100 m-0 m-0">
-                            <img v-lazy="section.slides[0].src" class="figure-img img-fluid mx-auto w-100">
-                            <figcaption class="figure-caption">{{section.slides[0].credit}}</figcaption>
+                        <figure class="figure container-fluid bg-black p-0 m-0">
+                            <div class="img-container">
+                                <img v-lazy="section.slides[0].src" class="figure-img img-fluid mx-auto"/>
+                                <figcaption class="figure-caption bg-red opacity-1">{{section.slides[0].credit}}</figcaption>
+                            </div>     
                         </figure>
                     </div>
                 </template>
@@ -68,5 +85,7 @@ var Subpage = {
                 </div>
             </div>
         </div>
+        </template>
+
 	</div>`
 };
