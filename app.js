@@ -23,6 +23,8 @@ var router = new VueRouter({
 
 
 Vue.component('carousel', Carousel);
+Vue.component('single-image', SingleImage);
+Vue.component('credits-component', Credits);
 
 Vue.use(VueLazyload);
 

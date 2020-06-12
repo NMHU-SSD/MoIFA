@@ -6,31 +6,30 @@ var Carousel = {
 			<ol class="carousel-indicators text-right">
                 <li v-for="(slide,i) in slides" :data-target="'#'+id" data-slide-to="i" :class="(i==0 ? 'active' : '')"></li>
 			</ol>
-
-            
+	
             <div class="carousel-inner">
-
                 <div v-for="(slide,i) in slides" :class="['carousel-item', (i==0 ? 'active' : '')]" >
-                    <div class="img-container container-fluid p-0 m-0">
+                    <div class="img-container w-100 p-0 m-0 position-absolute">
                         <img class="d-block img-fluid mx-auto" v-lazy="slide.src">
                     </div>
-                    <div class="row carousel-caption bg-red opacity-1 pl-5 pr-5 m-0 w-100">
-                        <div class="col p-0 m-0 blockquote">
-                            <div class="blockquote text-left justify-content-start">
-                                <span v-if='slide.credit.title' class='font-weight-bolder color-white'>{{slide.credit.title}}<br></span>
-                                <span class="color-white h6" v-if="slide.credit.arist">{{slide.credit.artist}}<br></span>
-                                <span class="color-white h6" v-if="slide.credit.date">{{slide.credit.date}}<br></span>
-                                <span class="color-white h6" v-if="slide.credit.location">{{slide.credit.location}}<br></span>
-                                <span class="color-white h6" v-if="slide.credit.medium">{{slide.credit.medium}}<br></span>
-                                <span class="color-white h6" v-if="slide.credit.collection">{{slide.credit.collection}}<br></span>
-                                <span class="color-white h6" v-if="slide.credit.link">{{slide.credit.link}}</span>
+                    <div class="row carousel-caption bg-red overlay-opacity container-fluid pl-3 pr-3 m-0  position-absolute">
+
+                        <!--credits-->
+                        <template v-if="slide.credits && slide.credits.length > 0">
+                            <div class="col-12 col-md-5 pt-2 pl-5 pr-5 m-0">
+                                <credits-component :credits="slide.credits" />
                             </div>
-                        </div>
-                        <div class="col p-0 m-0">
-                        </div>
-                        <div class="col p-0 m-0">
+                        </template>
+                        <template v-else-if="slide.credit">
+                            <div class="col-12 col-md-5 pt-2 pl-5 pr-5 m-0">
+                                <credits-component :credits="[slide.credit]" />
+                            </div>
+						</template>
+                       
+                        <div class="col-12 col-md-7 pt-2 pl-5 pr-5 m-0" v-if="slide.caption">
                             <p class="h6 color-white text-justify" v-html="slide.caption"></p>
                         </div>
+				            
                     </div>
                     
                 </div>

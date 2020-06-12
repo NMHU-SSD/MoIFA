@@ -135,11 +135,6 @@ img {
 .carousel-control-next-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%238c2a1c' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
 }
-.carousel-caption{
-  height: auto;
-  left: 0%;
-  bottom:-.05em;
-}
 .carousel-indicators li {
   width: 10px;
   height: 10px;
@@ -152,6 +147,10 @@ img {
     right: 0px !important;
     left: inherit;
 }
+
+.carousel-inner > .carousel-item {
+    height: 30em;
+}
 .carousel-inner > .carousel-item > .img-container > img{
     object-fit: contain;
 	object-position: 50% 50%;
@@ -160,13 +159,29 @@ img {
 .carousel-inner > .carousel-item > .img-container{
     height: 30em;
 }
-.opacity-1{
+.carousel-caption{
+  max-height: 40%;
+  left: 0%;
+  bottom:-.05em;
+  overflow-y: scroll;
+    z-index: 999;
+}
+.overlay-opacity{
     opacity: 0;
 }
-.opacity-1:hover{
+.overlay-opacity:hover{
     opacity:1;
 }
 
+figure{
+    position: relative;
+
+}
+figure > .img-container{
+    position: absolute !important;
+    width: 100%;
+    
+}
 figure > .img-container > img{
     object-fit: contain !important;
 	object-position: 50% 50% !impotant;
@@ -176,7 +191,12 @@ figure, .figure-img, figure > .img-container{
     height:  30em !important;
 }
 .figure-caption{
-    top:4em !important;
+    position: absolute !important;
+    max-height: 50%;
+    left: 0px;
+    bottom:0px !important;
+    overflow-y: scroll;
+
 }
 
 // Small devices (landscape phones, 576px and up)
@@ -209,7 +229,6 @@ figure, .figure-img, figure > .img-container{
         height: 20em !important;
     }
 }
-
 
 
 

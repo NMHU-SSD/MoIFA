@@ -46,7 +46,7 @@ var Standard = {
                                 <img v-lazy='subpage.featured.src' class='fixed-height-1'/>
                             </div>
                         </div>
-                         <div class='col-xs-12 col-sm-12 col-md-4 col-lg-3 p-5 m-0 d-flex justify-content-center  flex-column '>
+                         <div class='col-xs-12 col-sm-12 col-md-4 col-lg-3 p-5 m-0 d-flex justify-content-center flex-column '>
                         
                                 <h1 class="text-center color-red align-self-center" v-html="subpage.title"></h1>
                                     
@@ -68,7 +68,7 @@ var Standard = {
                                 <router-link v-else class='btn  btn-block btn-lg color-tan bg-red align-self-center' :to='"/"+page.slug+"/"+subpage.slug'>EXPLORE</router-link>
 
                         </div>
-                        <div class=' col-9 col-lg-9 col-md-8 d-none d-sm-none d-md-block d-lg-block p-5 m-0'>
+                        <div class='col-9 col-lg-9 col-md-8 d-none d-sm-none d-md-block d-lg-block p-5 m-0'>
                             <div class='img-container p-0 m-0'>
                                 <img v-lazy="subpage.featured.src" />
                             </div>

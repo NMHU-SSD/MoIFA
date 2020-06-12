@@ -54,8 +54,7 @@ var data = {
                                         artist:"Artist unknown",
                                         date:"This copy is probably Edo period (1603–1867)",
                                         medium: "Ink and natural pigment on paper",
-                                        collection:"Courtesy of International Research Center for Japanese Studies (Nichibunken)", 
-                                        link:"http://db.nichibun.ac.jp/pc1/en/"
+                                        collection:"Courtesy of International Research Center for Japanese Studies (Nichibunken)", link:"http://db.nichibun.ac.jp/pc1/en/"
                                     },
                                     caption:`
                                         The Night Parade of One Hundred Demons scroll features demons, ghosts, shapeshifters, objects that come to life as monsters (tsukumogami), and a variety of <br>
@@ -103,7 +102,7 @@ var data = {
                             Artists today are still inspired by the Night Parade of One Hundred Demons! Playing off of traditional images found in historical paintings, the contemporary artist, “Sakyu” depicts classical yokai alongside modern yokai. . In the Modern hyakki yagyo, Sakyu dreams up new tsukumogami, the discarded objects that become animated and haunt the owner who failed to appreciate the service they had provided. Sakyu includes not only traditional demons, but also spirited floppy disks and an angry rotary dial phone. </p>`, 
                             slides:[
                                 {src:"Assets/content/yokai/visual-art/print-Kuniyoshi-Earth-Spider.jpg",
-                                 credit:
+                                 credits:
                                  {
                                      title:"The Earth Spider Conjures up Demons at the Mansion of Minamoto no Raiko",
                                      artist:"Utagawa Kuniyoshi",
@@ -229,12 +228,11 @@ var data = {
                         {
                             title:"KABUKI", 
                             body: `<p>Tokaido Yotsuya kaidan (Ghost Story of Yotsuya Road) was written by Tsuruya Nanboku in 1825 and is one of Japan’s most famous ghost stories. The story centers on a woman, Oiwa, whose husband, Iemon, decides he wants to be married to a wealthier woman. He poisons his wife’s cosmetics, which horribly disfigures her face. He then tries to set her up to look like she was having an affair so he could divorce her. She eventually dies in a dramatic, self-inflicted accident. Her strong emotions transform into an uncontrollable, terrifying rage. Oiwa comes back as a vengeful ghost and haunts Iemon for the rest of his life. She appears to him in different environments and in objects. For example, in one scene she emerges from a lantern.<br>
-                            Kabuki theatrical performance developed in the Edo period (1603–1867), a time of relative prosperity with new markets for leisure activities. People of all social classes were drawn to the theater to see the newest plays. Kabuki was especially popular for its stage tricks, special effects, and action. Ghost stories were very popular and often challenged social norms, especially those related to gender roles and economic status. Kabuki is inscribed on UNESCO’s list of Intangible Cultural Heritage.</p>
-`, 
+                            Kabuki theatrical performance developed in the Edo period (1603–1867), a time of relative prosperity with new markets for leisure activities. People of all social classes were drawn to the theater to see the newest plays. Kabuki was especially popular for its stage tricks, special effects, and action. Ghost stories were very popular and often challenged social norms, especially those related to gender roles and economic status. Kabuki is inscribed on UNESCO’s list of Intangible Cultural Heritage.</p>`,
                             slides:[
                                 {
                                     src:"Assets/content/yokai/performance/kabuki.jpg",
-                                    credit:
+                                    credits:[
                                         {
                                             title:"Oiwa, from the play Tokaido Yotsuya kaidan (Ghost Story of the Yotsuya Road),Kabuki Ghost Costume",
                                             artist:"Shochiku Costume, LTD",
@@ -243,15 +241,16 @@ var data = {
                                             medium:"Silk",
                                             collection:"Courtesy of U.S. Kabuki Kenkyū Kai in cooperation with Shochiku Costume, LTD."
                                          },
-                                    caption:`
-                                        <p>
-                                           <span class='font-weight-bolder color-white'><u>Chochin (lantern) stage prop</u></span><br>
-                                           <span class='color-white h6'>Fujinama Props<br>
-                                            2018<br>
-                                            Tokyo<br>
-                                            Metal, paper, wood, cord<br>
-                                            Courtesy of U.S. Kabuki Kenkyū Kai in cooperation with Fujinama Props</span>
-                                         </p>`
+                                        {
+                                            title:"Chochin (lantern) stage prop",
+                                            artist:"Fujinama Props",
+                                            date:"2018",
+                                            location:"Tokyo",
+                                            medium:"Metal, paper, wood, cord",
+                                            collection:"Courtesy of U.S. Kabuki Kenkyū Kai in cooperation with Fujinama Props"
+                                         }
+                                    ],
+                                    caption:``
                                 },
                             ]
                         }
@@ -396,12 +395,11 @@ var data = {
                             slides:[
                                 {
                                     src:"Assets/content/yokai/festivals/ushioni-matsuri.jpg",
-                                    credit:
-                                    [{
+                                    credit:{
                                         title:"Ushioni Matsuri",
                                         location:"Uwajima, Ehime Prefecture",
                                         collection:"Photo courtesy of the Uwajima City Tourist Association"
-                                    }],
+                                    },
                                     caption:""
                                 },
                                 {
@@ -433,8 +431,7 @@ var data = {
                             slides:[
                                     {
                                         src:"Assets/content/yokai/festivals/Y200331058.jpg",
-                                        credit:
-                                        [
+                                        credits:[
                                             {
                                                 title:"Namahage mask and costume",
                                                 artist:"Ishikawa Taiko",

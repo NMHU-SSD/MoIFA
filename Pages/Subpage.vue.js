@@ -40,43 +40,36 @@ var Subpage = {
                     </div>
                 </div>
         </div>
-        <div class="container-fluid p-3">
+        <div class="container-fluid p-5">
+
+            <!-- subpage carousel or single image-->
+            <template v-if="subpage.slides && subpage.slides.length > 1">
+                    <carousel v-bind:slides="subpage.slides" id="subpageCarousel"></carousel>
+            </template>
+            <template v-else-if="subpage.slides">
+                    <single-image v-bind:image="subpage.slides[0]"/>
+            </template>
 
             <h1 class="color-red display-text text-center" v-html="subpage.subtitle"></h1>
             <p v-html='subpage.body'></p>
 
         </div>
 
-          <template v-if="subpage.slides && subpage.slides.length > 1">
-                <carousel v-bind:slides="subpage.slides" id="subpageCarousel"></carousel>
-          </template>
-          <template v-else-if="subpage.slides">
-                <div class="row w-100 p-0 m-0">
-                    <figure class="figure container-fluid bg-black p-0 m-0">
-                        <div class="img-container p-0 m-0">
-                            <img v-lazy="subpage.slides[0].src" class="figure-img img-fluid mx-auto">
-                            <figcaption class="figure-caption bg-red opacity-1 p-0 m-0">{{subpage.slides[0].credit}}</figcaption>
-                        </div>
-                    </figure>
-                </div>
-            </template>
+
 
         <template v-if="subpage.sections">
         <div v-for='section,index in subpage.sections' :class='["container-fluid", "p-5", (index%2 ? "bg-light-tan" : "")]'>
             <div class='container-fluid'>
+
+                <!-- section carousel or single image-->
+
                 <template v-if="section.slides.length > 1">
                     <carousel v-bind:slides="section.slides" :id="'carousel'+index"></carousel>
                 </template>
                 <template v-else>
-                    <div class="row w-100 p-0 m-0">
-                        <figure class="figure container-fluid bg-black p-0 m-0">
-                            <div class="img-container">
-                                <img v-lazy="section.slides[0].src" class="figure-img img-fluid mx-auto"/>
-                                <figcaption class="figure-caption bg-red opacity-1">{{section.slides[0].credit}}</figcaption>
-                            </div>     
-                        </figure>
-                    </div>
+                     <single-image v-bind:image="section.slides[0]"/>
                 </template>
+
                 <div class='row'>
                     <div class="col-sm-12 col-md-12 col-lg-8 offset-lg-2">
                         <h3 class='font-weight-bolder pt-5'>{{section.title}}</h3>
