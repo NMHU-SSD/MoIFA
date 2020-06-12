@@ -57,9 +57,7 @@ var data = {
                                         collection:"Courtesy of International Research Center for Japanese Studies (Nichibunken)", link:"http://db.nichibun.ac.jp/pc1/en/"
                                     },
                                     caption:`
-                                        The Night Parade of One Hundred Demons scroll features demons, ghosts, shapeshifters, objects that come to life as monsters (tsukumogami), and a variety of <br>
-	                                    other weird creatures that appear as bumbling beasts on parade carrying festival banners. According to one interpretation, the scroll originated from a legend<br> 
-	                                    about a horde of demons and monsters streaming down a street one night in Kyoto. The monsters and demons are weird, but full of humor.`
+                                        The Night Parade of One Hundred Demons scroll features demons, ghosts, shapeshifters, objects that come to life as monsters (tsukumogami), and a variety of other weird creatures that appear as bumbling beasts on parade carrying festival banners. According to one interpretation, the scroll originated from a legend about a horde of demons and monsters streaming down a street one night in Kyoto. The monsters and demons are weird, but full of humor.`
                                 }
                             ]
                         },
