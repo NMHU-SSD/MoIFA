@@ -1,3 +1,4 @@
+
 var routes = [
 /*home*/
 { path: '/', component: Home,name:"home"},
@@ -25,6 +26,7 @@ var router = new VueRouter({
 Vue.component('carousel', Carousel);
 Vue.component('single-image', SingleImage);
 Vue.component('credits-component', Credits);
+Vue.component('gallery', VueGallery);
 
 Vue.use(VueLazyload);
 

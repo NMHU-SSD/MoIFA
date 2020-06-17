@@ -8,6 +8,7 @@ var Carousel = {
 			</ol>
 	
             <div class="carousel-inner">
+                <!-- slide show -->
                 <div v-for="(slide,i) in slides" :class="['carousel-item', (i==0 ? 'active' : '')]" >
                     <div class="img-container w-100 p-0 m-0 position-absolute">
                         <img class="d-block img-fluid mx-auto" v-lazy="slide.src">

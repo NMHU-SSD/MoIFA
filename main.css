@@ -24,6 +24,7 @@ html, body{
 main{
     min-height: 700px;
 }
+
 /*assign font, size, colors to actual elements insted of having multiple classes in your templates.*/
 h1, h2, h3, h4, h5, h6{
     font-family: "HypatiaSansProBold";
@@ -196,8 +197,15 @@ figure, .figure-img, figure > .img-container{
     left: 0px;
     bottom:0px !important;
     overflow-y: scroll;
-
 }
+.image {
+    float: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 300px;
+    width: 200px
+  }
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {

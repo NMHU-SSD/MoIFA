@@ -53,32 +53,39 @@ var Subpage = {
             <h1 class="color-red display-text text-center" v-html="subpage.subtitle"></h1>
             <p v-html='subpage.body'></p>
 
-        </div>
-
+        <!-- gallery -->
+        <template v-if='subpage.images'>
+            <div class = 'container-fluid'>
+                <gallery :images="subpage.images" :index="subpage.index" :options="{youTubeVideoIdProperty: 'youtube', youTubePlayerVars: undefined, youTubeClickToPlay: true}" @close="index = null"></gallery>
+                <div class="image p-0 m-5" v-for="image, imageIndex in subpage.images" @click="index = imageIndex" :style="{ backgroundImage: 'url(' + image.poster + ')'}"></div>
+            </div>
+        </template>
 
 
         <template v-if="subpage.sections">
-        <div v-for='section,index in subpage.sections' :class='["container-fluid", "p-5", (index%2 ? "bg-light-tan" : "")]'>
-            <div class='container-fluid'>
+            <div v-for='section,index in subpage.sections' :class='["container-fluid", "p-5", (index%2 ? "bg-light-tan" : "")]'>
+                <div class='container-fluid'>
+                
+                    <!-- section carousel or single image-->
 
-                <!-- section carousel or single image-->
+                    <template v-if="section.slides.length > 1">
+                        <carousel v-bind:slides="section.slides" :id="'carousel'+index"></carousel>
+                    </template>
+                    <template v-else>
+                        <single-image v-bind:image="section.slides[0]"/>
+                    </template>
 
-                <template v-if="section.slides.length > 1">
-                    <carousel v-bind:slides="section.slides" :id="'carousel'+index"></carousel>
-                </template>
-                <template v-else>
-                     <single-image v-bind:image="section.slides[0]"/>
-                </template>
-
-                <div class='row'>
-                    <div class="col-sm-12 col-md-12 col-lg-8 offset-lg-2">
-                        <h3 class='font-weight-bolder pt-5'>{{section.title}}</h3>
-                        <div v-html='section.body'></div>
+                    <div class='row'>
+                        <div class="col-sm-12 col-md-12 col-lg-8 offset-lg-2">
+                            <h3 class='font-weight-bolder pt-5'>{{section.title}}</h3>
+                            <div v-html='section.body'></div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
         </template>
+
+        </div>
 
 	</div>`
 };
