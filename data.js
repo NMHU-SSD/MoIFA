@@ -217,7 +217,6 @@ var data = {
                                 },
                                 {
                                     src:"Assets/content/yokai/performance/noh-artist-terai.jpg",
-                                    credit:{},
                                     caption:`Artist Terai Ichiyu, from Kyoto, explains that mask making is like “time travel” in that it makes him feel connected to the generations of mask-makers who have crafted that same character before him. In creating a powerful mask like hannya, Terai says he senses her energy, enabling him to help the mask express its complex set of emotions: ferocious rage, fear, and sadness. He notes: “the character loses control of herself, and that is a terrifying place to be.” PHOTO BY TERAI SHUHEI, 2017.`
                                 }
                             ]
@@ -267,38 +266,23 @@ var data = {
                         videos: [
                             {
                                 title:"Black Photo", 
-                                url: "https://www.youtube.com/embed/wTVPZ6n9gQI",
-                                type: 'text/html',
-                                youtube: 'wTVPZ6n9gQI',
-                                poster: 'https://img.youtube.com/vi/wTVPZ6n9gQI/maxresdefault.jpg'
+                                url: "https://www.youtube.com/embed/wTVPZ6n9gQI"
                             },
                             {
                                 title:"Kudan (The Human-Faced Crow)", 
                                 url: "https://www.youtube.com/embed/TJ1VE2__Gvw",
-                                type: 'text/html',
-                                youtube: 'TJ1VE2__Gvw',
-                                poster: 'https://img.youtube.com/vi/TJ1VE2__Gvw/maxresdefault.jpg'
                             },
                             {
                                 title:"Hyakki Yagyō (The Night Parade of 100 Demons)", 
                                 url: "https://www.youtube.com/embed/lIouEKd74MM",
-                                type: 'text/html',
-                                youtube: 'lIouEKd74MM',
-                                poster: 'https://img.youtube.com/vi/lIouEKd74MM/maxresdefault.jpg'
                             },
                             {
                                 title:"Banchō Sarayashiki (The Dish Mansion at Banchō)", 
                                 url: "https://www.youtube.com/embed/0NMwrbQcvGo",
-                                type: 'text/html',
-                                youtube: '0NMwrbQcvGo',
-                                poster: 'https://img.youtube.com/vi/0NMwrbQcvGo/maxresdefault.jpg'
                             },
                             {
                                 title:"At the Graveyard", 
                                 url: "https://www.youtube.com/embed/dXKmkox0WKs",
-                                type: 'text/html',
-                                youtube: 'dXKmkox0WKs',
-                                poster: 'https://img.youtube.com/vi/dXKmkox0WKs/maxresdefault.jpg'
                             }
                         ]
                         
