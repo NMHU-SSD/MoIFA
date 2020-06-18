@@ -470,7 +470,7 @@ var data = {
                     sections:[
                         {
                             title:"Yokai Lore",
-                            body:``,
+                            body:`<p>Explore these categories of yokai in the collection of the Museum of International Folk Art.</p>`,
                             slides:
                             [
                                 {   
