@@ -5,14 +5,14 @@ var data = {
         {
             slug: "home",
             title:"VIVID IN JAPANESE ART AND IMAGINATION ARE CREATURES THAT ARE AT ONCE GHASTLY AND AMUSING.",
-            body:"<p>Yōkai is a catchall word for, ghosts, demons, monsters, shapeshifters, tricksters, and other kinds of supernatural beings and mysterious phenomena. Yōkai interact with the human world and spark common notions of frightful things.</p> <p >Yōkai can definitely be scary, but the experience of fear can also be amusing. When frightening beings copy human behavior, they become less intimidating and can appear playful, relatable, and even cute.</p><p>But yōkai are not all tame and cute. Perhaps the most terrifying yōkai are those that shed light on the faults of human society.</p><span class='font-weight-bolder'><p>Who are the yōkai in your world?<br>Have you ever felt demonized?<br>Are you a yōkai?</p></span>",
+            body:"<p>Yokai is a catchall word for, ghosts, demons, monsters, shapeshifters, tricksters, and other kinds of supernatural beings and mysterious phenomena. Yokai interact with the human world and spark common notions of frightful things.</p> <p >Yokai can definitely be scary, but the experience of fear can also be amusing. When frightening beings copy human behavior, they become less intimidating and can appear playful, relatable, and even cute.</p><p>But yokai are not all tame and cute. Perhaps the most terrifying yokai are those that shed light on the faults of human society.</p><span class='font-weight-bolder'><p>Who are the yokai in your world?<br>Have you ever felt demonized?<br>Are you a yokai?</p></span>",
             featured:  {
                 src:"Assets/content/homepage/ao-bozu.jpg",
                 credit:{
-                    title: "AO BŌZU (BLUE MONK)",
-                    artist: "KŌNO JUNYA",
+                    title: "AO BOZU (BLUE MONK)",
+                    artist: "KONO JUNYA",
                     date: "2006, Kyoto",
-                    medium: "Papier-mâché, craft foam, paint",
+                    medium: "Papier-mache, craft foam, paint",
                     collection: "International Folk Art Foundation Collection, Museum of International Folk Art (T.2019.48.1)"
                 },
                 link: ""
@@ -141,7 +141,7 @@ var data = {
                                 },
                                 {src:"Assets/content/yokai/visual-art/wiki.jpg",
                                  caption:`
-                                           Cover art for the first tankōbon of the Nurarihyon no Mago manga released in Japan by Shueisha.
+                                           Cover art for the first tankobon of the Nurarihyon no Mago manga released in Japan by Shueisha.
                                            Wikipedia - link: https://en.wikipedia.org/wiki/Nura:_Rise_of_the_Yokai_Clan#/media/File:Nurarihyon_no_Mago_Japanese_Vol_1_Cover.jpg`
                                 }
                             ]
@@ -190,11 +190,9 @@ var data = {
                                         medium:"Museum of New Mexico Foundation purchase with funds from the E. Rhodes and Leona B. Carpenter Foundation, Museum of International Folk Art (T.2019.51.1)"
                                     }
                                 },
-                                {src:"Assets/content/yokai/performance/puppetfinal.mov",
-                                 credit:{},
+                                {vidSrc:"Assets/content/yokai/performance/puppetfinal.mp4",
                                 caption:`Kiyohime is crafted with strings and levers that are manipulated by the puppeteer to transform her from princess to demon. Click the image to view her transformation.`},
                                 {src:"Assets/content/yokai/performance/puppet-artist-amari.jpg",
-                                 credit:{},
                                 caption:`Amari Yoichiro, from Tokushima, is a renowned maker of Awa ningyo joruri. He explains that Kiyohime is a challenging character to create because her articulated structure is complex and her emotions are intense; this makes her a favorite character for him to craft.` },
                             ]
                         },
@@ -273,11 +271,11 @@ var data = {
                                 url: "https://www.youtube.com/embed/TJ1VE2__Gvw",
                             },
                             {
-                                title:"Hyakki Yagyō (The Night Parade of 100 Demons)", 
+                                title:"Hyakki Yagyo (The Night Parade of 100 Demons)", 
                                 url: "https://www.youtube.com/embed/lIouEKd74MM",
                             },
                             {
-                                title:"Banchō Sarayashiki (The Dish Mansion at Banchō)", 
+                                title:"Bancho Sarayashiki (The Dish Mansion at Bancho)", 
                                 url: "https://www.youtube.com/embed/0NMwrbQcvGo",
                             },
                             {
@@ -332,7 +330,7 @@ var data = {
                                         date:"Post-Meiji Period (after 1912)",
                                         location:"Japan",
                                         medium:"Ink on cardstock",
-                                        collection:"On loan from the Yumoto Koichi Memorial Yōkai Museum in Japan (Miyoshi Mononoke Museum)"
+                                        collection:"On loan from the Yumoto Koichi Memorial Yokai Museum in Japan (Miyoshi Mononoke Museum)"
                                     },
                                     caption:`The word karuta derives from the Portuguese word for “card.” Portuguese traders introduced playing cards to Japan during the sixteenth century. Some karuta games involved finding images to match written Japanese syllables. In the case of these monster cards, the name of a monster would be matched to its picture.`,
                                 },
@@ -446,7 +444,6 @@ var data = {
                                                 location:"Oga City, Akita Prefecture",
                                                 medium:"Wood, paint, horsehair, Velcro, nylon, baseball catcher’s mask, fiber, straw, plastic, cotton",
                                                 collection:"Museum of New Mexico Foundation, Museum of International Folk Art (A.2013.1.1-2)",
-                                                link:""
                                                 
                                             }
                                         ],
@@ -463,9 +460,9 @@ var data = {
                     title:"YOKAI! CREATURE-LORE",
                     subtitle:"WHAT ARE YOKAI?",
                     body:`<p>In Japan today, debates exist as to what exactly is a “yokai”.  Nevertheless, yokai are generally considered to be a catchall term for beings like ghosts, demons, and a wide variety of monsters as well as “mysterious phenomena.”<br>  
-                    Some people prefer words such as bakemono (changing things), obake (spooky things), and mononoke (weird, mysterious occurances) to describe specific beings. The word “yokai” came into use during the Meiji period (1868–1912) when scholars began studying Japanese folklore.<br>
-                    Despite ambiguities, scholars generally agree that yokai include tanuki (raccoon-dogs), kitsune (foxes), tsukumogami (haunted tools or objects), kappa (water yokai), tengu (mountain spirits or goblins), and oni (demons).<br> 
-                    Yurei (ghosts) are included in this museum exhibition as a kind of a yokai, but not everyone agrees that they belong in this group. Yurei are spirits of deceased humans with intense emotions and lingering ties or resentments in this world, whereas yokai were never human, are very much alive, and can be playful (yurei are not playful!). Looking at representations of yokai in popular media and art from the last five centuries, we find all sorts of beings: tormented ghosts, ogres, demons, monsters, shapeshifters, and personified animals. They all seem to categorically belong.<br> 
+                    Some people prefer words such as <em>bakemono</em> (changing things), <em>obake</em> (spooky things), and <em>mononoke</em> (weird, mysterious occurances) to describe specific beings. The word “yokai” came into use during the Meiji period (1868–1912) when scholars began studying Japanese folklore.<br>
+                    Despite ambiguities, scholars generally agree that yokai include <em><b>tanuki</b></em> (raccoon-dogs), <em><b>kitsune</b></em> (foxes), <em><b>tsukumogami</b></em> (haunted tools or objects), <em><b>kappa</b></em> (water yokai), <em><b>tengu</b></em> (mountain spirits or goblins), and <em><b>oni</b></em> (demons).<br> 
+                    <em><b>Yurei</b></em> (ghosts) are included in this museum exhibition as a kind of a yokai, but not everyone agrees that they belong in this group. Yurei are spirits of deceased humans with intense emotions and lingering ties or resentments in this world, whereas yokai were never human, are very much alive, and can be playful (yurei are not playful!). Looking at representations of yokai in popular media and art from the last five centuries, we find all sorts of beings: tormented ghosts, ogres, demons, monsters, shapeshifters, and personified animals. They all seem to categorically belong.<br> 
                     Do you agree?</p>`,
                     featured:{
                         src:"Assets/content/yokai/creature-lore/creature-lore.jpg",
@@ -473,7 +470,7 @@ var data = {
                     sections:[
                         {
                             title:"Yokai Lore",
-                            body:`<p>Explore these categories of yokai in the collection of the Museum of International Folk Art.</p>`,
+                            body:``,
                             slides:
                             [
                                 {   
@@ -481,8 +478,9 @@ var data = {
                                     {
                                         title:"TANUKI"
                                     }, 
-                                    src:"; hyper link to MOIFA collection /tanuki group",
-                                    caption:`A tanuki is an animal species indigenous to East Asia that is sometimes referred to as a raccoon-dog. As yokai, tanuki are recognized as shapeshifters and tricksters just like kitsune (foxes). They may be annoying but are often less evil or dangerous. Tanuki figures are found all over Japan, often welcoming patrons to shops and especially restaurants and bars. Holding a bottle of sake, these tanuki like to get people drunk so they lose track of time. It is easier to trick people out of their money when they are drunk. Although they may be creatures to approach with caution, for businesses and shop-owners their image is used as a charm for bringing prosperity. Tanuki are most notoriously known for their larger-than-life testicles, which they may sometimes use as a prop for their disguises or use in their pranking activities`
+                                    src:"http://collection.internationalfolkart.org/internal/media/dispatcher/126880/resize%3Aformat%3Dfull",
+                                    caption:`A tanuki is an animal species indigenous to East Asia that is sometimes referred to as a raccoon-dog. As yokai, tanuki are recognized as shapeshifters and tricksters just like kitsune (foxes). They may be annoying but are often less evil or dangerous. Tanuki figures are found all over Japan, often welcoming patrons to shops and especially restaurants and bars. Holding a bottle of sake, these tanuki like to get people drunk so they lose track of time. It is easier to trick people out of their money when they are drunk. Although they may be creatures to approach with caution, for businesses and shop-owners their image is used as a charm for bringing prosperity. Tanuki are most notoriously known for their larger-than-life testicles, which they may sometimes use as a prop for their disguises or use in their pranking activities`,
+                                    externalURL:'http://collection.internationalfolkart.org/collections/30224/yokai-tanuki/objects'
                                     
                                 },
                                 {
@@ -490,51 +488,57 @@ var data = {
                                     {
                                         title:"KITSUNE"
                                     },
-                                    src:"kitsune file?",
-                                    caption:`Similar to the ways that the fox is imagined in other cultures, kitsune (foxes), are shapeshifting tricksters known for their cunning behavior. These clever creatures use magical powers and play tricks on people. Kitsune like to live among people, and the way that humans treat them determines if their power is used for good or evil. Stories of kitsune include beautiful fox-women, fox weddings, foxes disguised as priests, and foxes that possess people. Kitsune are associated with women and bewitch men with their beauty.`
+                                    src:"http://collection.internationalfolkart.org/internal/media/dispatcher/142663/resize%3Aformat%3Dfull",
+                                    caption:`Similar to the ways that the fox is imagined in other cultures, kitsune (foxes), are shapeshifting tricksters known for their cunning behavior. These clever creatures use magical powers and play tricks on people. Kitsune like to live among people, and the way that humans treat them determines if their power is used for good or evil. Stories of kitsune include beautiful fox-women, fox weddings, foxes disguised as priests, and foxes that possess people. Kitsune are associated with women and bewitch men with their beauty.`,
+                                    externalURL:"http://collection.internationalfolkart.org/collections/30218/yokai-kitsune/objects"
                                 },
                                 {
                                     credit:
                                     {
                                         title:"TSUKUMOGAMI"
                                     },
-                                    src:"TSUKUMOGAMI file?",
+                                    src:"http://collection.internationalfolkart.org/internal/media/dispatcher/131614/resize%3Aformat%3Dfull",
                                     caption:`Tsukumogami are spirited tools or haunted objects. In ancient times, yokai were limited in their physical form to oni (demons) and religious contexts. The Muromachi period (1336–1573) introduced new sorts of beings with a famous narrative scroll painting called the Tsukumogami ki (The Record of Tool Specters). According to the story, if tools and other implements are discarded without a proper show of thanks, they become resentful of their former owners and haunt them with a vengeance. The scroll likely served the purpose of spreading Shingon Buddhism, but sarcasm and wit narrate the illustrations.<br>
-                                    Tsukumogami are something to be feared, but they definitely have a comical and entertaining side. Additionally, these spirited objects freed oni from its depiction as a menacing demon, allowing a nearly limitless array of forms. By the Edo period (1603-1867), all sorts of “things” could come to life and transform into yokai.`
+                                    Tsukumogami are something to be feared, but they definitely have a comical and entertaining side. Additionally, these spirited objects freed oni from its depiction as a menacing demon, allowing a nearly limitless array of forms. By the Edo period (1603-1867), all sorts of “things” could come to life and transform into yokai.`,
+                                    externalURL:"http://collection.internationalfolkart.org/collections/30221/yokai-tsukumogami/objects"
                                 },
                                 {
                                     credit:
                                     {
                                         title:"KAPPA"
                                     },
-                                    src:"kappa file?",
-                                    caption:`Kappa are water yokai. With amphibian features and beak-like mouths, kappa are as small as children but very strong. These yokai have notoriously smelly gas. Some stories say that kappa might be repelled by human farts. Folklore suggests that kappa are relatively harmless creatures but they can indeed be very dangerous. For example, kappa infamously drown people to eat their livers, accessed by sucking out an imaginary organ called the shirikodama, found in the anus. Luckily, kappa are appeased with cucumbers, their favorite food. A dish-like depression on their heads contains water, the source of their power. If they spill the water not only can they lose power, but they can die.`
+                                    src:"http://collection.internationalfolkart.org/internal/media/dispatcher/126336/resize%3Aformat%3Dfull",
+                                    caption:`Kappa are water yokai. With amphibian features and beak-like mouths, kappa are as small as children but very strong. These yokai have notoriously smelly gas. Some stories say that kappa might be repelled by human farts. Folklore suggests that kappa are relatively harmless creatures but they can indeed be very dangerous. For example, kappa infamously drown people to eat their livers, accessed by sucking out an imaginary organ called the shirikodama, found in the anus. Luckily, kappa are appeased with cucumbers, their favorite food. A dish-like depression on their heads contains water, the source of their power. If they spill the water not only can they lose power, but they can die.`,
+                                    externalURL:"http://collection.internationalfolkart.org/collections/30221/yokai-kappa/objects"
                                 },
                                 {
                                     credit:
                                     {
                                         title:"TENGU"
                                     },
-                                    src:"tengu file?",
+                                    src:"http://collection.internationalfolkart.org/internal/media/dispatcher/126719/resize%3Aformat%3Dfull",
                                     caption:`A tengu is a yokai in the form of a mountain goblin or spirit. There are different types of tengu. Daitengu are usually depicted as a male human, or at times as a yamabushi (“mountain priest”) with a long nose and a red face. A karasu tengu is a bird or bird-like tengu. They are usually associated with flight, and sometimes their form is a combination of a long-nosed man with bird wings. Tengu are generally considered malevolent spirits. In early Japanese Buddhism the image of the tengu as a monk was sometimes used to convince people not to follow opposing Buddhist groups.<br>
-                                    However, like other yokai, tengu do not easily fall into a good or bad category. Despite their description as evil, tengu can also be noble and helpful to people`
+                                    However, like other yokai, tengu do not easily fall into a good or bad category. Despite their description as evil, tengu can also be noble and helpful to people`,
+                                    externalURL:"http://collection.internationalfolkart.org/collections/30221/yokai-tengu/objects"
                                 },
                                 {
                                     credit:
                                     {
                                         title:"ONI: DEMONS, OGRES, AND GOBLINS"
                                     },
-                                    src:"oni file?",
-                                    caption:`Oni are visual representations of ancient ideas of mononoke (weird, unexplainable events and invisible beings). Imagined as oni (demons, ogres, or goblins), mononoke probably took physical form when they manifested into specific characters. In religious contexts, oni—fierce, frightening, and powerful creatures—became protective guardians and deities as well as evil transgressors. Early ideas of yokai not only centered specifically around oni, representations of yokai were limited to oni forms, complete with horns and fangs.`
+                                    src:"http://collection.internationalfolkart.org/internal/media/dispatcher/128850/resize%3Aformat%3Dfull",
+                                    caption:`Oni are visual representations of ancient ideas of mononoke (weird, unexplainable events and invisible beings). Imagined as oni (demons, ogres, or goblins), mononoke probably took physical form when they manifested into specific characters. In religious contexts, oni—fierce, frightening, and powerful creatures—became protective guardians and deities as well as evil transgressors. Early ideas of yokai not only centered specifically around oni, representations of yokai were limited to oni forms, complete with horns and fangs.`,
+                                    externalURL:"http://collection.internationalfolkart.org/collections/30221/yokai-oni/objects"
                                 },
                                 {
                                     credit:
                                     {
                                         title:"YUREI"
                                     },
-                                    src:"yurei file?",
+                                    src:"http://collection.internationalfolkart.org/internal/media/dispatcher/126878/resize%3Aformat%3Dfull",
                                     caption:`Yurei are spirits of the deceased, or ghosts, and arguably a type of yokai. Japanese ghosts are typically portrayed wearing a white death kimono. Their hair is disheveled, and they do not have feet. These paintings are images of ghosts in typical spectral settings. For example, yurei tend to emerge from willows, hover over their own bones, or stalk specific people to seek revenge.<br>
-                                    A common theme for Japanese ghosts is that of scorned women who endured abuse or heartache by men in their lifetime. After death, these female spirits find their voice and seek retribution as vengeful ghosts and haunt the men who have hurt or killed them. Ghost paintings may have been hung in homes for protection. They may have also been displayed by collectors who find ghosts and ghost stories to be fun!`
+                                    A common theme for Japanese ghosts is that of scorned women who endured abuse or heartache by men in their lifetime. After death, these female spirits find their voice and seek retribution as vengeful ghosts and haunt the men who have hurt or killed them. Ghost paintings may have been hung in homes for protection. They may have also been displayed by collectors who find ghosts and ghost stories to be fun!`,
+                                    externalURL:"http://collection.internationalfolkart.org/collections/30221/yokai-yurei/objects"
                                 },
                                 
                             ]
@@ -548,7 +552,7 @@ var data = {
         {
             slug: "exhibition",
             title:"EXHIBITION & CATALOG",
-            subtitle: "YŌKAI: Ghosts & Demons of Japan <br> (December 6, 2019 – January 16, 2022)",
+            subtitle: "YOKAI: Ghosts & Demons of Japan <br> (December 6, 2019 – January 16, 2022)",
             body: "",
             featured:   {
                 src:"Assets/content/exhibit/gallery/Y200331002.jpg",
@@ -603,7 +607,7 @@ var data = {
                 {
                     slug: "catalogue",
                     title:"EXHIBITION CATALOGUE BOOK",
-                    subtitle: "Edited by: Felicia Katz-Harris<br>Foreword by: Khristaan Villela, PhD<br>Contributors: Komatsu Kazuhiko; Noriko Tsunoda Reider, PhD; Satoko Shimazaki, PhD; Michael Dylan Foster, PhD; Adam Kabat, PhD; Kagawa Masanobu, PhD; Zack Davisson; Yumoto Kōichi; Kōno Junya",
+                    subtitle: "Edited by: Felicia Katz-Harris<br>Foreword by: Khristaan Villela, PhD<br>Contributors: Komatsu Kazuhiko; Noriko Tsunoda Reider, PhD; Satoko Shimazaki, PhD; Michael Dylan Foster, PhD; Adam Kabat, PhD; Kagawa Masanobu, PhD; Zack Davisson; Yumoto Koichi; Kono Junya",
                     featured: {
                         src:"Assets/content/exhibit/catalogue/book-cover.jpg",
                         link: {
@@ -611,7 +615,7 @@ var data = {
                             text: "Available at the Museum of International Folk Art Shop"
                         }
                     },
-                    body: "<p>Vivid in Japanese art and imagination are creatures that are at once ghastly and humorous. The Japanese word yōkai generally refers to a range of supernatural beings such as ghosts, demons, monsters, shapeshifters, tricksters, and other strange kinds of creatures. While their status is commonly described as supernatural, they intermingle with and appear in the natural, human world. Today, yōkai are wildly popular in Japan—prevalent across contemporary entertainment genres such as manga (“comics”) and anime (“animation”) series, horror movies, and video games, and they also manifest as the subject of related material culture objects like game cards, character t-shirts, cuddly plushies, and collectable gashapon capsule toys. This diverse array of yōkai imagery and materiality is deeply rooted in the past. Yōkai images and their stories are enduring, and there is no question that what we see in hot commodities today is closely aligned with the traditional Japanese folklore. This new book explores yōkai through multiple perspectives: what they are, their associated tales, how people engage with or interpret them in different contexts, and why they remain so popular in Japan. The contributors to this book are eminent scholars, creators, and promoters of various aspects of yōkai culture. The interdisciplinary nature of this book’s presentation vibrantly illustrates yōkai from different angles, allowing for a broad view of their cultural scope in Japan. In addition, the contributors delve into popular culture themes, connecting traditional folklore, folk art, and imagery to trends in Japan as well as in the United States.</p>"
+                    body: "<p>Vivid in Japanese art and imagination are creatures that are at once ghastly and humorous. The Japanese word yokai generally refers to a range of supernatural beings such as ghosts, demons, monsters, shapeshifters, tricksters, and other strange kinds of creatures. While their status is commonly described as supernatural, they intermingle with and appear in the natural, human world. Today, yokai are wildly popular in Japan—prevalent across contemporary entertainment genres such as manga (“comics”) and anime (“animation”) series, horror movies, and video games, and they also manifest as the subject of related material culture objects like game cards, character t-shirts, cuddly plushies, and collectable gashapon capsule toys. This diverse array of yokai imagery and materiality is deeply rooted in the past. Yokai images and their stories are enduring, and there is no question that what we see in hot commodities today is closely aligned with the traditional Japanese folklore. This new book explores yokai through multiple perspectives: what they are, their associated tales, how people engage with or interpret them in different contexts, and why they remain so popular in Japan. The contributors to this book are eminent scholars, creators, and promoters of various aspects of yokai culture. The interdisciplinary nature of this book’s presentation vibrantly illustrates yokai from different angles, allowing for a broad view of their cultural scope in Japan. In addition, the contributors delve into popular culture themes, connecting traditional folklore, folk art, and imagery to trends in Japan as well as in the United States.</p>"
                     
                     
                     

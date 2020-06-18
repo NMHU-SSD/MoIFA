@@ -24,7 +24,6 @@ html, body{
 main{
     min-height: 700px;
 }
-
 /*assign font, size, colors to actual elements insted of having multiple classes in your templates.*/
 h1, h2, h3, h4, h5, h6{
     font-family: "HypatiaSansProBold";
@@ -98,7 +97,6 @@ nav .nav-link:hover{
 .custom-toggler .navbar-toggler-icon { 
     background-image: url( "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(229, 226, 196, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); 
 }
-
 /*images/objects*/
 .img-container{
     height: inherit;
@@ -157,6 +155,11 @@ img {
 	object-position: 50% 50%;
     height: 30em;
 }
+.carousel-inner > .carousel-item > .img-container > video{
+    object-fit: contain;
+	object-position: 50% 50%;
+    height: 30em;
+}
 .carousel-inner > .carousel-item > .img-container{
     height: 30em;
 }
@@ -165,7 +168,7 @@ img {
   left: 0%;
   bottom:-.05em;
   overflow-y: scroll;
-    z-index: 999;
+  z-index: 999;
 }
 .overlay-opacity{
     opacity: 0;
@@ -173,10 +176,8 @@ img {
 .overlay-opacity:hover{
     opacity:1;
 }
-
 figure{
     position: relative;
-
 }
 figure > .img-container{
     position: absolute !important;
@@ -184,6 +185,11 @@ figure > .img-container{
     
 }
 figure > .img-container > img{
+    object-fit: contain !important;
+	object-position: 50% 50% !impotant;
+    height: 30em ;
+}
+figure > .img-container > video{
     object-fit: contain !important;
 	object-position: 50% 50% !impotant;
     height: 30em ;
@@ -206,16 +212,21 @@ figure, .figure-img, figure > .img-container{
     height: 300px;
     width: 200px
   }
-
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
     figure > .img-container > img{
+        height: 15em !important;
+    }
+    figure > .img-container > video{
         height: 15em !important;
     }
     figure, .figure-img, figure > .img-container{
         height:  15em !important;
     }
     .carousel-inner > .carousel-item > .img-container > img{
+        height: 15em !important;
+    }
+     .carousel-inner > .carousel-item > .img-container > video{
         height: 15em !important;
     }
     .carousel-inner > .carousel-item > .img-container{
@@ -233,9 +244,19 @@ figure, .figure-img, figure > .img-container{
     .carousel-inner > .carousel-item > .img-container > img{
         height: 20em !important;
     }
+     .carousel-inner > .carousel-item > .img-container > video{
+        height: 20em !important;
+    }
     .carousel-inner > .carousel-item > .img-container{
         height: 20em !important;
     }
+}
+.pointer{
+     cursor: pointer;
+}
+my-auto{
+    margin-top: auto !important;
+    margin-bottom: auto !important;
 }
 
 

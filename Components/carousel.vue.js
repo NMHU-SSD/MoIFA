@@ -1,6 +1,11 @@
 var Carousel = {
     name: "carousel",
     props: ['slides', 'id'],
+    methods:{
+         gotoExternalURL(url){
+             location.href = url
+         }
+    },
     template:`
         <div :id="id" class="carousel slide bg-black" data-ride="slide" data-interval="false">
 			<ol class="carousel-indicators text-right">
@@ -10,9 +15,21 @@ var Carousel = {
             <div class="carousel-inner">
                 <!-- slide show -->
                 <div v-for="(slide,i) in slides" :class="['carousel-item', (i==0 ? 'active' : '')]" >
-                    <div class="img-container w-100 p-0 m-0 position-absolute">
-                        <img class="d-block img-fluid mx-auto" v-lazy="slide.src">
+                    
+                    <div class=" img-container w-100 p-0 m-0 position-absolute">
+                        <template v-if='slide.externalURL'>
+                            <img @click="gotoExternalURL(slide.externalURL)" class="d-block img-fluid mx-auto pointer" v-lazy="slide.src"/>
+                        </template>
+                        <template v-else-if='slide.vidSrc'>
+                             <video class="d-block img-fluid mx-auto pointer" controls> 
+                                <source :src="slide.vidSrc" type='video/mp4'></source>
+                            </video>
+                        </template>
+                        <template v-else>
+                            <img class="d-block img-fluid mx-auto" v-lazy="slide.src"/>
+                        </template>
                     </div>
+                    <!-- hover caption -->
                     <div class="row carousel-caption bg-red overlay-opacity container-fluid pl-3 pr-3 pt-3 m-0  position-absolute">
 
                         <!--credits-->
@@ -27,8 +44,6 @@ var Carousel = {
                             </div>
                             
 						</template>
-                        
-
 
                        <!-- caption -->
                         <template v-if="slide.caption && !slide.credit || slide.caption && !slide.credits ">

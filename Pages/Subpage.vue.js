@@ -98,10 +98,9 @@ var Subpage = {
                     <template v-if="section.slides && section.slides.length > 1">
                         <carousel v-bind:slides="section.slides" :id="'carousel'+index"></carousel>
                     </template>
-                    <template v-else-if="section.slides && section.slides.length < 1">
+                    <template v-else-if="section.slides && section.slides.length == 1">
                         <single-image v-bind:image="section.slides[0]"/>
                     </template>
-
                     <div class='row'>
                         <div class="col-sm-12 col-md-12 col-lg-8 offset-lg-2">
                             <h3 class='font-weight-bolder pt-5'>{{section.title}}</h3>
