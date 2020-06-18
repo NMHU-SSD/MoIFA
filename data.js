@@ -263,43 +263,47 @@ var data = {
                     featured:{
                         src:"Assets/content/yokai/storytelling/stories.jpg",
                     },
-                    images:[
-                        {
-                            title:"Black Photo", 
-                            href: "https://www.youtube.com/embed/wTVPZ6n9gQI",
-                            type: 'text/html',
-                            youtube: 'wTVPZ6n9gQI',
-                            poster: 'https://img.youtube.com/vi/wTVPZ6n9gQI/maxresdefault.jpg'
-                        },
-                        {
-                            title:"Kudan (The Human-Faced Crow)", 
-                            href: "https://www.youtube.com/embed/TJ1VE2__Gvw",
-                            type: 'text/html',
-                            youtube: 'TJ1VE2__Gvw',
-                            poster: 'https://img.youtube.com/vi/TJ1VE2__Gvw/maxresdefault.jpg'
-                        },
-                        {
-                            title:"Hyakki Yagyō (The Night Parade of 100 Demons)", 
-                            href: "https://www.youtube.com/embed/lIouEKd74MM",
-                            type: 'text/html',
-                            youtube: 'lIouEKd74MM',
-                            poster: 'https://img.youtube.com/vi/lIouEKd74MM/maxresdefault.jpg'
-                        },
-                        {
-                            title:"Banchō Sarayashiki (The Dish Mansion at Banchō)", 
-                            href: "https://www.youtube.com/embed/0NMwrbQcvGo",
-                            type: 'text/html',
-                            youtube: '0NMwrbQcvGo',
-                            poster: 'https://img.youtube.com/vi/0NMwrbQcvGo/maxresdefault.jpg'
-                        },
-                        {
-                            title:"At the Graveyard", 
-                            href: "https://www.youtube.com/embed/dXKmkox0WKs",
-                            type: 'text/html',
-                            youtube: 'dXKmkox0WKs',
-                            poster: 'https://img.youtube.com/vi/dXKmkox0WKs/maxresdefault.jpg'
-                        }
-                    ]
+                    gallery:{
+                        videos: [
+                            {
+                                title:"Black Photo", 
+                                url: "https://www.youtube.com/embed/wTVPZ6n9gQI",
+                                type: 'text/html',
+                                youtube: 'wTVPZ6n9gQI',
+                                poster: 'https://img.youtube.com/vi/wTVPZ6n9gQI/maxresdefault.jpg'
+                            },
+                            {
+                                title:"Kudan (The Human-Faced Crow)", 
+                                url: "https://www.youtube.com/embed/TJ1VE2__Gvw",
+                                type: 'text/html',
+                                youtube: 'TJ1VE2__Gvw',
+                                poster: 'https://img.youtube.com/vi/TJ1VE2__Gvw/maxresdefault.jpg'
+                            },
+                            {
+                                title:"Hyakki Yagyō (The Night Parade of 100 Demons)", 
+                                url: "https://www.youtube.com/embed/lIouEKd74MM",
+                                type: 'text/html',
+                                youtube: 'lIouEKd74MM',
+                                poster: 'https://img.youtube.com/vi/lIouEKd74MM/maxresdefault.jpg'
+                            },
+                            {
+                                title:"Banchō Sarayashiki (The Dish Mansion at Banchō)", 
+                                url: "https://www.youtube.com/embed/0NMwrbQcvGo",
+                                type: 'text/html',
+                                youtube: '0NMwrbQcvGo',
+                                poster: 'https://img.youtube.com/vi/0NMwrbQcvGo/maxresdefault.jpg'
+                            },
+                            {
+                                title:"At the Graveyard", 
+                                url: "https://www.youtube.com/embed/dXKmkox0WKs",
+                                type: 'text/html',
+                                youtube: 'dXKmkox0WKs',
+                                poster: 'https://img.youtube.com/vi/dXKmkox0WKs/maxresdefault.jpg'
+                            }
+                        ]
+                        
+                    },
+                
                 },
                 {
                     slug: "toys-and-games",
@@ -478,8 +482,7 @@ var data = {
                     Some people prefer words such as bakemono (changing things), obake (spooky things), and mononoke (weird, mysterious occurances) to describe specific beings. The word “yokai” came into use during the Meiji period (1868–1912) when scholars began studying Japanese folklore.<br>
                     Despite ambiguities, scholars generally agree that yokai include tanuki (raccoon-dogs), kitsune (foxes), tsukumogami (haunted tools or objects), kappa (water yokai), tengu (mountain spirits or goblins), and oni (demons).<br> 
                     Yurei (ghosts) are included in this museum exhibition as a kind of a yokai, but not everyone agrees that they belong in this group. Yurei are spirits of deceased humans with intense emotions and lingering ties or resentments in this world, whereas yokai were never human, are very much alive, and can be playful (yurei are not playful!). Looking at representations of yokai in popular media and art from the last five centuries, we find all sorts of beings: tormented ghosts, ogres, demons, monsters, shapeshifters, and personified animals. They all seem to categorically belong.<br> 
-                    Do you agree?</p>
-`,
+                    Do you agree?</p>`,
                     featured:{
                         src:"Assets/content/yokai/creature-lore/creature-lore.jpg",
                     },
@@ -571,204 +574,47 @@ var data = {
                 {
                     slug: "gallery",
                     title:"EXHIBITION GALLERY",
+                    subtitle: "Exhibit Installation Gallery",
                     featured: {
                         src:"Assets/content/exhibit/gallery/Y200331002.jpg", 
 						caption:""
                     },
-                    index: null,
-                    images:
-                    [
-                        {
-                            title: 'Image',
-                            type: 'image/jpeg',
-                            poster:"Assets/content/exhibit/gallery/Y200331001.jpg",
-                            href:"Assets/content/exhibit/gallery/Y200331001.jpg"
-                        },
-                        {
-                            title: 'Image',
-                            type: 'image/jpeg',
-                            poster:"Assets/content/exhibit/gallery/Y200331002.jpg",
-                            href:"Assets/content/exhibit/gallery/Y200331002.jpg"
-                        },
-                        {
-                            title: 'Image',
-                            type: 'image/jpeg',
-                            poster:"Assets/content/exhibit/gallery/Y200331003.jpg",
-                            href:"Assets/content/exhibit/gallery/Y200331003.jpg"
-                        },
-                        {
-                            title: 'Image',
-                            type: 'image/jpeg',
-                            poster:"Assets/content/exhibit/gallery/Y200331004.jpg",
-                            href:"Assets/content/exhibit/gallery/Y200331004.jpg"
-                        },
-                        {
-                            title: 'Image',
-                            type: 'image/jpeg',
-                            poster:"Assets/content/exhibit/gallery/Y200331006.jpg",
-                            href:"Assets/content/exhibit/gallery/Y200331006.jpg"
-                        },
-                        {
-                            title: 'Image',
-                            type: 'image/jpeg',
-                            poster:"Assets/content/exhibit/gallery/Y200331007.jpg",
-                            href:"Assets/content/exhibit/gallery/Y200331007.jpg"
-                        },
-                        {
-                            title: 'Image',
-                            type: 'image/jpeg',
-                            poster:"Assets/content/exhibit/gallery/Y200331008.jpg",
-                            href:"Assets/content/exhibit/gallery/Y200331008.jpg"
-                        },
-                        {
-                            title: 'Image',
-                            type: 'image/jpeg',
-                            poster:"Assets/content/exhibit/gallery/Y200331009.jpg",
-                            href:"Assets/content/exhibit/gallery/Y200331009.jpg"
-                        },
-                        {
-                            title: 'Image',
-                            type: 'image/jpeg',
-                            poster:"Assets/content/exhibit/gallery/Y200331010.jpg",
-                            href:"Assets/content/exhibit/gallery/Y200331010.jpg"
-                        },
-                        {
-                            title: 'Image',
-                            type: 'image/jpeg',
-                            poster:"Assets/content/exhibit/gallery/Y200331012.jpg",
-                            href:"Assets/content/exhibit/gallery/Y200331012.jpg"
-                        },
-                        {
-                            title: 'Image',
-                            type: 'image/jpeg',
-                            poster:"Assets/content/exhibit/gallery/Y200331014.jpg",
-                            href:"Assets/content/exhibit/gallery/Y200331014.jpg"
-                        },
-                        {
-                            title: 'Image',
-                            type: 'image/jpeg',
-                            poster:"Assets/content/exhibit/gallery/Y200331015.jpg",
-                            href:"Assets/content/exhibit/gallery/Y200331015.jpg"
-                        },
-                        {
-                            title: 'Image',
-                            type: 'image/jpeg',
-                            poster:"Assets/content/exhibit/gallery/Y200331016.jpg",
-                            href:"Assets/content/exhibit/gallery/Y200331016.jpg"
-                        },
-                        {
-                            title: 'Image',
-                            type: 'image/jpeg',
-                            poster:"Assets/content/exhibit/gallery/Y200331018.jpg",
-                            href:"Assets/content/exhibit/gallery/Y200331018.jpg"
-                        },
-                        {
-                            title: 'Image',
-                            type: 'image/jpeg',
-                            poster:"Assets/content/exhibit/gallery/Y200331019.jpg",
-                            href:"Assets/content/exhibit/gallery/Y200331019.jpg"
-                        },
-                        {
-                            title: 'Image',
-                            type: 'image/jpeg',
-                            poster:"Assets/content/exhibit/gallery/Y200331020.jpg",
-                            href:"Assets/content/exhibit/gallery/Y200331020.jpg"
-                        },
-                        {
-                            title: 'Image',
-                            type: 'image/jpeg',
-                            poster:"Assets/content/exhibit/gallery/Y200331021.jpg",
-                            href:"Assets/content/exhibit/gallery/Y200331021.jpg"
-                        },
-                        {
-                            title: 'Image',
-                            type: 'image/jpeg',
-                            poster:"Assets/content/exhibit/gallery/Y200331022.jpg",
-                            href:"Assets/content/exhibit/gallery/Y200331022.jpg"
-                        },
-                        {
-                            title: 'Image',
-                            type: 'image/jpeg',
-                            poster:"Assets/content/exhibit/gallery/Y200331023.jpg",
-                            href:"Assets/content/exhibit/gallery/Y200331023.jpg"
-                        },
-                        {
-                            title: 'Image',
-                            type: 'image/jpeg',
-                            poster:"Assets/content/exhibit/gallery/Y200331024.jpg",
-                            href:"Assets/content/exhibit/gallery/Y200331024.jpg"
-                        },
-                        {
-                            title: 'Image',
-                            type: 'image/jpeg',
-                            poster:"Assets/content/exhibit/gallery/Y200331025.jpg",
-                            href:"Assets/content/exhibit/gallery/Y200331025.jpg"},
-                        {
-                            title: 'Image',
-                            type: 'image/jpeg',
-                            poster:"Assets/content/exhibit/gallery/Y200331044.jpg",
-                            href:"Assets/content/exhibit/gallery/Y200331044.jpg"},
-                        {
-                            title: 'Image',
-                            type: 'image/jpeg',
-                            poster:"Assets/content/exhibit/gallery/Y200331045.jpg",
-                            href:"Assets/content/exhibit/gallery/Y200331045.jpg"
-                        },
-                        {
-                            title: 'Image',
-                            type: 'image/jpeg',
-                            poster:"Assets/content/exhibit/gallery/Y200331046.jpg",
-                            href:"Assets/content/exhibit/gallery/Y200331046.jpg"
-                        },
-                        {
-                            title: 'Image',
-                            type: 'image/jpeg',
-                            poster:"Assets/content/exhibit/gallery/Y200331047.jpg",
-                            href:"Assets/content/exhibit/gallery/Y200331047.jpg"
-                        },
-                        {
-                            title: 'Image',
-                            type: 'image/jpeg',
-                            poster:"Assets/content/exhibit/gallery/Y200331048.jpg",
-                            href:"Assets/content/exhibit/gallery/Y200331048.jpg"
-                        },
-                        {
-                            title: 'Image',
-                            type: 'image/jpeg',
-                            poster:"Assets/content/exhibit/gallery/Y200331050.jpg",
-                            href:"Assets/content/exhibit/gallery/Y200331050.jpg"
-                        },
-                        {
-                            title: 'Image',
-                            type: 'image/jpeg',
-                            poster:"Assets/content/exhibit/gallery/Y200331052.jpg",
-                            href:"Assets/content/exhibit/gallery/Y200331052.jpg"
-                        },
-                        {
-                            title: 'Image',
-                            type: 'image/jpeg',
-                            poster:"Assets/content/exhibit/gallery/Y200331054.jpg",
-                            href:"Assets/content/exhibit/gallery/Y200331054.jpg"
-                        },
-                        {
-                            title: 'Image',
-                            type: 'image/jpeg',
-                            poster:"Assets/content/exhibit/gallery/Y200331056.jpg",
-                            href:"Assets/content/exhibit/gallery/Y200331056.jpg"
-                        },
-                        {
-                            title: 'Image',
-                            type: 'image/jpeg',
-                            poster:"Assets/content/exhibit/gallery/Y200331058.jpg",
-                            href:"Assets/content/exhibit/gallery/Y200331058.jpg"
-                        },
-                        {
-                            title: 'Image',
-                            type: 'image/jpeg',
-                            poster:"Assets/content/exhibit/gallery/Y200331059.jpg",
-                            href:"Assets/content/exhibit/gallery/Y200331059.jpg"
-                        },
-                    ]
+                    gallery:{
+                       images: [
+                           "Assets/content/exhibit/gallery/Y200331001.jpg",
+                            "Assets/content/exhibit/gallery/Y200331002.jpg",
+                            "Assets/content/exhibit/gallery/Y200331003.jpg",
+                            "Assets/content/exhibit/gallery/Y200331004.jpg",
+                            "Assets/content/exhibit/gallery/Y200331006.jpg",
+                            "Assets/content/exhibit/gallery/Y200331007.jpg",
+                            "Assets/content/exhibit/gallery/Y200331008.jpg",
+                            "Assets/content/exhibit/gallery/Y200331009.jpg",
+                            "Assets/content/exhibit/gallery/Y200331010.jpg",
+                            "Assets/content/exhibit/gallery/Y200331012.jpg",
+                            "Assets/content/exhibit/gallery/Y200331014.jpg",
+                            "Assets/content/exhibit/gallery/Y200331015.jpg",
+                            "Assets/content/exhibit/gallery/Y200331016.jpg",
+                            "Assets/content/exhibit/gallery/Y200331018.jpg",
+                            "Assets/content/exhibit/gallery/Y200331019.jpg",
+                            "Assets/content/exhibit/gallery/Y200331020.jpg",
+                            "Assets/content/exhibit/gallery/Y200331021.jpg",
+                            "Assets/content/exhibit/gallery/Y200331022.jpg",
+                            "Assets/content/exhibit/gallery/Y200331023.jpg",
+                            "Assets/content/exhibit/gallery/Y200331024.jpg",
+                            "Assets/content/exhibit/gallery/Y200331025.jpg",
+                            "Assets/content/exhibit/gallery/Y200331044.jpg",
+                            "Assets/content/exhibit/gallery/Y200331045.jpg",
+                            "Assets/content/exhibit/gallery/Y200331046.jpg",
+                            "Assets/content/exhibit/gallery/Y200331047.jpg",
+                            "Assets/content/exhibit/gallery/Y200331048.jpg",
+                            "Assets/content/exhibit/gallery/Y200331050.jpg",
+                            "Assets/content/exhibit/gallery/Y200331052.jpg",
+                            "Assets/content/exhibit/gallery/Y200331054.jpg",
+                            "Assets/content/exhibit/gallery/Y200331056.jpg",
+                            "Assets/content/exhibit/gallery/Y200331058.jpg",
+                            "Assets/content/exhibit/gallery/Y200331059.jpg"
+                       ]
+                    }
                 },
                 {
                     slug: "catalogue",

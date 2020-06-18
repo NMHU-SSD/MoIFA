@@ -6,7 +6,8 @@ var Subpage = {
         console.log(this.pages[pageId].subpages[subpageId])
 		return { 
             subpage: this.pages[pageId].subpages[subpageId],
-            routepath: this.$route.path  //get current route path          
+            routepath: this.$route.path,  //get current route path
+            index: null //index for gallery
         }
 	},
     mounted(){
@@ -38,8 +39,9 @@ var Subpage = {
                         <img class="fluid-width fixed-height-1" v-lazy="subpage.featured.src"/>
                         <h1 class="overlay-text bg-red color-tan pb-0 pl-2 pr-2 pt-2 m-0">{{subpage.title}}</h1>
                     </div>
-                </div>
+            </div>
         </div>
+
         <div class="container-fluid p-5">
 
             <!-- subpage carousel or single image-->
@@ -52,26 +54,51 @@ var Subpage = {
 
             <h1 class="color-red display-text text-center" v-html="subpage.subtitle"></h1>
             <p v-html='subpage.body'></p>
+        </div>
 
-        <!-- gallery -->
-        <template v-if='subpage.images'>
-            <div class = 'container-fluid'>
-                <gallery :images="subpage.images" :index="subpage.index" :options="{youTubeVideoIdProperty: 'youtube', youTubePlayerVars: undefined, youTubeClickToPlay: true}" @close="index = null"></gallery>
-                <div class="image p-0 m-5" v-for="image, imageIndex in subpage.images" @click="index = imageIndex" :style="{ backgroundImage: 'url(' + image.poster + ')'}"></div>
+        <!-- video gallery -->
+        <template v-if='subpage.gallery && subpage.gallery.videos'>
+            <div class='container-fluid bg-light-tan justify-content-start p-0 m-0 row'>
+                <template v-for="(video, videoIndex) in subpage.gallery.videos">
+                    <div class="col-sm-12 col-md-4 p-3">
+                        <iframe
+                            width="100%"
+                            height="300px"
+                            :title="video.title"
+                            :key="videoIndex"
+                            :src="video.url"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                        </iframe>
+                        <p>{{video.title}}</p>
+                    </div>
+                </template>
             </div>
         </template>
 
+        <!-- image gallery -->
+        <template v-if='subpage.gallery && subpage.gallery.images'>
+            <div class='container-fluid row justify-content-start mb-3'>
+                <gallery :images="subpage.gallery.images" :index="index" @close="index = null"></gallery>
+                <div class="image img-thumbnail m-3"
+                    v-for="(image, imageIndex) in subpage.gallery.images"
+                    :key="imageIndex"
+                    @click="index = imageIndex"
+                    :style="{ backgroundImage: 'url(' + image + ')', width: '200px', height: '200px' }">
+                </div>
+            </div>
+        </template>
 
+        
         <template v-if="subpage.sections">
             <div v-for='section,index in subpage.sections' :class='["container-fluid", "p-5", (index%2 ? "bg-light-tan" : "")]'>
                 <div class='container-fluid'>
                 
                     <!-- section carousel or single image-->
 
-                    <template v-if="section.slides.length > 1">
+                    <template v-if="section.slides && section.slides.length > 1">
                         <carousel v-bind:slides="section.slides" :id="'carousel'+index"></carousel>
                     </template>
-                    <template v-else>
+                    <template v-else-if="section.slides && section.slides.length < 1">
                         <single-image v-bind:image="section.slides[0]"/>
                     </template>
 
@@ -82,10 +109,11 @@ var Subpage = {
                         </div>
                     </div>
                 </div>
+
             </div>
         </template>
 
-        </div>
+    
 
 	</div>`
 };
