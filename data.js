@@ -275,7 +275,10 @@ var data = {
                         src:"Assets/content/yokai/storytelling/stories.jpg",
                     },
                     gallery:{
-                        videos: [
+                        title:"",
+                        caption:``,
+                        videos: 
+                        [
                             {
                                 title:"Black Photo", 
                                 url: "https://www.youtube.com/embed/wTVPZ6n9gQI"
@@ -600,6 +603,7 @@ var data = {
                     },
                     gallery:
                     {
+                       title:"YOKAI GALLERY",
                        images: 
                         [
                             "Assets/content/exhibit/gallery/Y200331001.jpg",
@@ -639,7 +643,8 @@ var data = {
                 },
                 {
                     slug: "monster-house",
-                    title:"HYAKUMONOGATARI  KAIDAN  YASHIKI (The House of One Hundred Ghost Stories)",
+                    title:"MONSTER HOUSE",
+                    subtitle:"HYAKUMONOGATARI  KAIDAN  YASHIKI (The House of One Hundred Ghost Stories)",
                     featured: {
                         src:"Assets/content/exhibit/monster-house/Y200331042.jpg",
                     },
@@ -647,6 +652,7 @@ var data = {
                     A monster house was collaboratively created for the yokai exhibition by the Museum of International Folk Art and yokai scholar and artist Kono Junya, who is also a lecturer at Saga University of the Arts in Kyoto and the founder and director of the yokai artist collective, Hyakuyobako. Learn more about the artist and this collaboration <router-link to="/acknowledgements">[here]</router-link>`,
                     gallery:
                     {
+                        title:"Yokai Moster House",
                         images:
                         [
                             "Assets/content/exhibit/monster-house/Y200331042.jpg",
@@ -676,6 +682,12 @@ var data = {
                             text: "Available at the Museum of International Folk Art Shop"
                         }
                     },
+                    slides:
+                    [
+                        {
+                            src:'Assets/content/exhibit/catalogue/book-cover.jpg'
+                        }
+                    ],
                     body: "Vivid in Japanese art and imagination are creatures that are at once ghastly and humorous. The Japanese word yokai generally refers to a range of supernatural beings such as ghosts, demons, monsters, shapeshifters, tricksters, and other strange kinds of creatures. While their status is commonly described as supernatural, they intermingle with and appear in the natural, human world. Today, yokai are wildly popular in Japan—prevalent across contemporary entertainment genres such as manga (“comics”) and anime (“animation”) series, horror movies, and video games, and they also manifest as the subject of related material culture objects like game cards, character t-shirts, cuddly plushies, and collectable gashapon capsule toys. This diverse array of yokai imagery and materiality is deeply rooted in the past. Yokai images and their stories are enduring, and there is no question that what we see in hot commodities today is closely aligned with the traditional Japanese folklore. This new book explores yokai through multiple perspectives: what they are, their associated tales, how people engage with or interpret them in different contexts, and why they remain so popular in Japan. The contributors to this book are eminent scholars, creators, and promoters of various aspects of yokai culture. The interdisciplinary nature of this book’s presentation vibrantly illustrates yokai from different angles, allowing for a broad view of their cultural scope in Japan. In addition, the contributors delve into popular culture themes, connecting traditional folklore, folk art, and imagery to trends in Japan as well as in the United States."
                     
                 },

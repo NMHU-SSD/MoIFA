@@ -29,10 +29,8 @@ var Standard = {
             <!-- end featured image -->
                     
             <div class='container-fluid p-4'>
-                        
                 <h1 class='color-red' v-html='page.subtitle'></h1>
                 <p v-html='page.body'></p>
-
             </div> 
          
             <template v-if="page.subpages">

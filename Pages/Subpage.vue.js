@@ -44,6 +44,8 @@ var Subpage = {
 
         <div class="container-fluid p-5">
 
+            <h1 class="color-red display-text text-center" v-html="subpage.subtitle"></h1>
+            <p v-html='subpage.body'></p>
             <!-- subpage carousel or single image-->
             <template v-if="subpage.slides && subpage.slides.length > 1">
                     <carousel v-bind:slides="subpage.slides" id="subpageCarousel"></carousel>
@@ -51,16 +53,13 @@ var Subpage = {
             <template v-else-if="subpage.slides">
                     <single-image v-bind:image="subpage.slides[0]"/>
             </template>
-
-            <h1 class="color-red display-text text-center" v-html="subpage.subtitle"></h1>
-            <p v-html='subpage.body'></p>
         </div>
 
         <!-- video gallery -->
         <template v-if='subpage.gallery && subpage.gallery.videos'>
             <div class='container-fluid bg-light-tan justify-content-start p-0 m-0 row'>
                 <template v-for="(video, videoIndex) in subpage.gallery.videos">
-                    <div class="col-sm-12 col-md-4 p-3">
+                    <div class="col-sm-12 col-md-4 p-3 bg-light-tan">
                         <iframe
                             width="100%"
                             height="300px"
@@ -77,10 +76,10 @@ var Subpage = {
 
         <!-- image gallery -->
         <template v-if='subpage.gallery && subpage.gallery.images'>
-            <div class ="row bg-tan">
-                <h3 class="p-5 m-0"> {{subpage.title}}</h3>
+            <div class ="row bg-light-tan">
+                <h3 class="p-5 m-0"> {{subpage.gallery.title}}</h3>
             </div>
-            <div class='container-fluid row justify-content-start mb-3 bg-tan'>
+            <div class='container-fluid row justify-content-start pb-3 m-0 bg-light-tan'>
                 <gallery :images="subpage.gallery.images" :index="index" @close="index = null"></gallery>
                 <div class="image img-thumbnail m-3"
                     v-for="(image, imageIndex) in subpage.gallery.images"
@@ -93,7 +92,7 @@ var Subpage = {
 
         
         <template v-if="subpage.sections">
-            <div v-for='section,index in subpage.sections' :class='["container-fluid", "p-5", (index%2 ? "bg-light-tan" : "")]'>
+            <div v-for='section,index in subpage.sections' :class='["container-fluid", "p-5", (index%2 == 0 ? "bg-light-tan" : "")]'>
                 <div class='container-fluid'>
                 
                     <!-- section carousel or single image-->
