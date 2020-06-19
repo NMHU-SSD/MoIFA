@@ -69,7 +69,7 @@ var Subpage = {
                             :src="video.url"
                             frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
                         </iframe>
-                        <p>{{video.title}}</p>
+                        <p class='font-weight-bolder'>{{video.title}}</p>
                     </div>
                 </template>
             </div>
@@ -77,7 +77,10 @@ var Subpage = {
 
         <!-- image gallery -->
         <template v-if='subpage.gallery && subpage.gallery.images'>
-            <div class='container-fluid row justify-content-start mb-3'>
+            <div class ="row bg-tan">
+                <h3 class="p-5 m-0"> {{subpage.title}}</h3>
+            </div>
+            <div class='container-fluid row justify-content-start mb-3 bg-tan'>
                 <gallery :images="subpage.gallery.images" :index="index" @close="index = null"></gallery>
                 <div class="image img-thumbnail m-3"
                     v-for="(image, imageIndex) in subpage.gallery.images"

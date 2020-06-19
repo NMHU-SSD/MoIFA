@@ -70,7 +70,7 @@ var Standard = {
                         </div>
                         <div class='col-9 col-lg-9 col-md-8 d-none d-sm-none d-md-block d-lg-block p-5 m-0'>
                             <div class='img-container p-0 m-0'>
-                                <img v-lazy="subpage.featured.src" />
+                                <img v-lazy="subpage.featured.src" class='fixed-height-1'/>
                             </div>
                         </div>
                     </div>

@@ -7,7 +7,7 @@ var Credits = {
                 <div class="col p-0 mb-3" v-for="credit,i in credits">
                      <div class="text-left">
                         <span v-if='credit.title' class='font-weight-bolder color-white'>{{credit.title}}<br></span>
-                        <span class="color-white h6" v-if="credit.arist">{{credit.artist}}<br></span>
+                        <span class="color-white h6" v-if="credit.artist">{{credit.artist}}<br></span>
                         <span class="color-white h6" v-if="credit.date">{{credit.date}}<br></span>
                         <span class="color-white h6" v-if="credit.location">{{credit.location}}<br></span>
                         <span class="color-white h6" v-if="credit.medium">{{credit.medium}}<br></span>

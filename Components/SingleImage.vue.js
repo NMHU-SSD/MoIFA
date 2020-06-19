@@ -1,11 +1,26 @@
 var SingleImage = {
     name: "single-image",
     props: ['image'],
+    methods:{
+         gotoExternalURL(url){
+             location.href = url
+         }
+    },
     template:`
         <div class="row w-100 p-0 m-0 container-fluid">
             <figure class="figure container-fluid bg-black p-0 m-0">
                 <div class="img-container p-0 m-0">
-                    <img v-lazy="image.src" class="figure-img img-fluid">
+                    <template v-if='image.externalURL'>
+                        <img @click="gotoExternalURL(image.externalURL)" class="d-block img-fluid mx-auto pointer" v-lazy="image.src"/>
+                    </template>
+                    <template v-else-if='image.vidSrc'>
+                        <video class="d-block img-fluid mx-auto pointer" controls> 
+                            <source :src="image.vidSrc" type='video/mp4'></source>
+                        </video>
+                    </template>
+                    <template v-else>
+                        <img class="d-block img-fluid mx-auto" v-lazy="image.src"/>
+                    </template>
                 </div>
                 <figcaption class="row figure-caption bg-red overlay-opacity container-fluid pt-3 pb-3 m-0">
 
