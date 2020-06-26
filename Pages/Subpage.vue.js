@@ -60,12 +60,16 @@ var Subpage = {
 
         <!-- video gallery -->
         <template v-if='subpage.gallery && subpage.gallery.videos'>
+                    <div class ="row bg-light-tan">
+                        <div class= "col-12">
+                            <h3 class="font-weight-bolder pl-4 pr-4 pt-4 m-0"> {{subpage.gallery.title}}</h3>
+                        </div>
+                        <div class= "col-12">
+                            <p class="pb-4 pl-4 pr-4 m-0" v-html='subpage.gallery.caption'></p>
+                        </div>
+                    </div>
             <div class='container-fluid bg-light-tan justify-content-start p-0 m-0 row'>
                 <template v-for="(video, videoIndex) in subpage.gallery.videos">
-                    <div class ="row bg-light-tan">
-                        <h3 class="font-weight-bolder p-4 m-0"> {{subpage.gallery.title}}</h3>
-                        <p class="p-4 m-0" v-html='subpage.gallery.caption'></p>
-                    </div>
                     <div class="col-sm-12 col-md-4 p-3 bg-light-tan">
                         <iframe
                             width="100%"
