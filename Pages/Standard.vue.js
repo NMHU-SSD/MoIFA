@@ -34,7 +34,7 @@ var Standard = {
                 <h1 class="color-red display-text text-center p-4 m-0" v-html="page.subtitle"></h1>
             </template>
             <template class='row' v-if='page.body'>
-                <p class='p-4 m-0' v-html='page.body'></p>
+                <p class='p-4 m-0 display-text text-center' v-html='page.body'></p>
             </template>
 
             <!-- acknowledgments/no-nested subpages?-->
