@@ -254,10 +254,6 @@ figure, .figure-img, figure > .img-container{
 .pointer{
      cursor: pointer;
 }
-my-auto{
-    margin-top: auto !important;
-    margin-bottom: auto !important;
-}
 
 
 

@@ -142,8 +142,8 @@ var data = {
                                 },
                                 {src:"Assets/content/yokai/visual-art/wiki.jpg",
                                  caption:`
-                                           Cover art for the first tankobon of the Nurarihyon no Mago manga released in Japan by Shueisha.
-                                           Wikipedia - link: https://en.wikipedia.org/wiki/Nura:_Rise_of_the_Yokai_Clan#/media/File:Nurarihyon_no_Mago_Japanese_Vol_1_Cover.jpg`
+                                           Cover art for the first tankobon of the Nurarihyon no Mago manga released in Japan by Shueisha.<br>
+                                           <a class='color-dark-tan' href='https://en.wikipedia.org/wiki/Nura:_Rise_of_the_Yokai_Clan#/media/File:Nurarihyon_no_Mago_Japanese_Vol_1_Cover.jpg'> Wikipedia </a>`
                                 }
                             ]
                         },
@@ -516,7 +516,7 @@ var data = {
                     sections:[
                         {
                             title:"Yokai Lore",
-                            body:`Explore these categories of yokai in the collection of the Museum of International Folk Art.`,
+                            body:`Explore these categories of yokai in the collection of the Museum of International Folk Art.<br>Click on the images to see the full collection.`,
                             slides:
                             [
                                 {   

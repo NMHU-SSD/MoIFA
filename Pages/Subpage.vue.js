@@ -92,7 +92,7 @@ var Subpage = {
             </div>
             <div class='container-fluid row justify-content-start pb-3 m-0 bg-light-tan'>
                 <gallery :images="subpage.gallery.images" :index="index" @close="index = null"></gallery>
-                <div class="image img-thumbnail m-3"
+                <div class="image pointer img-thumbnail m-3"
                     v-for="(image, imageIndex) in subpage.gallery.images"
                     :key="imageIndex"
                     @click="index = imageIndex"
