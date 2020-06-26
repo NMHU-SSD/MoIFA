@@ -42,7 +42,6 @@ var Carousel = {
                             <div class="col pt-2 pl-5 pr-5 m-0">
                                 <credits-component :credits="[slide.credit]" />
                             </div>
-                            
 						</template>
 
                        <!-- caption -->

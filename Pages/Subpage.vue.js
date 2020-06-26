@@ -43,9 +43,12 @@ var Subpage = {
         </div>
 
         <div class="container-fluid p-5">
-
-            <h1 class="color-red display-text text-center" v-html="subpage.subtitle"></h1>
-            <p v-html='subpage.body'></p>
+            <template v-if='subpage.title'>
+                <h1 class="color-red display-text text-center" v-html="subpage.subtitle"></h1>
+            </template>
+            <template v-if='subpage.body'>
+                <p v-html='subpage.body'></p>
+            </template>
             <!-- subpage carousel or single image-->
             <template v-if="subpage.slides && subpage.slides.length > 1">
                     <carousel v-bind:slides="subpage.slides" id="subpageCarousel"></carousel>
@@ -59,6 +62,10 @@ var Subpage = {
         <template v-if='subpage.gallery && subpage.gallery.videos'>
             <div class='container-fluid bg-light-tan justify-content-start p-0 m-0 row'>
                 <template v-for="(video, videoIndex) in subpage.gallery.videos">
+                    <div class ="row bg-light-tan">
+                        <h3 class="font-weight-bolder p-4 m-0"> {{subpage.gallery.title}}</h3>
+                        <p class="p-4 m-0" v-html='subpage.gallery.caption'></p>
+                    </div>
                     <div class="col-sm-12 col-md-4 p-3 bg-light-tan">
                         <iframe
                             width="100%"
