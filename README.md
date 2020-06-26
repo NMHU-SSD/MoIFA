@@ -2,5 +2,7 @@
 Museum of International Folk Art
 
 ## Yokai Exhibit website
+static site built with Vue.js and designed with Bootstrap
 
-static site designed with bootstrap 
+## Summer Internship
+Student: Jonah Spear
