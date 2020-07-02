@@ -270,7 +270,7 @@ var data = {
                     body:`Storytelling was one of the ways that yokai types expanded during the medieval period. Over the course of time, the reach of yokai stories spread far and wide. Kaidan (stories of strange and mysterious things) from different regions of Japan circulated in the city of Edo (modern-day Tokyo). A popular pastime surrounding kaidan emerged sometime in the early Edo period (1603–1867), known as hyakumonogatari kaidankai (special gatherings for the telling of one hundred ghost stories). At these events, people told regional ghost stories they knew, or they invented new ghost stories. Traditionally, the storytelling began with lighting one hundred candles and at the end of each story, a candle was extinguished; when the last flame went out and darkness descended, yokai were said to appear. These hyakumonogatari kaidankai-style videos were co-produced by the Museum of International Folk Art and Kyoto-based yokai-artist collective, Hyakuyobako (Box of 100 Yokai). These kaidan include traditional and contemporary Japanese ghost stories.`,
                     caption:`Japanese Ghost Storytelling and Gatherings for 100 Weird Tales (Hyakumonogatari kaidankai)<br>Produced in collaboration with <a class='color-red' href='http://kyotohyakki.com/'> Hyakuyobako (Box of 100 Yokai) artist collective</a>`,
                     featured:{
-                        src:"Assets/content/yokai/storytelling/bancho-screenshot.png",
+                        src:"Assets/content/yokai/storytelling/stories.jpg",
                     },
                     gallery:{
                         title:"Stories",
