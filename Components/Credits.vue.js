@@ -3,7 +3,6 @@ var Credits = {
     props: ['credits'],
     template:`
             <div clas="row row-cols-2 container-fluid p-0 m-0">
-
                 <div class="col p-0 mb-3" v-for="credit,i in credits">
                      <div class="text-left">
                         <span v-if='credit.title' class='font-weight-bolder color-white'>{{credit.title}}<br></span>
@@ -15,6 +14,5 @@ var Credits = {
                         <a v-if='credit.link' class='color-dark-tan' :href='credit.link'>Learn More</a>
                     </div>
                 </div>
-
             </div>`
 }

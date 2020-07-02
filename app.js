@@ -12,7 +12,7 @@ var routes = [
 //secondary    
 { path: '/:pageid/:subpageid', component: Subpage, name:"subpage", props: true},
 //tertiary
-{ path: '/:pageid/:subpageid/:sectionid', component: Section, name:"section"},
+//{ path: '/:pageid/:subpageid/:sectionid', component: Section, name:"section"},
 
 ];
 

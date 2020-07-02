@@ -6,7 +6,9 @@ var Home = {
 		}
 		
 	},
-	template:  `<div class="container-fluid">
+	template:  `
+<div class="container-fluid">
+    <!--landing description and image/2 displays-->
     <div class="row bg-black">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 bg-tan m-0 p-5 d-none d-sm-none d-lg-inline">
                 <h3 class="text-left color-red" v-html="page.title">
@@ -20,7 +22,6 @@ var Home = {
                     <span class='font-weight-lighter h6'>{{page.featured.credit.medium}}</span>
                 </div>
         </div>
-
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 m-0 p-0 img-container">
             <img v-lazy="page.featured.src" class="img-fluid p-0 m-0 w-100"/>
         </div>
@@ -35,6 +36,7 @@ var Home = {
             <div v-html="page.body"></div>
         </div>
     </div>
+    <!-- page naveigation -->
     <div class="row" v-for="p,index in pages">
         <div v-if="index > 0" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 m-0 p-0">
             <router-link class="nav-link img-container p-0 m-0" :to="p.slug">

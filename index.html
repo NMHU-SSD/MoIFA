@@ -13,7 +13,7 @@
     <title>MoIFA</title>
   </head>
   <body>
-	
+	<!-- nav/header-->
 	<div id="app" class="p-0 m-0">
          <nav class="navbar navbar-expand-lg navbar-light bg-red pl-4 pr-4 m-0">
               <router-link class="navbar-brand p-0 m-0" to="/">
@@ -23,7 +23,6 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-               
                 <ul class="navbar-nav align-items-center">
 					<li class="nav-item"> 
                         <router-link class="nav-link " to="/culture"> Yokai History, Art, Lore</router-link> 
@@ -40,12 +39,12 @@
 			    </ul>
             </div>
         </nav>
-		
+      
+        <!-- main page content-->
 		<main class="container-fluid m-0 p-0">
 			<router-view :key="$route.fullPath" v-bind:pages="pages"></router-view>
 		</main>
       </div>
-      
       
       <!--  footer piece -->
       <footer class="container-fluid p-3 bg-tan footer border-top border-dark">
@@ -56,11 +55,9 @@
                 <div class="col-12 col-md-6 p-5 align-self-center text-center">
                     <img src="Assets/Logos/DCA_logo.png" class="img-fluid"/>
                 </div>
-                
             </div>
       </footer>
-
-
+      
     <!-- JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
@@ -99,7 +96,7 @@
 	<script src="Pages/Home.vue.js"></script>
     <script src="Pages/Standard.vue.js"></script>
     <script src="Pages/Subpage.vue.js"></script>
-    <script src="Pages/Section.vue.js"></script>
+    <!--<script src="Pages/Section.vue.js"></script>-->
 	
 	<!-- Vue App / Router -->
 	<script src="app.js"></script>

@@ -31,18 +31,36 @@ var Standard = {
 
             <!--subtitle/body-->                    
             <template class='row' v-if='page.subtitle'>
-                <h1 class="color-red display-text text-center p-4 m-0" v-html="page.subtitle"></h1>
+                <h1 class="color-red display-text text-center pt-4 pl-4 pr-4 pb-2 m-0" v-html="page.subtitle"></h1>
             </template>
             <template class='row' v-if='page.body'>
-                <p class='p-4 m-0 display-text text-center' v-html='page.body'></p>
+                <p class='pb-4 pl-4 pr-4 m-0 display-text text-center' v-html='page.body'></p>
             </template>
 
-            <!-- acknowledgments/no-nested subpages?-->
+            <!-- acknowledgments/downloads/ext-links(content for no subpage)-->
             <template v-if='page.sections' >
-                <div v-for='section,index in page.sections' :class='["row p-4 m-0 text-center", (index%2 == 0 ? "bg-light-tan" : "")]'>
-                    <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-3">
-                        <h3 class='font-weight-bolder'>{{section.title}}</h3>
-                        <div v-html='section.body'></div>
+                <div v-for='section,index in page.sections' :class='["container-fluid p-4 m-0 text-center", (index%2 == 0 ? "bg-light-tan" : "bg-tan")]'>
+                    <!-- body/title-->
+                    <div class="row justify-content-center text-center">
+                        <template v-if='section.title'>
+                            <h3 class="font-weight-bolder display-text text-center" v-html="section.title"></h3>
+                        </template>
+                        <template v-if='section.body'>
+                            <p class='display-text text-center' v-html='section.body'></p>
+                        </template>
+                    </div>
+                    <!-- links -->
+                    <div class="row justify-content-center" v-if='section.links' v-for='link in section.links'>
+                        <template v-if='link.src'>
+                            <div class='col-12 pt-5'>
+                                <p class='font-weight-bolder text-center' v-html='link.text'></p>
+                            <div class='col-12'>
+                                <a class='color-red p-5 img-container' :href='link.src' download> <img class='img-fluid fixed-width-1' :src='link.src'> </a>
+                            </div>
+                        </template>
+                        <template class='col-12' v-else-if='link.extUrl'>
+                            <a class='color-red' :href='link.extUrl'> {{ link.text }}</a>
+                        </template>
                     </div>
                 </div>
             </template>
@@ -63,7 +81,6 @@ var Standard = {
                         
                                 <h1 class="text-center color-red align-self-center" v-html="subpage.title"></h1>
                                     
-                        
                                 <button v-if="subpage.externalURL" class='btn  btn-block btn-lg color-tan bg-red align-self-center' @click="gotoExternalURL(subpage.externalURL)">EXPLORE</button>
                                 <router-link v-else class='btn  btn-block btn-lg color-tan bg-red align-self-center' :to='"/"+page.slug+"/"+subpage.slug'>EXPLORE</router-link>
 

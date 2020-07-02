@@ -32,17 +32,18 @@ var Subpage = {
     
 	template: `
     <div class="container-fluid p-0">
-
+        <!-- featured  header image -->
         <div class='row p-0 m-0'>
             <div class='col-12 p-0 m-0'>    
-                    <div class='img-container p-0 m-0'>
-                        <img class="fluid-width fixed-height-1" v-lazy="subpage.featured.src"/>
-                        <h1 class="overlay-text bg-red color-tan pb-0 pl-2 pr-2 pt-2 m-0">{{subpage.title}}</h1>
-                    </div>
+                <div class='img-container p-0 m-0'>
+                    <img class="fluid-width fixed-height-1" v-lazy="subpage.featured.src"/>
+                    <h1 class="overlay-text bg-red color-tan pb-0 pl-2 pr-2 pt-2 m-0">{{subpage.title}</h1>
+                </div>
             </div>
         </div>
-
+        <!-- body content container-->
         <div class="container-fluid p-5">
+            <!-- body/title -->
             <template v-if='subpage.title'>
                 <h1 class="color-red display-text text-center" v-html="subpage.subtitle"></h1>
             </template>
@@ -100,14 +101,11 @@ var Subpage = {
                 </div>
             </div>
         </template>
-
         
+        <!-- section carousel or single image-->
         <template v-if="subpage.sections">
             <div v-for='section,index in subpage.sections' :class='["container-fluid", "p-5", (index%2 == 0 ? "bg-light-tan" : "")]'>
                 <div class='container-fluid'>
-                
-                    <!-- section carousel or single image-->
-
                     <template v-if="section.slides && section.slides.length > 1">
                         <carousel v-bind:slides="section.slides" :id="'carousel'+index"></carousel>
                     </template>
@@ -121,7 +119,6 @@ var Subpage = {
                         </div>
                     </div>
                 </div>
-
             </div>
         </template>
 

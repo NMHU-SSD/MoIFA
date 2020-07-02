@@ -9,13 +9,14 @@ var Carousel = {
     template:`
         <div :id="id" class="carousel slide bg-black" data-ride="slide" data-interval="false">
 			<ol class="carousel-indicators text-right">
+                <!--- indicators -->
                 <li v-for="(slide,i) in slides" :data-target="'#'+id" data-slide-to="i" :class="(i==0 ? 'active' : '')"></li>
 			</ol>
 	
             <div class="carousel-inner">
                 <!-- slide show -->
                 <div v-for="(slide,i) in slides" :class="['carousel-item', (i==0 ? 'active' : '')]" >
-                    
+                    <!-- inner-content -->
                     <div class=" img-container w-100 p-0 m-0 position-absolute">
                         <template v-if='slide.externalURL'>
                             <img @click="gotoExternalURL(slide.externalURL)" class="d-block img-fluid mx-auto pointer" v-lazy="slide.src"/>
@@ -50,14 +51,10 @@ var Carousel = {
                                 <p class="h6 color-white text-justify" v-html="slide.caption"></p>
                             </div>
                         </template>
-                        
-                        
-				            
                     </div>
-                    
                 </div>
-
             </div>
+            <!-- controls -->
             <a class="carousel-control-prev" :href="'#'+id" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="sr-only">Previous</span>

@@ -117,6 +117,9 @@ img {
 .fixed-height-2{
     height: 50em !important;
 }
+.fixed-width-1{
+    width: 15em !important;
+}
 .logo{
     height: 150px;
 }
