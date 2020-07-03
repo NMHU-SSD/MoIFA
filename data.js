@@ -701,51 +701,57 @@ var data = {
         {
             slug: "resources",
             title:"YOKAI RESOURCES",
-            subtitle:"Learn More About Yokai",
-            body:`CREATE YOKAI!<br>
-                    Download these puppets and figures to create your own yokai!`,
+            subtitle:"Create And Learn More About Yokai",
+            body:``,
             featured:   {
                 src:"Assets/content/resources/tengucard.jpg"
             },
             //ul of links
+        
             sections: 
-            [
+            [   
                 {
-                    title: "Puppets",
-                    links:
-                    [
-                        {
-                            text:'Bakeneko (Monster Cat)',
-                            src:'Assets/content/resources/2020_06-yokai-activity-sheets-2-BAKENEKO.jpg'
-                        },
-                        {
-                            text:'Yurei (Ghost)',
-                            src:'Assets/content/resources/2020_06-yokai-activity-sheets-3-YUREI.jpg'
-                        }
-                    ]
-                },
-                {
-                    title: "Figures",
-                    links:
-                    [
-                        {
-                            text:'Tengu',
-                            src:'Assets/content/resources/2020_06-yokai-activity-sheets-4-TENGU.jpg'
-                        },
-                        {
-                            text:'Oni (Ogre-Demon)',
-                            src:'Assets/content/resources/2020_06-yokai-activity-sheets-5-ONI.jpg'
-                        },
-                        {
-                            text:'Chochin Obake (Lantern Monster)',
-                            src:'Assets/content/resources/2020_06-yokai-activity-sheets-6-CHOCHIN-OBAKE.jpg'
-                        },
-                        {
-                            text:'Kappa',
-                            src:'Assets/content/resources/2020_06-yokai-activity-sheets-7-KAPPA.jpg'
-                        },
                     
-                    ]
+                    title: "CREATE YOKAI! <br> <span class='h4'>Download these puppets and figures to create your own yokai!</span>",
+                    links: [
+                        {
+                            title: "Puppets",
+                            links:
+                            [
+                                 {
+                                     text:'Bakeneko (Monster Cat)',
+                                     src:'Assets/content/resources/2020_06-yokai-activity-sheets-2-BAKENEKO.jpg'
+                                },
+                                {
+                                    text:'Yurei (Ghost)',
+                                    src:'Assets/content/resources/2020_06-yokai-activity-sheets-3-YUREI.jpg'
+                                }
+                            ]
+                        },
+                        {
+                            title: "Figures",
+                            links:
+                            [
+                                {
+                                    text:'Tengu',
+                                    src:'Assets/content/resources/2020_06-yokai-activity-sheets-4-TENGU.jpg'
+                                },
+                                {
+                                    text:'Oni (Ogre-Demon)',
+                                    src:'Assets/content/resources/2020_06-yokai-activity-sheets-5-ONI.jpg'
+                                },
+                                {
+                                    text:'Chochin Obake (Lantern Monster)',
+                                    src:'Assets/content/resources/2020_06-yokai-activity-sheets-6-CHOCHIN-OBAKE.jpg'
+                                },
+                                {
+                                    text:'Kappa',
+                                    src:'Assets/content/resources/2020_06-yokai-activity-sheets-7-KAPPA.jpg'
+                                },
+
+                            ]
+                        }
+                    ]   
                 },
                 {
                     title: "Learn More About Yokai",
@@ -770,11 +776,16 @@ var data = {
                         {
                             text:'Hyakuyobako (Box of 100 Yokai) artist collective',
                             extUrl:'http://kyotohyakki.com/'
-                        },
-                        {
-                            text:'Amabie: the yokai that protects from pandemics',
-                            src:'Assets/content/resources/amabie.jpg'
-                        },
+                        }
+                    ]
+                },
+                {
+                    title: "Amabie: the yokai that protects from pandemics",
+                    featured: {
+                        src:"Assets/content/resources/amabie.jpg",
+                        
+                    },
+                    links: [
                         {
                             text:'Mythical "Amabie" Emerges From 19th Century Folklore',
                             extUrl:'https://www.npr.org/sections/coronavirus-live-updates/2020/04/22/838323775/in-japan-mythical-amabie-emerges-from-19th-century-folklore-to-fight-covid-19?utm_campaign=storyshare&utm_source=facebook.com&utm_medium=social&fbclid=IwAR12GpQoEOei3SQI4Z8W_qqIk4bmznkj2mrChXUzMiQOHedWfzXrzYQebog'
@@ -786,8 +797,7 @@ var data = {
                         {
                             text:'Plague-fighting monster Amabie goes viral amid COVID-19 crisis ',
                             extUrl:'http://www.asahi.com/ajw/articles/13416948?fbclid=IwAR3FAQv9dU7FnI3FG_JMGnh2U3M3MyqUCJmSImLjn2fnPdJ77OmzuHAZj3A'
-                        },
-                    
+                        }
                     ]
                 },
                 

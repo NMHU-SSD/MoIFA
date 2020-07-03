@@ -91,6 +91,11 @@ nav .nav-link:hover{
 .bg-tan{
 	background: #E5E2C4  !important; 
 }
+/*border*/
+.border-red{
+    border-color: #8C2A1C !important; 
+}
+
 .custom-toggler.navbar-toggler { 
     border-color: #E5E2C4; 
 } 
@@ -215,7 +220,7 @@ figure, .figure-img, figure > .img-container{
     height: 300px;
     width: 200px
   }
-// Small devices (landscape phones, 576px and up)
+/* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
     figure > .img-container > img{
         height: 15em !important;
@@ -236,7 +241,7 @@ figure, .figure-img, figure > .img-container{
         height: 15em !important;
     }
 }
-// Medium devices (tablets, 768px and up)
+/* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
     figure > .img-container > img{
         height: 20em !important;

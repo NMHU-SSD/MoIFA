@@ -33,14 +33,13 @@ var Subpage = {
 	template: `
     <div class="container-fluid p-0">
         <!-- featured  header image -->
-        <div class='row p-0 m-0'>
-            <div class='col-12 p-0 m-0'>    
+        <div class='container-fluid p-0 m-0 border-bottom border-dark'>
                 <div class='img-container p-0 m-0'>
                     <img class="fluid-width fixed-height-1" v-lazy="subpage.featured.src"/>
-                    <h1 class="overlay-text bg-red color-tan pb-0 pl-2 pr-2 pt-2 m-0">{{subpage.title}</h1>
+                    <h1 class="overlay-text bg-red color-tan pb-0 pl-2 pr-2 pt-2 m-0">{{subpage.title}}</h1>
                 </div>
-            </div>
         </div>
+
         <!-- body content container-->
         <div class="container-fluid p-5">
             <!-- body/title -->

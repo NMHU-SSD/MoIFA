@@ -20,13 +20,11 @@ var Standard = {
     <div class='container-fluid p-0 m-0'>
 
           <!--features-img/title-->
-		  <div class='row p-0 m-0'>
-               <div class='col-12 p-0 m-0'>    
+		  <div class='container-fluid p-0 m-0 border-bottom border-secondary'>
                     <div class='img-container p-0 m-0'>
                         <img class="fluid-width fixed-height-1" v-lazy="page.featured.src"/>
                         <h1 class="overlay-text bg-red color-tan pb-0 pl-2 pr-2 pt-2 m-0">{{page.title}}</h1>
                     </div>
-                </div>
             </div>
 
             <!--subtitle/body-->                    
@@ -39,12 +37,15 @@ var Standard = {
 
             <!-- acknowledgments/downloads/ext-links(content for no subpage)-->
             <template v-if='page.sections' >
-                <div v-for='section,index in page.sections' :class='["container-fluid p-4 m-0 text-center", (index%2 == 0 ? "bg-light-tan" : "bg-tan")]'>
+                <div v-for='section,index in page.sections' :class='["container-fluid p-5 m-0 text-center", (index%2 == 0 ? "" : "bg-light-tan")]'>
                     <!-- body/title-->
                     <div class="row justify-content-center text-center">
                         <template v-if='section.title'>
                             <h3 class="font-weight-bolder display-text text-center" v-html="section.title"></h3>
                         </template>
+                        <div class='container p-0 m-2' v-if='section.featured'>
+                                <img v-lazy='section.featured.src' class='fixed-height-1 img-fluid'/>
+                        </div>
                         <template v-if='section.body'>
                             <p class='display-text text-center' v-html='section.body'></p>
                         </template>
@@ -54,8 +55,28 @@ var Standard = {
                         <template v-if='link.src'>
                             <div class='col-12 pt-5'>
                                 <p class='font-weight-bolder text-center' v-html='link.text'></p>
+                            </div>
                             <div class='col-12'>
-                                <a class='color-red p-5 img-container' :href='link.src' download> <img class='img-fluid fixed-width-1' :src='link.src'> </a>
+                                <a class='color-red p-5 img-container' :href='link.src' download>
+                                    <img class='img-fluid fixed-width-1 border border-red' :src='link.src'>
+                                </a>
+                            </div>
+                        </template>
+                        <template v-if='link.links'>
+                            <div class='col-12 pt-5 pb-0 m-0'>
+                                <h5 class='font-weight-bolder text-center' v-html='link.title'></h5>
+                            </div>
+                            <div class='col-12'>
+                                <div class="row p-0 m-0">
+                                    <div class="col-sm-4 col-md-3 col-12 color-red p-5 img-container" v-for="l in link.links">
+                                        <a class='color-red img-container' :href='l.src' download>
+                                    <img class='img-fluid border border-red' :src='l.src'>
+                                    </a>
+                                    </div>
+                                </div>
+
+    
+
                             </div>
                         </template>
                         <template class='col-12' v-else-if='link.extUrl'>
