@@ -140,8 +140,9 @@ var data = {
                                          collection:"International Folk Art Foundation, Museum of International Folk Art (FA.2002.3.2v)"
                                      }
                                 },
-                                {src:"Assets/content/yokai/visual-art/wiki.jpg",
-                                 caption:`
+                                {
+                                    src:"Assets/content/yokai/visual-art/wiki.jpg",
+                                    caption:`
                                            Cover art for the first tankobon of the Nurarihyon no Mago manga released in Japan by Shueisha.<br>
                                            <a class='color-dark-tan' href='https://en.wikipedia.org/wiki/Nura:_Rise_of_the_Yokai_Clan#/media/File:Nurarihyon_no_Mago_Japanese_Vol_1_Cover.jpg'> Wikipedia </a>`
                                 }

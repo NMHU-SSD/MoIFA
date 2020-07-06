@@ -22,9 +22,8 @@ var SingleImage = {
                         <img class="d-block img-fluid mx-auto" v-lazy="image.src"/>
                     </template>
                 </div>
-                <figcaption class="row figure-caption bg-red overlay-opacity container-fluid pt-3 pb-3 m-0">
-
-
+                 <template v-if="image.credits || image.credit || image.caption">
+                    <figcaption class="row figure-caption bg-red overlay-opacity container-fluid pt-3 pb-3 m-0">
                         <!--credits-->
                         <template v-if="image.credits && image.credits.length > 1">
                             <div class="col pt-2 pl-5 pr-5 m-0">
@@ -36,8 +35,6 @@ var SingleImage = {
                                 <credits-component :credits="[image.credit]" />
                             </div>
 						</template>
-                        
-
                         <!-- caption -->
                         <template v-if="image.caption && image.credit || image.caption && image.credits && image.credits.length > 0">
                             <div class="col-12 col-md-7 pt-2 pl-5 pr-5 m-0" >
@@ -49,9 +46,8 @@ var SingleImage = {
                                 <p class="h6 color-white text-justify" v-html="image.caption"></p>
                             </div>
                         </template>
-
                     </figcaption>
-
+                </template>
             </figure>
         </div>`,
 }

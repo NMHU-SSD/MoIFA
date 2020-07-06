@@ -30,28 +30,30 @@ var Carousel = {
                             <img class="d-block img-fluid mx-auto" v-lazy="slide.src"/>
                         </template>
                     </div>
-                    <!-- hover caption -->
-                    <div class="row carousel-caption bg-red overlay-opacity container-fluid pl-3 pr-3 pt-3 m-0  position-absolute">
+                    <!-- hover caption -->  
+                    <template v-if="slide.credits || slide.credit || slide.caption">
+                        <div class="row carousel-caption bg-red overlay-opacity container-fluid pl-3 pr-3 pt-3 m-0  position-absolute">
 
-                        <!--credits-->
-                        <template v-if="slide.credits && slide.credits.length > 0">
-                            <div class="col pt-2 pl-5 pr-5 m-0">
-                                <credits-component :credits="slide.credits" />
-                            </div>
-                        </template>
-                        <template v-else-if="slide.credit">
-                            <div class="col pt-2 pl-5 pr-5 m-0">
-                                <credits-component :credits="[slide.credit]" />
-                            </div>
-						</template>
+                            <!--credits-->
+                            <template v-if="slide.credits && slide.credits.length > 0">
+                                <div class="col pt-2 pl-5 pr-5 m-0">
+                                    <credits-component :credits="slide.credits" />
+                                </div>
+                            </template>
+                            <template v-else-if="slide.credit">
+                                <div class="col pt-2 pl-5 pr-5 m-0">
+                                    <credits-component :credits="[slide.credit]" />
+                                </div>
+						    </template>
 
-                       <!-- caption -->
-                        <template v-if="slide.caption && !slide.credit || slide.caption && !slide.credits ">
-                            <div class="col-12 col-md-7 pt-2 pl-5 pr-5 m-0" >
-                                <p class="h6 color-white text-justify" v-html="slide.caption"></p>
-                            </div>
-                        </template>
-                    </div>
+                            <!-- caption -->
+                            <template v-if="slide.caption && !slide.credit || slide.caption && !slide.credits ">
+                                <div class="col-12 col-md-7 pt-2 pl-5 pr-5 m-0" >
+                                    <p class="h6 color-white text-justify" v-html="slide.caption"></p>
+                                </div>
+                            </template>
+                        </div>
+                    </template>
                 </div>
             </div>
             <!-- controls -->
