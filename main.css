@@ -161,7 +161,6 @@ img {
 .carousel-inner > .carousel-item > .img-container > img{
     object-fit: contain;
 	object-position: 50% 50%;
-    height: 30em;
 }
 .carousel-inner > .carousel-item > .img-container > video{
     object-fit: contain;
@@ -177,6 +176,7 @@ img {
   bottom:-.05em;
   overflow-y: scroll;
   z-index: 999;
+  position: absolute;
 }
 .overlay-opacity{
     opacity: 0;
@@ -222,6 +222,7 @@ figure, .figure-img, figure > .img-container{
   }
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
+/*
     figure > .img-container > img{
         height: 15em !important;
     }
@@ -240,9 +241,11 @@ figure, .figure-img, figure > .img-container{
     .carousel-inner > .carousel-item > .img-container{
         height: 15em !important;
     }
+*/
 }
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
+/*
     figure > .img-container > img{
         height: 20em !important;
     }
@@ -258,6 +261,7 @@ figure, .figure-img, figure > .img-container{
     .carousel-inner > .carousel-item > .img-container{
         height: 20em !important;
     }
+*/
 }
 .pointer{
      cursor: pointer;
