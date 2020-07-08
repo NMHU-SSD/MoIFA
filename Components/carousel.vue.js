@@ -14,10 +14,13 @@ var Carousel = {
 			</ol>
 	
             <div class="carousel-inner">
+	
                 <!-- slide show -->
                 <div v-for="(slide,i) in slides" :class="['carousel-item', (i==0 ? 'active' : '')]" >
+                    
+
                     <!-- inner-content -->
-                    <div class=" img-container w-100 p-0 m-0 position-absolute">
+                    <div class=" img-container  container-fluid p-0 m-0 position-absolute">
                         <template v-if='slide.externalURL'>
                             <img @click="gotoExternalURL(slide.externalURL)" class="d-block img-fluid mx-auto pointer" v-lazy="slide.src"/>
                         </template>
@@ -29,10 +32,11 @@ var Carousel = {
                         <template v-else>
                             <img class="d-block img-fluid mx-auto" v-lazy="slide.src"/>
                         </template>
-                    </div>
-                    <!-- hover caption -->  
+                        </div>
+
+                        <!-- hover caption -->  
                     <template v-if="slide.credits || slide.credit || slide.caption">
-                        <div class="row carousel-caption bg-red overlay-opacity container-fluid pl-3 pr-3 pt-3 m-0  position-absolute">
+                        <div class="row carousel-caption bg-red overlay-opacity container-fluid pl-3 pr-3 pt-3 m-0 position-absolute">
 
                             <!--credits-->
                             <template v-if="slide.credits && slide.credits.length > 0">
@@ -54,6 +58,7 @@ var Carousel = {
                             </template>
                         </div>
                     </template>
+                   
                 </div>
             </div>
             <!-- controls -->
