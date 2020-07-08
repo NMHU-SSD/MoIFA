@@ -77,7 +77,8 @@ var Subpage = {
                             :title="video.title"
                             :key="videoIndex"
                             :src="video.url"
-                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+							allowfullscreen>
                         </iframe>
                         <p class='font-weight-bolder'>{{video.title}}</p>
                     </div>

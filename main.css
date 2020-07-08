@@ -20,6 +20,8 @@ html, body{
     padding: 0px;
     margin: 0px;
     font-family: 'AkrobatRegular';
+    font-size: 1.2rem;
+    color: black;
 }
 main{
     min-height: 700px;
@@ -222,7 +224,7 @@ figure, .figure-img, figure > .img-container{
   }
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
-/*
+
     figure > .img-container > img{
         height: 15em !important;
     }
@@ -232,36 +234,27 @@ figure, .figure-img, figure > .img-container{
     figure, .figure-img, figure > .img-container{
         height:  15em !important;
     }
-    .carousel-inner > .carousel-item > .img-container > img{
+    .carousel-inner > .carousel-item {
         height: 15em !important;
     }
-     .carousel-inner > .carousel-item > .img-container > video{
-        height: 15em !important;
-    }
-    .carousel-inner > .carousel-item > .img-container{
-        height: 15em !important;
-    }
-*/
+    
+    
+
 }
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
-/*
+
     figure > .img-container > img{
         height: 20em !important;
     }
     figure, .figure-img, figure > .img-container{
         height:  20em !important;
     }
-    .carousel-inner > .carousel-item > .img-container > img{
+    .carousel-inner > .carousel-item
         height: 20em !important;
     }
-     .carousel-inner > .carousel-item > .img-container > video{
-        height: 20em !important;
-    }
-    .carousel-inner > .carousel-item > .img-container{
-        height: 20em !important;
-    }
-*/
+
+
 }
 .pointer{
      cursor: pointer;
