@@ -11,7 +11,7 @@ var Credits = {
                         <span class="color-white h6" v-if="credit.location">{{credit.location}}<br></span>
                         <span class="color-white h6" v-if="credit.medium">{{credit.medium}}<br></span>
                         <span class="color-white h6" v-if="credit.collection">{{credit.collection}}<br></span>
-                        <a v-if='credit.link' class='color-dark-tan' target="_blank" :href='credit.link'>Learn More</a>
+                        <span><a v-if='credit.link' class='color-dark-tan' target="_blank" :href='credit.link'>Learn More</a></span>
                     </div>
                 </div>
             </div>`

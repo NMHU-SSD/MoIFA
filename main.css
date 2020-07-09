@@ -214,6 +214,13 @@ figure, .figure-img, figure > .img-container{
     bottom:0px !important;
     overflow-y: scroll;
 }
+.img-container .caption{
+    position: absolute !important;
+    max-height: 50%;
+    left: 0px;
+    bottom:0px !important;
+    overflow-y: scroll;
+}
 .image {
     float: left;
     background-size: cover;

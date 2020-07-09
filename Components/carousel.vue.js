@@ -30,7 +30,7 @@ var Carousel = {
                         <template v-else>
                             <img class="d-block img-fluid mx-auto" v-lazy="slide.src"/>
                         </template>
-                        </div>
+                    </div>
 
                         <!-- hover caption -->  
                     <template v-if="slide.credits || slide.credit || slide.caption">
