@@ -13,7 +13,7 @@ var Home = {
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 bg-tan m-0 p-5 d-none d-sm-none d-lg-inline">
                 <h3 class="text-left color-red" v-html="page.title">
                 </h3>
-                <span v-html="page.body"></span>
+                <div v-html="page.body"></div>
 
                 <div class='blockquote text-right justify-content-end'>
                     <span class="font-weight-bolder">{{page.featured.credit.title}}</span><br>

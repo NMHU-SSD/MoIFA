@@ -10,10 +10,7 @@ var SingleImage = {
         <div class="row w-100 p-0 m-0 container-fluid">
             <figure class="figure container-fluid bg-black p-0 m-0">
                 <div class="img-container p-0 m-0">
-                    <template v-if='image.externalURL'>
-                        <img @click="gotoExternalURL(image.externalURL)" class="d-block img-fluid mx-auto pointer" v-lazy="image.src"/>
-                    </template>
-                    <template v-else-if='image.vidSrc'>
+                    <template v-if='image.vidSrc'>
                         <video class="d-block img-fluid mx-auto pointer" controls> 
                             <source :src="image.vidSrc" type='video/mp4'></source>
                         </video>

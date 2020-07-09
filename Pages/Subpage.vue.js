@@ -47,7 +47,7 @@ var Subpage = {
                 <h1 class="color-red display-text text-center" v-html="subpage.subtitle"></h1>
             </template>
             <template v-if='subpage.body'>
-                <p v-html='subpage.body'></p>
+                <div v-html='subpage.body'></div>
             </template>
             <!-- subpage carousel or single image-->
             <template v-if="subpage.slides && subpage.slides.length > 1">

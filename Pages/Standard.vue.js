@@ -32,22 +32,28 @@ var Standard = {
                 <h1 class="color-red display-text text-center pt-4 pl-4 pr-4 pb-2 m-0" v-html="page.subtitle"></h1>
             </template>
             <template class='row' v-if='page.body'>
-                <p class='pb-4 pl-4 pr-4 m-0 display-text text-center' v-html='page.body'></p>
+                <div class='pb-4 pl-4 pr-4 m-0 display-text text-center' v-html='page.body'></div>
             </template>
 
             <!-- acknowledgments/downloads/ext-links(content for no subpage)-->
             <template v-if='page.sections' >
-                <div v-for='section,index in page.sections' :class='["container-fluid p-5 m-0 text-center", (index%2 == 0 ? "" : "bg-light-tan")]'>
+                <div v-for='section,index in page.sections' :class='["container-fluid p-5 m-0 text-center", (index%2 == 0 ? "bg-light-tan" : "")]'>
                     <!-- body/title-->
                     <div class="row justify-content-center text-center">
                         <template v-if='section.title'>
-                            <h3 class="font-weight-bolder display-text text-center" v-html="section.title"></h3>
+                            <div class='col-12'>
+                                <h3 class="font-weight-bolder display-text text-center" v-html="section.title"></h3>
+                            </div>
                         </template>
                         <div class='container p-0 m-2' v-if='section.featured'>
+                            <div class='col-12'>
                                 <img v-lazy='section.featured.src' class='fixed-height-1 img-fluid'/>
+                            </div>
                         </div>
                         <template v-if='section.body'>
-                            <p class='display-text text-center' v-html='section.body'></p>
+                            <div class='col-12'>
+                                <div class='display-text text-center' v-html='section.body'></div>
+                            </div>
                         </template>
                     </div>
                     <!-- links -->
@@ -80,7 +86,7 @@ var Standard = {
                             </div>
                         </template>
                         <template class='col-12' v-else-if='link.extUrl'>
-                            <a class='color-red' :href='link.extUrl'> {{ link.text }}</a>
+                            <a class='color-red' :href='link.extUrl' target="_blank"> {{ link.text }}</a>
                         </template>
                     </div>
                 </div>

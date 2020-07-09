@@ -21,10 +21,8 @@ var Carousel = {
 
                     <!-- inner-content -->
                     <div class=" img-container  container-fluid p-0 m-0 position-absolute">
-                        <template v-if='slide.externalURL'>
-                            <img @click="gotoExternalURL(slide.externalURL)" class="d-block img-fluid mx-auto pointer" v-lazy="slide.src"/>
-                        </template>
-                        <template v-else-if='slide.vidSrc'>
+                        
+                        <template v-if='slide.vidSrc'>
                              <video class="d-block img-fluid mx-auto pointer" controls> 
                                 <source :src="slide.vidSrc" type='video/mp4'></source>
                             </video>
