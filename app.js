@@ -19,6 +19,9 @@ var routes = [
 var router = new VueRouter({
   routes: routes,
   base: '/',
+  scrollBehavior () {
+    return { x: 0, y: 0 }
+  }
   //mode: 'history'
 });
 
