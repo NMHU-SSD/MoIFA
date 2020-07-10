@@ -120,7 +120,7 @@ var data = {
                                         medium:"Giclée print, digital art, washi paper, cloth, adhesive",
                                         collection:"International Folk Art Foundation, Museum of International Folk Art [P.2019.14.14-16]"
                                     },
-                                    caption:`Sakyu is a member of the artist collective, <a class='color-red' href='http://kyotohyakki.com/' target='_blank' > Hyakuyobako (Box of 100 Yokai).</a> The collective re-enacts the Night Parade of One Hundred Demons annually in Kyoto.`
+                                    caption:`Sakyu is a member of the artist collective, <a class='color-dark-tan' href='http://kyotohyakki.com/' target='_blank' > Hyakuyobako (Box of 100 Yokai).</a> The collective re-enacts the Night Parade of One Hundred Demons annually in Kyoto.`
                                 }
                             ]
                         },
@@ -766,8 +766,8 @@ var data = {
         /*3*/
         {
             slug: "resources",
-            title:"YOKAI RESOURCES",
-            subtitle:"Create And Learn More About Yokai",
+            title:"CREATE AND LEARN MORE",
+            subtitle:"Learn More About Yokai",
             body:``,
             featured:   {
                 src:"Assets/content/resources/tengucard.jpg"
