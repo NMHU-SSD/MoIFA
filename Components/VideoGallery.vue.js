@@ -2,7 +2,7 @@ var VideoGallery = {
     name:"video-gallery",
     props:['gallery'],
     mounted(){
-        var $ = document.querySelector.bind(document);
+        /*var $ = document.querySelector.bind(document);
         // Once the user clicks a custom fullscreen button
         $(playButtonClass).addEventListener('click', function(){
             // Play video and go fullscreen
@@ -13,7 +13,7 @@ var VideoGallery = {
             if (requestFullScreen) {
                 requestFullScreen.bind(playerElement)();
             }
-        })
+        })*/
     },
     template:`
         <div class="w-100 p-0 m-0 container-fluid">

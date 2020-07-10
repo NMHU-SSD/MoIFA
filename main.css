@@ -231,8 +231,6 @@ figure, .figure-img, figure > .img-container{
   }
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
-
-    
     /*figure > .img-container > video{
         height: 15em !important;
     }
@@ -244,7 +242,7 @@ figure, .figure-img, figure > .img-container{
     }
     .carousel-inner > .carousel-item {
         height: 15em !important;
-    }*/=
+    }*/
 }
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
