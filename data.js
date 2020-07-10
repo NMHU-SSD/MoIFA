@@ -657,7 +657,7 @@ var data = {
                 {
                     slug: "gallery",
                     title:"YOKAI: Ghosts & Demons of Japan",
-                    subtitle: "(December 6, 2019 – January 16, 2022)",
+                    subtitle: "Yokai Exhibition at the Museum of International Folk Art",
                     body:`<p><b>Yokai is a catchall word for a range of supernatural beings such as ghosts, demons, monsters, shapeshifters, and tricksters. It also refers to mysterious phenomena and peculiar entities or presences; inexplicable occurrences. </b></p>
                     <p>The exhibition, <em>Yokai: Ghosts & Demons of Japan</em> is on display through January 16, 2022. Special exhibition highlights include: narrative arts such as Edo period scroll paintings and woodblock prints; contemporary folk art that depicts yokai and illustrates their eerie tales; ghost and demon characters from classical noh and kabuki performances; and special festival events. Toys, games, comic books, and anime connect the past to the present, and the classical to the popular in terms of visual arts and culture. In addition to participatory gallery crafts, the exhibition includes an immersive, family-friendly <em>obake yashiki</em> (a Japanese “monster house”), a popular form of entertainment in Japanese amusement parks.</p>`,
                     featured: {
