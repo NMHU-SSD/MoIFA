@@ -205,7 +205,7 @@ figure > .img-container > video{
     height: 30em ;
 }
 figure, .figure-img, figure > .img-container{
-    height:  30em !important;
+    height:  30em;
 }
 .figure-caption{
     position: absolute !important;
@@ -233,7 +233,7 @@ figure, .figure-img, figure > .img-container{
 @media (min-width: 576px) {
 
     
-    figure > .img-container > video{
+    /*figure > .img-container > video{
         height: 15em !important;
     }
     figure, .figure-img, figure > .img-container{
@@ -242,16 +242,13 @@ figure, .figure-img, figure > .img-container{
     figure > .img-container > img{
         height: 15em !important;
     }
-   /* .carousel-inner > .carousel-item {
+    .carousel-inner > .carousel-item {
         height: 15em !important;
-    }*/
-    
-    
-
+    }*/=
 }
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
-    figure > .img-container > video{
+    /*figure > .img-container > video{
         height: 20em !important;
     }
     figure > .img-container > img{
@@ -260,11 +257,9 @@ figure, .figure-img, figure > .img-container{
     figure, .figure-img, figure > .img-container{
         height:  20em !important;
     }
-   /* .carousel-inner > .carousel-item
+   .carousel-inner > .carousel-item
         height: 20em !important;
     }*/
-
-
 }
 .pointer{
      cursor: pointer;

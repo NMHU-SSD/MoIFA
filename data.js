@@ -19,7 +19,7 @@ var data = {
                         link:'no'
                     } 
                 ]
-            }
+            } 
         },
         /*1*/
         {
@@ -160,10 +160,9 @@ var data = {
                                     credit:
                                     {
                                         title:"My Neighbor Totoro",
-                                        artist:"Director: Hayao Miyazaki"
+                                        artist:"Director: Hayao Miyazaki", link:'https://ghibli.fandom.com/wiki/Ghibli_Wiki'
                                     },
-                                    src:"Assets/content/yokai/visual-art/totoro.jpg",
-                                    externalURL:'https://ghibli.fandom.com/wiki/Ghibli_Wiki'
+                                    src:"Assets/content/yokai/visual-art/totoro.jpg"
                                 }
                             ]
                         },

@@ -51,39 +51,16 @@ var Subpage = {
             </template>
             <!-- subpage carousel or single image-->
             <template v-if="subpage.slides && subpage.slides.length > 1">
-                    <carousel v-bind:slides="subpage.slides" id="subpageCarousel"></carousel>
+                <carousel v-bind:slides="subpage.slides" id="subpageCarousel"></carousel>
             </template>
             <template v-else-if="subpage.slides">
-                    <single-image v-bind:image="subpage.slides[0]"/>
+                <single-image v-bind:image="subpage.slides[0]"/>
             </template>
         </div>
 
         <!-- video gallery -->
         <template v-if='subpage.gallery && subpage.gallery.videos'>
-                    <div class ="row bg-light-tan">
-                        <div class= "col-12">
-                            <h3 class="font-weight-bolder pl-4 pr-4 pt-4 m-0"> {{subpage.gallery.title}}</h3>
-                        </div>
-                        <div class= "col-12">
-                            <p class="pb-4 pl-4 pr-4 m-0" v-html='subpage.gallery.caption'></p>
-                        </div>
-                    </div>
-            <div class='container-fluid bg-light-tan justify-content-start p-0 m-0 row'>
-                <template v-for="(video, videoIndex) in subpage.gallery.videos">
-                    <div class="col-sm-12 col-md-4 p-3 bg-light-tan">
-                        <iframe
-                            width="100%"
-                            height="300px"
-                            :title="video.title"
-                            :key="videoIndex"
-                            :src="video.url"
-                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-							allowfullscreen>
-                        </iframe>
-                        <p class='font-weight-bolder'>{{video.title}}</p>
-                    </div>
-                </template>
-            </div>
+            <video-gallery v-bind:gallery='subpage.gallery'/>
         </template>
 
         <!-- image gallery -->

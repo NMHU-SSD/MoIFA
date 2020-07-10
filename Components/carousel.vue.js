@@ -14,14 +14,10 @@ var Carousel = {
 			</ol>
 	
             <div class="carousel-inner">
-	
                 <!-- slide show -->
-                <div v-for="(slide,i) in slides" :class="['carousel-item', (i==0 ? 'active' : '')]" >
-                    
-
+                <div v-for="(slide,i) in slides" :class="['carousel-item', (i==0 ? 'active' : '')]">
                     <!-- inner-content -->
-                    <div class=" img-container  container-fluid p-0 m-0 position-absolute">
-                        
+                    <div class=" img-container  container-fluid p-0 m-0 position-absolute">                      
                         <template v-if='slide.vidSrc'>
                              <video class="d-block img-fluid mx-auto pointer" controls> 
                                 <source :src="slide.vidSrc" type='video/mp4'></source>
@@ -31,8 +27,8 @@ var Carousel = {
                             <img class="d-block img-fluid mx-auto" v-lazy="slide.src"/>
                         </template>
                     </div>
-
-                        <!-- hover caption -->  
+                    
+                    <!-- hover caption -->  
                     <template v-if="slide.credits || slide.credit || slide.caption">
                         <div class="row carousel-caption bg-red overlay-opacity container-fluid pl-3 pr-3 pt-3 m-0 position-absolute">
 
@@ -56,7 +52,6 @@ var Carousel = {
                             </template>
                         </div>
                     </template>
-                   
                 </div>
             </div>
             <!-- controls -->
