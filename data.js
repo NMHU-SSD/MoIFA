@@ -8,17 +8,15 @@ var data = {
             body:"<p>Yokai is a catchall word for, ghosts, demons, monsters, shapeshifters, tricksters, and other kinds of supernatural beings and mysterious phenomena. Yokai interact with the human world and spark common notions of frightful things.</p><p>Yokai can definitely be scary, but the experience of fear can also be amusing. When frightening beings copy human behavior, they become less intimidating and can appear playful, relatable, and even cute.</p><p>But yokai are not all tame and cute. Perhaps the most terrifying yokai are those that shed light on the faults of human society.</p><p><span class='font-weight-bolder'>Who are the yokai in your world?<br>Have you ever felt demonized?<br>Are you a yokai?</span></p>",
             featured:  {
                 src:"Assets/content/homepage/ao-bozu.jpg",
-                credits:
-                [
-                    {
+                credit:
+                {
                         title: "AO BOZU (BLUE MONK)",
                         artist: "KONO JUNYA",
                         date: "2006, Kyoto",
                         medium: "Papier-mache, craft foam, paint",
                         collection: "International Folk Art Foundation Collection, Museum of International Folk Art (T.2019.48.1)",
                         link:'no'
-                    } 
-                ]
+                }
             } 
         },
         /*1*/
