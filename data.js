@@ -22,7 +22,7 @@ var data = {
         /*1*/
         {
             slug: "culture",
-            title: "YOKAI! HISTORY, ART, LORE",
+            title: "YOKAI HISTORY TO POP CULTURE",
             subtitle: "YOKAI! FROM HISTORY TO POP CULTURE", 
             body:`<p>Japan is notorious for its variety of yokai. Early ideas of yokai were based in religion and they appeared in art as demons (oni) with horns and fangs. Yokai expanded from demons into a wide range of creatures and, in Japan today, they are pop-culture sensations. Yokai popularity grew over the centuries as they were presented in different cultural forms including visual arts, stage performance, storytelling, and games. Yokai are now such smash hits that some Japanese cities and prefectures have reshaped traditional images of demons and demon-like deities for festivals and tourist attractions. Yokai have even been modified as cute regional mascots.</p>`,
              featured:   {
