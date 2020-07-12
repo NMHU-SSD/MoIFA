@@ -661,45 +661,47 @@ var data = {
                     featured: {
                         src:"Assets/content/exhibit/gallery/Y200331002.jpg"
                     },
-                    gallery:
-                    {
-                       title:"YOKAI GALLERY",
-                       images: 
-                        [
-                            "Assets/content/exhibit/gallery/Y200331001.jpg",
-                            "Assets/content/exhibit/gallery/Y200331002.jpg",
-                            "Assets/content/exhibit/gallery/Y200331003.jpg",
-                            "Assets/content/exhibit/gallery/Y200331004.jpg",
-                            "Assets/content/exhibit/gallery/Y200331006.jpg",
-                            "Assets/content/exhibit/gallery/Y200331007.jpg",
-                            "Assets/content/exhibit/gallery/Y200331008.jpg",
-                            "Assets/content/exhibit/gallery/Y200331009.jpg",
-                            "Assets/content/exhibit/gallery/Y200331010.jpg",
-                            "Assets/content/exhibit/gallery/Y200331012.jpg",
-                            "Assets/content/exhibit/gallery/Y200331014.jpg",
-                            "Assets/content/exhibit/gallery/Y200331015.jpg",
-                            "Assets/content/exhibit/gallery/Y200331016.jpg",
-                            "Assets/content/exhibit/gallery/Y200331018.jpg",
-                            "Assets/content/exhibit/gallery/Y200331019.jpg",
-                            "Assets/content/exhibit/gallery/Y200331020.jpg",
-                            "Assets/content/exhibit/gallery/Y200331021.jpg",
-                            "Assets/content/exhibit/gallery/Y200331022.jpg",
-                            "Assets/content/exhibit/gallery/Y200331023.jpg",
-                            "Assets/content/exhibit/gallery/Y200331024.jpg",
-                            "Assets/content/exhibit/gallery/Y200331025.jpg",
-                            "Assets/content/exhibit/gallery/Y200331044.jpg",
-                            "Assets/content/exhibit/gallery/Y200331045.jpg",
-                            "Assets/content/exhibit/gallery/Y200331046.jpg",
-                            "Assets/content/exhibit/gallery/Y200331047.jpg",
-                            "Assets/content/exhibit/gallery/Y200331048.jpg",
-                            "Assets/content/exhibit/gallery/Y200331050.jpg",
-                            "Assets/content/exhibit/gallery/Y200331052.jpg",
-                            "Assets/content/exhibit/gallery/Y200331054.jpg",
-                            "Assets/content/exhibit/gallery/Y200331056.jpg",
-                            "Assets/content/exhibit/gallery/Y200331058.jpg",
-                            "Assets/content/exhibit/gallery/Y200331059.jpg"
+                    sections:
+                    [
+                       {
+                           title:"YOKAI GALLERY",
+                           slides: 
+                           [
+                               {src:"Assets/content/exhibit/gallery/Y200331001.jpg"},
+                               {src:"Assets/content/exhibit/gallery/Y200331002.jpg"},
+                               {src:"Assets/content/exhibit/gallery/Y200331003.jpg"},
+                               {src:"Assets/content/exhibit/gallery/Y200331004.jpg"},
+                               {src:"Assets/content/exhibit/gallery/Y200331006.jpg"},
+                               {src:"Assets/content/exhibit/gallery/Y200331007.jpg"},
+                               {src:"Assets/content/exhibit/gallery/Y200331008.jpg"},
+                               {src:"Assets/content/exhibit/gallery/Y200331009.jpg"},
+                               {src:"Assets/content/exhibit/gallery/Y200331010.jpg"},
+                               {src:"Assets/content/exhibit/gallery/Y200331012.jpg"},
+                               {src:"Assets/content/exhibit/gallery/Y200331014.jpg"},
+                               {src:"Assets/content/exhibit/gallery/Y200331015.jpg"},
+                               {src:"Assets/content/exhibit/gallery/Y200331016.jpg"},
+                               {src:"Assets/content/exhibit/gallery/Y200331018.jpg"},
+                               {src:"Assets/content/exhibit/gallery/Y200331019.jpg"},
+                               {src:"Assets/content/exhibit/gallery/Y200331020.jpg"},
+                               {src:"Assets/content/exhibit/gallery/Y200331021.jpg"},
+                               {src:"Assets/content/exhibit/gallery/Y200331022.jpg"},
+                               {src:"Assets/content/exhibit/gallery/Y200331023.jpg"},
+                               {src:"Assets/content/exhibit/gallery/Y200331024.jpg"},
+                               {src:"Assets/content/exhibit/gallery/Y200331025.jpg"},
+                               {src:"Assets/content/exhibit/gallery/Y200331044.jpg"},
+                               {src:"Assets/content/exhibit/gallery/Y200331045.jpg"},
+                               {src:"Assets/content/exhibit/gallery/Y200331046.jpg"},
+                               {src:"Assets/content/exhibit/gallery/Y200331047.jpg"},
+                               {src:"Assets/content/exhibit/gallery/Y200331048.jpg"},
+                               {src:"Assets/content/exhibit/gallery/Y200331050.jpg"},
+                               {src:"Assets/content/exhibit/gallery/Y200331052.jpg"},
+                               {src:"Assets/content/exhibit/gallery/Y200331054.jpg"},
+                               {src:"Assets/content/exhibit/gallery/Y200331056.jpg"},
+                               {src:"Assets/content/exhibit/gallery/Y200331058.jpg"},
+                               {src:"Assets/content/exhibit/gallery/Y200331059.jpg"}
                        ]
-                    }
+                       }
+                    ]
                 },
                 {
                     slug: "monster-house",
@@ -710,26 +712,28 @@ var data = {
                     },
                     body:`<p><em>Obake yashiki</em> (monster houses) are considered a traditional form of Japanese amusement. They are particularly popular in the summertime because, as people often say, spine-chilling experiences cool you down! The late-summer festival, Obon, is a time when people honor their ancestors, perhaps another explanation for the Japanese association between summer and spirits.  Obake yashiki may date back to the Edo period (1603-1867), as an amusing way for warriors to prove their bravery during a time of relative peace that saw few battles. Japanese-style haunted houses gained popularity after World War II and draw upon folklore and traditional imagery to create a scary walk-through experience in a maze-like setting. Similar to American haunted house traditions, obake yashiki are often found in amusement parks. Although the point is to frighten people, it is meant to be a fun experience. After all, sometimes it is fun to be scared
                     A monster house was collaboratively created for the yokai exhibition by the Museum of International Folk Art and yokai scholar and artist Kono Junya, who is also a lecturer at Saga University of the Arts in Kyoto and the founder and director of the yokai artist collective, Hyakuyobako. Learn more about the artist and this collaboration <a class='color-red' target='_blank' href="#/acknowledgements">here</a></p>`,
-                    gallery:
-                    {
-                        title:"Yokai Moster House",
-                        images:
-                        [
-                            "Assets/content/exhibit/monster-house/Y200331042.jpg",
-                            "Assets/content/exhibit/monster-house/IMG_8615.jpg",
-                            "Assets/content/exhibit/monster-house/IMG_8623.jpg",
-                            "Assets/content/exhibit/monster-house/IMG_8625.jpg",
-                            "Assets/content/exhibit/monster-house/IMG_8629.jpg",
-                            "Assets/content/exhibit/monster-house/IMG_8632.jpg",
-                            "Assets/content/exhibit/monster-house/IMG_8633.jpg",
-                            "Assets/content/exhibit/monster-house/Y200331025.jpg",
-                            "Assets/content/exhibit/monster-house/Y200331028.jpg",
-                            "Assets/content/exhibit/monster-house/Y200331033.jpg",
-                            "Assets/content/exhibit/monster-house/Y200331034.jpg",
-                            "Assets/content/exhibit/monster-house/Y200331035.jpg",
-                            "Assets/content/exhibit/monster-house/Y200331036.jpg"
-                        ]
-                    }
+                    sections:
+                    [
+                        {
+                            title:"Yokai Moster House",
+                            slides:
+                            [
+                                {src:"Assets/content/exhibit/monster-house/Y200331042.jpg"},
+                                {src:"Assets/content/exhibit/monster-house/IMG_8615.jpg"},
+                                {src:"Assets/content/exhibit/monster-house/IMG_8623.jpg"},
+                                {src:"Assets/content/exhibit/monster-house/IMG_8625.jpg"},
+                                {src:"Assets/content/exhibit/monster-house/IMG_8629.jpg"},
+                                {src:"Assets/content/exhibit/monster-house/IMG_8632.jpg"},
+                                {src:"Assets/content/exhibit/monster-house/IMG_8633.jpg"},
+                                {src:"Assets/content/exhibit/monster-house/Y200331025.jpg"},
+                                {src:"Assets/content/exhibit/monster-house/Y200331028.jpg"},
+                                {src:"Assets/content/exhibit/monster-house/Y200331033.jpg"},
+                                {src:"Assets/content/exhibit/monster-house/Y200331034.jpg"},
+                                {src:"Assets/content/exhibit/monster-house/Y200331035.jpg"},
+                                {src:"Assets/content/exhibit/monster-house/Y200331036.jpg"}
+                            ]
+                        }
+                    ]
                 },
                 {
                     slug: "catalogue",
