@@ -769,7 +769,7 @@ var data = {
         {
             slug: "resources",
             title:"CREATE AND LEARN MORE",
-            subtitle:"Learn More About Yokai",
+            subtitle:"Addiontional Yokai Resources",
             body:``,
             featured:   {
                 src:"Assets/content/resources/tengucard.jpg"
@@ -778,6 +778,33 @@ var data = {
         
             sections: 
             [   
+                {
+                    title: "Learn More About Yokai<br> <span class='h4'>visit these yokai resources</span>",
+                    
+                    links:
+                    [
+                        {
+                            text:'Yokai.com Database & Artwork by Matthew Meyers',
+                            extUrl:'http://yokai.com/category/youkai/'
+                        },
+                        {
+                            text:'Yokai Museum (Miyoshi, Hiroshima Prefecture, Japan)',
+                            extUrl:'https://miyoshi-mononoke.jp/'
+                        },
+                        {
+                            text:'International Research Center for Japanese Studies (Nichibunken)',
+                            extUrl:'https://www.nichibun.ac.jp/YoukaiGazouMenu/?_ga=2.244696263.396860331.1593190240-2145049707.1593190240'
+                        },
+                        {
+                            text:'Yokai & Pokémon',
+                            extUrl:'https://mluce.ro/articles/the-yokai-roots-of-pokemon/'
+                        },
+                        {
+                            text:'Hyakuyobako (Box of 100 Yokai) artist collective',
+                            extUrl:'http://kyotohyakki.com/'
+                        }
+                    ]
+                },
                 {
                     
                     title: "CREATE YOKAI! <br> <span class='h4'>Download these puppets and figures to create your own yokai!</span>",
@@ -820,32 +847,6 @@ var data = {
                             ]
                         },
                     ]   
-                },
-                {
-                    title: "Learn More About Yokai",
-                    links:
-                    [
-                        {
-                            text:'Yokai.com Database & Artwork by Matthew Meyers',
-                            extUrl:'http://yokai.com/category/youkai/'
-                        },
-                        {
-                            text:'Yokai Museum (Miyoshi, Hiroshima Prefecture, Japan)',
-                            extUrl:'https://miyoshi-mononoke.jp/'
-                        },
-                        {
-                            text:'International Research Center for Japanese Studies (Nichibunken)',
-                            extUrl:'https://www.nichibun.ac.jp/YoukaiGazouMenu/?_ga=2.244696263.396860331.1593190240-2145049707.1593190240'
-                        },
-                        {
-                            text:'Yokai & Pokémon',
-                            extUrl:'https://mluce.ro/articles/the-yokai-roots-of-pokemon/'
-                        },
-                        {
-                            text:'Hyakuyobako (Box of 100 Yokai) artist collective',
-                            extUrl:'http://kyotohyakki.com/'
-                        }
-                    ]
                 },
                 {
                     title: "Amabie: the yokai that protects from pandemics",
