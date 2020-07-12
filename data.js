@@ -505,7 +505,7 @@ var data = {
                     <p><em><b>Yurei</b></em> (ghosts) are included in this museum exhibition as a kind of a yokai, but not everyone agrees that they belong in this group. Yurei are spirits of deceased humans with intense emotions and lingering ties or resentments in this world, whereas yokai were never human, are very much alive, and can be playful (yurei are not playful!). Looking at representations of yokai in popular media and art from the last five centuries, we find all sorts of beings: tormented ghosts, ogres, demons, monsters, shapeshifters, and personified animals. They all seem to categorically belong. Do you agree?</p>
 					<p>Explore these categories of yokai in the collection of the Museum of International Folk Art.</p>`,
                     featured:{
-                        src:"Assets/content/yokai/creature-lore/creature-lore.jpg",
+                        src:"http://collection.internationalfolkart.org/internal/media/dispatcher/126719/resize%3Aformat%3Dfull"
                     },
                     sections:[
                         {

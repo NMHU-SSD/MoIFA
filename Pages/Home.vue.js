@@ -32,19 +32,19 @@ var Home = {
                     <span class="font-weight-bolder">{{page.featured.credit.artist}}</span><br>
                     <span class='font-weight-lighter h6'>{{page.featured.credit.date}}</span> <br>
                     <span class='font-weight-lighter h6'>{{page.featured.credit.medium}}</span>
-            </div>
-            <h3 class="text-left color-red" v-html="page.title"></h3>
-            <div v-html="page.body"></div>
+             </div>
+             <h3 class="text-left color-red" v-html="page.title"></h3>
+             <div v-html="page.body"></div>
         </div>
     </div>
     <!-- page naveigation -->
-    <div class="row" v-for="p,index in pages">
-        <div v-if="index > 0" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 m-0 p-0">
-            <router-link class="nav-link img-container p-0 m-0" :to="p.slug">
-                <img class="fluid-width fixed-height-1" v-lazy="p.featured.src"/>
-                <h1 class="overlay-text color-tan bg-red pb-0 pl-2 pr-2 pt-2 m-0">{{p.title}}</h1>
-            </router-link>
-        </div>  
+    <div class="row p-4 bg-light-tan" v-for="p,index in pages" v-if="index > 0">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 m-0 p-0">
+                <router-link class="nav-link img-container p-0 m-0" :to="p.slug">
+                    <img class="fluid-width fixed-height-1" v-lazy="p.featured.src"/>
+                    <h1 class="overlay-text color-tan bg-red pb-0 pl-2 pr-2 pt-2 m-0">{{p.title}}</h1>
+                </router-link>
+            </div>
     </div>
 </div>
 `
