@@ -29,10 +29,10 @@ var Carousel = {
                     </div>
                     
                     <!-- hover caption -->  
-                    <template v-if="slide.credits || slide.credit || slide.caption">
+                    <!--<template v-if="slide.credits || slide.credit || slide.caption">
                         <div class="row carousel-caption bg-red overlay-opacity container-fluid pl-3 pr-3 pt-3 m-0 position-absolute">
 
-                            <!--credits-->
+                            <!--credits
                             <template v-if="slide.credits && slide.credits.length > 0">
                                 <div class="col pt-2 pl-5 pr-5 m-0">
                                     <credits-component :credits="slide.credits" />
@@ -44,12 +44,12 @@ var Carousel = {
                                 </div>
 						    </template>
 
-                            <!-- caption -->
+                            <!-- caption
                             <template v-if="slide.caption && !slide.credit || slide.caption && !slide.credits ">
                                 <div class="col-12 col-md-7 pt-2 pl-5 pr-5 m-0" >
                                     <p class="h6 color-white text-justify" v-html="slide.caption"></p>
                                 </div>
-                            </template>
+                            </template>-->
                         </div>
                     </template>
                 </div>

@@ -51,12 +51,16 @@ p, span{
 nav {
    font-family: "HypatiaSansProBold";
 }
-nav .nav-link {
+nav .nav-link{
      color: #E5E2C4 !important; 
 }
 nav .nav-link:hover{
      color: #C9AA61 !important; 
 }
+
+.nav .nav-link{
+    color: #8C2A1C !important;
+} 
 /*colors*/
 /*name color when possible*/
 .color-black{ 

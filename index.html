@@ -33,9 +33,6 @@
                     <li class="nav-item"> 
                         <router-link class="nav-link " to="/resources"> Create And Learn More </router-link>
                     </li>
-                    <li class="nav-item"> 
-                        <router-link class="nav-link" to="/acknowledgements"> Acknowledgments </router-link> 
-                    </li>
 			    </ul>
             </div>
         </nav>
@@ -44,20 +41,38 @@
 		<main class="container-fluid m-0 p-0">
 			<router-view :key="$route.fullPath" v-bind:pages="pages"></router-view>
 		</main>
-      </div>
+      
       
       <!--  footer piece -->
       <footer class="container-fluid p-3 bg-tan footer border-top border-secondary">
             <div class="row">
-                <div class="col-12 col-md-6 p-5 align-self-center text-center">
+                <div class="col-12 col-md-4 p-5 align-self-start">
+                    <div class='container-fluid'>
+                        <ul class="nav align-items-center">
+					       <li class="nav-item"> 
+                                <router-link class="nav-link" to="/culture">Yokai History to Pop Culture</router-link> 
+                            </li>
+                            <li class="nav-item"> 
+                                <router-link class='nav-link' to="/exhibition">Exibition and Catalog</router-link> 
+                            </li>
+                            <li class="nav-item"> 
+                                <router-link class="nav-link " to="/resources"> Create And Learn More </router-link>
+                            </li>
+                             <li class="nav-item"> 
+                                <router-link class="nav-link" to="/acknowledgements"> Acknowledgments </router-link> 
+                            </li>
+			             </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 p-5 align-self-center text-center">
                     <img src="Assets/Logos/MOIFA_logo.png" class="img-fluid"/>
                 </div>
-                <div class="col-12 col-md-6 p-5 align-self-center text-center">
+                <div class="col-12 col-md-4 p-5 align-self-center text-center">
                     <img src="Assets/Logos/DCA_logo.png" class="img-fluid"/>
                 </div>
             </div>
       </footer>
-      
+      </div>
     <!-- JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>

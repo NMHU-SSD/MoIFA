@@ -38,7 +38,7 @@ var Home = {
         </div>
     </div>
     <!-- page naveigation -->
-    <div class="row p-4 bg-light-tan" v-for="p,index in pages" v-if="index > 0">
+    <div class="row bg-light-tan" v-for="p,index in pages" v-if="index > 0">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 m-0 p-0">
                 <router-link class="nav-link img-container p-0 m-0" :to="p.slug">
                     <img class="fluid-width fixed-height-1" v-lazy="p.featured.src"/>

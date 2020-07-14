@@ -84,17 +84,20 @@ var Subpage = {
             <div v-for='section,index in subpage.sections' :class='["container-fluid", "p-5", (index%2 == 0 ? "bg-light-tan" : "")]'>
                 <div class='container-fluid'>
                     <div class='row pb-4'>
-                        <div class="col-sm-12 col-md-12 col-lg-8 offset-lg-2">
+                        <div class="col-sm-12 col-md-12 col-lg-10 offset-lg-1">
                             <h3 class='font-weight-bolder'>{{section.title}}</h3>
                             <div v-html='section.body'></div>
                         </div>
+                        <div v-if='section.slides' class='col-12 col-lg-10 offset-lg-1'>
+                            <template v-if="section.slides && section.slides.length > 1">
+                                <carousel v-bind:slides="section.slides" :id="'carousel'+index"></carousel>
+                            </template>
+                            <template v-else-if="section.slides && section.slides.length == 1">
+                                <single-image v-bind:image="section.slides[0]"/>
+                            </template>
+                        </div>
                     </div>
-                    <template v-if="section.slides && section.slides.length > 1">
-                        <carousel v-bind:slides="section.slides" :id="'carousel'+index"></carousel>
-                    </template>
-                    <template v-else-if="section.slides && section.slides.length == 1">
-                        <single-image v-bind:image="section.slides[0]"/>
-                    </template>
+                    
                     
                 </div>
             </div>
