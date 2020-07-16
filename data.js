@@ -39,7 +39,7 @@ var data = {
                     sections:[
                         {
                             title:"EARLY YOKAI PAINTINGS", 
-                            body: "<p>The repertoire of bizarre creatures in Japan was expanded by painters of the Muromachi period (1336 - 1573). These artists borrowed traditional characters found in serious religious images, such as horned and hideous demons (oni), and added to the assortment by illustrating oral tales of inexplicable phenomena and weird beings. These monster paintings transformed religious subjects into entertaining ones, creating funny monsters engaged in human activity. </p><p>The Night Parade of One Hundred Demons scroll (Hyakki yagyo emaki) is an early monster painting. The oldest known version comes from the Muromachi period. It was copied over and over again.  </p><p>Following the creation of the Hyakki yagyo and other early monster paintings, fantastic creatures were no longer limited to horned demons. They could materialize into a variety of different beings.  Explore popular forms of yokai and yokai lore <a class='color-red' target='_blank' href='#/culture/creatures'>here</a>.</p><p>Although the variety of monster expanded, their audiences were still limited.  Scroll paintings were often painted by master artists and then copied by their students; they required much time and great skill to produce. Due to their small size, the scrolls could only be viewed by a few people at a time. Plus, scroll paintings were commonly kept in temples and shrines or in the storehouses of aristocratic families. Viewers needed access to such elite places.</p>" ,
+                            body: "<p>The repertoire of bizarre creatures in Japan was expanded by painters of the Muromachi period (1336 - 1573). These artists borrowed traditional characters found in serious religious images, such as horned and hideous demons (oni), and added to the assortment by illustrating oral tales of inexplicable phenomena and weird beings. These monster paintings transformed religious subjects into entertaining ones, creating funny monsters engaged in human activity. </p><p>The Night Parade of One Hundred Demons scroll (Hyakki yagyo emaki) is an early monster painting. The oldest known version comes from the Muromachi period. It was copied over and over again.  </p><p>Following the creation of the Hyakki yagyo and other early monster paintings, fantastic creatures were no longer limited to horned demons. They could materialize into a variety of different beings.  Explore popular forms of yokai and yokai lore <a class='color-red font-weight-bolder' target='_blank' href='#/culture/creatures'>here</a>.</p><p>Although the variety of monster expanded, their audiences were still limited.  Scroll paintings were often painted by master artists and then copied by their students; they required much time and great skill to produce. Due to their small size, the scrolls could only be viewed by a few people at a time. Plus, scroll paintings were commonly kept in temples and shrines or in the storehouses of aristocratic families. Viewers needed access to such elite places.</p>" ,
                             cards:[
                                         [
                                             {
@@ -57,7 +57,7 @@ var data = {
                                                 link:"http://db.nichibun.ac.jp/pc1/en/"
                                             },
                                             caption:`
-                                                    The Night Parade of One Hundred Demons scroll features demons, ghosts, shapeshifters, objects that come to life as monsters (tsukumogami), and a variety of other weird creatures that appear as bumbling beasts on parade carrying festival banners. According to one interpretation, the scroll originated from a legend about a horde of demons and monsters streaming down a street one night in Kyoto. The monsters and demons are weird, but full of humor. View the scroll in its entirety at the <a class='color-dark-tan' href='http://lapis.nichibun.ac.jp/ema/Detail?tid=20&sid=01&did=01' target='_blank'>International Research center for Japanese Studies (Nichibinken)</a>`    
+                                                    The Night Parade of One Hundred Demons scroll features demons, ghosts, shapeshifters, objects that come to life as monsters (tsukumogami), and a variety of other weird creatures that appear as bumbling beasts on parade carrying festival banners. According to one interpretation, the scroll originated from a legend about a horde of demons and monsters streaming down a street one night in Kyoto. The monsters and demons are weird, but full of humor. View the scroll in its entirety at the <a class='color-dark-tan font-weight-bolder' href='http://lapis.nichibun.ac.jp/ema/Detail?tid=20&sid=01&did=01' target='_blank'>International Research center for Japanese Studies (Nichibinken)</a>`    
                                         }]
                                 ]
                         },
@@ -67,7 +67,7 @@ var data = {
 
                             <p>Toriyama Sekien’s series of books of The Illustrated Night Parade of a Hundred Demons (Gazu hyakki yagyo) is based on the Hyakki yagyo scrolls. This series of books is considered the first mass-produced and illustrated yokai encyclopedia. Its yokai range from the very popular to the lesser known, including some dreamed up by Sekien himself. Images of specific creatures drawn by Sekien served as an important visual resource for later artists, including Edo-period print makers, twentieth-century manga creators, and yokai artists today. They are now accepted as standard forms of yokai.</p>  
 
-                            <p>Explore Toriyama Sekien’s yokai encyclopedias. <a class='color-red' href='https://library.si.edu/books-online/subjects/monsters-in-art' target='_blank'> Visit the Smithsonian Libraries website </a></p>`, 
+                            <p>Explore Toriyama Sekien’s yokai encyclopedias. <a class='color-red font-weight-bolder' href='https://library.si.edu/books-online/subjects/monsters-in-art' target='_blank'> Visit the Smithsonian Libraries website </a></p>`, 
                             cards:
                              [
                                 [{
@@ -134,7 +134,7 @@ var data = {
                                         medium:"Giclée print, digital art, washi paper, cloth, adhesive",
                                         collection:"International Folk Art Foundation, Museum of International Folk Art [P.2019.14.14-16]"
                                     },
-                                    caption:`Sakyu is a member of the artist collective, <a class='color-dark-tan' href='http://kyotohyakki.com/' target='_blank' > Hyakuyobako (Box of 100 Yokai).</a> The collective re-enacts the Night Parade of One Hundred Demons annually in Kyoto.`
+                                    caption:`Sakyu is a member of the artist collective, <a class='color-dark-tan font-weight-bolder' href='http://kyotohyakki.com/' target='_blank' > Hyakuyobako (Box of 100 Yokai).</a> The collective re-enacts the Night Parade of One Hundred Demons annually in Kyoto.`
                                 }]
                             ]
                         },
@@ -166,7 +166,7 @@ var data = {
                                     h:398,
                                     caption:`
                                            Cover art for the first tankobon of the Nurarihyon no Mago manga released in Japan by Shueisha.<br>
-                                           <a class='color-dark-tan' href='https://en.wikipedia.org/wiki/Nura:_Rise_of_the_Yokai_Clan#/media/File:Nurarihyon_no_Mago_Japanese_Vol_1_Cover.jpg' target='_blank'> Wikipedia </a>`
+                                           <a class='color-dark-tan font-weight-bolder' href='https://en.wikipedia.org/wiki/Nura:_Rise_of_the_Yokai_Clan#/media/File:Nurarihyon_no_Mago_Japanese_Vol_1_Cover.jpg' target='_blank'> Wikipedia </a>`
                                 }]
                             ]
                         },
@@ -308,14 +308,14 @@ var data = {
                     title:"STORY TELLING",
                     subtitle:"HOW STORYTELLING MADE YOKAI POPULAR",
                     body:`<p>Storytelling was one of the ways that yokai types expanded during the medieval period. Over the course of time, the reach of yokai stories spread far and wide. Kaidan (stories of strange and mysterious things) from different regions of Japan circulated in the city of Edo (modern-day Tokyo). A popular pastime surrounding kaidan emerged sometime in the early Edo period (1603–1867), known as hyakumonogatari kaidankai (special gatherings for the telling of one hundred ghost stories). At these events, people told regional ghost stories they knew, or they invented new ghost stories. Traditionally, the storytelling began with lighting one hundred candles and at the end of each story, a candle was extinguished; when the last flame went out and darkness descended, yokai were said to appear. These hyakumonogatari kaidankai-style videos were co-produced by the Museum of International Folk Art and Kyoto-based yokai-artist collective, Hyakuyobako (Box of 100 Yokai). These kaidan include traditional and contemporary Japanese ghost stories.</p>`,
-                    caption:`Japanese Ghost Storytelling and Gatherings for 100 Weird Tales (Hyakumonogatari kaidankai)<br>Produced in collaboration with <a class='color-red' href='http://kyotohyakki.com/' target='_blank'> Hyakuyobako (Box of 100 Yokai) artist collective</a>`,
+                    caption:`Japanese Ghost Storytelling and Gatherings for 100 Weird Tales (Hyakumonogatari kaidankai)<br>Produced in collaboration with <a class='color-red font-weight-bolder' href='http://kyotohyakki.com/' target='_blank'> Hyakuyobako (Box of 100 Yokai) artist collective</a>`,
                     featured:{
                         src:"Assets/content/yokai/storytelling/bancho-screenshot.png",
                     },
                     gallery:{
                         title:"Stories",
                         caption:`<span class='font-weight-bolder'>Japanese Ghost Storytelling and Gatherings for 100 Weird Tales (Hyakumonogatari kaidankai) </span><br>Produced in collaboration with 
-                        <a class='color-red' target='_blank' href='http://kyotohyakki.com/'>Hyakuyobako (Box of 100 Yokai) artist collective</a>`,
+                        <a class='color-red font-weight-bolder' target='_blank' href='http://kyotohyakki.com/'>Hyakuyobako (Box of 100 Yokai) artist collective</a>`,
                         videos: 
                         [
                             {
@@ -370,7 +370,7 @@ var data = {
                                 }]
                             ],
                             body:`<p>Produced in large quantities, omocha-e (paper toys) were inexpensive enough for children to buy. Zukushi prints were made to be cut, and children would trade and collect various images. Monsters, being a persistently popular theme, were a favorite.  Putting images together created a catalog of yokai. These may be considered “Edo period Pokémon cards.</p>”
-                            <p>Learn more about the connection between Pokémon and yokai <a class='color-red' href='https://mluce.ro/articles/the-yokai-roots-of-pokemon/' target='_blank'>here</a></p>`
+                            <p>Learn more about the connection between Pokémon and yokai <a class='color-red font-weight-bolder' href='https://mluce.ro/articles/the-yokai-roots-of-pokemon/' target='_blank'>here</a></p>`
                         },
                         {
                             cards:
@@ -807,7 +807,7 @@ var data = {
                         src:"Assets/content/exhibit/monster-house/Y200331042.jpg",
                     },
                     body:`<p><em>Obake yashiki</em> (monster houses) are considered a traditional form of Japanese amusement. They are particularly popular in the summertime because, as people often say, spine-chilling experiences cool you down! The late-summer festival, Obon, is a time when people honor their ancestors, perhaps another explanation for the Japanese association between summer and spirits.  Obake yashiki may date back to the Edo period (1603-1867), as an amusing way for warriors to prove their bravery during a time of relative peace that saw few battles. Japanese-style haunted houses gained popularity after World War II and draw upon folklore and traditional imagery to create a scary walk-through experience in a maze-like setting. Similar to American haunted house traditions, obake yashiki are often found in amusement parks. Although the point is to frighten people, it is meant to be a fun experience. After all, sometimes it is fun to be scared
-                    A monster house was collaboratively created for the yokai exhibition by the Museum of International Folk Art and yokai scholar and artist Kono Junya, who is also a lecturer at Saga University of the Arts in Kyoto and the founder and director of the yokai artist collective, Hyakuyobako. Learn more about the artist and this collaboration <a class='color-red' target='_blank' href="#/acknowledgements">here</a></p>`,
+                    A monster house was collaboratively created for the yokai exhibition by the Museum of International Folk Art and yokai scholar and artist Kono Junya, who is also a lecturer at Saga University of the Arts in Kyoto and the founder and director of the yokai artist collective, Hyakuyobako. Learn more about the artist and this collaboration <a class='color-red font-weight-bolder' target='_blank' href="#/acknowledgements">here</a></p>`,
                     sections:
                     [
                         {
