@@ -523,13 +523,13 @@ var data = {
                                     Sadly, due to record rains that caused floods and landslides in July 2018 the festival was canceled for the first time in forty years. The community’s focus was on rescue and recovery efforts and offering<br>
                                                 support to families that lost loved ones.`
                                 }],
-                                {
+                                [{
                                     src:"Assets/content/yokai/festivals/utsunomiya.jpg",
                                     msrc:"Assets/content/yokai/festivals/utsunomiya.jpg",
                                     w:3024,
                                     h:4032,
                                     caption:`Utsunomiya Yoshiwo II is Uwajima’s master ushioni-head maker, who learned from his father, Utsunomiya Yoshiwo. The artist reminds us that there is a distinction between festival ushioni, which are secular, and the ushioni that are involved in the Warei Jinja rituals, which is a deity.`
-                                }
+                                }]
                             ]
                         },
                          {
