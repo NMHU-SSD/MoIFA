@@ -41,23 +41,23 @@ var data = {
                             title:"EARLY YOKAI PAINTINGS", 
                             body: "<p>The repertoire of bizarre creatures in Japan was expanded by painters of the Muromachi period (1336 - 1573). These artists borrowed traditional characters found in serious religious images, such as horned and hideous demons (oni), and added to the assortment by illustrating oral tales of inexplicable phenomena and weird beings. These monster paintings transformed religious subjects into entertaining ones, creating funny monsters engaged in human activity. </p><p>The Night Parade of One Hundred Demons scroll (Hyakki yagyo emaki) is an early monster painting. The oldest known version comes from the Muromachi period. It was copied over and over again.  </p><p>Following the creation of the Hyakki yagyo and other early monster paintings, fantastic creatures were no longer limited to horned demons. They could materialize into a variety of different beings.  Explore popular forms of yokai and yokai lore <a class='color-red' target='_blank' href='#/culture/creatures'>here</a>.</p><p>Although the variety of monster expanded, their audiences were still limited.  Scroll paintings were often painted by master artists and then copied by their students; they required much time and great skill to produce. Due to their small size, the scrolls could only be viewed by a few people at a time. Plus, scroll paintings were commonly kept in temples and shrines or in the storehouses of aristocratic families. Viewers needed access to such elite places.</p>" ,
                             cards:[
-                                {
-                                    src:"Assets/content/yokai/visual-art/parade_scroll.jpg",
-                                    w:19751,
-                                    h:3951,
-                                    credit: 
-                                    {
-                                        title: "Hyakki yagyo emaki (Night Parade of One Hundred Demons scroll)",
-                                        artist:"Artist unknown",
-                                        date:"This copy is probably Edo period (1603–1867)",
-                                        medium: "Ink and natural pigment on paper",
-                                        collection:"Courtesy of International Research Center for Japanese Studies (Nichibunken)", 
-                                        link:"http://db.nichibun.ac.jp/pc1/en/"
-                                    },
-                                    caption:`
-                                        The Night Parade of One Hundred Demons scroll features demons, ghosts, shapeshifters, objects that come to life as monsters (tsukumogami), and a variety of other weird creatures that appear as bumbling beasts on parade carrying festival banners. According to one interpretation, the scroll originated from a legend about a horde of demons and monsters streaming down a street one night in Kyoto. The monsters and demons are weird, but full of humor. View the scroll in its entirety at the <a class='color-dark-tan' href='http://lapis.nichibun.ac.jp/ema/Detail?tid=20&sid=01&did=01' target='_blank'>International Research center for Japanese Studies (Nichibinken)</a>`
-                                }
-                            ]
+                                        {
+                                            src:"Assets/content/yokai/visual-art/parade_scroll.jpg",
+                                            w:19751,
+                                            h:3951,
+                                            credit: 
+                                            {
+                                                title: "Hyakki yagyo emaki (Night Parade of One Hundred Demons scroll)",
+                                                artist:"Artist unknown",
+                                                date:"This copy is probably Edo period (1603–1867)",
+                                                medium: "Ink and natural pigment on paper",
+                                                collection:"Courtesy of International Research Center for Japanese Studies (Nichibunken)", 
+                                                link:"http://db.nichibun.ac.jp/pc1/en/"
+                                            },
+                                            caption:`
+                                                    The Night Parade of One Hundred Demons scroll features demons, ghosts, shapeshifters, objects that come to life as monsters (tsukumogami), and a variety of other weird creatures that appear as bumbling beasts on parade carrying festival banners. According to one interpretation, the scroll originated from a legend about a horde of demons and monsters streaming down a street one night in Kyoto. The monsters and demons are weird, but full of humor. View the scroll in its entirety at the <a class='color-dark-tan' href='http://lapis.nichibun.ac.jp/ema/Detail?tid=20&sid=01&did=01' target='_blank'>International Research center for Japanese Studies (Nichibinken)</a>`
+                                        }
+                                ]
                         },
                          {
                             title:"YOKAI & PRINT TECHNOLOGY", 
