@@ -43,6 +43,7 @@ var data = {
                             cards:[
                                         {
                                             src:"Assets/content/yokai/visual-art/parade_scroll.jpg",
+                                            msrc:"Assets/content/yokai/visual-art/parade_scroll.jpg",
                                             w:19751,
                                             h:3951,
                                             credit: 

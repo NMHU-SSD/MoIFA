@@ -93,9 +93,9 @@ var Subpage = {
                         <template v-if='section.cards'>
                             <div class='container-fluid' v-for='card,index in section.cards'>
                                 <div class="card bg-red mb-3">
-                                    <vue-preview  class="card-img-top pointer" :slides="section.cards"></vue-preview>
+                                    <vue-preview  class="img-container card-img-top pointer" :slides="section.cards"></vue-preview>
                                     <div class="card-body">
-                                        <div class="card-text">
+                                        <div class="card-text row">
                                              <!--credits -->
                                             <template v-if="card.credits && card.credits.length > 0">
                                                 <div class="col pt-2 pl-5 pr-5 m-0">
