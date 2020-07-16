@@ -88,6 +88,38 @@ var Subpage = {
                             <h3 class='font-weight-bolder'>{{section.title}}</h3>
                             <div v-html='section.body'></div>
                         </div>
+
+                        <!-- cards -->
+                        <template v-if='section.cards'>
+                            <div class='col-12 col bg-red' v-for='card,index in section.cards'>
+                                <div class="card bg-red mb-3">
+                                    <vue-preview :slides="section.card"></vue-preview>
+                                    <div class="card-body">
+                                        <h5 class="card-title"></h5>
+                                        <div class="card-text">
+                                             <!--credits -->
+                                            <template v-if="card.credits && card.credits.length > 0">
+                                                <div class="col pt-2 pl-5 pr-5 m-0">
+                                                    <credits-component :credits="card.credits" />
+                                                </div>
+                                            </template>
+                                            <template v-else-if="card.credit">
+                                                <div class="col pt-2 pl-5 pr-5 m-0">
+                                                    <credits-component :credits="[card.credit]" />
+                                                </div>
+						                   </template>
+                                            <!-- caption --->
+                                            <template v-if="card.caption && !card.credit || card.caption && !card.credits ">
+                                                <div class="col-12 col-md-7 pt-2 pl-5 pr-5 m-0" >
+                                                    <p class="h6 color-white text-justify" v-html="card.caption"></p>
+                                                </div>
+                                            </template>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </template>
+                        <!-- carousel --->
                         <div v-if='section.slides' class='col-12 col-lg-10 offset-lg-1'>
                             <template v-if="section.slides && section.slides.length > 1">
                                 <carousel v-bind:slides="section.slides" :id="'carousel'+index"></carousel>
@@ -97,13 +129,8 @@ var Subpage = {
                             </template>
                         </div>
                     </div>
-                    
-                    
                 </div>
             </div>
         </template>
-
-    
-
 	</div>`
 };
