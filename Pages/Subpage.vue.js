@@ -88,31 +88,33 @@ var Subpage = {
                             <h3 class='font-weight-bolder'>{{section.title}}</h3>
                             <div v-html='section.body'></div>
                         </div>
-
+                    </div>
                         <!-- cards -->
                         <template v-if='section.cards'>
-                            <div class='container-fluid' v-for='card,index in section.cards'>
-                                <div class="card bg-red mb-3">
-                                    <vue-preview  class="img-container card-img-top pointer" :slides="section.cards"></vue-preview>
-                                    <div class="card-body">
-                                        <div class="card-text row">
+                            <div class='row'>
+                                <div class='col m-3' v-for='card,index in section.cards'>
+                                    <div class="card bg-red mb-3">
+                                        <vue-preview  class="img-container mh-100 card-img-top pointer" :slides="card"></vue-preview>
+                                        <div class="card-body">
+                                            <div class="card-text row">
                                              <!--credits -->
-                                            <template v-if="card.credits && card.credits.length > 0">
-                                                <div class="col pt-2 pl-5 pr-5 m-0">
-                                                    <credits-component :credits="card.credits" />
-                                                </div>
-                                            </template>
-                                            <template v-else-if="card.credit">
-                                                <div class="col pt-2 pl-5 pr-5 m-0">
-                                                    <credits-component :credits="[card.credit]" />
-                                                </div>
-						                   </template>
-                                            <!-- caption --->
-                                            <template v-if="card.caption && !card.credit || card.caption && !card.credits ">
-                                                <div class="col-12 col-md-7 pt-2 pl-5 pr-5 m-0" >
-                                                    <p class="h6 color-white text-justify" v-html="card.caption"></p>
-                                                </div>
-                                            </template>
+                                                <template v-if="card[0].credits && card[0].credits.length > 0">
+                                                    <div class="col pt-2 pl-5 pr-5 m-0">
+                                                        <credits-component :credits="card[0].credits" />
+                                                    </div>
+                                                </template>
+                                                <template v-else-if="card[0].credit">
+                                                    <div class="col pt-2 pl-5 pr-5 m-0">
+                                                        <credits-component :credits="[card[0].credit]" />
+                                                    </div>
+						                        </template>
+                                                <!-- caption --->
+                                                <template v-if="card[0].caption && !card[0].credit || card[0].caption && !card.credits ">
+                                                    <div class="col-12 col-md-7 pt-2 pl-5 pr-5 m-0" >
+                                                        <p class="h6 color-white text-justify" v-html="card[0].caption"></p>
+                                                    </div>
+                                                </template>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>

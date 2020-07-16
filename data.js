@@ -41,7 +41,8 @@ var data = {
                             title:"EARLY YOKAI PAINTINGS", 
                             body: "<p>The repertoire of bizarre creatures in Japan was expanded by painters of the Muromachi period (1336 - 1573). These artists borrowed traditional characters found in serious religious images, such as horned and hideous demons (oni), and added to the assortment by illustrating oral tales of inexplicable phenomena and weird beings. These monster paintings transformed religious subjects into entertaining ones, creating funny monsters engaged in human activity. </p><p>The Night Parade of One Hundred Demons scroll (Hyakki yagyo emaki) is an early monster painting. The oldest known version comes from the Muromachi period. It was copied over and over again.  </p><p>Following the creation of the Hyakki yagyo and other early monster paintings, fantastic creatures were no longer limited to horned demons. They could materialize into a variety of different beings.  Explore popular forms of yokai and yokai lore <a class='color-red' target='_blank' href='#/culture/creatures'>here</a>.</p><p>Although the variety of monster expanded, their audiences were still limited.  Scroll paintings were often painted by master artists and then copied by their students; they required much time and great skill to produce. Due to their small size, the scrolls could only be viewed by a few people at a time. Plus, scroll paintings were commonly kept in temples and shrines or in the storehouses of aristocratic families. Viewers needed access to such elite places.</p>" ,
                             cards:[
-                                        {
+                                        [
+                                            {
                                             src:"Assets/content/yokai/visual-art/parade_scroll.jpg",
                                             msrc:"Assets/content/yokai/visual-art/parade_scroll.jpg",
                                             w:19751,
@@ -56,8 +57,8 @@ var data = {
                                                 link:"http://db.nichibun.ac.jp/pc1/en/"
                                             },
                                             caption:`
-                                                    The Night Parade of One Hundred Demons scroll features demons, ghosts, shapeshifters, objects that come to life as monsters (tsukumogami), and a variety of other weird creatures that appear as bumbling beasts on parade carrying festival banners. According to one interpretation, the scroll originated from a legend about a horde of demons and monsters streaming down a street one night in Kyoto. The monsters and demons are weird, but full of humor. View the scroll in its entirety at the <a class='color-dark-tan' href='http://lapis.nichibun.ac.jp/ema/Detail?tid=20&sid=01&did=01' target='_blank'>International Research center for Japanese Studies (Nichibinken)</a>`
-                                        }
+                                                    The Night Parade of One Hundred Demons scroll features demons, ghosts, shapeshifters, objects that come to life as monsters (tsukumogami), and a variety of other weird creatures that appear as bumbling beasts on parade carrying festival banners. According to one interpretation, the scroll originated from a legend about a horde of demons and monsters streaming down a street one night in Kyoto. The monsters and demons are weird, but full of humor. View the scroll in its entirety at the <a class='color-dark-tan' href='http://lapis.nichibun.ac.jp/ema/Detail?tid=20&sid=01&did=01' target='_blank'>International Research center for Japanese Studies (Nichibinken)</a>`    
+                                        }]
                                 ]
                         },
                          {
@@ -67,10 +68,13 @@ var data = {
                             <p>Toriyama Sekien’s series of books of The Illustrated Night Parade of a Hundred Demons (Gazu hyakki yagyo) is based on the Hyakki yagyo scrolls. This series of books is considered the first mass-produced and illustrated yokai encyclopedia. Its yokai range from the very popular to the lesser known, including some dreamed up by Sekien himself. Images of specific creatures drawn by Sekien served as an important visual resource for later artists, including Edo-period print makers, twentieth-century manga creators, and yokai artists today. They are now accepted as standard forms of yokai.</p>  
 
                             <p>Explore Toriyama Sekien’s yokai encyclopedias. <a class='color-red' href='https://library.si.edu/books-online/subjects/monsters-in-art' target='_blank'> Visit the Smithsonian Libraries website </a></p>`, 
-                            slides:
+                            cards:
                              [
-                                {
+                                [{
                                     src:"Assets/content/yokai/visual-art/Sekien-1.jpg",
+                                    msrc:"Assets/content/yokai/visual-art/Sekien-1.jpg",
+                                    w:4037,
+                                    h:2905,
                                     credit:
                                     {
                                         title:"Hyakki tsurezurebukuro (volume 1)",
@@ -79,9 +83,12 @@ var data = {
                                         medium:"Ink on paper",
                                         collection:"Courtesy of the Smithsonian Libraries"
                                     }
-                                },
-                                {
-                                     src:"Assets/content/yokai/visual-art/Sekien-2.jpg", 
+                                }],
+                                [{
+                                     src:"Assets/content/yokai/visual-art/Sekien-2.jpg",
+                                     msrc:"Assets/content/yokai/visual-art/Sekien-2.jpg",
+                                     w:879,
+                                     h:1325,
                                      credit:
                                     {
                                         title:"Gazu hyakki yagyo  (volume 1)",
@@ -90,17 +97,20 @@ var data = {
                                         medium:"Ink on paper",
                                         collection:"Courtesy of the Smithsonian Libraries"
                                     }
-                                }
+                                }]
                             ]
                         },
                         {
                             title:"",//no title 
                             body: `<p>Master woodblock printers of the Edo period often made reference to tales of monsters.  For example, Utagawa Kuniyoshi combined characters from the Night Parade of a Hundred Demons (Hyakki yagyo) and another early handscroll, the Tale of the Earth Spider (Tsuchigumo zoshi) in a famous printed triptych (a three-part print).</p>
                             <p>Artists today are still inspired by the Night Parade of One Hundred Demons! Playing off of traditional images found in historical paintings, the contemporary artist, “Sakyu” depicts classical yokai alongside modern yokai. . In the Modern hyakki yagyo, Sakyu dreams up new tsukumogami, the discarded objects that become animated and haunt the owner who failed to appreciate the service they had provided. Sakyu includes not only traditional demons, but also spirited floppy disks and an angry rotary dial phone.</p>`, 
-                            slides:
+                            cards:
                             [
-                                {
+                                [{
                                     src:"Assets/content/yokai/visual-art/print-Kuniyoshi-Earth-Spider.jpg",
+                                    msrc:"Assets/content/yokai/visual-art/print-Kuniyoshi-Earth-Spider.jpg",
+                                    w:4304,
+                                    h:2009,
                                     credit:
                                     {
                                         title:"The Earth Spider Conjures up Demons at the Mansion of Minamoto no Raiko",
@@ -110,9 +120,12 @@ var data = {
                                         collection:"International Folk Art Foundation Collection, Museum of International Folk Art (T.2010.10.1)"
                                     },
                                     caption:`Minamoto no Raiko, a valiant military leader of the eleventh century, is depicted in the foreground with his four retainers. The Earth Spider, Tsuchigumo, appears in the background and dispatches yokai to attack the heroes. This three-part print is known for its social commentary, critiquing oppressive governmental codes enacted as the Tenpo Reforms (1841-1843). When Kuniyoshi published this work, viewers understood the yokai to be those who suffered due to the reforms. The image therefore suggests the government’s nightmare of a popular uprising. Another layer of social commentary concerns the Earth Spider, traditionally viewed as a legendary outcast and a source of evil. But Kuniyoshi made the Earth Spider into a hero who leads the angry mob of monsters in seeking revenge against the shogun and his administrators.`
-                                },
-                                {
+                                }],
+                                [{
                                     src:"Assets/content/yokai/visual-art/modern_night_parade_detail.jpg",
+                                    msrc:"Assets/content/yokai/visual-art/modern_night_parade_detail.jpg",
+                                    w:4032,
+                                    h:2608,
                                     credit:
                                     {
                                         title:"Modern Hyakki yagyo (Night Parade of One Hundred Demons) book",
@@ -122,7 +135,7 @@ var data = {
                                         collection:"International Folk Art Foundation, Museum of International Folk Art [P.2019.14.14-16]"
                                     },
                                     caption:`Sakyu is a member of the artist collective, <a class='color-dark-tan' href='http://kyotohyakki.com/' target='_blank' > Hyakuyobako (Box of 100 Yokai).</a> The collective re-enacts the Night Parade of One Hundred Demons annually in Kyoto.`
-                                }
+                                }]
                             ]
                         },
                         {
@@ -130,10 +143,13 @@ var data = {
                             body: `<p>Short books with woodblock printed illustrations were widely available during the Edo period (1603–1867). They met the needs of Japan’s growing market for popular literature. Today these books are considered as precursors to manga, which include comics, graphic novels, and “whimsical drawings.”</p>
                             <p>Monster stories were a favorite of Edo-period manga. Many tales had political undertones and critiqued the strictness of the shogunal government and the conservativism of Edo society. That was especially the case in the late eighteenth and early-nineteenth centuries, when censorship laws landed some authors in jail.</p>
                             <p>Today manga remains hugely popular among all ages and social groups, from young school children to mature corporate executives. Manga enjoys a surprisingly wide range of subject matters, including action, science fiction, sports, erotica, history, and of course, yokai.</p>`, 
-                            slides:
+                            cards:
                             [
-                                {
+                                [{
                                     src:"Assets/content/yokai/visual-art/F180615062.jpg",
+                                    msrc:"Assets/content/yokai/visual-art/F180615062.jpg",
+                                    w:1083,
+                                    h:900,
                                     credit:
                                      {
                                          title:"Jiraiya Goketsu Monogatari 13-hen (Tale of a Hero, part 13)",
@@ -142,29 +158,35 @@ var data = {
                                          medium:"Ink on paper, cotton string",
                                          collection:"International Folk Art Foundation, Museum of International Folk Art (FA.2002.3.2v)"
                                      }
-                                },
-                                {
+                                }],
+                                [{
                                     src:"Assets/content/yokai/visual-art/wiki.jpg",
+                                    msrc:"Assets/content/yokai/visual-art/wiki.jpg",
+                                    w:251,
+                                    h:398,
                                     caption:`
                                            Cover art for the first tankobon of the Nurarihyon no Mago manga released in Japan by Shueisha.<br>
                                            <a class='color-dark-tan' href='https://en.wikipedia.org/wiki/Nura:_Rise_of_the_Yokai_Clan#/media/File:Nurarihyon_no_Mago_Japanese_Vol_1_Cover.jpg' target='_blank'> Wikipedia </a>`
-                                }
+                                }]
                             ]
                         },
                          {
                             title:"ANIME", 
                             body: `<p>Japanese anime (animation) has become an international pop-culture phenomenon over the past twenty years. Anime is an outgrowth of manga. It grew in popularity after World War II but especially in the 1960s, when animation premiers captured the attention of young television viewers.</p>
                             <p>The award-winning films of Studio Ghibli are at the forefront of anime productions. My Neighbor Totoro (1988) and Spirited Away (2001) are some of the highest-grossing anime films ever. Both were created by Miyazaki Hayao, who is a writer, illustrator, and co-founder of Studio Ghibli. Miyazaki is praised as one of the greatest animation filmmakers of all time. His films tend to deal with the challenge of balancing traditional values and contemporary demands</p>`, 
-                            slides:
+                            cards:
                             [
-                                {
+                                [{
                                     credit:
                                     {
                                         title:"My Neighbor Totoro",
                                         artist:"Director: Hayao Miyazaki", link:'https://ghibli.fandom.com/wiki/Ghibli_Wiki'
                                     },
-                                    src:"Assets/content/yokai/visual-art/totoro.jpg"
-                                }
+                                    src:"Assets/content/yokai/visual-art/totoro.jpg",
+                                    msrc:"Assets/content/yokai/visual-art/totoro.jpg",
+                                    w:630,
+                                    h:1200
+                                }]
                             ]
                         },
                     ]
@@ -184,10 +206,13 @@ var data = {
                             body: `
                                 <p>The legend of Dojoji Temple is set in Wakayama in the year 929, the play Hidakagawa iriaizakura, centers on the lovelorn Kiyohime, a monk named Anchin, and the destructive nature of obsessive passion. Kiyohime falls in love with Anchin but he rejects her. Kiyohime’s rage, damaged pride, and emotional pain overtake her and she loses complete control of herself and her humanity. She transforms into a serpent-demon, swims across a river, and makes her way to Dojoji Temple, where Anchin hides from her under a large bronze bell. She finds him, coils herself around the bell, spitting flames until Anchin burns to ashes.</p>
                                 <p>Awa ningyo joruri is a regional style of puppet theater specific to Tokushima, where performances take place on an open‑air, village stage. It takes three puppeteers to operate one puppet: one each for the head, hands, and feet. Puppetry is one of Japan’s oldest performance genres and some forms are inscribed on UNESCO’s list of Intangible Cultural Heritage.</p>`, 
-                            slides:
+                            cards:
                             [
-                                {
+                                [{
                                     src:"Assets/content/yokai/performance/puppet.jpg",
+                                    msrc:"Assets/content/yokai/performance/puppet.jpg",
+                                    w:2894,
+                                    h:4342,
                                     credit:
                                     {
                                         title:"Kiyohime, Awa Ningyo Joruri (Puppet from Awa)",
@@ -197,22 +222,32 @@ var data = {
                                         date:"Wood, natural pigments, lacquer, hair, silk cloth, metal springs, paper, cord",
                                         medium:"Museum of New Mexico Foundation purchase with funds from the E. Rhodes and Leona B. Carpenter Foundation, Museum of International Folk Art (T.2019.51.1)"
                                     }
-                                },
-                                {
-                                    vidSrc:"Assets/content/yokai/performance/puppetfinal.mp4",
-                                    caption:`Kiyohime is crafted with strings and levers that are manipulated by the puppeteer to transform her from princess to demon. Click the image to view her transformation.`},
-                                {
+                                }],
+                                [{
+                                    src:"Assets/content/yokai/performance/puppetfinal.mp4",
+                                    msrc:"Assets/content/yokai/performance/puppetfinal.mp4",
+                                    w:1600,
+                                    h:900,
+                                    caption:`Kiyohime is crafted with strings and levers that are manipulated by the puppeteer to transform her from princess to demon. Click the image to view her transformation.`
+                                }],
+                                [{
                                     src:"Assets/content/yokai/performance/puppet-artist-amari.jpg",
+                                    msrc:"Assets/content/yokai/performance/puppet-artist-amari.jpg",
+                                    w:6000,
+                                    h:4000,
                                     caption:`Amari Yoichiro, from Tokushima, is a renowned maker of Awa ningyo joruri. He explains that Kiyohime is a challenging character to create because her articulated structure is complex and her emotions are intense; this makes her a favorite character for him to craft.` 
-                                },
+                                }],
                             ]
                         },
                          {
                             title:"NOH THEATER", 
                             body: `<p>Noh theater is a formal masked dance drama with musical accompaniment. Plays often involve deities, ghosts, and demons. Established as a theatrical form in the fourteenth century, noh developed through the Edo period (1603–1867) but declined in popularity when Japan was (forced) open to the outside world after 1868. Actors played an active role in ensuring that the tradition continued. Today, noh theater is inscribed on UNESCO’s list of Intangible Cultural Heritage.</p>`, 
-                            slides:[
-                                {
+                            cards:[
+                                [{
                                     src:"Assets/content/yokai/performance/noh-mask.jpg",
+                                    msrc:"Assets/content/yokai/performance/noh-mask.jpg",
+                                    w:600,
+                                    h:900,
                                     credit:
                                     {
                                         title:"White Hannya, Noh mask",
@@ -223,21 +258,27 @@ var data = {
                                         collection:"International Folk Art Foundation, Museum of International Folk Art (FA.2018.33.1)"
                                     },
                                     caption:`Hannya is a female demon transformed from a human woman due to jealousy and rage. An example of a hannya character is Lady Rokujo from the play Aoi no Ue (Lady Aoi ), based on a chapter from Tale of Genji. The story is primarily about the life, loves, and exploits of Prince Genji, who is married to Lady Aoi. A known philanderer, Genji takes Lady Rokujo as a mistress and she falls in love with him, but her love is unrequited. Cast aside by her lover and in a jealous rage, Lady Rokujo loses control of her emotions and she transforms into a vengeful demon.`
-                                },
-                                {
+                                }],
+                                [{
                                     src:"Assets/content/yokai/performance/noh-artist-terai.jpg",
+                                    msrc:"Assets/content/yokai/performance/noh-artist-terai.jpg",
+                                    w:1000,
+                                    h:1334,
                                     caption:`Artist Terai Ichiyu, from Kyoto, explains that mask making is like “time travel” in that it makes him feel connected to the generations of mask-makers who have crafted that same character before him. In creating a powerful mask like hannya, Terai says he senses her energy, enabling him to help the mask express its complex set of emotions: ferocious rage, fear, and sadness. He notes: “the character loses control of herself, and that is a terrifying place to be.” PHOTO BY TERAI SHUHEI, 2017.`
-                                }
+                                }]
                             ]
                         },
                         {
                             title:"KABUKI", 
                             body: `<p>Tokaido Yotsuya kaidan (Ghost Story of Yotsuya Road) was written by Tsuruya Nanboku in 1825 and is one of Japan’s most famous ghost stories. The story centers on a woman, Oiwa, whose husband, Iemon, decides he wants to be married to a wealthier woman. He poisons his wife’s cosmetics, which horribly disfigures her face. He then tries to set her up to look like she was having an affair so he could divorce her. She eventually dies in a dramatic, self-inflicted accident. Her strong emotions transform into an uncontrollable, terrifying rage. Oiwa comes back as a vengeful ghost and haunts Iemon for the rest of his life. She appears to him in different environments and in objects. For example, in one scene she emerges from a lantern.</p>
                             <p>Kabuki theatrical performance developed in the Edo period (1603–1867), a time of relative prosperity with new markets for leisure activities. People of all social classes were drawn to the theater to see the newest plays. Kabuki was especially popular for its stage tricks, special effects, and action. Ghost stories were very popular and often challenged social norms, especially those related to gender roles and economic status. Kabuki is inscribed on UNESCO’s list of Intangible Cultural Heritage.</p>`,
-                            slides:
+                            cards:
                             [
-                                {
+                                [{
                                     src:"Assets/content/yokai/performance/kabuki.jpg",
+                                    msrc:"Assets/content/yokai/performance/kabuki.jpg",
+                                    w:3024,
+                                    h:4032,
                                     credits:
                                     [
                                         {
@@ -257,7 +298,7 @@ var data = {
                                             collection:"Courtesy of U.S. Kabuki Kenkyū Kai in cooperation with Fujinama Props"
                                          }
                                     ]
-                                },
+                                }],
                             ]
                         }
                     ]
@@ -311,10 +352,13 @@ var data = {
                     sections:
                     [
                         {
-                            slides:
+                            cards:
                             [
-                                {
+                                [{
                                     src:"Assets/content/yokai/toys-and-games/zukushi_print.jpg",
+                                    msrc:"Assets/content/yokai/toys-and-games/zukushi_print.jpg",
+                                    w:1572,
+                                    h:2028,
                                     credit:
                                     {
                                         title:"Bakemono zukushi (All about bakemono) woodblock print",
@@ -323,16 +367,19 @@ var data = {
                                         location:"Japan",
                                         collection:"Courtesy of the Yumoto Koichi Memorial Yokai Museum of Japan (Miyoshi Mononoke Museum)"
                                     }
-                                }
+                                }]
                             ],
                             body:`<p>Produced in large quantities, omocha-e (paper toys) were inexpensive enough for children to buy. Zukushi prints were made to be cut, and children would trade and collect various images. Monsters, being a persistently popular theme, were a favorite.  Putting images together created a catalog of yokai. These may be considered “Edo period Pokémon cards.</p>”
                             <p>Learn more about the connection between Pokémon and yokai <a class='color-red' href='https://mluce.ro/articles/the-yokai-roots-of-pokemon/' target='_blank'>here</a></p>`
                         },
                         {
-                            slides:
+                            cards:
                             [
-                                {
+                                [{
                                     src:"Assets/content/yokai/toys-and-games/A.2018.40.1(3).jpg",
+                                    msrc:"Assets/content/yokai/toys-and-games/A.2018.40.1(3).jpg",
+                                    w:600,
+                                    h:900,
                                     credit:
                                     {
                                         title:"Kawari-e: obake andon (Trick monster lantern)",
@@ -342,15 +389,18 @@ var data = {
                                         medium:"Ink on paper, Adhesive",
                                         collection:"Gift of David M. Kahn, Museum of International Folk Art (A.2018.40.1)"
                                     }
-                                }
+                                }]
                             ],
                             body:`<p>Omocha-e are woodblock prints meant to be cut, pasted, and arranged to craft a three dimensional paper toy. This example is an andon (floor lantern) that transforms into an obake yashiki (ghost house). Lifting paper flaps reveals various yokai, including tanuki (raccoon-dog), O-Nyudo (a stretchy-necked monk), tsukumogami (in the form of a tea kettle), skeleton musicians, and a buriburi (shaking ghost).</p>`
                         },
                         {
-                            slides:
+                            cards:
                             [
-                                {
+                                [{
                                     src:"Assets/content/yokai/toys-and-games/karuta.jpg",
+                                    msrc:"Assets/content/yokai/toys-and-games/karuta.jpg",
+                                    w:2694,
+                                    h:2532,
                                     credit:
                                     {
                                         title:"Obake karuta (Monster-themed playing cards)",
@@ -360,15 +410,18 @@ var data = {
                                         medium:"Ink on cardstock",
                                         collection:"On loan from the Yumoto Koichi Memorial Yokai Museum in Japan (Miyoshi Mononoke Museum)"
                                     }
-                                }
+                                }]
                             ],
                             body:`<p>The word karuta derives from the Portuguese word for “card.” Portuguese traders introduced playing cards to Japan during the sixteenth century. Some karuta games involved finding images to match written Japanese syllables. In the case of these monster cards, the name of a monster would be matched to its picture.</p>`,
                         },
                         {
-                            slides:
+                            cards:
                             [
-                                {
+                                [{
                                     src:"Assets/content/yokai/toys-and-games/menko-cards.jpg",
+                                    msrc:"Assets/content/yokai/toys-and-games/menko-cards.jpg",
+                                    w:3786,
+                                    h:2948,
                                     credit:
                                     {
                                         title:"Menko playing cards with yokai characters",
@@ -377,15 +430,18 @@ var data = {
                                         location:"Japan",
                                         medium:"Cardboard, Ink"
                                     }
-                                }
+                                }]
                             ],
                             body:`<p>Menko involves throwing cards in attempt to flip those already laid out on the ground. Menko cards commonly depict images and characters that reflect popular culture of the time. Yokai were a long-time favorite, and other popular themes have included ninja, samurai, military images (prior to the World War II era), manga characters (such asGeGeGe no Kitaro), and baseball.</p>`
                         },
                         {
-                            slides:
+                            cards:
                             [
-                                {
+                                [{
                                     src:"Assets/content/yokai/toys-and-games/pop-out-yokai.jpg",
+                                    msrc:"Assets/content/yokai/toys-and-games/pop-out-yokai.jpg",
+                                    w:5809,
+                                    h:3886,
                                     credit:
                                     {
                                         title:"Unpunched, die-cut paper yokai toys",
@@ -394,15 +450,18 @@ var data = {
                                         location:"Japan",
                                         medium:"Coated cardboard, Ink"
                                     }
-                                }
+                                }]
                             ],
                             body:`<p>Toys like this are a more contemporary, industrially produced version of omocha-e (paper toy) prints</p>`
                         },
                         {
-                            slides:
+                            cards:
                             [
-                                {
+                                [{
                                     src:"Assets/content/yokai/toys-and-games/M181227016.jpg",
+                                    msrc:"Assets/content/yokai/toys-and-games/M181227016.jpg",
+                                    w:1207,
+                                    h:900,
                                     credit:
                                     {
                                         title:'"Heroes going into the Mountain of Hell", Sugoroku (illustrated board game)',
@@ -412,7 +471,7 @@ var data = {
                                         medium:"Paper, Ink, Adhesive",
                                         collection:"International Folk Art Foundation, Museum of International Folk Art (T.2019.2.1)"
                                     }
-                                }
+                                }]
                             ],
                             body:`<p>Dating to the first half of the eighteenth century, sugoroku were among the earliest yokai-themed toys. Similar to Chutes and Ladders, the game involves rolling dice and advancing a marker, trying to reach the goal. In each square, this example shows scenes from heroes’ journeys and encounters with yokai such as tsuchigumo (earth spider), Ao Bozu (a monster-monk), yamamba (mountain hag), Shuten Doji, and various oni.</p>`
                         }
@@ -432,19 +491,25 @@ var data = {
                             body:`<p>Every year, from July 22–24, Uwajima (Ehime Prefecture) is taken over by the Ushioni Matsuri.</p>
                             <p>This popular festival involves up to twenty-two, eighteen-foot-high, 650—1500-pound ushioni (cow demon) floats, each associated with different local shrines. They are carried by fifty shrine members to the center of town, where the ushioni dance and battle with one another as they parade towards Warei Jjinja (Uwajima’s main Shinto shrine). Each festival day centers on different activities including a youth-float parade (involving smaller ushioni floats), music and dance, bamboo pole-climbing competitions, and fireworks.</p>
                             <p>The floats are highly interactive. Attached to a long neck that extends from the float’s enormous body, the ushioni head swings across crowds of people creating delight among tens of thousands of spectators. The festival’s roots are in Warei Jinja’s four hundred-year-old rituals where smaller-scale ushioni are purified by shrine priests, dispel negative spirits, and bring blessings to the community. In 1965, the city of Uwajima developed the Ushioni matsuri as a public festival to increase tourism and boost the local economy. More than that, the festival brings local communities together to compete, to collaborate, and to celebrate; it is a source of community enjoyment, identity, and pride.</p>`, 
-                            slides:
+                            cards:
                             [
-                                {
+                                [{
                                     src:"Assets/content/yokai/festivals/ushioni-matsuri.jpg",
+                                    msrc:"Assets/content/yokai/festivals/ushioni-matsuri.jpg",
+                                    w:4752,
+                                    h:3168,
                                     credit:
                                     {
                                         title:"Ushioni Matsuri",
                                         location:"Uwajima, Ehime Prefecture",
                                         collection:"Photo courtesy of the Uwajima City Tourist Association"
                                     }
-                                },
-                                {
+                                }],
+                                [{
                                     src:"Assets/content/yokai/festivals/FA.2018.76.1A-F.A.jpg",
+                                    msrc:"Assets/content/yokai/festivals/FA.2018.76.1A-F.A.jpg",
+                                    w:600,
+                                    h:900,
                                     credit:
                                     {
                                         title:"Ushioni head for a youth float with an amulet plaque from Warei Jinja",
@@ -457,9 +522,12 @@ var data = {
                                     caption:`This special float head was completed shortly before the 2018 festival was supposed to take place.<br>
                                     Sadly, due to record rains that caused floods and landslides in July 2018 the festival was canceled for the first time in forty years. The community’s focus was on rescue and recovery efforts and offering<br>
                                                 support to families that lost loved ones.`
-                                },
+                                }],
                                 {
                                     src:"Assets/content/yokai/festivals/utsunomiya.jpg",
+                                    msrc:"Assets/content/yokai/festivals/utsunomiya.jpg",
+                                    w:3024,
+                                    h:4032,
                                     caption:`Utsunomiya Yoshiwo II is Uwajima’s master ushioni-head maker, who learned from his father, Utsunomiya Yoshiwo. The artist reminds us that there is a distinction between festival ushioni, which are secular, and the ushioni that are involved in the Warei Jinja rituals, which is a deity.`
                                 }
                             ]
@@ -468,10 +536,13 @@ var data = {
                             title:"Namahage Matsuri: A Festival of Monstrous Demon-Deities", 
                             body: `<p>On New Year’s Eve, Namahage trample through the snow of Oga (Akita Prefecture), demanding entrance to individual homes. Once admitted, they chase family members, roar, and call out children for laziness or misbehavior. Children provide offerings of food and sake to the Namahage, who then talk with family members, explaining their role as gods descended from the mountains to bless people with good fortune.</p> 
                             <p>This ritual is distinct, but related to the festival, Namahage Sedo Matsuri, created in 1963 to share Namahage with outsiders. As opposed to the private New Year’s ritual within the household, the public three-day festival occurs on the grounds of the Shinzan Jinja (a local Shinto shrine) in mid-February. It is a large event that involves dancing, roaring demons that chase audiences around icy grounds, bonfires, food, sake, and taiko drumming. Fear is at the heart of the Namahage experience, and the Namahage is at the heart of regional identity and pride. In 2018, Namahage was added to UNESCO’s Representative List of Intangible Cultural Heritage </p>`, 
-                            slides:
+                            cards:
                              [
-                                {
+                                [{
                                     src:"Assets/content/yokai/festivals/Y200331058.jpg",
+                                    msrc:"Assets/content/yokai/festivals/Y200331058.jpg",
+                                    w:600,
+                                    h:786,
                                     credits:
                                     [
                                         {
@@ -493,7 +564,7 @@ var data = {
                                         }
                                     ],
                                     caption:"Background photo by Michael Dylan Foster, 2014"
-                                }
+                                }]
                             ]
                         },
                     ]
@@ -514,9 +585,9 @@ var data = {
                         {
                             title:"TANUKI",
                             body:`<p>A tanuki is an animal species indigenous to East Asia that is sometimes referred to as a raccoon-dog. As yokai, tanuki are recognized as shapeshifters and tricksters just like kitsune (foxes). They may be annoying but are often less evil or dangerous. Tanuki figures are found all over Japan, often welcoming patrons to shops and especially restaurants and bars. Holding a bottle of sake, these tanuki like to get people drunk so they lose track of time. It is easier to trick people out of their money when they are drunk. Although they may be creatures to approach with caution, for businesses and shop-owners their image is used as a charm for bringing prosperity. Tanuki are most notoriously known for their larger-than-life testicles, which they may sometimes use as a prop for their disguises or use in their pranking activities</p>`,
-							slides:
+							cards:
                             [
-                                {   
+                                [{   
                                     credit:
                                     {
                                         title:"Tanuki",
@@ -526,19 +597,26 @@ var data = {
                                         
                                     }, 
 									src:"http://collection.internationalfolkart.org/internal/media/dispatcher/126880/resize%3Aformat%3Dfull",
+                                    msrc:"http://collection.internationalfolkart.org/internal/media/dispatcher/126880/resize%3Aformat%3Dfull",
+                                    w:450,
+                                    h:581,
+                                    
                                    
                                     
-                                },
+                                }],
                                
                             ]
                         },
                         {
                             title:"KITSUNE",
 							body:"<p>Similar to the ways that the fox is imagined in other cultures, kitsune (foxes), are shapeshifting tricksters known for their cunning behavior. These clever creatures use magical powers and play tricks on people. Kitsune like to live among people, and the way that humans treat them determines if their power is used for good or evil. Stories of kitsune include beautiful fox-women, fox weddings, foxes disguised as priests, and foxes that possess people. Kitsune are associated with women and bewitch men with their beauty.</p>",
-							slides:
+							cards:
                             [
-                                {
+                                [{
                                     src:"http://collection.internationalfolkart.org/internal/media/dispatcher/142663/resize%3Aformat%3Dfull",
+                                    msrc:"http://collection.internationalfolkart.org/internal/media/dispatcher/142663/resize%3Aformat%3Dfull",
+                                    w:1200,
+                                    h:1200,
 
                                     credit: {
                                         title:"Nine-tailed fox",
@@ -547,7 +625,7 @@ var data = {
                                         date: "2019",
                                         collection: "Museum of International Folk Art", link:"http://collection.internationalfolkart.org/collections/30218/yokai-kitsune/objects"
                                     }, 
-                                },
+                                }],
 							]
                                 
                         },
@@ -555,36 +633,42 @@ var data = {
                             title:"TSUKUMOGAMI",
                             body:`<p>Tsukumogami are spirited tools or haunted objects. In ancient times, yokai were limited in their physical form to oni (demons) and religious contexts. The Muromachi period (1336–1573) introduced new sorts of beings with a famous narrative scroll painting called the Tsukumogami ki (The Record of Tool Specters). According to the story, if tools and other implements are discarded without a proper show of thanks, they become resentful of their former owners and haunt them with a vengeance. The scroll likely served the purpose of spreading Shingon Buddhism, but sarcasm and wit narrate the illustrations.</p>
                             <p>Tsukumogami are something to be feared, but they definitely have a comical and entertaining side. Additionally, these spirited objects freed oni from its depiction as a menacing demon, allowing a nearly limitless array of forms. By the Edo period (1603-1867), all sorts of “things” could come to life and transform into yokai.</p>`,
-							slides:
+							cards:
                             [
                                 
-                                {
+                                [{
                                     credit:
                                     {
                                         title:"Tsukumogami",
                                         collection:"Museum of International Folk Art", link:"http://collection.internationalfolkart.org/collections/30221/yokai-tsukumogami/objects"
 
                                     }, 
-                                     src:"http://collection.internationalfolkart.org/internal/media/dispatcher/131614/resize%3Aformat%3Dfull",                                    
+                                     src:"http://collection.internationalfolkart.org/internal/media/dispatcher/131614/resize%3Aformat%3Dfull",
+                                    msrc:"http://collection.internationalfolkart.org/internal/media/dispatcher/131614/resize%3Aformat%3Dfull",
+                                    w:658,
+                                    h:900,
                                     
-                                },
+                                }],
                                 
                             ]
                         },
                         {
                             title:"KAPPA",
                             body:`<p>Kappa are water yokai. With amphibian features and beak-like mouths, kappa are as small as children but very strong. These yokai have notoriously smelly gas. Some stories say that kappa might be repelled by human farts. Folklore suggests that kappa are relatively harmless creatures but they can indeed be very dangerous. For example, kappa infamously drown people to eat their livers, accessed by sucking out an imaginary organ called the shirikodama, found in the anus. Luckily, kappa are appeased with cucumbers, their favorite food. A dish-like depression on their heads contains water, the source of their power. If they spill the water not only can they lose power, but they can die.</p>`,
-							slides:
+							cards:
                             [
                                 
-                                {
+                                [{
                                     credit:
                                     {
                                         title:"Kappa",
                                         collection:"Museum of International Folk Art", link:"http://collection.internationalfolkart.org/collections/30221/yokai-kappa/objects"
                                     }, 
-									src:"http://collection.internationalfolkart.org/internal/media/dispatcher/126336/resize%3Aformat%3Dfull"
-								}
+									src:"http://collection.internationalfolkart.org/internal/media/dispatcher/126336/resize%3Aformat%3Dfull",
+                                    msrc:"http://collection.internationalfolkart.org/internal/media/dispatcher/126336/resize%3Aformat%3Dfull",
+                                    w:262,
+                                    h:262,
+								}]
                             ]
                         },
                        
@@ -592,51 +676,60 @@ var data = {
                             title:"TENGU",
                             body:`<p>A tengu is a yokai in the form of a mountain goblin or spirit. There are different types of tengu. Daitengu are usually depicted as a male human, or at times as a yamabushi (“mountain priest”) with a long nose and a red face. A karasu tengu is a bird or bird-like tengu. They are usually associated with flight, and sometimes their form is a combination of a long-nosed man with bird wings. Tengu are generally considered malevolent spirits. In early Japanese Buddhism the image of the tengu as a monk was sometimes used to convince people not to follow opposing Buddhist groups.</p>
                                   <p>However, like other yokai, tengu do not easily fall into a good or bad category. Despite their description as evil, tengu can also be noble and helpful to people </p>`,
-							slides:
+							card:
                             [
                                 
-                                {
+                                [{
                                     credit:
                                     {
                                         title:"Tengu",
                                         collection:"Museum of International Folk Art", link:"http://collection.internationalfolkart.org/collections/30221/yokai-tengu/objects"
                                     }, 
-									src:"http://collection.internationalfolkart.org/internal/media/dispatcher/126719/resize%3Aformat%3Dfull"
-								}
+									src:"http://collection.internationalfolkart.org/internal/media/dispatcher/126719/resize%3Aformat%3Dfull",
+                                    msrc:"http://collection.internationalfolkart.org/internal/media/dispatcher/126719/resize%3Aformat%3Dfull",
+                                    w:420,
+                                    h:451,
+								}]
                             ]
                         },
                         {
                             title:"YUREI",
                             body:`<p>Yurei are spirits of the deceased, or ghosts, and arguably a type of yokai. Japanese ghosts are typically portrayed wearing a white death kimono. Their hair is disheveled, and they do not have feet. These paintings are images of ghosts in typical spectral settings. For example, yurei tend to emerge from willows, hover over their own bones, or stalk specific people to seek revenge.</p>
                                    <p>A common theme for Japanese ghosts is that of scorned women who endured abuse or heartache by men in their lifetime. After death, these female spirits find their voice and seek retribution as vengeful ghosts and haunt the men who have hurt or killed them. Ghost paintings may have been hung in homes for protection. They may have also been displayed by collectors who find ghosts and ghost stories to be fun!</p>`,
-							slides:
+							cards:
                             [
                                 
-                                {
+                                [{
                                     credit:
                                     {
                                         title:"Yurei",
                                         collection:"Museum of International Folk Art", link:"http://collection.internationalfolkart.org/collections/30221/yokai-yurei/objects"
                                     }, 
-									src:"http://collection.internationalfolkart.org/internal/media/dispatcher/126878/resize%3Aformat%3Dfull"
-								}
+									src:"http://collection.internationalfolkart.org/internal/media/dispatcher/126878/resize%3Aformat%3Dfull",
+                                    msrc:"http://collection.internationalfolkart.org/internal/media/dispatcher/126878/resize%3Aformat%3Dfull",
+                                    w:301,
+                                    h:900,
+								}]
                             ]
                         },
                         {
                             title:"ONI: DEMONS, OGRES, AND GOBLINS",
                             body:`<p>Oni are visual representations of ancient ideas of mononoke (weird, unexplainable events and invisible beings). Imagined as oni (demons, ogres, or goblins), mononoke probably took physical form when they manifested into specific characters. In religious contexts, oni—fierce, frightening, and powerful creatures—became protective guardians and deities as well as evil transgressors. Early ideas of yokai not only centered specifically around oni, representations of yokai were limited to oni forms, complete with horns and fangs.</p>`,
-							slides:
+							cards:
                             [
                                 
-                                {
+                                [{
                                     credit:
                                     {
                                         title:"Oni",
                                         collection:"Museum of International Folk Art", link:"http://collection.internationalfolkart.org/collections/30221/yokai-oni/objects"
                                     }, 
-									src:"http://collection.internationalfolkart.org/internal/media/dispatcher/128850/resize%3Aformat%3Dfull"
+									src:"http://collection.internationalfolkart.org/internal/media/dispatcher/128850/resize%3Aformat%3Dfull",
+                                    msrc:"http://collection.internationalfolkart.org/internal/media/dispatcher/128850/resize%3Aformat%3Dfull",
+                                    w:1200,
+                                    h:1200,
 									
-								}
+								}]
                             ]
                         },
 						
