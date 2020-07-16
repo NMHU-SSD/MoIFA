@@ -32,6 +32,7 @@ Vue.component('credits-component', Credits);
 Vue.component('video-gallery', VideoGallery)
 Vue.component('gallery', VueGallery);
 
+Vue.use(VuePreview);
 Vue.use(VueLazyload);
 
 var app = new Vue({
