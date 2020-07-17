@@ -7,8 +7,11 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/327b6b12ac.js" crossorigin="anonymous"></script>
     <!-- Custom CSS -->
     <link rel="stylesheet" type="text/css" href="main.css">
+      
       
     <title>MoIFA</title>
   </head>
@@ -51,7 +54,8 @@
 		<main class="container-fluid m-0 p-0">
 			<router-view :key="$route.fullPath" v-bind:pages="pages"></router-view>
 		</main>
-      <button class='btn fixed-button' id='fixed-button' onclick="toTop()">Back To Top</button>
+      
+        <button class='btn fixed-button' id='fixed-button' onclick="toTop()"><i class="fas fa-chevron-up"></i></button>
       
       <!--  footer piece -->
       <footer class="container-fluid p-3 bg-tan footer border-top border-secondary">
