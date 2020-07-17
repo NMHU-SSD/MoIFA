@@ -41,7 +41,7 @@
 		<main class="container-fluid m-0 p-0">
 			<router-view :key="$route.fullPath" v-bind:pages="pages"></router-view>
 		</main>
-      
+      <button class='btn fixed-button' id='fixed-button' onclick="toTop()">Back To Top</button>
       
       <!--  footer piece -->
       <footer class="container-fluid p-3 bg-tan footer border-top border-secondary">
@@ -122,6 +122,7 @@
 	
 	<!-- Vue App / Router -->
 	<script src="app.js"></script>
+    <script src='site.js'></script>
 	
   </body>
 </html>

@@ -233,6 +233,17 @@ figure, .figure-img, figure > .img-container{
     height: 300px;
     width: 200px
   }
+
+.fixed-button {
+    position: fixed;
+    bottom: 2%;
+    right: 2%;
+    cursor: pointer;
+    color: #E5E2C4  !important; 
+    background: #8C2A1C !important;
+    z-index: 9999;
+}
+
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
     /*figure > .img-container > video{
