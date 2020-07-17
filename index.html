@@ -18,7 +18,7 @@
   <body>
 	<!-- nav/header-->
 	<div id="app" class="p-0 m-0">
-         <nav class="navbar navbar-expand-lg navbar-light bg-red pl-4 pr-4 m-0">
+         <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-red pl-4 pr-4 m-0">
               <router-link class="navbar-brand p-0 m-0" to="/">
                     <img class="img-fluid logo" src="Assets/Logos/yokai_logo_color.svg"/>
                </router-link>    
@@ -26,19 +26,27 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <ul class="navbar-nav align-items-center">
-					<li class="nav-item dropdown"> 
-                        <router-link class="nav-link dropbtn" to="/culture">Yokai History to Pop Culture <i class="fa fa-caret-down"></i></router-link>
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown"> 
+                        <router-link class="nav-link dropbtn" to="/lore"> Yokai Lore and Ghost Stories <i class="fa fa-caret-down"></i></router-link>
                         <div class="dropdown-content bg-red ">
                             <template v-for='subpage in pages[1].subpages'>
+                                <router-link class="dropdown-item color-tan" :to='"/lore/"+subpage.slug'> {{subpage.title}}</router-link>
+                            </template>
+                        </div>
+                    </li>
+					<li class="nav-item dropdown"> 
+                        <router-link class="nav-link dropbtn" to="/culture">History <i class="fa fa-caret-down"></i></router-link>
+                        <div class="dropdown-content bg-red ">
+                            <template v-for='subpage in pages[2].subpages'>
                                 <router-link class="dropdown-item color-tan" :to='"/culture/"+subpage.slug'> {{subpage.title}}</router-link>
                             </template>
                         </div>
                     </li>
                     <li class="nav-item dropdown"> 
-                        <router-link class="nav-link dropbtn" to="/exhibition">Exibition and Catalog <i class="fa fa-caret-down"></i></router-link>
+                        <router-link class="nav-link dropbtn" to="/exhibition">Exhibition and Catalog <i class="fa fa-caret-down"></i></router-link>
                         <div class="dropdown-content bg-red ">
-                            <template v-for='subpage in pages[2].subpages'>
+                            <template v-for='subpage in pages[3].subpages'>
                                 <router-link class="dropdown-item color-tan" :to='"/exhibition/"+subpage.slug'> {{subpage.title}}</router-link>
                             </template>
                         </div>
@@ -63,6 +71,9 @@
                 <div class="col-12 col-md-4 p-5 align-self-start">
                     <div class='container-fluid'>
                         <ul class="nav align-items-center">
+                            <li class="nav-item"> 
+                                <router-link class="nav-link" to="/lore">Yokai Lore and Ghost Stories</router-link> 
+                            </li>
 					       <li class="nav-item"> 
                                 <router-link class="nav-link" to="/culture">Yokai History to Pop Culture</router-link> 
                             </li>

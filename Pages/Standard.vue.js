@@ -24,15 +24,18 @@ var Standard = {
                     <div class='img-container p-0 m-0'>
                         <img class="fluid-width fixed-height-1" v-lazy="page.featured.src"/>
                         <div class='container-fluid bg-red overlay-text'>    
-                            <h1 class="col-12 color-tan pb-0 pl-2 pr-2 pt-2 m-0">{{page.title}}</h1>
-                            <h5 v-if='page.featured.link' class='col-12'> <a class='font-weight-bolder color-dark-tan' :href='page.featured.link.url' target="_blank">{{page.featured.link.text}}</a></h5>
+                            <!--<h1 class="col-12 color-tan pb-0 pl-2 pr-2 pt-2 m-0">{{page.title}}</h1>
+                            <h5 v-if='page.featured.link' class='col-12'> <a class='font-weight-bolder color-dark-tan' :href='page.featured.link.url' target="_blank">{{page.featured.link.text}}</a></h5>-->
                         </div>
                     </div>
             </div>
 
             <!--subtitle/body-->                    
+            <template class='row' v-if='page.title'>
+                <h1 class="color-red display-text text-center pt-4 pl-4 pr-4 pb-2 m-0" v-html="page.title"></h1>
+            </template>
             <template class='row' v-if='page.subtitle'>
-                <h1 class="color-red display-text text-center pt-4 pl-4 pr-4 pb-2 m-0" v-html="page.subtitle"></h1>
+                <h4 class="color-red display-text text-center pt-4 pl-4 pr-4 pb-2 m-0" v-html="page.subtitle"></h4>
             </template>
             <template class='row' v-if='page.body'>
                 <div class='pb-4 pl-4 pr-4 m-0 display-text text-center' v-html='page.body'></div>
@@ -104,7 +107,7 @@ var Standard = {
                     <div v-if='index%2' class='row p-0 m-0'>
                         <div class='col-9 col-md-8 col-lg-9 d-none d-sm-none d-md-block d-lg-block p-5 m-0'>
                             <div class='img-container p-0 m-0'>
-                                <img v-lazy='subpage.featured.src' class='fixed-height-1'/>
+                                <img v-lazy='subpage.featured.src' class='fixed-height-3'/>
                             </div>
                         </div>
                          <div class='col-xs-12 col-sm-12 col-md-4 col-lg-3 p-5 m-0 d-flex justify-content-center flex-column '>
@@ -130,7 +133,7 @@ var Standard = {
                         </div>
                         <div class='col-9 col-lg-9 col-md-8 d-none d-sm-none d-md-block d-lg-block p-5 m-0'>
                             <div class='img-container p-0 m-0'>
-                                <img v-lazy="subpage.featured.src" class='fixed-height-1'/>
+                                <img v-lazy="subpage.featured.src" class='fixed-height-3'/>
                             </div>
                         </div>
                     </div>

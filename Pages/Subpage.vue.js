@@ -37,8 +37,8 @@ var Subpage = {
             <div class='img-container p-0 m-0'>
                 <img class="fluid-width fixed-height-1" v-lazy="subpage.featured.src"/>
                 <div class='container-fluid bg-red overlay-text'>    
-                    <h1 class="col-12 color-tan pb-0 pl-2 pr-2 pt-2 m-0">{{subpage.title}}</h1>
-                    <h5 v-if='subpage.featured.link' class='col-12'> <a class='font-weight-bolder color-dark-tan' :href='subpage.featured.link.url' target="_blank">{{subpage.featured.link.text}}</a></h5>
+                    <!--<h1 class="col-12 color-tan pb-0 pl-2 pr-2 pt-2 m-0">{{subpage.title}}</h1>
+                    <h5 v-if='subpage.featured.link' class='col-12'> <a class='font-weight-bolder color-dark-tan' :href='subpage.featured.link.url' target="_blank">{{subpage.featured.link.text}}</a></h5>-->
                 </div>
             </div>
         </div>
@@ -47,7 +47,10 @@ var Subpage = {
         <div class="container-fluid p-5">
             <!-- body/title -->
             <template v-if='subpage.title'>
-                <h1 class="color-red display-text text-center" v-html="subpage.subtitle"></h1>
+                <h1 class="color-red display-text text-center" v-html="subpage.title"></h1>
+            </template>
+            <template class='row' v-if='subpage.subtitle'>
+                <h4 class="color-red display-text text-center" v-html="subpage.subtitle"></h4>
             </template>
             <template v-if='subpage.body'>
                 <div v-html='subpage.body'></div>

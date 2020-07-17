@@ -40,8 +40,8 @@ p, span{
 }
 /*navbar*/
 .nav-item{
-    margin-left: 3em;
-    margin-right: 3em;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
 }
 .nav-link{
     display: inline-block;
@@ -62,8 +62,8 @@ nav .nav-link:hover{
     color: #8C2A1C !important;
 }
 .navbar{
-    border:.5em solid #751b0e !important;
-    /*border-left:.5em solid #751b0e !important;
+    /*border:.5em solid #751b0e !important;
+    border-left:.5em solid #751b0e !important;
     border-right:.5em solid #751b0e !important;*/
 }
 .dropdown:hover .dropdown-content {
@@ -143,10 +143,13 @@ img {
 	object-position: 50% 50%;
 }
 .fixed-height-1{
-    height: 35em !important;
+    height: 20em !important;
 }
 .fixed-height-2{
     height: 50em !important;
+}
+.fixed-height-3{
+    height: 35em !important;
 }
 .fixed-width-1{
     width: 15em !important;
