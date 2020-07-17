@@ -50,7 +50,7 @@ p, span{
 /*proper way to implement navigation colors/states */
 nav {
    font-family: "HypatiaSansProBold";
-    z-index: 9999;
+   z-index: 9999;
 }
 nav .nav-link{
      color: #E5E2C4 !important; 
@@ -58,10 +58,14 @@ nav .nav-link{
 nav .nav-link:hover{
      color: #C9AA61 !important; 
 }
-
 .nav .nav-link{
     color: #8C2A1C !important;
-} 
+}
+.navbar{
+    border:.5em solid #751b0e !important;
+    /*border-left:.5em solid #751b0e !important;
+    border-right:.5em solid #751b0e !important;*/
+}
 /*colors*/
 /*name color when possible*/
 .color-black{ 
