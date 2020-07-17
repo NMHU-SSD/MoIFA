@@ -31,7 +31,7 @@
                         <router-link class="nav-link dropbtn" to="/culture">Yokai History to Pop Culture <i class="fa fa-caret-down"></i></router-link>
                         <div class="dropdown-content bg-red ">
                             <template v-for='subpage in pages[1].subpages'>
-                                <router-link class="color-tan" :to='"/culture/"+subpage.slug'> {{subpage.title}}</router-link>
+                                <router-link class="dropdown-item color-tan" :to='"/culture/"+subpage.slug'> {{subpage.title}}</router-link>
                             </template>
                         </div>
                     </li>
