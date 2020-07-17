@@ -15,7 +15,7 @@ var data = {
                         date: "2006, Kyoto",
                         medium: "Papier-mache, craft foam, paint",
                         collection: "International Folk Art Foundation Collection, Museum of International Folk Art (T.2019.48.1)",
-                        link:'no'
+                        link:'<a class="color-red font-weight-bolder" href="http://kyotohyakki.com/"> learn more about the artist and collaboration</a>'
                 }
             } 
         },
@@ -577,7 +577,8 @@ var data = {
                     <p>Some people prefer words such as <em>bakemono</em> (changing things), <em>obake</em> (spooky things), and <em>mononoke</em> (weird, mysterious occurances) to describe specific beings. The word “yokai” came into use during the Meiji period (1868–1912) when scholars began studying Japanese folklore.</p>
                     <p>Despite ambiguities, scholars generally agree that yokai include <em><b>tanuki</b></em> (raccoon-dogs), <em><b>kitsune</b></em> (foxes), <em><b>tsukumogami</b></em> (haunted tools or objects), <em><b>kappa</b></em> (water yokai), <em><b>tengu</b></em> (mountain spirits or goblins), and <em><b>oni</b></em> (demons).</p> 
                     <p><em><b>Yurei</b></em> (ghosts) are included in this museum exhibition as a kind of a yokai, but not everyone agrees that they belong in this group. Yurei are spirits of deceased humans with intense emotions and lingering ties or resentments in this world, whereas yokai were never human, are very much alive, and can be playful (yurei are not playful!). Looking at representations of yokai in popular media and art from the last five centuries, we find all sorts of beings: tormented ghosts, ogres, demons, monsters, shapeshifters, and personified animals. They all seem to categorically belong. Do you agree?</p>
-					<p>Explore these categories of yokai in the collection of the Museum of International Folk Art.</p>`,
+					<p>Explore these categories of yokai in the collection of the Museum of International Folk Art. </p>
+                     <a class='font-weight-bolder color-red' href="/index.html#/resources">Learn More about yokai and explore some additional yokai resources</a>`,
                     featured:{
                         src:"http://collection.internationalfolkart.org/internal/media/dispatcher/126719/resize%3Aformat%3Dfull"
                     },
@@ -899,6 +900,10 @@ var data = {
                         {
                             text:'Hyakuyobako (Box of 100 Yokai) artist collective',
                             extUrl:'http://kyotohyakki.com/'
+                        },
+                         {
+                            text:'Hyakumonogatari Kaidankai',
+                            extUrl:'https://hyakumonogatari.com/'
                         }
                     ]
                 },

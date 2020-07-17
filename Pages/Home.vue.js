@@ -19,7 +19,8 @@ var Home = {
                     <span class="font-weight-bolder">{{page.featured.credit.title}}</span><br>
                     <span class="font-weight-bolder">{{page.featured.credit.artist}}</span><br>
                     <span class='font-weight-lighter h6'>{{page.featured.credit.date}}</span> <br>
-                    <span class='font-weight-lighter h6'>{{page.featured.credit.medium}}</span>
+                    <span class='font-weight-lighter h6'>{{page.featured.credit.medium}}</span><br>
+                    <span class='font-weight-lighter h6' v-html='page.featured.credit.link'></span>
                 </div>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 m-0 p-0 img-container">
@@ -31,7 +32,8 @@ var Home = {
                     <span class="font-weight-bolder">{{page.featured.credit.title}}</span><br>
                     <span class="font-weight-bolder">{{page.featured.credit.artist}}</span><br>
                     <span class='font-weight-lighter h6'>{{page.featured.credit.date}}</span> <br>
-                    <span class='font-weight-lighter h6'>{{page.featured.credit.medium}}</span>
+                    <span class='font-weight-lighter h6'>{{page.featured.credit.medium}}</span><br>
+                    <span class='font-weight-lighter h6' v-html='page.featured.credit.link'></span>
              </div>
              <h3 class="text-left color-red" v-html="page.title"></h3>
              <div v-html="page.body"></div>
