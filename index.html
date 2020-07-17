@@ -24,11 +24,21 @@
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav align-items-center">
-					<li class="nav-item"> 
-                        <router-link class="nav-link " to="/culture">Yokai History to Pop Culture</router-link> 
+					<li class="nav-item dropdown"> 
+                        <router-link class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" to="/culture">Yokai History to Pop Culture</router-link>
+                        <div class="dropdown-menu bg-red ">
+                            <template v-for='subpage in pages[1].subpages'>
+                                <a class="dropdown-item color-tan" :href='"/index.html#/culture/"+subpage.slug'> {{subpage.title}}</a>
+                            </template>
+                        </div>
                     </li>
-                    <li class="nav-item"> 
-                        <router-link class="nav-link" to="/exhibition">Exibition and Catalog</router-link> 
+                    <li class="nav-item dropdown"> 
+                        <router-link class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" to="/exhibition">Exibition and Catalog</router-link>
+                        <div class="dropdown-menu bg-red ">
+                            <template v-for='subpage in pages[2].subpages'>
+                                <a class="dropdown-item color-tan" :href='"/index.html#/exhibition/"+subpage.slug'> {{subpage.title}}</a>
+                            </template>
+                        </div>
                     </li>
                     <li class="nav-item"> 
                         <router-link class="nav-link " to="/resources"> Create And Learn More </router-link>

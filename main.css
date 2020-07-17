@@ -50,6 +50,7 @@ p, span{
 /*proper way to implement navigation colors/states */
 nav {
    font-family: "HypatiaSansProBold";
+    z-index: 9999;
 }
 nav .nav-link{
      color: #E5E2C4 !important; 
