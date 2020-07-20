@@ -4,7 +4,7 @@ var data = {
         /*home*/
         {
             slug: "home",
-            title:"VIVID IN JAPANESE ART AND IMAGINATION ARE CREATURES THAT ARE AT ONCE GHASTLY AND AMUSING.",
+            title:"Vivid in Japanese Art and Imagination Are Creatures That Are At Once Ghastly And Amusing.",
             body:"<p>Yokai is a catchall word for, ghosts, demons, monsters, shapeshifters, tricksters, and other kinds of supernatural beings and mysterious phenomena. Yokai interact with the human world and spark common notions of frightful things.</p><p>Yokai can definitely be scary, but the experience of fear can also be amusing. When frightening beings copy human behavior, they become less intimidating and can appear playful, relatable, and even cute.</p><p>But yokai are not all tame and cute. Perhaps the most terrifying yokai are those that shed light on the faults of human society.</p><p><span class='font-weight-bolder'>Who are the yokai in your world?<br>Have you ever felt demonized?<br>Are you a yokai?</span></p>",
             featured:  {
                 src:"Assets/content/homepage/ao-bozu.jpg",
@@ -22,15 +22,15 @@ var data = {
         /*1*/
         {
             slug:'lore',
-            title:'YOKAI LORE AND GHOST STORIES',
+            title:'Yokai Lore And Ghost Stories',
             featured:{
                 src:"Assets/content/yokai/storytelling/bancho-screenshot.png",
             },
             subpages:[
                 {
                     slug: "creatures",
-                    title:"YOKAI! CREATURE-LORE",
-                    subtitle:"WHAT ARE YOKAI?",
+                    title:"Yokai: Creature-Lore",
+                    subtitle:"What Are Yokai?",
                     body:`<p>In Japan today, debates exist as to what exactly is a “yokai”.  Nevertheless, yokai are generally considered to be a catchall term for beings like ghosts, demons, and a wide variety of monsters as well as “mysterious phenomena.”</p>  
                     <p>Some people prefer words such as <em>bakemono</em> (changing things), <em>obake</em> (spooky things), and <em>mononoke</em> (weird, mysterious occurances) to describe specific beings. The word “yokai” came into use during the Meiji period (1868–1912) when scholars began studying Japanese folklore.</p>
                     <p>Despite ambiguities, scholars generally agree that yokai include <em><b>tanuki</b></em> (raccoon-dogs), <em><b>kitsune</b></em> (foxes), <em><b>tsukumogami</b></em> (haunted tools or objects), <em><b>kappa</b></em> (water yokai), <em><b>tengu</b></em> (mountain spirits or goblins), and <em><b>oni</b></em> (demons).</p> 
@@ -196,8 +196,8 @@ var data = {
                 },
                 {
                     slug: "story-telling",
-                    title:"STORY TELLING",
-                    subtitle:"HOW STORYTELLING MADE YOKAI POPULAR",
+                    title:"Story Telling",
+                    subtitle:"How Storytelling Made Yokai Popular",
                     body:`<p>Storytelling was one of the ways that yokai types expanded during the medieval period. Over the course of time, the reach of yokai stories spread far and wide. Kaidan (stories of strange and mysterious things) from different regions of Japan circulated in the city of Edo (modern-day Tokyo). A popular pastime surrounding kaidan emerged sometime in the early Edo period (1603–1867), known as hyakumonogatari kaidankai (special gatherings for the telling of one hundred ghost stories). At these events, people told regional ghost stories they knew, or they invented new ghost stories. Traditionally, the storytelling began with lighting one hundred candles and at the end of each story, a candle was extinguished; when the last flame went out and darkness descended, yokai were said to appear. These hyakumonogatari kaidankai-style videos were co-produced by the Museum of International Folk Art and Kyoto-based yokai-artist collective, Hyakuyobako (Box of 100 Yokai). These kaidan include traditional and contemporary Japanese ghost stories.</p>`,
                     caption:`Japanese Ghost Storytelling and Gatherings for 100 Weird Tales (Hyakumonogatari kaidankai)<br>Produced in collaboration with <a class='color-red font-weight-bolder' href='http://kyotohyakki.com/' target='_blank'> Hyakuyobako (Box of 100 Yokai) artist collective</a>`,
                     featured:{
@@ -237,8 +237,8 @@ var data = {
         /*2*/
         {
             slug: "culture",
-            title: "HISTORY",
-            subtitle: "YOKAI! FROM HISTORY TO POP CULTURE", 
+            title: "Yokai History",
+            subtitle: "Yokai! From History To Pop Culure", 
             body:`<p>Japan is notorious for its variety of yokai. Early ideas of yokai were based in religion and they appeared in art as demons (oni) with horns and fangs. Yokai expanded from demons into a wide range of creatures and, in Japan today, they are pop-culture sensations. Yokai popularity grew over the centuries as they were presented in different cultural forms including visual arts, stage performance, storytelling, and games. Yokai are now such smash hits that some Japanese cities and prefectures have reshaped traditional images of demons and demon-like deities for festivals and tourist attractions. Yokai have even been modified as cute regional mascots.</p>`,
              featured:   {
                 src:"Assets/content/yokai/visual-art/print-Kuniyoshi-Earth-Spider.jpg"
@@ -246,8 +246,8 @@ var data = {
             subpages: [
                 {
                     slug: "visual-arts",
-                    title:"VISUAL ART",
-                    subtitle:"HOW VISUAL ARTISTS MADE YOKAI POPULAR",
+                    title:"Visual Art",
+                    subtitle:"How Visual Artists Made Yokai Popular",
                     featured:   {
                     	src:"Assets/content/yokai/visual-art/visual-art.jpg",
                     },   
@@ -408,8 +408,8 @@ var data = {
                 },
                 {
                     slug: "stage-performance",
-                    title:"STAGE PERFORMANCE",
-                    subtitle:"HOW STAGE PERFORMANCE MADE YOKAI POPULAR",
+                    title:"Stage Performance",
+                    subtitle:"How Stage Performance Made Yokai Popular",
                     body:`<p>Like visual arts, performance is one of the cultural modes that popularized yokai stories and imagery. Stage theater was particularly popular during the Edo period (1603–1867) and numerous classical plays feature ghost, demon, and monster-like characters. These characters and their stories have enjoyed long-lasting appeal. Ghostly stage presentations from centuries ago inform today’s iconic image of vengeful female ghosts, with long disheveled hair, a white death kimono, and no feet. A number of contemporary Japanese horror films feature these images and they have also made their way into Hollywood blockbusters.</p>
                     <p>Among the forms of traditional Japanese stage performance that portray demons and ghosts are puppetry, noh, and kabuki theater.</p>`,
                     featured:{
@@ -520,7 +520,7 @@ var data = {
                 },
                 {
                     slug: "toys-and-games",
-                    title:"TOYS AND GAMES",
+                    title:"Toys And Games",
                     subtitle:"Toys & Games made Yokai Popular",
                     body:`<p>Toys and games are an important part of yokai culture and a fun way that children have learned about yokai through the ages. Similar to Pokémon cards, children were especially delighted by paper based toys with yokai images that they collected and traded. Toys and games reflect the popular culture of their time and those that were played centuries ago still bring joy and challenges to children today.</p>`,
                     featured:{
@@ -656,8 +656,8 @@ var data = {
                 },
                  {
                     slug: "festivals",
-                    title:"FESTIVALS",
-                    subtitle:"YOKAI IN JAPANESE FESTIVALS",
+                    title:"Festivals",
+                    subtitle:"Yokai In Japanese Festivals",
                     featured:{
                         src:"Assets/content/yokai/festivals/ushioni-matsuri.jpg",
                     },
@@ -752,7 +752,7 @@ var data = {
         /*2*/
         {
             slug: "exhibition",
-            title:"EXHIBITION & CATALOG",
+            title:"Exhibition & Catalog",
             featured:   {
                 src:"Assets/content/exhibit/gallery/Y200331002.jpg",
             },
@@ -760,7 +760,7 @@ var data = {
             [
                 {
                     slug: "gallery",
-                    title:"YOKAI: GHOSTS & DEMONS OF JAPAN",
+                    title:"Yokai: Ghosts & Demons Of Japan",
                     subtitle: "Yokai Exhibition at the Museum of International Folk Art",
                     body:`<p><b>Yokai is a catchall word for a range of supernatural beings such as ghosts, demons, monsters, shapeshifters, and tricksters. It also refers to mysterious phenomena and peculiar entities or presences; inexplicable occurrences. </b></p>
                     <p>The exhibition, <em>Yokai: Ghosts & Demons of Japan</em> is on display through January 16, 2022. Special exhibition highlights include: narrative arts such as Edo period scroll paintings and woodblock prints; contemporary folk art that depicts yokai and illustrates their eerie tales; ghost and demon characters from classical noh and kabuki performances; and special festival events. Toys, games, comic books, and anime connect the past to the present, and the classical to the popular in terms of visual arts and culture. In addition to participatory gallery crafts, the exhibition includes an immersive, family-friendly <em>obake yashiki</em> (a Japanese “monster house”), a popular form of entertainment in Japanese amusement parks.</p>`,
@@ -770,7 +770,7 @@ var data = {
                     sections:
                     [
                        {
-                           title:"YOKAI GALLERY",
+                           title:"Yokai Gallery",
                            slides: 
                            [
                                {src:"Assets/content/exhibit/gallery/Y200331001.jpg"},
@@ -811,8 +811,8 @@ var data = {
                 },
                 {
                     slug: "monster-house",
-                    title:"MONSTER HOUSE",
-                    subtitle:"HYAKUMONOGATARI  KAIDAN  YASHIKI (The House of One Hundred Ghost Stories)",
+                    title:"Monster House",
+                    subtitle:"Hyakumonogatari  Kaidan  Yashiki (The House of One Hundred Ghost Stories)",
                     featured: {
                         src:"Assets/content/exhibit/monster-house/Y200331042.jpg",
                     },
@@ -843,7 +843,7 @@ var data = {
                 },
                 {
                     slug: "catalogue",
-                    title:"EXHIBITION CATALOGUE BOOK",
+                    title:"Exhibition Catalogue Book",
                     subtitle: "Yokai: Ghosts, Demons & Monsters of Japan",
                     featured: {
                         src:"Assets/content/exhibit/catalogue/book-cover-crop1.jpg",
@@ -864,7 +864,7 @@ var data = {
                 },
                 {
                     externalURL:"http://collection.internationalfolkart.org/collections/24685/yokai-exhibit/objects",
-                    title:"EXHIBITION COLLECTION",
+                    title:"Exhibition Collection",
                     featured: {                       
 						 src:"Assets/content/exhibit/collection/emuseum.jpg",
                         caption:"name,artist,date,locations"
@@ -875,7 +875,7 @@ var data = {
         /*3*/
         {
             slug: "resources",
-            title:"CREATE AND LEARN MORE",
+            title:"Create And Learn More",
             subtitle:"Additional Yokai Resources",
             body:``,
             featured:   {
@@ -886,7 +886,7 @@ var data = {
             sections: 
             [   
                 {
-                    title: "Learn More About Yokai<br> <span class='h4'>visit these yokai resources</span>",
+                    title: "Learn More About Yokai<br> <span class='h4'>visit these resources</span>",
                     
                     links:
                     [
@@ -986,7 +986,7 @@ var data = {
         /*4*/
         {
             slug: "acknowledgements",
-            title:"ACKNOWLEDGEMENTS",
+            title:"Acknowledgements",
             subtitle:'Exhibition',
             featured:   {
                 src:"Assets/content/acknowledements/A.2017.91.1a-c4.jpg"

@@ -32,10 +32,10 @@ var Standard = {
 
             <!--subtitle/body-->                    
             <template class='row' v-if='page.title'>
-                <h1 class="color-red display-text text-center pt-4 pl-4 pr-4 pb-2 m-0" v-html="page.title"></h1>
+                <h1 class="color-red display-text text-uppercase text-center pt-4 pl-4 pr-4 pb-2 m-0" v-html="page.title"></h1>
             </template>
             <template class='row' v-if='page.subtitle'>
-                <h4 class="color-red display-text text-center pt-4 pl-4 pr-4 pb-2 m-0" v-html="page.subtitle"></h4>
+                <h4 class="color-red display-text text-uppercase text-center pt-4 pl-4 pr-4 pb-2 m-0" v-html="page.subtitle"></h4>
             </template>
             <template class='row' v-if='page.body'>
                 <div class='pb-4 pl-4 pr-4 m-0 display-text text-center' v-html='page.body'></div>
@@ -48,7 +48,7 @@ var Standard = {
                     <div class="row justify-content-center text-center">
                         <template v-if='section.title'>
                             <div class='col-12'>
-                                <h3 class="font-weight-bolder display-text text-center" v-html="section.title"></h3>
+                                <h3 class="font-weight-bolder text-uppercase display-text text-center" v-html="section.title"></h3>
                             </div>
                         </template>
                         <div class='container p-0 m-2' v-if='section.featured'>
@@ -112,7 +112,7 @@ var Standard = {
                         </div>
                          <div class='col-xs-12 col-sm-12 col-md-4 col-lg-3 p-5 m-0 d-flex justify-content-center flex-column '>
                         
-                                <h1 class="text-center color-red align-self-center" v-html="subpage.title"></h1>
+                                <h1 class="text-center color-red text-uppercase align-self-center" v-html="subpage.title"></h1>
                                     
                                 <button v-if="subpage.externalURL" class='btn  btn-block btn-lg color-tan bg-red align-self-center' @click="gotoExternalURL(subpage.externalURL)">EXPLORE</button>
                                 <router-link v-else class='btn  btn-block btn-lg color-tan bg-red align-self-center' :to='"/"+page.slug+"/"+subpage.slug'>EXPLORE</router-link>
@@ -123,7 +123,7 @@ var Standard = {
                     <div v-else class='row bg-light-tan p-0 m-0'>
                         <div class='col-xs-12 col-sm-12 col-md-4 col-lg-3 p-5 m-0 d-flex justify-content-center flex-column'>
                         
-                                <h1 class="text-center font-bold color-red align-self-center" v-html="subpage.title"></h1>
+                                <h1 class="text-center font-bold color-red text-uppercase align-self-center" v-html="subpage.title"></h1>
 
 
                                 <button v-if="subpage.externalURL" class='btn  btn-block btn-lg color-tan bg-red align-self-center'  v-on:click="gotoExternalURL(subpage.externalURL)">EXPLORE</button>
