@@ -68,6 +68,7 @@ nav .nav-link:hover{
 }
 .dropdown:hover .dropdown-content {
   display: block;
+  z-index: 99999;
 }
 .dropdown-content {
   display: none;
@@ -163,6 +164,14 @@ img {
   position: absolute;  
   top: 50%;
   left: 10%;  
+}
+.overlay-text-2{
+  width: auto;
+  height: auto;
+  position: absolute;  
+  top: 1%;
+  left: 1%; 
+  pointer-events: none;
 }
 /*carousel*/
 .carousel-control-prev-icon {
