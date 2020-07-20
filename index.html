@@ -27,32 +27,36 @@
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
-                    <li class="nav-item dropdown"> 
-                        <router-link class="nav-link dropbtn" to="/lore"> Yokai Lore and Ghost Stories <i class="fa fa-caret-down"></i></router-link>
-                        <div class="dropdown-content bg-red ">
-                            <template v-for='subpage in pages[1].subpages'>
-                                <router-link class="dropdown-item color-tan" :to='"/lore/"+subpage.slug'> {{subpage.title}}</router-link>
-                            </template>
-                        </div>
-                    </li>
+                    
 					<li class="nav-item dropdown"> 
-                        <router-link class="nav-link dropbtn" to="/culture">History <i class="fa fa-caret-down"></i></router-link>
-                        <div class="dropdown-content bg-red ">
+                        <router-link to="/culture" class="nav-link dropdown-toggle" data-toggle="dropdown">Yokai History</router-link>
+                        <div class="dropdown-menu bg-red ">
                             <template v-for='subpage in pages[2].subpages'>
                                 <router-link class="dropdown-item color-tan" :to='"/culture/"+subpage.slug'> {{subpage.title}}</router-link>
                             </template>
                         </div>
                     </li>
+                    
                     <li class="nav-item dropdown"> 
-                        <router-link class="nav-link dropbtn" to="/exhibition">Exhibition and Catalog <i class="fa fa-caret-down"></i></router-link>
-                        <div class="dropdown-content bg-red ">
+                        <router-link to="/lore" class="nav-link dropdown-toggle" data-toggle="dropdown" >
+                            Yokai Lore and Ghost Stories
+                        </router-link>
+                        <div class="dropdown-menu bg-red ">
+                            <template v-for='subpage in pages[1].subpages'>
+                                <router-link class="dropdown-item color-tan" :to='"/lore/"+subpage.slug'> {{subpage.title}}</router-link>
+                            </template>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown"> 
+                        <router-link to="/exhibition" class="nav-link dropdown-toggle" data-toggle="dropdown " >Exhibition and Catalog</router-link>
+                        <div class="dropdown-menu bg-red">
                             <template v-for='subpage in pages[3].subpages'>
                                 <router-link class="dropdown-item color-tan" :to='"/exhibition/"+subpage.slug'> {{subpage.title}}</router-link>
                             </template>
                         </div>
                     </li>
                     <li class="nav-item"> 
-                        <router-link class="nav-link " to="/resources"> Create And Learn More </router-link>
+                        <router-link class="nav-link" to="/resources"> Create And Learn More </router-link>
                     </li>
 			    </ul>
             </div>

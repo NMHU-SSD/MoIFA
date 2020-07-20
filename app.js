@@ -39,6 +39,16 @@ var app = new Vue({
 	el: '#app',
     router: router,
 	data: { pages: data.pages, isHomepage: false},
+    mounted(){
+        //auto close when selecting nav item
+      $('.nav-link').on('click',function() {
+          $('.navbar-collapse').collapse('hide');
+      });
+        //auto close when selecting nav dropdown item
+      $('.dropdown-item').on('click',function() {
+          $('.navbar-collapse').collapse('hide');
+      });
+    },
     updated(){
         console.log(this.$route)
         if (this.$route.name == "home"){
