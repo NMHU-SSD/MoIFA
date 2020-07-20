@@ -99,9 +99,9 @@ var Subpage = {
                         <template v-if='section.cards'>
                             <div class='row'>
                                 <div class='col m-3 align-items-stretch' v-for='card,index in section.cards'>
-                                    <div class="card bg-red mb-3">
+                                    <div class="card img-container h-100 bg-red mb-3">
                                         
-                                        <vue-preview  class="img-container mh-100 card-img-top pointer" :slides="card"></vue-preview>
+                                        <vue-preview  class="mh-100 card-img-top pointer" :slides="card"></vue-preview>
                                         <div class='overlay-text-2'> 
                                             <i class="fas fa-expand color-white"></i>
                                         </div>
