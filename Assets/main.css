@@ -2,18 +2,18 @@
 @font-face{
   font-family: 'HypatiaSansProBold';
   font-style: bold;
-  src: url('Assets/Fonts/hypatia-sans-pro/HypatiaSansPro-Bold.otf') 
+  src: url('Fonts/hypatia-sans-pro/HypatiaSansPro-Bold.otf') 
   format("opentype");
 }
 @font-face{
   font-family: 'AkrobatRegular';
   font-style: normal;
-  src: url('Assets/Fonts/Akrobat/OTF/Akrobat-Regular.otf') format("opentype");
+  src: url('Fonts/Akrobat/OTF/Akrobat-Regular.otf') format("opentype");
 }
 @font-face{
   font-family: 'AkrobatLight';
   font-style: normal;
-  src: url('Assets/Fonts/Akrobat/OTF/Akrobat-Light.otf') format("opentype");
+  src: url('Fonts/Akrobat/OTF/Akrobat-Light.otf') format("opentype");
 }
 /*HTML tags*/
 html, body{
