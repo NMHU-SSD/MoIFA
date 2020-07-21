@@ -25,7 +25,7 @@ var router = new VueRouter({
   //mode: 'history'
 });
 
-
+Vue.component('cards-component', Cards);
 Vue.component('carousel', Carousel);
 Vue.component('single-image', SingleImage);
 Vue.component('credits-component', Credits);
