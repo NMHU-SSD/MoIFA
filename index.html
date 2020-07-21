@@ -18,15 +18,15 @@
   <body>
 	<!-- nav/header-->
 	<div id="app" class="p-0 m-0">
-         <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-red pl-4 pr-4 m-0">
+         <nav class="navbar navbar-expand-xl sticky-top navbar-light bg-red pl-4 pr-4 m-0">
               <router-link class="navbar-brand p-0 m-0" to="/">
                     <img class="img-fluid logo" src="Assets/Logos/yokai_logo_color.svg"/>
                </router-link>    
             <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <ul class="navbar-nav">
+            <div class="collapse navbar-collapse justify-content-end " id="navbarNav">
+                <ul class="navbar-nav d-flex align-items-center">
                     
 					<li class="nav-item dropdown"> 
                         <router-link to="/culture" class="nav-link dropdown-toggle" data-toggle="dropdown">Yokai History</router-link>
@@ -75,11 +75,15 @@
                 <div class="col-12 col-md-4 p-5 align-self-start">
                     <div class='container-fluid'>
                         <ul class="nav align-items-center">
-                            <li class="nav-item"> 
-                                <router-link class="nav-link" to="/lore">Yokai Lore and Ghost Stories</router-link> 
+                            <li class="nav-item header"> 
+                                <a class="nav-link disabled" href="#" >Site Map</a>
                             </li>
+                            
 					       <li class="nav-item"> 
                                 <router-link class="nav-link" to="/culture">Yokai History to Pop Culture</router-link> 
+                            </li>
+                            <li class="nav-item"> 
+                                <router-link class="nav-link" to="/lore">Yokai Lore and Ghost Stories</router-link> 
                             </li>
                             <li class="nav-item"> 
                                 <router-link class='nav-link' to="/exhibition">Exibition and Catalog</router-link> 

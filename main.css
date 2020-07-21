@@ -38,18 +38,23 @@ p, span{
 .blockquote {
     font-family: 'HypatiaSansProBold';
 }
+
+/*navbar-brand*/
+.navbar-brand{
+    min-width: 150px;
+}
 /*navbar*/
-.nav-item{
+nav .nav-item{
     margin-left: 1.5em;
     margin-right: 1.5em;
     text-transform: capitalize;
 }
-.nav-link{
+nav .nav-item .nav-link{
     display: inline-block;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     text-transform: capitalize;
 }
-/*proper way to implement navigation colors/states */
+/*navigation colors/states */
 nav {
    font-family: "HypatiaSansProBold";
     text-transform: capitalize;
@@ -64,17 +69,13 @@ nav .nav-link:hover{
 .nav .nav-link{
     color: #8C2A1C !important;
 }
-.navbar{
-    /*border:.5em solid #751b0e !important;
-    border-left:.5em solid #751b0e !important;
-    border-right:.5em solid #751b0e !important;*/
-}
+
+
 
 /*hover to dropdown*/
 nav .dropdown:hover > .dropdown-menu {
     display: block; 
 }
-
 
 .dropdown-item .nav-link{
     text-transform: capitalize;
@@ -86,25 +87,29 @@ nav .dropdown:hover > .dropdown-menu {
 
 }
 
-/*
-.dropdown:hover .dropdown-content {
-  display: block;
-  z-index: 99999;
+/* footer nav*/
+footer ul.nav{
+    width: 100%;
+    display: block;
+    font-family: "AkrobatLight";
 }
-.dropdown-content {
-  display: none;
-  position: absolute;
-  color: #8C2A1C;
+footer ul.nav .nav-item{
+    display: block;
+    color: #8C2A1C !important; 
 }
-.dropdown-content .nav-link {
-  float: none;
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
+footer ul.nav .header{
+/* border-bottom: 1px solid #050505; */
 }
-*/
+footer ul.nav .nav-item .nav-link{
+    color: #8C2A1C !important; 
+}
+footer ul.nav .nav-item .nav-link:hover{
+    color: #C9AA61 !important; 
+}
+footer ul.nav .nav-item .disabled{
+    color: #050505 !important; 
+}
+
 /*colors*/
 /*name color when possible*/
 .color-black{ 
