@@ -7,7 +7,7 @@ var data = {
             title:"Vivid in Japanese Art and Imagination Are Creatures That Are At Once Ghastly And Amusing.",
             body:"<p>Yokai is a catchall word for, ghosts, demons, monsters, shapeshifters, tricksters, and other kinds of supernatural beings and mysterious phenomena. Yokai interact with the human world and spark common notions of frightful things.</p><p>Yokai can definitely be scary, but the experience of fear can also be amusing. When frightening beings copy human behavior, they become less intimidating and can appear playful, relatable, and even cute.</p><p>But yokai are not all tame and cute. Perhaps the most terrifying yokai are those that shed light on the faults of human society.</p><p><span class='font-weight-bolder'>Who are the yokai in your world?<br>Have you ever felt demonized?<br>Are you a yokai?</span></p>",
             featured:  {
-                src:"Assets/content/homepage/ao-bozu.jpg",
+                src:"Content/homepage/ao-bozu.jpg",
                 credit:
                 {
                         title: "AO BOZU (BLUE MONK)",
@@ -24,7 +24,7 @@ var data = {
             slug:'lore',
             title:'Yokai Lore And Ghost Stories',
             featured:{
-                src:"Assets/content/yokai/storytelling/bancho-screenshot.png",
+                src:"Content/yokai/storytelling/bancho-screenshot.png",
             },
             subpages:[
                 {
@@ -201,7 +201,7 @@ var data = {
                     body:`<p>Storytelling was one of the ways that yokai types expanded during the medieval period. Over the course of time, the reach of yokai stories spread far and wide. Kaidan (stories of strange and mysterious things) from different regions of Japan circulated in the city of Edo (modern-day Tokyo). A popular pastime surrounding kaidan emerged sometime in the early Edo period (1603–1867), known as hyakumonogatari kaidankai (special gatherings for the telling of one hundred ghost stories). At these events, people told regional ghost stories they knew, or they invented new ghost stories. Traditionally, the storytelling began with lighting one hundred candles and at the end of each story, a candle was extinguished; when the last flame went out and darkness descended, yokai were said to appear. These hyakumonogatari kaidankai-style videos were co-produced by the Museum of International Folk Art and Kyoto-based yokai-artist collective, Hyakuyobako (Box of 100 Yokai). These kaidan include traditional and contemporary Japanese ghost stories.</p>`,
                     caption:`Japanese Ghost Storytelling and Gatherings for 100 Weird Tales (Hyakumonogatari kaidankai)<br>Produced in collaboration with <a class='color-red font-weight-bolder' href='http://kyotohyakki.com/' target='_blank'> Hyakuyobako (Box of 100 Yokai) artist collective</a>`,
                     featured:{
-                        src:"Assets/content/yokai/storytelling/bancho-screenshot.png",
+                        src:"Content/yokai/storytelling/bancho-screenshot.png",
                     },
                     gallery:{
                         title:"Stories",
@@ -241,7 +241,7 @@ var data = {
             subtitle: "Yokai! From History To Pop Culure", 
             body:`<p>Japan is notorious for its variety of yokai. Early ideas of yokai were based in religion and they appeared in art as demons (oni) with horns and fangs. Yokai expanded from demons into a wide range of creatures and, in Japan today, they are pop-culture sensations. Yokai popularity grew over the centuries as they were presented in different cultural forms including visual arts, stage performance, storytelling, and games. Yokai are now such smash hits that some Japanese cities and prefectures have reshaped traditional images of demons and demon-like deities for festivals and tourist attractions. Yokai have even been modified as cute regional mascots.</p>`,
              featured:   {
-                src:"Assets/content/yokai/visual-art/print-Kuniyoshi-Earth-Spider.jpg"
+                src:"Content/yokai/visual-art/print-Kuniyoshi-Earth-Spider.jpg"
             },
             subpages: [
                 {
@@ -249,7 +249,7 @@ var data = {
                     title:"Visual Art",
                     subtitle:"How Visual Artists Made Yokai Popular",
                     featured:   {
-                    	src:"Assets/content/yokai/visual-art/visual-art.jpg",
+                    	src:"Content/yokai/visual-art/visual-art.jpg",
                     },   
                     sections:[
                         {
@@ -258,8 +258,8 @@ var data = {
                             cards:[
                                         [
                                             {
-                                            src:"Assets/content/yokai/visual-art/parade_scroll.jpg",
-                                            msrc:"Assets/content/yokai/visual-art/parade_scroll.jpg",
+                                            src:"Content/yokai/visual-art/parade_scroll.jpg",
+                                            msrc:"Content/yokai/visual-art/parade_scroll.jpg",
                                             w:19751,
                                             h:3951,
                                             credit: 
@@ -286,8 +286,8 @@ var data = {
                             cards:
                              [
                                 [{
-                                    src:"Assets/content/yokai/visual-art/Sekien-1.jpg",
-                                    msrc:"Assets/content/yokai/visual-art/Sekien-1.jpg",
+                                    src:"Content/yokai/visual-art/Sekien-1.jpg",
+                                    msrc:"Content/yokai/visual-art/Sekien-1.jpg",
                                     w:4037,
                                     h:2905,
                                     credit:
@@ -300,8 +300,8 @@ var data = {
                                     }
                                 }],
                                 [{
-                                     src:"Assets/content/yokai/visual-art/Sekien-2.jpg",
-                                     msrc:"Assets/content/yokai/visual-art/Sekien-2.jpg",
+                                     src:"Content/yokai/visual-art/Sekien-2.jpg",
+                                     msrc:"Content/yokai/visual-art/Sekien-2.jpg",
                                      w:879,
                                      h:1325,
                                      credit:
@@ -322,8 +322,8 @@ var data = {
                             cards:
                             [
                                 [{
-                                    src:"Assets/content/yokai/visual-art/print-Kuniyoshi-Earth-Spider.jpg",
-                                    msrc:"Assets/content/yokai/visual-art/print-Kuniyoshi-Earth-Spider.jpg",
+                                    src:"Content/yokai/visual-art/print-Kuniyoshi-Earth-Spider.jpg",
+                                    msrc:"Content/yokai/visual-art/print-Kuniyoshi-Earth-Spider.jpg",
                                     w:4304,
                                     h:2009,
                                     credit:
@@ -337,8 +337,8 @@ var data = {
                                     caption:`Minamoto no Raiko, a valiant military leader of the eleventh century, is depicted in the foreground with his four retainers. The Earth Spider, Tsuchigumo, appears in the background and dispatches yokai to attack the heroes. This three-part print is known for its social commentary, critiquing oppressive governmental codes enacted as the Tenpo Reforms (1841-1843). When Kuniyoshi published this work, viewers understood the yokai to be those who suffered due to the reforms. The image therefore suggests the government’s nightmare of a popular uprising. Another layer of social commentary concerns the Earth Spider, traditionally viewed as a legendary outcast and a source of evil. But Kuniyoshi made the Earth Spider into a hero who leads the angry mob of monsters in seeking revenge against the shogun and his administrators.`
                                 }],
                                 [{
-                                    src:"Assets/content/yokai/visual-art/modern_night_parade_detail.jpg",
-                                    msrc:"Assets/content/yokai/visual-art/modern_night_parade_detail.jpg",
+                                    src:"Content/yokai/visual-art/modern_night_parade_detail.jpg",
+                                    msrc:"Content/yokai/visual-art/modern_night_parade_detail.jpg",
                                     w:4032,
                                     h:2608,
                                     credit:
@@ -361,8 +361,8 @@ var data = {
                             cards:
                             [
                                 [{
-                                    src:"Assets/content/yokai/visual-art/F180615062.jpg",
-                                    msrc:"Assets/content/yokai/visual-art/F180615062.jpg",
+                                    src:"Content/yokai/visual-art/F180615062.jpg",
+                                    msrc:"Content/yokai/visual-art/F180615062.jpg",
                                     w:1083,
                                     h:900,
                                     credit:
@@ -375,8 +375,8 @@ var data = {
                                      }
                                 }],
                                 [{
-                                    src:"Assets/content/yokai/visual-art/wiki.jpg",
-                                    msrc:"Assets/content/yokai/visual-art/wiki.jpg",
+                                    src:"Content/yokai/visual-art/wiki.jpg",
+                                    msrc:"Content/yokai/visual-art/wiki.jpg",
                                     w:251,
                                     h:398,
                                     caption:`
@@ -397,8 +397,8 @@ var data = {
                                         title:"My Neighbor Totoro",
                                         artist:"Director: Hayao Miyazaki", link:'https://ghibli.fandom.com/wiki/Ghibli_Wiki'
                                     },
-                                    src:"Assets/content/yokai/visual-art/totoro.jpg",
-                                    msrc:"Assets/content/yokai/visual-art/totoro.jpg",
+                                    src:"Content/yokai/visual-art/totoro.jpg",
+                                    msrc:"Content/yokai/visual-art/totoro.jpg",
                                     w:630,
                                     h:1200
                                 }]
@@ -413,7 +413,7 @@ var data = {
                     body:`<p>Like visual arts, performance is one of the cultural modes that popularized yokai stories and imagery. Stage theater was particularly popular during the Edo period (1603–1867) and numerous classical plays feature ghost, demon, and monster-like characters. These characters and their stories have enjoyed long-lasting appeal. Ghostly stage presentations from centuries ago inform today’s iconic image of vengeful female ghosts, with long disheveled hair, a white death kimono, and no feet. A number of contemporary Japanese horror films feature these images and they have also made their way into Hollywood blockbusters.</p>
                     <p>Among the forms of traditional Japanese stage performance that portray demons and ghosts are puppetry, noh, and kabuki theater.</p>`,
                     featured:{
-                        src:"Assets/content/yokai/performance/noh-mask.jpg",
+                        src:"Content/yokai/performance/noh-mask.jpg",
                     },
                     sections:[
                         {
@@ -424,8 +424,8 @@ var data = {
                             cards:
                             [
                                 [{
-                                    src:"Assets/content/yokai/performance/puppet.jpg",
-                                    msrc:"Assets/content/yokai/performance/puppet.jpg",
+                                    src:"Content/yokai/performance/puppet.jpg",
+                                    msrc:"Content/yokai/performance/puppet.jpg",
                                     w:2894,
                                     h:4342,
                                     credit:
@@ -439,15 +439,15 @@ var data = {
                                     }
                                 }],
                                 [{
-                                    src:"Assets/content/yokai/performance/puppetfinal.mp4",
-                                    msrc:"Assets/content/yokai/performance/puppetfinal.mp4",
+                                    src:"Content/yokai/performance/puppetfinal.mp4",
+                                    msrc:"Content/yokai/performance/puppetfinal.mp4",
                                     w:1600,
                                     h:900,
                                     caption:`Kiyohime is crafted with strings and levers that are manipulated by the puppeteer to transform her from princess to demon. Click the image to view her transformation.`
                                 }],
                                 [{
-                                    src:"Assets/content/yokai/performance/puppet-artist-amari.jpg",
-                                    msrc:"Assets/content/yokai/performance/puppet-artist-amari.jpg",
+                                    src:"Content/yokai/performance/puppet-artist-amari.jpg",
+                                    msrc:"Content/yokai/performance/puppet-artist-amari.jpg",
                                     w:6000,
                                     h:4000,
                                     caption:`Amari Yoichiro, from Tokushima, is a renowned maker of Awa ningyo joruri. He explains that Kiyohime is a challenging character to create because her articulated structure is complex and her emotions are intense; this makes her a favorite character for him to craft.` 
@@ -459,8 +459,8 @@ var data = {
                             body: `<p>Noh theater is a formal masked dance drama with musical accompaniment. Plays often involve deities, ghosts, and demons. Established as a theatrical form in the fourteenth century, noh developed through the Edo period (1603–1867) but declined in popularity when Japan was (forced) open to the outside world after 1868. Actors played an active role in ensuring that the tradition continued. Today, noh theater is inscribed on UNESCO’s list of Intangible Cultural Heritage.</p>`, 
                             cards:[
                                 [{
-                                    src:"Assets/content/yokai/performance/noh-mask.jpg",
-                                    msrc:"Assets/content/yokai/performance/noh-mask.jpg",
+                                    src:"Content/yokai/performance/noh-mask.jpg",
+                                    msrc:"Content/yokai/performance/noh-mask.jpg",
                                     w:600,
                                     h:900,
                                     credit:
@@ -475,8 +475,8 @@ var data = {
                                     caption:`Hannya is a female demon transformed from a human woman due to jealousy and rage. An example of a hannya character is Lady Rokujo from the play Aoi no Ue (Lady Aoi ), based on a chapter from Tale of Genji. The story is primarily about the life, loves, and exploits of Prince Genji, who is married to Lady Aoi. A known philanderer, Genji takes Lady Rokujo as a mistress and she falls in love with him, but her love is unrequited. Cast aside by her lover and in a jealous rage, Lady Rokujo loses control of her emotions and she transforms into a vengeful demon.`
                                 }],
                                 [{
-                                    src:"Assets/content/yokai/performance/noh-artist-terai.jpg",
-                                    msrc:"Assets/content/yokai/performance/noh-artist-terai.jpg",
+                                    src:"Content/yokai/performance/noh-artist-terai.jpg",
+                                    msrc:"Content/yokai/performance/noh-artist-terai.jpg",
                                     w:1000,
                                     h:1334,
                                     caption:`Artist Terai Ichiyu, from Kyoto, explains that mask making is like “time travel” in that it makes him feel connected to the generations of mask-makers who have crafted that same character before him. In creating a powerful mask like hannya, Terai says he senses her energy, enabling him to help the mask express its complex set of emotions: ferocious rage, fear, and sadness. He notes: “the character loses control of herself, and that is a terrifying place to be.” PHOTO BY TERAI SHUHEI, 2017.`
@@ -490,8 +490,8 @@ var data = {
                             cards:
                             [
                                 [{
-                                    src:"Assets/content/yokai/performance/kabuki.jpg",
-                                    msrc:"Assets/content/yokai/performance/kabuki.jpg",
+                                    src:"Content/yokai/performance/kabuki.jpg",
+                                    msrc:"Content/yokai/performance/kabuki.jpg",
                                     w:3024,
                                     h:4032,
                                     credits:
@@ -524,7 +524,7 @@ var data = {
                     subtitle:"Toys & Games made Yokai Popular",
                     body:`<p>Toys and games are an important part of yokai culture and a fun way that children have learned about yokai through the ages. Similar to Pokémon cards, children were especially delighted by paper based toys with yokai images that they collected and traded. Toys and games reflect the popular culture of their time and those that were played centuries ago still bring joy and challenges to children today.</p>`,
                     featured:{
-                        src:"Assets/content/yokai/toys-and-games/menko-cards.jpg",
+                        src:"Content/yokai/toys-and-games/menko-cards.jpg",
                     },
                     sections:
                     [
@@ -532,8 +532,8 @@ var data = {
                             cards:
                             [
                                 [{
-                                    src:"Assets/content/yokai/toys-and-games/zukushi_print.jpg",
-                                    msrc:"Assets/content/yokai/toys-and-games/zukushi_print.jpg",
+                                    src:"Content/yokai/toys-and-games/zukushi_print.jpg",
+                                    msrc:"Content/yokai/toys-and-games/zukushi_print.jpg",
                                     w:1572,
                                     h:2028,
                                     credit:
@@ -553,8 +553,8 @@ var data = {
                             cards:
                             [
                                 [{
-                                    src:"Assets/content/yokai/toys-and-games/A.2018.40.1(3).jpg",
-                                    msrc:"Assets/content/yokai/toys-and-games/A.2018.40.1(3).jpg",
+                                    src:"Content/yokai/toys-and-games/A.2018.40.1(3).jpg",
+                                    msrc:"Content/yokai/toys-and-games/A.2018.40.1(3).jpg",
                                     w:600,
                                     h:900,
                                     credit:
@@ -574,8 +574,8 @@ var data = {
                             cards:
                             [
                                 [{
-                                    src:"Assets/content/yokai/toys-and-games/karuta.jpg",
-                                    msrc:"Assets/content/yokai/toys-and-games/karuta.jpg",
+                                    src:"Content/yokai/toys-and-games/karuta.jpg",
+                                    msrc:"Content/yokai/toys-and-games/karuta.jpg",
                                     w:2694,
                                     h:2532,
                                     credit:
@@ -595,8 +595,8 @@ var data = {
                             cards:
                             [
                                 [{
-                                    src:"Assets/content/yokai/toys-and-games/menko-cards.jpg",
-                                    msrc:"Assets/content/yokai/toys-and-games/menko-cards.jpg",
+                                    src:"Content/yokai/toys-and-games/menko-cards.jpg",
+                                    msrc:"Content/yokai/toys-and-games/menko-cards.jpg",
                                     w:3786,
                                     h:2948,
                                     credit:
@@ -615,8 +615,8 @@ var data = {
                             cards:
                             [
                                 [{
-                                    src:"Assets/content/yokai/toys-and-games/pop-out-yokai.jpg",
-                                    msrc:"Assets/content/yokai/toys-and-games/pop-out-yokai.jpg",
+                                    src:"Content/yokai/toys-and-games/pop-out-yokai.jpg",
+                                    msrc:"Content/yokai/toys-and-games/pop-out-yokai.jpg",
                                     w:5809,
                                     h:3886,
                                     credit:
@@ -635,8 +635,8 @@ var data = {
                             cards:
                             [
                                 [{
-                                    src:"Assets/content/yokai/toys-and-games/M181227016.jpg",
-                                    msrc:"Assets/content/yokai/toys-and-games/M181227016.jpg",
+                                    src:"Content/yokai/toys-and-games/M181227016.jpg",
+                                    msrc:"Content/yokai/toys-and-games/M181227016.jpg",
                                     w:1207,
                                     h:900,
                                     credit:
@@ -659,7 +659,7 @@ var data = {
                     title:"Festivals",
                     subtitle:"Yokai In Japanese Festivals",
                     featured:{
-                        src:"Assets/content/yokai/festivals/ushioni-matsuri.jpg",
+                        src:"Content/yokai/festivals/ushioni-matsuri.jpg",
                     },
                      sections:
                      [
@@ -671,8 +671,8 @@ var data = {
                             cards:
                             [
                                 [{
-                                    src:"Assets/content/yokai/festivals/ushioni-matsuri.jpg",
-                                    msrc:"Assets/content/yokai/festivals/ushioni-matsuri.jpg",
+                                    src:"Content/yokai/festivals/ushioni-matsuri.jpg",
+                                    msrc:"Content/yokai/festivals/ushioni-matsuri.jpg",
                                     w:4752,
                                     h:3168,
                                     credit:
@@ -683,8 +683,8 @@ var data = {
                                     }
                                 }],
                                 [{
-                                    src:"Assets/content/yokai/festivals/FA.2018.76.1A-F.A.jpg",
-                                    msrc:"Assets/content/yokai/festivals/FA.2018.76.1A-F.A.jpg",
+                                    src:"Content/yokai/festivals/FA.2018.76.1A-F.A.jpg",
+                                    msrc:"Content/yokai/festivals/FA.2018.76.1A-F.A.jpg",
                                     w:600,
                                     h:900,
                                     credit:
@@ -701,8 +701,8 @@ var data = {
                                                 support to families that lost loved ones.`
                                 }],
                                 [{
-                                    src:"Assets/content/yokai/festivals/utsunomiya.jpg",
-                                    msrc:"Assets/content/yokai/festivals/utsunomiya.jpg",
+                                    src:"Content/yokai/festivals/utsunomiya.jpg",
+                                    msrc:"Content/yokai/festivals/utsunomiya.jpg",
                                     w:3024,
                                     h:4032,
                                     caption:`Utsunomiya Yoshiwo II is Uwajima’s master ushioni-head maker, who learned from his father, Utsunomiya Yoshiwo. The artist reminds us that there is a distinction between festival ushioni, which are secular, and the ushioni that are involved in the Warei Jinja rituals, which is a deity.`
@@ -716,8 +716,8 @@ var data = {
                             cards:
                              [
                                 [{
-                                    src:"Assets/content/yokai/festivals/Y200331058.jpg",
-                                    msrc:"Assets/content/yokai/festivals/Y200331058.jpg",
+                                    src:"Content/yokai/festivals/Y200331058.jpg",
+                                    msrc:"Content/yokai/festivals/Y200331058.jpg",
                                     w:600,
                                     h:786,
                                     credits:
@@ -754,7 +754,7 @@ var data = {
             slug: "exhibition",
             title:"Exhibition & Catalog",
             featured:   {
-                src:"Assets/content/exhibit/gallery/Y200331002.jpg",
+                src:"Content/exhibit/gallery/Y200331002.jpg",
             },
             subpages: 
             [
@@ -765,7 +765,7 @@ var data = {
                     body:`<p><b>Yokai is a catchall word for a range of supernatural beings such as ghosts, demons, monsters, shapeshifters, and tricksters. It also refers to mysterious phenomena and peculiar entities or presences; inexplicable occurrences. </b></p>
                     <p>The exhibition, <em>Yokai: Ghosts & Demons of Japan</em> is on display through January 16, 2022. Special exhibition highlights include: narrative arts such as Edo period scroll paintings and woodblock prints; contemporary folk art that depicts yokai and illustrates their eerie tales; ghost and demon characters from classical noh and kabuki performances; and special festival events. Toys, games, comic books, and anime connect the past to the present, and the classical to the popular in terms of visual arts and culture. In addition to participatory gallery crafts, the exhibition includes an immersive, family-friendly <em>obake yashiki</em> (a Japanese “monster house”), a popular form of entertainment in Japanese amusement parks.</p>`,
                     featured: {
-                        src:"Assets/content/exhibit/gallery/Y200331002.jpg"
+                        src:"Content/exhibit/gallery/Y200331002.jpg"
                     },
                     sections:
                     [
@@ -773,38 +773,38 @@ var data = {
                            title:"Yokai Gallery",
                            slides: 
                            [
-                               {src:"Assets/content/exhibit/gallery/Y200331001.jpg"},
-                               {src:"Assets/content/exhibit/gallery/Y200331002.jpg"},
-                               {src:"Assets/content/exhibit/gallery/Y200331003.jpg"},
-                               {src:"Assets/content/exhibit/gallery/Y200331004.jpg"},
-                               {src:"Assets/content/exhibit/gallery/Y200331006.jpg"},
-                               {src:"Assets/content/exhibit/gallery/Y200331007.jpg"},
-                               {src:"Assets/content/exhibit/gallery/Y200331008.jpg"},
-                               {src:"Assets/content/exhibit/gallery/Y200331009.jpg"},
-                               {src:"Assets/content/exhibit/gallery/Y200331010.jpg"},
-                               {src:"Assets/content/exhibit/gallery/Y200331012.jpg"},
-                               {src:"Assets/content/exhibit/gallery/Y200331014.jpg"},
-                               {src:"Assets/content/exhibit/gallery/Y200331015.jpg"},
-                               {src:"Assets/content/exhibit/gallery/Y200331016.jpg"},
-                               {src:"Assets/content/exhibit/gallery/Y200331018.jpg"},
-                               {src:"Assets/content/exhibit/gallery/Y200331019.jpg"},
-                               {src:"Assets/content/exhibit/gallery/Y200331020.jpg"},
-                               {src:"Assets/content/exhibit/gallery/Y200331021.jpg"},
-                               {src:"Assets/content/exhibit/gallery/Y200331022.jpg"},
-                               {src:"Assets/content/exhibit/gallery/Y200331023.jpg"},
-                               {src:"Assets/content/exhibit/gallery/Y200331024.jpg"},
-                               {src:"Assets/content/exhibit/gallery/Y200331025.jpg"},
-                               {src:"Assets/content/exhibit/gallery/Y200331044.jpg"},
-                               {src:"Assets/content/exhibit/gallery/Y200331045.jpg"},
-                               {src:"Assets/content/exhibit/gallery/Y200331046.jpg"},
-                               {src:"Assets/content/exhibit/gallery/Y200331047.jpg"},
-                               {src:"Assets/content/exhibit/gallery/Y200331048.jpg"},
-                               {src:"Assets/content/exhibit/gallery/Y200331050.jpg"},
-                               {src:"Assets/content/exhibit/gallery/Y200331052.jpg"},
-                               {src:"Assets/content/exhibit/gallery/Y200331054.jpg"},
-                               {src:"Assets/content/exhibit/gallery/Y200331056.jpg"},
-                               {src:"Assets/content/exhibit/gallery/Y200331058.jpg"},
-                               {src:"Assets/content/exhibit/gallery/Y200331059.jpg"}
+                               {src:"Content/exhibit/gallery/Y200331001.jpg"},
+                               {src:"Content/exhibit/gallery/Y200331002.jpg"},
+                               {src:"Content/exhibit/gallery/Y200331003.jpg"},
+                               {src:"Content/exhibit/gallery/Y200331004.jpg"},
+                               {src:"Content/exhibit/gallery/Y200331006.jpg"},
+                               {src:"Content/exhibit/gallery/Y200331007.jpg"},
+                               {src:"Content/exhibit/gallery/Y200331008.jpg"},
+                               {src:"Content/exhibit/gallery/Y200331009.jpg"},
+                               {src:"Content/exhibit/gallery/Y200331010.jpg"},
+                               {src:"Content/exhibit/gallery/Y200331012.jpg"},
+                               {src:"Content/exhibit/gallery/Y200331014.jpg"},
+                               {src:"Content/exhibit/gallery/Y200331015.jpg"},
+                               {src:"Content/exhibit/gallery/Y200331016.jpg"},
+                               {src:"Content/exhibit/gallery/Y200331018.jpg"},
+                               {src:"Content/exhibit/gallery/Y200331019.jpg"},
+                               {src:"Content/exhibit/gallery/Y200331020.jpg"},
+                               {src:"Content/exhibit/gallery/Y200331021.jpg"},
+                               {src:"Content/exhibit/gallery/Y200331022.jpg"},
+                               {src:"Content/exhibit/gallery/Y200331023.jpg"},
+                               {src:"Content/exhibit/gallery/Y200331024.jpg"},
+                               {src:"Content/exhibit/gallery/Y200331025.jpg"},
+                               {src:"Content/exhibit/gallery/Y200331044.jpg"},
+                               {src:"Content/exhibit/gallery/Y200331045.jpg"},
+                               {src:"Content/exhibit/gallery/Y200331046.jpg"},
+                               {src:"Content/exhibit/gallery/Y200331047.jpg"},
+                               {src:"Content/exhibit/gallery/Y200331048.jpg"},
+                               {src:"Content/exhibit/gallery/Y200331050.jpg"},
+                               {src:"Content/exhibit/gallery/Y200331052.jpg"},
+                               {src:"Content/exhibit/gallery/Y200331054.jpg"},
+                               {src:"Content/exhibit/gallery/Y200331056.jpg"},
+                               {src:"Content/exhibit/gallery/Y200331058.jpg"},
+                               {src:"Content/exhibit/gallery/Y200331059.jpg"}
                        ]
                        }
                     ]
@@ -814,7 +814,7 @@ var data = {
                     title:"Monster House",
                     subtitle:"Hyakumonogatari  Kaidan  Yashiki (The House of One Hundred Ghost Stories)",
                     featured: {
-                        src:"Assets/content/exhibit/monster-house/Y200331042.jpg",
+                        src:"Content/exhibit/monster-house/Y200331042.jpg",
                     },
                     body:`<p><em>Obake yashiki</em> (monster houses) are considered a traditional form of Japanese amusement. They are particularly popular in the summertime because, as people often say, spine-chilling experiences cool you down! The late-summer festival, Obon, is a time when people honor their ancestors, perhaps another explanation for the Japanese association between summer and spirits.  Obake yashiki may date back to the Edo period (1603-1867), as an amusing way for warriors to prove their bravery during a time of relative peace that saw few battles. Japanese-style haunted houses gained popularity after World War II and draw upon folklore and traditional imagery to create a scary walk-through experience in a maze-like setting. Similar to American haunted house traditions, obake yashiki are often found in amusement parks. Although the point is to frighten people, it is meant to be a fun experience. After all, sometimes it is fun to be scared
                     A monster house was collaboratively created for the yokai exhibition by the Museum of International Folk Art and yokai scholar and artist Kono Junya, who is also a lecturer at Saga University of the Arts in Kyoto and the founder and director of the yokai artist collective, Hyakuyobako. Learn more about the artist and this collaboration <a class='color-red font-weight-bolder' target='_blank' href="#/acknowledgements">here</a></p>`,
@@ -824,19 +824,19 @@ var data = {
                             title:"Yokai Monster House",
                             slides:
                             [
-                                {src:"Assets/content/exhibit/monster-house/Y200331042.jpg"},
-                                {src:"Assets/content/exhibit/monster-house/IMG_8615.jpg"},
-                                {src:"Assets/content/exhibit/monster-house/IMG_8623.jpg"},
-                                {src:"Assets/content/exhibit/monster-house/IMG_8625.jpg"},
-                                {src:"Assets/content/exhibit/monster-house/IMG_8629.jpg"},
-                                {src:"Assets/content/exhibit/monster-house/IMG_8632.jpg"},
-                                {src:"Assets/content/exhibit/monster-house/IMG_8633.jpg"},
-                                {src:"Assets/content/exhibit/monster-house/Y200331025.jpg"},
-                                {src:"Assets/content/exhibit/monster-house/Y200331028.jpg"},
-                                {src:"Assets/content/exhibit/monster-house/Y200331033.jpg"},
-                                {src:"Assets/content/exhibit/monster-house/Y200331034.jpg"},
-                                {src:"Assets/content/exhibit/monster-house/Y200331035.jpg"},
-                                {src:"Assets/content/exhibit/monster-house/Y200331036.jpg"}
+                                {src:"Content/exhibit/monster-house/Y200331042.jpg"},
+                                {src:"Content/exhibit/monster-house/IMG_8615.jpg"},
+                                {src:"Content/exhibit/monster-house/IMG_8623.jpg"},
+                                {src:"Content/exhibit/monster-house/IMG_8625.jpg"},
+                                {src:"Content/exhibit/monster-house/IMG_8629.jpg"},
+                                {src:"Content/exhibit/monster-house/IMG_8632.jpg"},
+                                {src:"Content/exhibit/monster-house/IMG_8633.jpg"},
+                                {src:"Content/exhibit/monster-house/Y200331025.jpg"},
+                                {src:"Content/exhibit/monster-house/Y200331028.jpg"},
+                                {src:"Content/exhibit/monster-house/Y200331033.jpg"},
+                                {src:"Content/exhibit/monster-house/Y200331034.jpg"},
+                                {src:"Content/exhibit/monster-house/Y200331035.jpg"},
+                                {src:"Content/exhibit/monster-house/Y200331036.jpg"}
                             ]
                         }
                     ]
@@ -846,7 +846,7 @@ var data = {
                     title:"Exhibition Catalogue Book",
                     subtitle: "Yokai: Ghosts, Demons & Monsters of Japan",
                     featured: {
-                        src:"Assets/content/exhibit/catalogue/book-cover-crop1.jpg",
+                        src:"Content/exhibit/catalogue/book-cover-crop1.jpg",
                         link: {
                             url: "https://shopmuseum.org/collections/exhibit-related-books/products/yokai-ghosts-demons-monsters-of-japan",
                             text: "Available at the Museum of International Folk Art Shop"
@@ -855,7 +855,7 @@ var data = {
                     slides:
                     [
                         {
-                            src:'Assets/content/exhibit/catalogue/book-cover.jpg'
+                            src:'Content/exhibit/catalogue/book-cover.jpg'
                         }
                     ],
                     body: `<p>Vivid in Japanese art and imagination are creatures that are at once ghastly and humorous. The Japanese word yokai generally refers to a range of supernatural beings such as ghosts, demons, monsters, shapeshifters, tricksters, and other strange kinds of creatures. While their status is commonly described as supernatural, they intermingle with and appear in the natural, human world. Today, yokai are wildly popular in Japan—prevalent across contemporary entertainment genres such as manga (“comics”) and anime (“animation”) series, horror movies, and video games, and they also manifest as the subject of related material culture objects like game cards, character t-shirts, cuddly plushies, and collectable gashapon capsule toys. This diverse array of yokai imagery and materiality is deeply rooted in the past. Yokai images and their stories are enduring, and there is no question that what we see in hot commodities today is closely aligned with the traditional Japanese folklore. This new book explores yokai through multiple perspectives: what they are, their associated tales, how people engage with or interpret them in different contexts, and why they remain so popular in Japan. The contributors to this book are eminent scholars, creators, and promoters of various aspects of yokai culture. The interdisciplinary nature of this book’s presentation vibrantly illustrates yokai from different angles, allowing for a broad view of their cultural scope in Japan. In addition, the contributors delve into popular culture themes, connecting traditional folklore, folk art, and imagery to trends in Japan as well as in the United States.</p>
@@ -866,7 +866,7 @@ var data = {
                     externalURL:"http://collection.internationalfolkart.org/collections/24685/yokai-exhibit/objects",
                     title:"Exhibition Collection",
                     featured: {                       
-						 src:"Assets/content/exhibit/collection/emuseum.jpg",
+						 src:"Content/exhibit/collection/emuseum.jpg",
                         caption:"name,artist,date,locations"
                     }
                 }   
@@ -879,7 +879,7 @@ var data = {
             subtitle:"Additional Yokai Resources",
             body:``,
             featured:   {
-                src:"Assets/content/resources/tengucard.jpg"
+                src:"Content/resources/tengucard.jpg"
             },
             //ul of links
         
@@ -926,19 +926,19 @@ var data = {
                             [
                                 {
                                     text:'Tengu',
-                                    src:'Assets/content/resources/2020_06-yokai-activity-sheets-4-TENGU.jpg'
+                                    src:'Content/resources/2020_06-yokai-activity-sheets-4-TENGU.jpg'
                                 },
                                 {
                                     text:'Oni (Ogre-Demon)',
-                                    src:'Assets/content/resources/2020_06-yokai-activity-sheets-5-ONI.jpg'
+                                    src:'Content/resources/2020_06-yokai-activity-sheets-5-ONI.jpg'
                                 },
                                 {
                                     text:'Chochin Obake (Lantern Monster)',
-                                    src:'Assets/content/resources/2020_06-yokai-activity-sheets-6-CHOCHIN-OBAKE.jpg'
+                                    src:'Content/resources/2020_06-yokai-activity-sheets-6-CHOCHIN-OBAKE.jpg'
                                 },
                                 {
                                     text:'Kappa',
-                                    src:'Assets/content/resources/2020_06-yokai-activity-sheets-7-KAPPA.jpg'
+                                    src:'Content/resources/2020_06-yokai-activity-sheets-7-KAPPA.jpg'
                                 },
 
                             ]
@@ -949,11 +949,11 @@ var data = {
                             [
                                  {
                                      text:'Bakeneko (Monster Cat)',
-                                     src:'Assets/content/resources/2020_06-yokai-activity-sheets-2-BAKENEKO.jpg'
+                                     src:'Content/resources/2020_06-yokai-activity-sheets-2-BAKENEKO.jpg'
                                 },
                                 {
                                     text:'Yurei (Ghost)',
-                                    src:'Assets/content/resources/2020_06-yokai-activity-sheets-3-YUREI.jpg'
+                                    src:'Content/resources/2020_06-yokai-activity-sheets-3-YUREI.jpg'
                                 }
                             ]
                         },
@@ -962,7 +962,7 @@ var data = {
                 {
                     title: "Amabie: the yokai that protects from pandemics",
                     featured: {
-                        src:"Assets/content/resources/amabie.jpg",
+                        src:"Content/resources/amabie.jpg",
                         
                     },
                     links: [
@@ -989,7 +989,7 @@ var data = {
             title:"Acknowledgements",
             subtitle:'Exhibition',
             featured:   {
-                src:"Assets/content/acknowledements/A.2017.91.1a-c4.jpg"
+                src:"Content/acknowledements/A.2017.91.1a-c4.jpg"
             },
             body:`The Museum of International Folk Art is indebted to collaborators, volunteers, and consultants for their generous and informed contributions.`,
             sections:

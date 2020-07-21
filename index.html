@@ -29,7 +29,7 @@
                 <ul class="navbar-nav d-flex align-items-center">
                     
 					<li class="nav-item dropdown"> 
-                        <router-link to="/culture" class="nav-link dropdown-toggle" data-toggle="dropdown">Yokai History</router-link>
+                        <router-link to="/culture" class="nav-link dropdown-toggle" data-toggle="dropdown">Yokai History to Pop Culture</router-link>
                         <div class="dropdown-menu bg-red ">
                             <template v-for='subpage in pages[2].subpages'>
                                 <router-link class="dropdown-item color-tan" :to='"/culture/"+subpage.slug'> {{subpage.title}}</router-link>
@@ -122,7 +122,7 @@
 	<script src="https://unpkg.com/vue-router"></script>
 	
 	<!-- App Content -->
-    <script src="data.js"></script>
+    <script src="Content/data.js"></script>
       
     <!-- vue plugins -->
     <!--lazy loading -->
@@ -156,7 +156,7 @@
 	
 	<!-- Vue App / Router -->
 	<script src="app.js"></script>
-    <script src='site.js'></script>
+    <script src='Assets/Scripts/site.js'></script>
 	
   </body>
 </html>
