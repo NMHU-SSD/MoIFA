@@ -2,8 +2,7 @@ var Cards = {
     name: "cards-component",
     props: ['cards'],
     template:`
-    <!-- cards -->
-    
+        <!-- cards -->
         <div class='row'>
             <div class='col m-3 align-items-stretch' v-for='card,index in cards'>
                 <div class="card img-container h-100 bg-red mb-3">
@@ -35,7 +34,5 @@ var Cards = {
                 </div>
             </div>
         </div>
-
-
     `
 }
