@@ -193,12 +193,7 @@ img {
   top: 50%;
   left: 10%;  
 }
-.overlay-text-2{
-  width: auto;
-  height: auto;
-  position: absolute;  
-  top: 1%;
-  left: 1%; 
+.card-img-overlay{ 
   pointer-events: none;
 }
 /*carousel*/

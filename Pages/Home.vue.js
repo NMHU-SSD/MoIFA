@@ -11,7 +11,7 @@ var Home = {
     <!--landing description and image/2 displays-->
     <div class="row bg-black">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 bg-tan m-0 p-5 d-none d-sm-none d-lg-inline">
-                <h3 class="text-left color-red" v-html="page.title">
+                <h3 class="text-left color-red text-uppercase" v-html="page.title">
                 </h3>
                 <div v-html="page.body"></div>
                 
@@ -35,7 +35,7 @@ var Home = {
                     <span class='font-weight-lighter h6'>{{page.featured.credit.medium}}</span><br>
                     <span class='font-weight-lighter h6' v-html='page.featured.credit.link'></span>
              </div>
-             <h3 class="text-left color-red" v-html="page.title"></h3>
+             <h3 class="text-left color-red text-uppercase" v-html="page.title"></h3>
              <div v-html="page.body"></div>
         </div>
     </div>
@@ -44,7 +44,7 @@ var Home = {
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 m-0 p-0">
                 <router-link class="nav-link img-container p-0 m-0" :to="p.slug">
                     <img class="fluid-width fixed-height-3" v-lazy="p.featured.src"/>
-                    <h1 class="overlay-text color-tan bg-red pb-0 pl-2 pr-2 pt-2 m-0">{{p.title}}</h1>
+                    <h1 class="overlay-text text-uppercase color-tan bg-red pb-0 pl-2 pr-2 pt-2 m-0">{{p.title}}</h1>
                 </router-link>
             </div>
     </div>
