@@ -24,7 +24,7 @@ var Home = {
                 </div>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 m-0 p-0 img-container">
-            <img v-lazy="page.featured.src" class="img-fluid p-0 m-0 w-100"/>
+            <img v-lazy="page.featured.src" class="img-fluid  p-0 m-0 w-100"/>
             
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 bg-tan m-0 pt-3 pb-5 pr-5 pl-5 d-inline d-xs-inline d-sm-inline d-md-inline d-lg-none">

@@ -7,7 +7,7 @@ var data = {
             title:"Vivid in Japanese Art and Imagination Are Creatures That Are At Once Ghastly And Amusing.",
             body:"<p>Yokai is a catchall word for, ghosts, demons, monsters, shapeshifters, tricksters, and other kinds of supernatural beings and mysterious phenomena. Yokai interact with the human world and spark common notions of frightful things.</p><p>Yokai can definitely be scary, but the experience of fear can also be amusing. When frightening beings copy human behavior, they become less intimidating and can appear playful, relatable, and even cute.</p><p>But yokai are not all tame and cute. Perhaps the most terrifying yokai are those that shed light on the faults of human society.</p><p><span class='font-weight-bolder'>Who are the yokai in your world?<br>Have you ever felt demonized?<br>Are you a yokai?</span></p>",
             featured:  {
-                src:"Content/homepage/ao-bozu.jpg",
+                src:"Content/homepage/UNADJUSTEDNONRAW_thumb_441d.jpg",
                 credit:
                 {
                         title: "AO BOZU (BLUE MONK)",
@@ -314,8 +314,8 @@ var data = {
                             cards:
                             [
                                 [{
-                                    src:"Content/yokai/toys-and-games/zukushi_print.jpg",
-                                    msrc:"Content/yokai/toys-and-games/zukushi_print.jpg",
+                                    src:"Content/yokai/toys-and-games/zukushi-print.jpeg",
+                                    msrc:"Content/yokai/toys-and-games/zukushi-print.jpeg",
                                     w:1572,
                                     h:2028,
                                     credit:
@@ -328,7 +328,7 @@ var data = {
                                     }
                                 }]
                             ],
-                            body:`<p>Produced in large quantities, omocha-e (paper toys) were inexpensive enough for children to buy. Zukushi prints were made to be cut, and children would trade and collect various images. Monsters, being a persistently popular theme, were a favorite.  Putting images together created a catalog of yokai. These may be considered “Edo period Pokémon cards.</p>”
+                            body:`<p>Produced in large quantities, omocha-e (paper toys) were inexpensive enough for children to buy. Zukushi prints were made to be cut, and children would trade and collect various images. Monsters, being a persistently popular theme, were a favorite.  Putting images together created a catalog of yokai. These may be considered “Edo period Pokémon cards.</p>
                             <p>Learn more about the connection between Pokémon and yokai <a class='color-red font-weight-bolder' href='https://mluce.ro/articles/the-yokai-roots-of-pokemon/' target='_blank'>here</a></p>`
                         },
                         {
@@ -356,8 +356,53 @@ var data = {
                             cards:
                             [
                                 [{
-                                    src:"Content/yokai/toys-and-games/karuta.jpg",
-                                    msrc:"Content/yokai/toys-and-games/karuta.jpg",
+                                    src:"Content/yokai/toys-and-games/karuta1.jpeg",
+                                    msrc:"Content/yokai/toys-and-games/karuta1.jpeg",
+                                    w:2694,
+                                    h:2532,
+                                    credit:
+                                    {
+                                        title:"Obake karuta (Monster-themed playing cards)",
+                                        artist:"Unknown Artist",
+                                        date:"Post-Meiji Period (after 1912)",
+                                        location:"Japan",
+                                        medium:"Ink on cardstock",
+                                        collection:"On loan from the Yumoto Koichi Memorial Yokai Museum in Japan (Miyoshi Mononoke Museum)"
+                                    }
+                                }],
+                                [{
+                                    src:"Content/yokai/toys-and-games/karuta2.jpeg",
+                                    msrc:"Content/yokai/toys-and-games/karuta2.jpeg",
+                                    w:2694,
+                                    h:2532,
+                                    credit:
+                                    {
+                                        title:"Obake karuta (Monster-themed playing cards)",
+                                        artist:"Unknown Artist",
+                                        date:"Post-Meiji Period (after 1912)",
+                                        location:"Japan",
+                                        medium:"Ink on cardstock",
+                                        collection:"On loan from the Yumoto Koichi Memorial Yokai Museum in Japan (Miyoshi Mononoke Museum)"
+                                    }
+                                }],
+                                [{
+                                    src:"Content/yokai/toys-and-games/karuta3.jpeg",
+                                    msrc:"Content/yokai/toys-and-games/karuta3.jpeg",
+                                    w:2694,
+                                    h:2532,
+                                    credit:
+                                    {
+                                        title:"Obake karuta (Monster-themed playing cards)",
+                                        artist:"Unknown Artist",
+                                        date:"Post-Meiji Period (after 1912)",
+                                        location:"Japan",
+                                        medium:"Ink on cardstock",
+                                        collection:"On loan from the Yumoto Koichi Memorial Yokai Museum in Japan (Miyoshi Mononoke Museum)"
+                                    }
+                                }],
+                                [{
+                                    src:"Content/yokai/toys-and-games/karuta4.jpeg",
+                                    msrc:"Content/yokai/toys-and-games/karuta4.jpeg",
                                     w:2694,
                                     h:2532,
                                     credit:
@@ -842,7 +887,7 @@ var data = {
                     title:"Exhibition Catalogue Book",
                     subtitle: "Yokai: Ghosts, Demons & Monsters of Japan",
                     featured: {
-                        src:"Content/exhibit/catalogue/book-cover-crop1.jpg",
+                        src:"Content/exhibit/catalogue/book-cover-crop2.jpg",
                         link: {
                             url: "https://shopmuseum.org/collections/exhibit-related-books/products/yokai-ghosts-demons-monsters-of-japan",
                             text: "Available at the Museum of International Folk Art Shop"
