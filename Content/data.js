@@ -439,10 +439,7 @@ var data = {
                                     }
                                 }],
                                 [{
-                                    src:"Content/yokai/performance/puppetfinal.mp4",
-                                    msrc:"Content/yokai/performance/puppetfinal.mp4",
-                                    w:1600,
-                                    h:900,
+                                    vSrc:"Content/yokai/performance/puppetfinal.mp4",
                                     caption:`Kiyohime is crafted with strings and levers that are manipulated by the puppeteer to transform her from princess to demon. Click the image to view her transformation.`
                                 }],
                                 [{

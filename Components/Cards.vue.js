@@ -6,8 +6,9 @@ var Cards = {
         <div class='row'>
             <div class='col m-3 align-items-stretch' v-for='card,index in cards'>
                 <div class="card img-container h-100 bg-red mb-3">
-                    <vue-preview  class="mh-100 card-img-top pointer" :slides="card"></vue-preview>
-                    <div class='overlay-text-2'> 
+                    <video v-if='card[0].vSrc' :src='card[0].vSrc' class="card-img-top img-fluid mh-100 pointer" controls></video>
+                    <vue-preview v-else class="mh-100 card-img-top pointer" :slides="card"></vue-preview>
+                    <div v-if='card[0].src' class='card-img-overlay'> 
                         <i class="fas fa-expand color-white"></i>
                     </div>
                     <div class="card-body">
