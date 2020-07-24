@@ -45,9 +45,14 @@ p, span{
 }
 /*navbar*/
 nav .nav-item{
+/*
     margin-left: 1.5em;
     margin-right: 1.5em;
+*/
+    margin-right: 1.5em;
     text-transform: capitalize;
+    width: auto;
+    display: inline-block;
 }
 nav .nav-item .nav-link{
     display: inline-block;
