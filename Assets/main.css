@@ -71,7 +71,6 @@ nav .nav-link:hover{
 }
 
 
-
 /*hover to dropdown*/
 nav .dropdown:hover > .dropdown-menu {
     display: block; 
@@ -184,14 +183,14 @@ img {
     width: 15em !important;
 }
 .logo{
-    height: 150px;
+    height: 5em;
 }
 .overlay-text{
   width: auto;
   height: auto;
-  position: absolute;  
-  top: 50%;
-  left: 10%;  
+  position: absolute;
+  top: 3%;
+  left: 3%;  
 }
 .card-img-overlay{ 
   pointer-events: none;
@@ -298,7 +297,9 @@ figure, .figure-img, figure > .img-container{
     background: #8C2A1C !important;
     z-index: 9999;
 }
-
+.font-size-1{
+    font-size: .7em;
+}
 
 
 /* Small devices (landscape phones, 576px and up)*/
@@ -334,10 +335,12 @@ figure, .figure-img, figure > .img-container{
 .pointer{
      cursor: pointer;
 }
-
-
-
-
+br {
+    display: block;
+    margin-bottom: 0;
+    font-size:0;
+    line-height:0;
+}
 
 
 

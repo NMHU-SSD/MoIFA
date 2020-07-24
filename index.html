@@ -18,7 +18,7 @@
   <body>
 	<!-- nav/header-->
 	<div id="app" class="p-0 m-0">
-         <nav class="navbar navbar-expand-xl sticky-top navbar-light bg-red pl-4 pr-4 m-0">
+         <nav class="navbar navbar-expand-xl sticky-top navbar-light bg-red p-0 m-0">
               <router-link class="navbar-brand p-0 m-0" to="/">
                     <img class="img-fluid logo" src="Assets/Logos/yokai_logo_color.svg"/>
                </router-link>    
@@ -31,7 +31,7 @@
 					<li class="nav-item dropdown"> 
                         <router-link to="/culture" class="nav-link dropdown-toggle" data-toggle="dropdown">Yokai History to Pop Culture</router-link>
                         <div class="dropdown-menu bg-red ">
-                            <template v-for='subpage in pages[2].subpages'>
+                            <template v-for='subpage in pages[1].subpages'>
                                 <router-link class="dropdown-item color-tan" :to='"/culture/"+subpage.slug'> {{subpage.title}}</router-link>
                             </template>
                         </div>
@@ -42,7 +42,7 @@
                             Yokai Lore and Ghost Stories
                         </router-link>
                         <div class="dropdown-menu bg-red ">
-                            <template v-for='subpage in pages[1].subpages'>
+                            <template v-for='subpage in pages[2].subpages'>
                                 <router-link class="dropdown-item color-tan" :to='"/lore/"+subpage.slug'> {{subpage.title}}</router-link>
                             </template>
                         </div>
@@ -51,7 +51,8 @@
                         <router-link to="/exhibition" class="nav-link dropdown-toggle" data-toggle="dropdown " >Exhibition and Catalog</router-link>
                         <div class="dropdown-menu bg-red">
                             <template v-for='subpage in pages[3].subpages'>
-                                <router-link class="dropdown-item color-tan" :to='"/exhibition/"+subpage.slug'> {{subpage.title}}</router-link>
+                                <a v-if='subpage.externalURL' class="dropdown-item color-tan" :href="subpage.externalURL"  target="_blank"> learn more about the artist and collaboration</a>
+                                <router-link v-else class="dropdown-item color-tan" :to='"/exhibition/"+subpage.slug'> {{subpage.title}}</router-link>
                             </template>
                         </div>
                     </li>
@@ -70,37 +71,37 @@
         <button class='btn fixed-button' id='fixed-button' onclick="toTop()"><i class="fas fa-chevron-up"></i></button>
       
       <!--  footer piece -->
-      <footer class="container-fluid p-3 bg-tan footer border-top border-secondary">
+      <footer class="container-fluid p-0 m-0 bg-tan footer border-top border-secondary">
             <div class="row">
-                <div class="col-12 col-md-4 p-5 align-self-start">
+                <div class="col-12 col-md-2 p-0 pl-4 align-self-start">
                     <div class='container-fluid'>
                         <ul class="nav align-items-center">
                             <li class="nav-item header"> 
-                                <a class="nav-link disabled" href="#" >Site Map</a>
+                                <a class="nav-link disabled font-size-1" href="#" ><u>Site Map</u></a>
                             </li>
                             
 					       <li class="nav-item"> 
-                                <router-link class="nav-link" to="/culture">Yokai History to Pop Culture</router-link> 
+                                <router-link class="nav-link font-size-1" to="/culture">Yokai History to Pop Culture</router-link> 
                             </li>
                             <li class="nav-item"> 
-                                <router-link class="nav-link" to="/lore">Yokai Lore and Ghost Stories</router-link> 
+                                <router-link class="nav-link font-size-1" to="/lore">Yokai Lore and Ghost Stories</router-link> 
                             </li>
                             <li class="nav-item"> 
-                                <router-link class='nav-link' to="/exhibition">Exibition and Catalog</router-link> 
+                                <router-link class='nav-link font-size-1' to="/exhibition">Exhibition and Catalog</router-link> 
                             </li>
                             <li class="nav-item"> 
-                                <router-link class="nav-link " to="/resources"> Create And Learn More </router-link>
+                                <router-link class="nav-link font-size-1" to="/resources"> Create And Learn More </router-link>
                             </li>
                              <li class="nav-item"> 
-                                <router-link class="nav-link" to="/acknowledgements"> Acknowledgments </router-link> 
+                                <router-link class="nav-link font-size-1" to="/acknowledgements"> Acknowledgments </router-link> 
                             </li>
 			             </ul>
                     </div>
                 </div>
-                <div class="col-12 col-md-4 p-5 align-self-center text-center">
+                <div class="col-12 col-md-5 pb-4 pt-4 pr-4 p-0 align-self-center text-center">
                     <img src="Assets/Logos/MOIFA_logo.png" class="img-fluid"/>
                 </div>
-                <div class="col-12 col-md-4 p-5 align-self-center text-center">
+                <div class="col-12 col-md-5 p-4 align-self-center text-center">
                     <img src="Assets/Logos/DCA_logo.png" class="img-fluid"/>
                 </div>
             </div>

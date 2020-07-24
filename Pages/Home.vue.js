@@ -16,11 +16,11 @@ var Home = {
                 <div v-html="page.body"></div>
                 
                 <div class='blockquote text-right justify-content-end'>
-                    <span class="font-weight-bolder">{{page.featured.credit.title}}</span><br>
-                    <span class="font-weight-bolder">{{page.featured.credit.artist}}</span><br>
-                    <span class='font-weight-lighter h6'>{{page.featured.credit.date}}</span> <br>
-                    <span class='font-weight-lighter h6'>{{page.featured.credit.medium}}</span><br>
-                    <span class='font-weight-lighter h6' v-html='page.featured.credit.link'></span>
+                    <span class="font-weight-bolder h6 p-0 m-0">{{page.featured.credit.title}}</span><br>
+                    <span class="font-weight-bolder h6 p-0 m-0">{{page.featured.credit.artist}}</span><br>
+                    <span class='font-weight-lighter font-size-1'>{{page.featured.credit.date}}</span> <br>
+                    <span class='font-weight-lighter font-size-1'>{{page.featured.credit.medium}}</span><br>
+                    <span class='font-weight-lighter font-size-1' v-html='page.featured.credit.link'></span>
                 </div>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 m-0 p-0 img-container">
@@ -29,11 +29,11 @@ var Home = {
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 bg-tan m-0 pt-3 pb-5 pr-5 pl-5 d-inline d-xs-inline d-sm-inline d-md-inline d-lg-none">
              <div class='blockquote text-right justify-content-end pb-5'>
-                    <span class="font-weight-bolder">{{page.featured.credit.title}}</span><br>
-                    <span class="font-weight-bolder">{{page.featured.credit.artist}}</span><br>
-                    <span class='font-weight-lighter h6'>{{page.featured.credit.date}}</span> <br>
-                    <span class='font-weight-lighter h6'>{{page.featured.credit.medium}}</span><br>
-                    <span class='font-weight-lighter h6' v-html='page.featured.credit.link'></span>
+                     <span class="font-weight-bolder h6 p-0 m-0">{{page.featured.credit.title}}</span><br>
+                    <span class="font-weight-bolder h6 p-0 m-0">{{page.featured.credit.artist}}</span><br>
+                    <span class='font-weight-lighter font-size-1'>{{page.featured.credit.date}}</span> <br>
+                    <span class='font-weight-lighter font-size-1'>{{page.featured.credit.medium}}</span><br>
+                    <span class='font-weight-lighter font-size-1' v-html='page.featured.credit.link'></span>
              </div>
              <h3 class="text-left color-red text-uppercase" v-html="page.title"></h3>
              <div v-html="page.body"></div>
