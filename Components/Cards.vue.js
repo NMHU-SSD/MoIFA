@@ -43,6 +43,14 @@ var Cards = {
                             <i class="fas fa-expand color-white"></i>
                         </div>
                     </div>
+                    <div v-else  class='card-img-top bg-black'>
+                        <div class="card-image-container">
+                            <vue-preview  class="pointer d-block mh-100 container-fluid p-0 m-0" :slides="[card]"></vue-preview>
+                        </div>
+                        <div class='card-img-overlay'> 
+                            <i class="fas fa-expand color-white"></i>
+                        </div>
+                    </div>
                     <div class="card-body pl-1 pr-1 pt-3 m-0">
                         <div class="row-fluid mh-100">
                             
