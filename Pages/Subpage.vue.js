@@ -97,7 +97,7 @@ var Subpage = {
                     </div>
                     <!-- cards -->
                     <template v-if="section.cards">
-                        <cards-component :cards="section.cards"/>
+                        <cards-component :cards="section.cards" :id='index'/>
                     </template>
                     <!-- carousel --->
                     <div v-if='section.slides' class='col-12 col-lg-10 offset-lg-1'>
