@@ -3,25 +3,29 @@ var Cards = {
     props: ['cards','id'],
     template:`
         <!-- cards -->
-        <div class='row'>
-            <div class='col m-3 align-items-stretch' v-for='card,index in cards'>
-                <div class="card bg-red mb-3">
+        <div class='row p-0 m-0'>
+            <div class='col p-3' v-for='card,index in cards'>
+                <div class="card carousel-card bg-red">
+
                     <!-- credit and caption -->
                     <template v-if="card.sources && card.sources.length > 1">
-                        <div :id="'carouselCardTopIndicators'+id" class="card-img-top bg-black carousel slide p-0 m-0" data-ride="false">
+                        <div :id="'carouselCard'+index+'-TopIndicators-'+id" class="card-img-top bg-black carousel slide p-0 m-0" data-ride="false">
                             <ol class="carousel-indicators">
-                                <li v-for="(source,i) in card.sources" :data-target="'#carouselCardTopIndicators'+id" :data-slide-to="i" :class="(i==0 ? 'active' : '')"></li>
+                                <li v-for="(source,i) in card.sources" :data-target="'#carouselCard'+index+'-TopIndicators-'+id" :data-slide-to="i" :class="(i==0 ? 'active' : '')"></li>
                             </ol>
                             <div class="carousel-inner ">
-                                 <div v-for="(source,i) in card.sources" :class="['carousel-item carousel-card', (i==0 ? 'active' : '')]">
-                                    <vue-preview class="pointer d-block container-fluid p-0 m-0" :slides="[source]"></vue-preview>
+                                 <div v-for="(source,i) in card.sources" :class="['carousel-item p-0 m-0', 'card-image-container', (i==0 ? 'active' : '')]">
+                                    <vue-preview class="pointer  d-block container-fluid p-0 m-0" :slides="[source]"></vue-preview>
+                                    <div class='card-img-overlay'> 
+                                        <i class="fas fa-expand color-white"></i>
+                                    </div>
                                 </div>
                             </div>
-                            <a class="carousel-control-prev" :href="'#carouselCardTopIndicators'+id" role="button" data-slide="prev">
+                            <a class="carousel-control-prev" :href="'#carouselCard'+index+'-TopIndicators-'+id" role="button" data-slide="prev">
                                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                 <span class="sr-only">Previous</span>
                             </a>
-                            <a class="carousel-control-next" :href="'#carouselCardTopIndicators'+id" role="button" data-slide="next">
+                            <a class="carousel-control-next" :href="'#carouselCard'+index+'-TopIndicators-'+id" role="button" data-slide="next">
                                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                 <span class="sr-only">Next</span>
                             </a>
@@ -31,36 +35,41 @@ var Cards = {
                     
                     <video v-else-if='card.video' :src='card.video' class="card-img-top bg-black d-block img-fluid mx-auto pointer" controls></video>
                     
-                    <div v-else-if='card.sources && card.sources.length == 1' class='card-img-container'>
-                        <vue-preview  class="card-img-top pointer bg-black" :slides="[card.sources[0]]"></vue-preview>
+                    <div v-else-if='card.sources && card.sources.length == 1' class='card-img-top bg-black'>
+                        <div class="card-image-container">
+                            <vue-preview  class="pointer d-block mh-100 container-fluid p-0 m-0" :slides="[card.sources[0]]"></vue-preview>
+                        </div>
                         <div class='card-img-overlay'> 
                             <i class="fas fa-expand color-white"></i>
                         </div>
                     </div>
-                    <div class="card-body">
-                        <div class="card-text row-fluid">
+                    <div class="card-body pl-1 pr-1 pt-3 m-0">
+                        <div class="row-fluid mh-100">
                             
                             <!-- credit and caption -->
                             <template v-if="card.credit && card.caption || card.caption && card.credits">
-                                <div :id="'carouselCardBottomIndicators'+id" class="carousel carousel-height slide p-3 m-0" data-ride="false">
+                                <div :id="'carouselCard'+index+'-BottomIndicators-'+id" class="carousel slide p-2 m-0" data-ride="false">
                                     <!-- loop through credits -->
-                                    <ol class="carousel-indicators">
-                                        <li :data-target="'#carouselCardBottomIndicators'+id" data-slide-to="0" class="active"></li>
-                                        <li :data-target="'#carouselCardBottomIndicators'+id" data-slide-to="1"></li>
+                                    <ol class="carousel-indicators ">
+                                        <li :data-target="'#carouselCard'+index+'-BottomIndicators-'+id" data-slide-to="0" class="active"></li>
+                                        <li :data-target="'#carouselCard'+index+'-BottomIndicators-'+id" data-slide-to="1"></li>
                                     </ol>
                                     <div class="carousel-inner container-fluid">
                                         <div v-if="card.credit" class="carousel-item active">
                                             <credits-component :credits="[card.credit]" />
                                         </div>
-                                        <div v-if="card.credits" class="carousel-item active">
-                                            <credits-component :credits="card.credits" />
-                                        </div>
-                                        <div v-if="card.caption" class="carousel-item">
-                                            <p class="h6 color-white text-justify" v-html="card.caption"></p>
+                                        <template v-if="card.credits && card.credits.length > 1">
+                                            <div  v-for="credit,i in card.credits"  :class="(i==0 ? ' carousel-item active' : 'carousel-item')">
+                                                <credits-component ":credits="[credit]" />
+                                            </div>
+                                        </template>
+                                        <div v-if="card.caption" class="carousel-item card-text">
+                                            <p class="h6 color-white text-left overflow-scroll pb-2 " v-html="card.caption"></p>
                                         </div>
                                     </div>
                                 </div>
                             </template>
+
                             <!-- credit -->
                             <template v-else-if="card.credit && !card.caption && !card.credits">
                                 <div class="col-12 pt-2 pl-5 pr-5 m-0">
@@ -75,7 +84,7 @@ var Cards = {
 
                             <!-- caption -->
                             <template v-if="card.caption && !card.credit && !card.credits ">
-                                <div class="col-12 pt-2 pl-5 pr-5 m-0" >
+                                <div class="col-12 pt-2 pb-2 pl-5 pr-5 m-0 card-text" >
                                     <p class="h5 color-white text-justify" v-html="card.caption"></p>
                                 </div>
                             </template>

@@ -90,14 +90,14 @@ var Subpage = {
             <div v-for='section,index in subpage.sections' :class='["container-fluid", "p-5", (index%2 == 0 ? "bg-light-tan" : "")]'>
                 <div class='container-fluid'>
                     <div class='row pb-4'>
-                        <div class="col-sm-12 col-md-12 col-lg-10 offset-lg-1">
+                        <div class="col-sm-12 col-md-12 col-lg-12 ">
                             <h3 class='font-weight-bolder text-uppercase'>{{section.title}}</h3>
                             <div v-html='section.body'></div>
                         </div>
                     </div>
                     <!-- cards -->
                     <template v-if="section.cards">
-                        <cards-component :cards="section.cards" :id='index'/>
+                        <cards-component :cards="section.cards" :id="'section'+index" />
                     </template>
                     <!-- carousel --->
                     <div v-if='section.slides' class='col-12 col-lg-10 offset-lg-1'>

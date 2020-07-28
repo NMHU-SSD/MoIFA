@@ -172,12 +172,11 @@ footer ul.nav .nav-item .disabled{
     position: relative;
 	width:100%;
 	height:100%;
-}
-img {	
-	object-fit: cover;
+    object-fit: cover;
 	object-position: 50% 50%;
     text-align: center;
 }
+
 .fixed-height-1{
     height: 20em !important;
 }
@@ -201,37 +200,8 @@ img {
   left: 3%;
   padding: 3em;
 }
-.card-img-overlay{ 
-  pointer-events: none;
-}
-.card-img-top{
-    object-fit: contain;
-}
-.card-img-container{
-    position: relative;
-    width: 100%;
-    display: block !important;
-    text-align: center;
-} 
-.card > .card-img-container{
-    max-height: 500px;
-    min-height: 300px;
-}
-.card-img-overlay{
-    text-align: left !important
-}
-.card > .card-img-container > div > div > figure> a > img{
-    margin-left: auto !important;
-    margin-right: auto !important;
-    max-width: 100% !important;
-    height: 500px !important;
-    object-fit: contain !important;
-	object-position: 50% 50% !important;
-    
-}
-.card > .card-img-container > div > div > figure{
-    height: auto !important;
-}
+
+
 /*carousel*/
 .carousel-control-prev-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%238c2a1c ' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
@@ -245,39 +215,59 @@ img {
 .carousel-control-next-icon-white {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23FFF' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
 }
-.carousel-height{
-    min-height: 8em !important;
-    max-height: 50%
+
+
+
+.card-img-top{
+    width: 100% !important;
+    height: 400px !important;
+    overflow: hidden;
 }
-.carousel-item > div > div > figure > a > img{
-    margin-left: auto !important;
-    margin-right: auto !important;
-    max-width: 100%;
-    height: 100%
+
+.card-image-container{
+    height: 400px !important;
+    overflow: hidden;
+}
+.card-img-overlay{ 
+  pointer-events: none;
+  text-align: left !important
+}
+
+.card-image-container > div > div > figure > a > img {
+    width: 100% !important;
+    height: 400px !important;
     object-fit: contain !important;
-	object-position: 50% 50%;
+	object-position: 50% 50% !important;
+    display: block !important; 
 }
-.carousel-card{
-    position: relative;
-    width: 100%;
+.carousel-item > div > div > figure {
+    height: auto !important;
     display: block !important;
     text-align: center !important;
+    min-height: 200px !important;
+    max-height: 400px !important;
+    margin: 0px auto !important;
 }
-figure{
-    margin: 0;
-    padding: 0;
+
+.card-body .carousel, .card-body .carousel .carousel-inner{
+    min-height: 200px !important;
 }
-.carousel-item > div > div > figure{
-    height: 500px !important;
-    display: block !important;
-    text-align: center !important;
+
+
+.carousel-indicators {
+    position: absolute;
+    bottom: -20px !important;
+/*    margin-top: 30px !important;*/
+    right: 0px !important;
 }
 .carousel-indicators li {
   width: 10px;
   height: 10px;
   border-radius: 100%;
-    z-index: 9999;
+  z-index: 9999;
 }
+
+
 .fixed-indicators{
     top:10px;
     text-align: right;
