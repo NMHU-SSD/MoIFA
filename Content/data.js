@@ -543,7 +543,7 @@ var data = {
                                         location:"Uwajima, Ehime Prefecture",
                                         collection:"Photo courtesy of the Uwajima City Tourist Association"
                                     }
-                                ],
+                                },
                                 {
                                     src:"Content/yokai/festivals/FA.2018.76.1A-F.A.jpg",
                                     msrc:"Content/yokai/festivals/FA.2018.76.1A-F.A.jpg",
