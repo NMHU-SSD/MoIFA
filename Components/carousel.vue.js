@@ -10,7 +10,7 @@ var Carousel = {
         <div :id="id" class="carousel slide bg-black" data-ride="slide" data-interval="false">
 			<ol class="carousel-indicators text-right">
                 <!--- indicators -->
-                <li v-for="(slide,i) in slides" :data-target="'#'+id" :data-slide-to="i" :class=" 'fixed-indicator',(i==0 ? 'active' : '')"></li>
+                <li v-for="(slide,i) in slides" :data-target="'#'+id" :data-slide-to="i" :class="[ 'fixed-indicator',(i==0 ? 'active' : '')]"></li>
 			</ol>
 	
             <div class="carousel-inner carousel-main">
