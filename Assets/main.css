@@ -361,37 +361,6 @@ figure, .figure-img, figure > .img-container{
 .font-size-1{
     font-size: .7em;
 }
-
-/* Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) {
-    /*figure > .img-container > video{
-        height: 15em !important;
-    }
-    figure, .figure-img, figure > .img-container{
-        height:  15em !important;
-    }
-    figure > .img-container > img{
-        height: 15em !important;
-    }
-    .carousel-inner > .carousel-item {
-        height: 15em !important;
-    }*/
-}
-/* Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) {
-    /*figure > .img-container > video{
-        height: 20em !important;
-    }
-    figure > .img-container > img{
-        height: 20em !important;
-    }
-    figure, .figure-img, figure > .img-container{
-        height:  20em !important;
-    }
-   .carousel-inner > .carousel-item
-        height: 20em !important;
-    }*/
-}
 .pointer{
      cursor: pointer;
 }
@@ -401,7 +370,6 @@ figure, .figure-img, figure > .img-container{
 .credit-spacing{
     line-height: 1.5em !important;
 }
-
 
 
 

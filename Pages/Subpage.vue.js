@@ -22,8 +22,7 @@ var Subpage = {
            return this.pages.indexOf(page); //return index position
         },
         getSubPageId(slug){
-            var pageId = this.getPageId(this.$route.params.pageid);
-            console.log(this.pages[pageId]);    
+            var pageId = this.getPageId(this.$route.params.pageid);   
             var subpage = this.pages[pageId].subpages.find(subpage => subpage.slug == slug );
 
             return  this.pages[pageId].subpages.indexOf(subpage);//return index position
@@ -106,6 +105,9 @@ var Subpage = {
                         </template>
                         <template v-else-if="section.slides && section.slides.length == 1">
                             <single-image v-bind:image="section.slides[0]"/>
+                        </template>
+                        <template v-if='section.botbody'>
+                            <div v-html='section.botbody' class='pt-3'></div>
                         </template>
                     </div>
                     

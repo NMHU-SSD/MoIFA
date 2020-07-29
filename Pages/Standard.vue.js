@@ -37,8 +37,8 @@ var Standard = {
             <template class='row' v-if='page.subtitle'>
                 <h4 class="color-red display-text text-uppercase text-center pt-4 pl-4 pr-4 pb-2 m-0" v-html="page.subtitle"></h4>
             </template>
-            <template class='row' v-if='page.body'>
-                <div class='pb-4 pl-4 pr-4 m-0 display-text text-center' v-html='page.body'></div>
+            <template class='row text-justify' v-if='page.body'>
+                <div class='pb-4 pl-4 pr-4 m-0 display-text text-justify' v-html='page.body'></div>
             </template>
 
             <!-- acknowledgments/downloads/ext-links(content for no subpage)-->

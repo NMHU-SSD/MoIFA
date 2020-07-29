@@ -67,8 +67,8 @@ var Cards = {
                                             <credits-component :credits="[card.credit]" />
                                         </div>
                                         <template v-if="card.credits && card.credits.length > 1">
-                                            <div  v-for="credit,i in card.credits"  :class="(i==0 ? ' carousel-item active' : 'carousel-item')">
-                                                <credits-component ":credits="[credit]" />
+                                            <div  v-for="credit,i in card.credits"  :class="[(i==0 ? ' carousel-item active' : 'carousel-item')]">
+                                                <credits-component :credits="[credit]" />
                                             </div>
                                         </template>
                                         <div v-if="card.caption" class="carousel-item card-text">

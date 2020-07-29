@@ -37,7 +37,8 @@ var VideoGallery = {
                             frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 							allowfullscreen>
                         </iframe>
-                        <p class='font-weight-bolder'>{{video.title}}</p>
+                        <p class='font-weight-bolder p-0 m-0'>{{video.title}}</p>
+                        <p class='font-size-1'>{{video.artist}}</p>
                     </div>
                 </template>
             </div>
