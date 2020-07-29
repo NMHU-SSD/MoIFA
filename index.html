@@ -57,9 +57,14 @@
                             </template>
                         </div>
                     </li>
-                    
-                    <li class="nav-item"> 
-                        <router-link class="nav-link " to="/resources"> Create And Learn More </router-link>
+                    <li class="nav-item dropdown"> 
+                        <router-link to="/resources" class="nav-link dropdown-toggle" data-toggle="dropdown " >Create And Learn More</router-link>
+                        <div class="dropdown-menu bg-red">
+                            <template v-for='subpage in pages[4].subpages'>
+                                <a v-if='subpage.externalURL' class="dropdown-item color-tan" :href="subpage.externalURL"  target="_blank"> learn more about the artist and collaboration</a>
+                                <router-link v-else class="dropdown-item color-tan" :to='"/resources/"+subpage.slug'> {{subpage.title}}</router-link>
+                            </template>
+                        </div>
                     </li>
 			    </ul>
             </div>

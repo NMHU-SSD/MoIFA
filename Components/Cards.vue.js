@@ -5,7 +5,7 @@ var Cards = {
         <!-- cards -->
         <div class='row p-0 m-0'>
             <div class='col p-3' v-for='card,index in cards'>
-                <div class="card carousel-card bg-red">
+                <div class="card h-100 carousel-card bg-red">
 
                     <!-- credit and caption -->
                     <template v-if="card.sources && card.sources.length > 1">

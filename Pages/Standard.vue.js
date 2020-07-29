@@ -37,8 +37,8 @@ var Standard = {
             <template class='row' v-if='page.subtitle'>
                 <h4 class="color-red display-text text-uppercase text-center pt-4 pl-4 pr-4 pb-2 m-0" v-html="page.subtitle"></h4>
             </template>
-            <template class='row text-justify' v-if='page.body'>
-                <div class='pb-4 pl-4 pr-4 m-0 display-text text-justify' v-html='page.body'></div>
+            <template class='row pl-5 pr-5' v-if='page.body'>
+                <div class='pb-4 pl-4 pr-4 m-0 display-text' v-html='page.body'></div>
             </template>
 
             <!-- acknowledgments/downloads/ext-links(content for no subpage)-->
@@ -60,39 +60,6 @@ var Standard = {
                             <div class='col-12'>
                                 <div class='display-text text-center' v-html='section.body'></div>
                             </div>
-                        </template>
-                    </div>
-                    <!-- links -->
-                    <div class="row justify-content-center" v-if='section.links' v-for='link in section.links'>
-                        <template v-if='link.src'>
-                            <div class='col-12 pt-5'>
-                                <p class='font-weight-bolder text-center' v-html='link.text'></p>
-                            </div>
-                            <div class='col-12'>
-                                <a class='color-red p-5 img-container' :href='link.src' download>
-                                    <img class='img-fluid fixed-width-1 border border-red' :src='link.src'>
-                                </a>
-                            </div>
-                        </template>
-                        <template v-if='link.links'>
-                            <div class='col-12 pt-5 pb-0 m-0'>
-                                <h5 class='font-weight-bolder text-center' v-html='link.title'></h5>
-                            </div>
-                            <div class='col-12'>
-                                <div class="row p-0 m-0">
-                                    <div class="col-sm-4 col-md-3 col-12 color-red p-5 img-container" v-for="l in link.links">
-                                        <a class='color-red img-container' :href='l.src' download>
-                                    <img class='img-fluid border border-red' :src='l.src'>
-                                    </a>
-                                    </div>
-                                </div>
-
-    
-
-                            </div>
-                        </template>
-                        <template class='col-12' v-else-if='link.extUrl'>
-                            <a class='color-red' :href='link.extUrl' target="_blank"> {{ link.text }}</a>
                         </template>
                     </div>
                 </div>

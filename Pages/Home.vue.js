@@ -43,7 +43,7 @@ var Home = {
     </div>
     <!-- page naveigation -->
     <template v-if="pages">
-                <div v-for='page,index in pages' v-if='index !== 0' class='container-fluid p-0 m-0 align-content-center'>
+                <div v-for='page,index in pages' v-if='index !== 0' class='row p-0 m-0 align-content-center'>
                     <!--show pages-->
                     <!--even-->
                     <div v-if='index%2 == 0' class='row p-0 m-0'>

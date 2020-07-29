@@ -43,7 +43,7 @@ var Subpage = {
         </div>
 
         <!-- body content container-->
-        <div class="container-fluid p-5">
+        <div class="container-fluid p-5 m-0">
             <!-- body/title -->
             <template v-if='subpage.title'>
                 <h1 class="color-red display-text text-uppercase text-center" v-html="subpage.title"></h1>
@@ -83,7 +83,41 @@ var Subpage = {
                 </div>
             </div>
         </template>
-        
+        <!-- links -->
+        <div class="row justify-content-center" v-if='subpage.links' v-for='link in subpage.links'>
+            <div class='container p-0 m-2' v-if='section.featured'>
+                <div class='col-12'>
+                                <img v-lazy='section.featured.src' class='fixed-height-1 img-fluid'/>
+                            </div>
+                        </div>
+            <template v-if='link.src'>
+                <div class='col-12 p-0 m-0'>
+                    <p class='font-weight-bolder text-center' v-html='link.text'></p>
+                </div>
+                <div class='col-12'>
+                    <a class='color-red p-5 img-container' :href='link.src' download>
+                        <img class='img-fluid fixed-width-1 border border-red' :src='link.src'>
+                    </a>
+                </div>
+            </template>
+            <template v-if='link.links'>
+                <div class='col-12 pt-5 pb-0 m-0'>
+                    <h5 class='font-weight-bolder text-center' v-html='link.title'></h5>
+                </div>
+                <div class='col-12'>
+                    <div class="row p-0 m-0">
+                        <div class="col-sm-4 col-md-3 col-12 color-red p-5 img-container" v-for="l in link.links">
+                            <a class='color-red img-container' :href='l.src' download>
+                                <img class='img-fluid border border-red' :src='l.src'>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </template>
+            <template class='col-12' v-else-if='link.extUrl'>
+                <a class='color-red' :href='link.extUrl' target="_blank"> {{ link.text }}</a>
+            </template>
+        </div>
         <!-- section carousel or single image-->
         <template v-if="subpage.sections">
             <div v-for='section,index in subpage.sections' :class='["container-fluid", "p-5", (index%2 == 0 ? "bg-light-tan" : "")]'>
@@ -94,11 +128,7 @@ var Subpage = {
                             <div v-html='section.body'></div>
                         </div>
                     </div>
-                    <!-- cards -->
-                    <template v-if="section.cards">
-                        <cards-component :cards="section.cards" :id="'section'+index" />
-                    </template>
-                    <!-- carousel --->
+                     <!-- carousel --->
                     <div v-if='section.slides' class='col-12 col-lg-10 offset-lg-1'>
                         <template v-if="section.slides && section.slides.length > 1">
                             <carousel v-bind:slides="section.slides" :id="'carousel'+index"></carousel>
@@ -110,6 +140,11 @@ var Subpage = {
                             <div v-html='section.botbody' class='pt-3'></div>
                         </template>
                     </div>
+                    <!-- cards -->
+                    <template v-if="section.cards">
+                        <cards-component :cards="section.cards" :id="'section'+index" />
+                    </template>
+                   
                     
                 </div>
             </div>

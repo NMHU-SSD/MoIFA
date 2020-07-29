@@ -274,14 +274,20 @@ var data = {
                         {
                             title:"KABUKI", 
                             body: `
-                            <p>Kabuki theatrical performance developed in the Edo period (1603–1867), a time of relative prosperity with new markets for leisure activities. People of all social classes were drawn to the theater to see the newest plays. Kabuki was especially popular for its stage tricks, special effects, and action. Ghost stories were very popular and often challenged social norms, especially those related to gender roles and economic status. Kabuki is inscribed on UNESCO’s list of Intangible Cultural Heritage.</p><p><i>Tokaido Yotsuya kaidan</i> (“Ghost Story of Yotsuya Road”) was written by Tsuruya Nanboku in 1825 and is one of Japan’s most famous ghost stories. The story centers on a woman, Oiwa, whose husband, Iemon, decides he wants to marry a wealthier woman. He poisons his wife’s cosmetics, which horribly disfigures her face. He then tries to set her up to look like she was having an affair with a man named Kohei so he could divorce her. She eventually dies in a dramatic, self-inflicted accident and Kohei is killed. Iemon nailed their corpses to opposite sides of a door and throws it in a river. Oiwa’s strong emotions transform into an uncontrollable, terrifying rage and she comes back as a vengeful ghost, haunting Iemon for the rest of his life. This theater print demonstrates stage effects created by the playwriter. In Act III of the kabuki play, Iemon finds the door floating down the river. When he hoists it out of the water, Oiwa’s corpse comes to life as a ghost and haunts him; when Iemon flips the door over, Kohei’s corpse does the same. The effect inspired this “trick” print, using a flap to allow the viewer to flip back and forth between the two ghosts. A flap on the middle panel of this triptych opens to reveal Iemon holding Oiwa’s corpse nailed to a door; when the flap is closed we see Kohei.p>`,
+                            <p>Kabuki theatrical performance developed in the Edo period (1603–1867), a time of relative prosperity with new markets for leisure activities. People of all social classes were drawn to the theater to see the newest plays. Kabuki was especially popular for its stage tricks, special effects, and action. Ghost stories were very popular and often challenged social norms, especially those related to gender roles and economic status. Kabuki is inscribed on UNESCO’s list of Intangible Cultural Heritage.</p><p><i>Tokaido Yotsuya kaidan</i> (“Ghost Story of Yotsuya Road”) was written by Tsuruya Nanboku in 1825 and is one of Japan’s most famous ghost stories. The story centers on a woman, Oiwa, whose husband, Iemon, decides he wants to marry a wealthier woman. He poisons his wife’s cosmetics, which horribly disfigures her face. He then tries to set her up to look like she was having an affair with a man named Kohei so he could divorce her. She eventually dies in a dramatic, self-inflicted accident and Kohei is killed. Iemon nailed their corpses to opposite sides of a door and throws it in a river. Oiwa’s strong emotions transform into an uncontrollable, terrifying rage and she comes back as a vengeful ghost, haunting Iemon for the rest of his life. This theater print demonstrates stage effects created by the playwriter. In Act III of the kabuki play, Iemon finds the door floating down the river. When he hoists it out of the water, Oiwa’s corpse comes to life as a ghost and haunts him; when Iemon flips the door over, Kohei’s corpse does the same. The effect inspired this “trick” print, using a flap to allow the viewer to flip back and forth between the two ghosts. A flap on the middle panel of this triptych opens to reveal Iemon holding Oiwa’s corpse nailed to a door; when the flap is closed we see Kohei.</p>`,
                             cards:
                             [
                                 {
-                                    src:"Content/yokai/performance/kabuki.jpg",
-                                    msrc:"Content/yokai/performance/kabuki.jpg",
-                                    w:3024,
-                                    h:4032,
+                                    sources:[
+                                        {src:"Content/yokai/performance/Fig.4.9a.jpg",
+                                        msrc:"Content/yokai/performance/Fig.4.9a.jpg",
+                                        w:5602,
+                                        h:2878,},
+                                        {src:"Content/yokai/performance/Fig.4.9b.jpg",
+                                        msrc:"Content/yokai/performance/Fig.4.9b.jpg",
+                                        w:3273,
+                                        h:5688,},
+                                    ],
                                     credit:
                                         {
                                             title:'“Tokaido Yotsuya kaidan (Ghost Story of the Yotsuya Road) at the Ichimura Theater.” ',
@@ -454,8 +460,8 @@ var data = {
                             cards:
                             [
                                 {
-                                    src:"Content/yokai/toys-and-games/pop-out-yokai.jpg",
-                                    msrc:"Content/yokai/toys-and-games/pop-out-yokai.jpg",
+                                    src:"Content/yokai/toys-and-games/plate.7.7.jpg",
+                                    msrc:"Content/yokai/toys-and-games/plate.7.7.jpg",
                                     w:5809,
                                     h:3886,
                                     credit:
@@ -474,8 +480,8 @@ var data = {
                             cards:
                             [
                                 {
-                                    src:"Content/yokai/toys-and-games/M181227016.jpg",
-                                    msrc:"Content/yokai/toys-and-games/M181227016.jpg",
+                                    src:"Content/yokai/toys-and-games/plate.7.3.jpg",
+                                    msrc:"Content/yokai/toys-and-games/plate.7.5.jpg",
                                     w:1207,
                                     h:900,
                                     credit:
@@ -506,7 +512,7 @@ var data = {
                      [
                         {
                             title:"Ushioni Matsuri: The Cow-Demon Festival", 
-                            body:`<p>Every year, from July 22–24, Uwajima (Ehime Prefecture) is taken over by the <a class='color-red font-weight-bolder' href='https://ushioni.gaina.ne.jp/' target='_blank'><i>Ushioni Matsuri<i></a></p>
+                            body:`<p>Every year, from July 22–24, Uwajima (Ehime Prefecture) is taken over by the <a class='color-red font-weight-bolder' href='https://ushioni.gaina.ne.jp/' target='_blank'><i>Ushioni Matsuri</i></a></p>
                             <p>This popular festival involves up to twenty-two, eighteen-foot-high, 650 to 1500 pound ushioni (cow demon) floats, each associated with different local shrines. They are carried by fifty shrine members to the center of town, where the ushioni dance and battle with one another as they parade towards Warei Jjinja (Uwajima’s main Shinto shrine). Each festival day centers on different activities including a youth-float parade (involving smaller ushioni floats), music and dance, bamboo pole-climbing competitions, and fireworks.</p>
                             <p>The floats are highly interactive. Attached to a long neck that extends from the float’s enormous body, the ushioni head swings across crowds of people creating delight among tens of thousands of spectators. The festival’s roots are in Warei Jinja’s four hundred-year-old rituals where smaller-scale ushioni are purified by shrine priests to dispel negative spirits and bring blessings to the community. In 1965, the city of Uwajima developed the Ushioni Matsuri as a public festival to increase tourism and boost the local economy. More than that, the festival brings local communities together to compete, to collaborate, and to celebrate; it is a source of community enjoyment, identity, and pride.</p>`, 
                             cards:
@@ -525,8 +531,8 @@ var data = {
                                     }
                                 },
                                 {
-                                    src:"Content/yokai/festivals/FA.2018.76.1A-F.A.jpg",
-                                    msrc:"Content/yokai/festivals/FA.2018.76.1A-F.A.jpg",
+                                    src:"Content/yokai/festivals/plate.5.6.jpg",
+                                    msrc:"Content/yokai/festivals/plate.5.6.jpg",
                                     w:600,
                                     h:900,
                                     credit:
@@ -552,7 +558,7 @@ var data = {
                          {
                             title:"Namahage Matsuri: A Festival of Monstrous Demon-Deities", 
                             body: `<p>On New Year’s Eve, Namahage trample through the snow of Oga (Akita Prefecture), demanding entrance to individual homes. Once admitted, they chase family members, roar, and call out children for laziness or misbehavior. Children provide offerings of food and sake to the Namahage, who then talk with family members, explaining their role as gods descended from the mountains to bless people with good fortune.</p> 
-                            <p>This ritual is distinct, but related to the festival <a class='color-red font-weight-bolder' href='https://www.namahage-oga.akita.jp/english/index.html' target='_blank'><i>Namahage Sedo Matsuri [<i></a>, created in 1963 to share Namahage with outsiders. As opposed to the private New Year’s ritual within the household, the public three-day festival occurs on the grounds of the Shinzan Jinja (a local Shinto shrine) in mid-February. It is a large event that involves dancing, roaring demons that chase audiences around icy grounds, bonfires, food, sake, and taiko drumming. Fear is at the heart of the Namahage experience, and the Namahage are at the heart of regional identity and pride. In 2018, Namahage was added to UNESCO’s Representative List of Intangible Cultural Heritage.</p>`, 
+                            <p>This ritual is distinct, but related to the festival <a class='color-red font-weight-bolder' href='https://www.namahage-oga.akita.jp/english/index.html' target='_blank'><i>Namahage Sedo Matsuri</i></a>, created in 1963 to share Namahage with outsiders. As opposed to the private New Year’s ritual within the household, the public three-day festival occurs on the grounds of the Shinzan Jinja (a local Shinto shrine) in mid-February. It is a large event that involves dancing, roaring demons that chase audiences around icy grounds, bonfires, food, sake, and taiko drumming. Fear is at the heart of the Namahage experience, and the Namahage are at the heart of regional identity and pride. In 2018, Namahage was added to UNESCO’s Representative List of Intangible Cultural Heritage.</p>`, 
                             cards:
                              [
                                 {
@@ -583,8 +589,8 @@ var data = {
                                     caption:"Background photo by Michael Dylan Foster, 2014"
                                 },
                                 {
-                                    src:"Content/yokai/festivals/plate.5.2.jpg",
-                                    msrc:"Content/yokai/festivals/plate.5.2.jpg",
+                                    src:"Content/yokai/festivals/namahage-plate.5.2.jpg",
+                                    msrc:"Content/yokai/festivals/namahage-plate.5.2.jpg",
                                     w:3381,
                                     h:4875,
                                     credit:
@@ -831,9 +837,9 @@ var data = {
             [
                 {
                     slug: "gallery",
-                    title:"Yokai: Ghosts & Demons Of Japan",
-                    subtitle: "(December 6, 2019 – Spring 2022 / TBD)",
-                    body:`<p>The exhibition, <i>Yokai: Ghosts & Demons of Japan</i> is on display through Spring 2022. This special exhibition includes narrative arts such as Edo period scroll paintings and woodblock prints; contemporary folk art that depicts yokai and illustrates their eerie tales; ghost and demon characters from classical noh and kabuki performances; and special festival costumes and float elements. Toys, games, comic books, and anime connect the past to the present, and the classical to the popular in terms of visual arts and culture. In addition to participatory gallery crafts, the exhibition features an immersive, family-friendly <i>obake yashiki</i> (a Japanese “monster house”), a popular form of entertainment in Japanese amusement parks.</p>`,
+                    title:"Yokai Exhibition At The Museum Of International Folk Art",
+                    subtitle: "Yokai: Ghosts & Demons Of Japan (December 6, 2019 – Spring 2022 / TBD)",
+                    body:`<p>The exhibition, <i>Yokai: Ghosts & Demons of Japan</i> is on display through Spring 2022. This special exhibition includes narrative arts such as Edo period scroll paintings and woodblock prints; contemporary folk art that depicts yokai and illustrates their eerie tales; ghost and demon characters from classical noh and kabuki performances; and special festival costumes and float elements. Toys, games, comic books, and anime connect the past to the present, and the classical to the popular in terms of visual arts and culture. In addition to participatory gallery crafts, the exhibition features an immersive, family-friendly <i>obake yashiki</i> (a Japanese “monster house”), a popular form of entertainment in Japanese amusement parks.</p><a href='http://collection.internationalfolkart.org/collections/24685/yokai-exhibit/objects' class='color-red font-weight-bolder'><i>Explore the exhibition art and objects in the museum’s online database</i></a>`,
                     featured: {
                         src:"Content/exhibit/gallery/Y200331002.jpg"
                     },
@@ -841,6 +847,7 @@ var data = {
                     [
                        {
                            title:"Yokai Gallery",
+                           body:`<p>Click through the images to view the exhibition gallery</p>`,
                            slides: 
                            [
                                {src:"Content/exhibit/gallery/Y200331001.jpg"},
@@ -891,6 +898,7 @@ var data = {
                     [
                         {
                             title:'OBAKE YASHIKI (“Monster House”)',
+                            body:`<p>View images of Kono’s monsters in the obake yashiki.</p>`,
                             slides:
                             [
                                 {src:"Content/exhibit/monster-house/Y200331025.jpg"},
@@ -906,16 +914,36 @@ var data = {
                                 {src:"Content/exhibit/monster-house/IMG_8629.jpg"},
                                 {src:"Content/exhibit/monster-house/IMG_8632.jpg"},
                                 {src:"Content/exhibit/monster-house/IMG_8633.jpg"},
+                            ],
+                            cards:[
+                                {
+                                  src:'Content/exhibit/monster-house/10530985663148.jpg',
+                                  msrc:'Content/exhibit/monster-house/10530985663148.jpg',
+                                  w:960,
+                                  h:1706,
+                                  caption:`Kono Junya Crafting Monsters, August 2019. Courtesy of Kono Yukiko.<br><br>Since 2005 Kono Junya has promoted yokai tourism in Japan with projects such as Kyoto’s Yokai Street and an annual haunted city train ride. In 2008 he founded Saga University of the Arts student-based art collective Hyakuyobako (Box of 100 Yokai), which organizes and runs numerous yokai-themed events including an annual Hyakki Yagyo (Night Parade of One Hundred Demons) and Mononoke Ichi, a festive art market featuring handmade yokai arts and crafts`,
+                                },
+                                {
+                                  src:'Content/exhibit/monster-house/hyako.jpg',
+                                  msrc:'Content/exhibit/monster-house/hyako.jpg',
+                                  w:1023,
+                                  h:340,
+                                  credit:{
+                                      artist:'Hyakuyobako',
+                                      date:'October 2019',
+                                      collection:'Courtesy of Kono Junya',
+                                  },
+                                },
                             ]
                         }
                     ]
                 },
                 {
                     slug: "catalogue",
-                    title:"Exhibition Catalogue Book",
+                    title:"Exhibition Catalogue",
                     subtitle: "Yokai: Ghosts, Demons & Monsters of Japan",
-                    body: `<p>Edited by: Felicia Katz-Harris<br>Foreword by: Khristaan Villela, PhD<br>Contributors: Komatsu Kazuhiko; Noriko Tsunoda Reider, PhD; Satoko Shimazaki, PhD; Michael Dylan Foster, PhD; Adam Kabat, PhD; Kagawa Masanobu, PhD; Zack Davisson; Yumoto Koichi; Kono Junya"</p>
-                    <p><u>Buy the Book</u><br><a class='color-red font-weight-bolder' href='https://shopmuseum.org/collections/exhibit-related-books/products/yokai-ghosts-demons-monsters-of-japan' target='_blank'><i> Museum of International Folk Art Shop</i></a></p>`,
+                    body: `<p>Edited by: Felicia Katz-Harris<br>Foreword by: Khristaan Villela, PhD<br>Contributors: Komatsu Kazuhiko; Noriko Tsunoda Reider, PhD; Satoko Shimazaki, PhD; Michael Dylan Foster, PhD; Adam Kabat, PhD; Kagawa Masanobu, PhD; Zack Davisson; Yumoto Koichi; Kono Junya</p>
+                    `,
                     featured: {
                         src:"Content/exhibit/catalogue/book-cover-crop2.jpg",
                         link: {
@@ -924,7 +952,7 @@ var data = {
                         }
                     },
                     sections:[{
-                    botbody:`<p>Vivid in Japanese art and imagination are creatures that are at once ghastly and humorous. The Japanese word <i>yokai</i> generally refers to a range of supernatural beings such as ghosts, demons, monsters, shapeshifters, tricksters, and other strange kinds of creatures. While their status is commonly described as supernatural, they intermingle with and appear in the natural, human world. Today, yokai are wildly popular in Japan—prevalent across contemporary entertainment genres such as manga (“comics”) and anime (“animation”) series, horror movies, and video games, and they also manifest as the subject of related material culture objects like game cards, character t-shirts, cuddly plushies, and collectable gashapon capsule toys. This diverse array of yokai imagery and materiality is deeply rooted in the past. Yokai images and their stories are enduring, and there is no question that what we see in hot commodities today is closely aligned with the traditional Japanese folklore. This book explores yokai through multiple perspectives: what they are, their associated tales, how people engage with or interpret them in different contexts, and why they remain so popular in Japan. The contributors to this book are eminent scholars, creators, and promoters of various aspects of yokai culture. The interdisciplinary nature of this book’s presentation vibrantly illustrates yokai from different angles, allowing for a broad view of their cultural scope in Japan. In addition, the contributors delve into popular culture themes, connecting traditional folklore, folk art, and imagery to trends in Japan as well as in the United States.</p><p>Contents:<br>
+                    botbody:`<p><u>Buy the Book</u><br><a class='color-red font-weight-bolder' href='https://shopmuseum.org/collections/exhibit-related-books/products/yokai-ghosts-demons-monsters-of-japan' target='_blank'><i> Museum of International Folk Art Shop</i></a></p><p>Vivid in Japanese art and imagination are creatures that are at once ghastly and humorous. The Japanese word <i>yokai</i> generally refers to a range of supernatural beings such as ghosts, demons, monsters, shapeshifters, tricksters, and other strange kinds of creatures. While their status is commonly described as supernatural, they intermingle with and appear in the natural, human world. Today, yokai are wildly popular in Japan—prevalent across contemporary entertainment genres such as manga (“comics”) and anime (“animation”) series, horror movies, and video games, and they also manifest as the subject of related material culture objects like game cards, character t-shirts, cuddly plushies, and collectable gashapon capsule toys. This diverse array of yokai imagery and materiality is deeply rooted in the past. Yokai images and their stories are enduring, and there is no question that what we see in hot commodities today is closely aligned with the traditional Japanese folklore. This book explores yokai through multiple perspectives: what they are, their associated tales, how people engage with or interpret them in different contexts, and why they remain so popular in Japan. The contributors to this book are eminent scholars, creators, and promoters of various aspects of yokai culture. The interdisciplinary nature of this book’s presentation vibrantly illustrates yokai from different angles, allowing for a broad view of their cultural scope in Japan. In addition, the contributors delve into popular culture themes, connecting traditional folklore, folk art, and imagery to trends in Japan as well as in the United States.</p><p>Contents:<br>
                     CHAPTER 1<br>
                     Yokai: The Persistent Presence of Japanese Ghosts, Demons & Monsters<br>
                     <a class='color-red font-weight-bolder' href='http://www.internationalfolkart.org/about/our-staff.html' target='_blank'>Felicia Katz-Harris</a><br><br>
@@ -976,7 +1004,7 @@ var data = {
                 },
                 {
                     externalURL:"http://collection.internationalfolkart.org/collections/24685/yokai-exhibit/objects",
-                    title:"Exhibition Collection",
+                    title:"Exhibition Objects",
                     featured: {                       
 						 src:"Content/exhibit/collection/emuseum.jpg",
                         caption:"name,artist,date,locations"
@@ -995,16 +1023,20 @@ var data = {
             },
             //ul of links
         
-            sections: 
+            subpages: 
             [   
                 
                 {
                     
-                    title: "CREATE YOKAI!",
-                    body:`Download these puppets and figures to create your own yokai!<br>We’d love to see what you create. Share your yokai creations with us through your favorite social media platform, use the tags:<br>
-                    #moifayokai <br>
+                    slug:'create',
+                    title: "Create Yokai!",
+                    body:`Download these puppets and figures to create your own yokai!<br><br>We’d love to see what you create. Share your yokai creations with us through your favorite social media platform, use the tags:<br><br>
+                    <span class='color-red'><b> #moifayokai <br>
                     #yokai<br> 
-                    #moifa`,
+                    #moifa</b></span>`,
+                    featured:{
+                        src:"Content/resources/tengucard.jpg"
+                    },
                     links: [
                         {
                             title: "Figures",
@@ -1046,12 +1078,13 @@ var data = {
                     ]   
                 },
                 {
+                    slug:'pandemic',
                     title: "Amabie: the yokai that protects from pandemics",
-                    body:`During the COVID-19 pandemic, many artists around the world have been sharing their own interpretations of Amabie through social media. Explore their creations searching the tags #Amabie and #AmabieChallenge.<br> 
-                    Join the challenge and tag us:<br>
-                    #moifayokai<br>  
+                    body:`During the COVID-19 pandemic, many artists around the world have been sharing their own interpretations of Amabie through social media. Explore their creations searching the tags #Amabie and #AmabieChallenge.<br><br> 
+                    Join the challenge and tag us:<br><br>
+                    <span class='color-red'><b>#moifayokai<br>  
                     #yokai<br>   
-                    #moifa<br><br>`,
+                    #moifa</b><span>`,
                     featured: {
                         src:"Content/resources/amabie.jpg",
                         
@@ -1073,8 +1106,12 @@ var data = {
                     ]
                 },
                 {
-                    title: "Learn More About Yokai<br> <span class='h4'>visit these resources</span>",
-                    
+                    slug:'learn-more',
+                    title: "Learn More About Yokai",
+                    body:'visit these resources',
+                    featured:{
+                        src:"Content/resources/tengucard.jpg"
+                    },
                     links:
                     [
                         {

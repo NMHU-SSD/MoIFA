@@ -33,7 +33,7 @@ h1, h2, h3, h4, h5, h6{
 p, span{
   font-family: "AkrobatRegular";
   font-size: 1.2rem;
-  color: black
+  color: black;
   
 }
 
@@ -229,7 +229,7 @@ footer ul.nav .nav-item .disabled{
     overflow: hidden;
 }
 .card-img-overlay{ 
-  pointer-events: none;
+  pointer-events: none !important;
   text-align: left !important
 }
 
