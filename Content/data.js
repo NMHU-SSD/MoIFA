@@ -901,19 +901,17 @@ var data = {
                             body:`<p>View images of Kono’s monsters in the obake yashiki.</p>`,
                             slides:
                             [
-                                {src:"Content/exhibit/monster-house/Y200331025.jpg"},
                                 {src:"Content/exhibit/monster-house/Y200331028.jpg"},
+                                {src:"Content/exhibit/monster-house/IMG_8625.jpg"},
                                 {src:"Content/exhibit/monster-house/Y200331033.jpg"},
                                 {src:"Content/exhibit/monster-house/Y200331034.jpg"},
                                 {src:"Content/exhibit/monster-house/Y200331035.jpg"},
-                                {src:"Content/exhibit/monster-house/Y200331036.jpg"},
-                                {src:"Content/exhibit/monster-house/Y200331042.jpg"},
                                 {src:"Content/exhibit/monster-house/IMG_8615.jpg"},
-                                {src:"Content/exhibit/monster-house/IMG_8623.jpg"},
-                                {src:"Content/exhibit/monster-house/IMG_8625.jpg"},
                                 {src:"Content/exhibit/monster-house/IMG_8629.jpg"},
+                                {src:"Content/exhibit/monster-house/Y200331042.jpg"},
                                 {src:"Content/exhibit/monster-house/IMG_8632.jpg"},
                                 {src:"Content/exhibit/monster-house/IMG_8633.jpg"},
+                                
                             ],
                             cards:[
                                 {
