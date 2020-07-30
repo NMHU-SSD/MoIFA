@@ -628,7 +628,7 @@ var data = {
 					<p>Explore these categories of yokai in the collection of the Museum of International Folk Art. </p>
                      <a class='font-weight-bolder color-red text-center h4' target="_blank" href="/index.html#/resources">Learn More about yokai and explore some additional yokai resources</a>`,
                     featured:{
-                        src:"http://collection.internationalfolkart.org/internal/media/dispatcher/126719/resize%3Aformat%3Dfull"
+                        src:"Content/yokai/creature-lore/tengu-plate.2.5.jpg"
                     },
                     sections:[
                         {
@@ -645,8 +645,8 @@ var data = {
                                         collection: "Museum of International Folk Art", link:'http://collection.internationalfolkart.org/collections/30224/yokai-tanuki/objects'
                                         
                                     }, 
-									src:"http://collection.internationalfolkart.org/internal/media/dispatcher/126880/resize%3Aformat%3Dfull",
-                                    msrc:"http://collection.internationalfolkart.org/internal/media/dispatcher/126880/resize%3Aformat%3Dfull",
+									src:"Content/yokai/creature-lore/tanuki-plate.1.6.jpg",
+                                    msrc:"Content/yokai/creature-lore/tanuki-plate.1.6.jpg",
                                     w:450,
                                     h:581,
                                     
@@ -662,8 +662,8 @@ var data = {
 							cards:
                             [
                                 {
-                                    src:"http://collection.internationalfolkart.org/internal/media/dispatcher/142663/resize%3Aformat%3Dfull",
-                                    msrc:"http://collection.internationalfolkart.org/internal/media/dispatcher/142663/resize%3Aformat%3Dfull",
+                                    src:"Content/yokai/creature-lore/kitsune-plate.1.2.jpg",
+                                    msrc:"Content/yokai/creature-lore/kitsune-plate.1.2.jpg",
                                     w:1200,
                                     h:1200,
 
@@ -712,8 +712,8 @@ var data = {
                                         title:"Kappa",
                                         collection:"Museum of International Folk Art", link:"http://collection.internationalfolkart.org/collections/30221/yokai-kappa/objects"
                                     }, 
-									src:"http://collection.internationalfolkart.org/internal/media/dispatcher/126336/resize%3Aformat%3Dfull",
-                                    msrc:"http://collection.internationalfolkart.org/internal/media/dispatcher/126336/resize%3Aformat%3Dfull",
+									src:"Content/yokai/creature-lore/kappa-plate.8.1.jpg",
+                                    msrc:"Content/yokai/creature-lore/kappa-plate.8.1.jpg",
                                     w:262,
                                     h:262,
 								}
@@ -732,8 +732,8 @@ var data = {
                                         title:"Tengu",
                                         collection:"Museum of International Folk Art", link:"http://collection.internationalfolkart.org/collections/30221/yokai-tengu/objects"
                                     }, 
-									src:"http://collection.internationalfolkart.org/internal/media/dispatcher/126719/resize%3Aformat%3Dfull",
-                                    msrc:"http://collection.internationalfolkart.org/internal/media/dispatcher/126719/resize%3Aformat%3Dfull",
+									src:"Content/yokai/creature-lore/tengu-plate.2.5.jpg",
+                                    msrc:"Content/yokai/creature-lore/tengu-plate.2.5.jpg",
                                     w:420,
                                     h:451,
 								}
@@ -751,8 +751,8 @@ var data = {
                                         title:"Yurei",
                                         collection:"Museum of International Folk Art", link:"http://collection.internationalfolkart.org/collections/30221/yokai-yurei/objects"
                                     }, 
-									src:"http://collection.internationalfolkart.org/internal/media/dispatcher/126878/resize%3Aformat%3Dfull",
-                                    msrc:"http://collection.internationalfolkart.org/internal/media/dispatcher/126878/resize%3Aformat%3Dfull",
+									src:"Content/yokai/creature-lore/yurei-plate.4.9.jpg",
+                                    msrc:"Content/yokai/creature-lore/yurei-plate.4.9.jpg",
                                     w:301,
                                     h:900,
 								}
