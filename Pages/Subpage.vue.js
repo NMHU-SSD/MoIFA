@@ -100,7 +100,7 @@ var Subpage = {
                         <div class="row p-0 m-0">
                             <div class="col-sm-4 col-md-3 col-12 color-red p-5 " v-for="file in downloads.files">
                                     <a class='color-red ' :href='file.src' download>
-                                    <img class='img-fluid border border-red' :src='file.src'>
+                                    <img class='img-fluid border border-red' v-lazy='file.src'>
                                     </a>
                                     
                                 <!--<p class="mt-2" >{{file.text}}</p>-->
@@ -117,7 +117,7 @@ var Subpage = {
                         </div>
                         <div class='col-12 p-0 m-0'>
                             <a class='color-red p-5 img-container' :href='link.src' download>
-                                <img class='img-fluid fixed-width-1 border border-red' :src='link.src'>
+                                <img class='img-fluid fixed-width-1 border border-red' v-lazy='link.src'>
                             </a>
                         </div>
               </template>
@@ -139,7 +139,7 @@ var Subpage = {
 
                 <div class='row mb-2 d-flex justify-content-center' v-if="section.featured">
                     <figure>
-                        <img class="img-fluid mx-auto" :src="section.featured.src" >
+                        <img class="img-fluid mx-auto" v-lazy="section.featured.src" >
                         <figcaption class="text-center pt-3" v-if="section.featured.caption" v-html="section.featured.caption">
                         </figcaption>
                     </figure>

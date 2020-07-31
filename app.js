@@ -33,7 +33,11 @@ Vue.component('video-gallery', VideoGallery)
 Vue.component('gallery', VueGallery);
 
 Vue.use(VuePreview);
-Vue.use(VueLazyload);
+Vue.use(VueLazyload, {
+	preLoad: 1.3,
+	loading: 'Assets/loading.gif',
+	attempt: 1
+});
 
 var app = new Vue({
 	el: '#app',
