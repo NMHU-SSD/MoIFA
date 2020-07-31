@@ -71,8 +71,8 @@ var data = {
                             <p>Explore Toriyama Sekien’s yokai encyclopedias. Visit the <a class='color-red font-weight-bolder' href='https://library.si.edu/books-online/subjects/monsters-in-art' target='_blank'><i>Smithsonian Libraries website</i></a></p>`, 
                             cards:[
                                 {
-									src:"Content/yokai/visual-art/Sekien-1.jpg",
-									msrc:"Content/yokai/visual-art/Sekien-1.jpg",
+									src:"Content/yokai/visual-art/sekien-1.jpg",
+									msrc:"Content/yokai/visual-art/sekien-1.jpg",
 									w:4037,
 									h:2905,
                                     credit:
@@ -86,8 +86,8 @@ var data = {
                                     }
                                 },
                                 {
-									src:"Content/yokai/visual-art/Sekien-2.jpg",
-									msrc:"Content/yokai/visual-art/Sekien-2.jpg",
+									src:"Content/yokai/visual-art/sekien-2.jpg",
+									msrc:"Content/yokai/visual-art/sekien-2.jpg",
 									w:879,
 									h:1325,
                                     credit:

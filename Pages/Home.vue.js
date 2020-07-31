@@ -51,7 +51,7 @@ var Home = {
         <div v-for='page,index in pages' v-if='index !== 0' class='container-fluid p-0 m-0 align-content-center'>
                     <!--show pages-->
                     <!--even-->
-                    <div v-if='index%2 == 0' class='row p-2 m-0'>
+                    <div v-if='index%2 == 0'  class='row p-2 m-0 bg-light-tan'>
                         <div class='col-9 col-md-8 col-lg-9 d-none d-sm-none d-md-block d-lg-block p-5 m-0'>
                             <div class='img-container p-0 m-0'>
                                 <img v-lazy='page.featured.src' class='fixed-height-3'/>
@@ -67,7 +67,7 @@ var Home = {
                         </div>
                     </div> 
                     <!--odd-->
-                    <div v-else class='row bg-light-tan p-5 m-0'>
+                    <div v-else class='row  p-5 m-0'>
                         <div class='col-xs-12 col-sm-12 col-md-4 col-lg-4 p-5 m-0 d-flex justify-content-center flex-column'>
                         
                                 <h1 class="text-center font-bold color-red text-uppercase align-self-center text-responsive" v-html="page.title"></h1>
