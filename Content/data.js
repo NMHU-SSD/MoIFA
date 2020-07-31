@@ -15,7 +15,11 @@ var data = {
                         date: "2006, Kyoto",
                         medium: "Papier-mache, craft foam, paint",
                         collection: "International Folk Art Foundation Collection, Museum of International Folk Art (T.2019.48.1)",
-                        link:'<a class="color-red font-weight-bolder" href="http://kyotohyakki.com/"  target="_blank"> learn more about the artist and collaboration</a>'
+                        link: {
+                            url: "http://kyotohyakki.com/",
+                            text: "learn more about the artist and collaboration"
+                        }
+                    //'<a class="color-red font-weight-bolder" href="http://kyotohyakki.com/"  target="_blank"> learn more about the artist and collaboration</a>'
                 }
             } 
         },
@@ -50,12 +54,15 @@ var data = {
                                             artist:"Artist unknown",
                                             date:"Probably Edo period (1603–1867)",
                                             medium: "Ink and natural pigment on paper",
-                                            collection:"Courtesy of <a class='color-red' href='https://www.nichibun.ac.jp/graphicversion/dbase/yokai-view.htm?_ga=2.163639743.147748806.1595814556-1397091298.1595329694'><i>International Research Center for Japanese Studies (Nichibunken)</i></a>"
+                                            collection:"Courtesy of <a class='color-dark-tan' href='https://www.nichibun.ac.jp/graphicversion/dbase/yokai-view.htm?_ga=2.163639743.147748806.1595814556-1397091298.1595329694'><i>International Research Center for Japanese Studies (Nichibunken)</i></a>",
+                                            link: {
+                                                url: "",
+                                                text: ""
+                                            }
                                     },
 									caption:`
-                                    Courtesy of <i><a class='color-dark-tan font-weight-bolder' href='http://db.nichibun.ac.jp/pc1/en/' target='_blank'>International Research Center for Japanese Studies (Nichibunken)</a></i>
-                                    The Night Parade of One Hundred Demons scroll features demons, ghosts, shapeshifters, and objects that come to life as monsters (<i>tsukumogami</i>) on parade carrying festival banners. According to one interpretation, the scroll originated from a legend about a horde of demons and monsters streaming down a street one night in Kyoto. The monsters and demons are weird, but full of humor. <br>
-                                    View the scroll in its entirety and zoom in on details at the<a class='color-dark-tan font-weight-bolder' href='http://lapis.nichibun.ac.jp/ema/Detail?tid=20&sid=01&did=01' target='_blank'><i>International Research Center for Japanese Studies (Nichibunken)</i></a>`    
+                                    The Night Parade of One Hundred Demons scroll features demons, ghosts, shapeshifters, and objects that come to life as monsters (<i>tsukumogami</i>) on parade carrying festival banners. According to one interpretation, the scroll originated from a legend about a horde of demons and monsters streaming down a street one night in Kyoto. The monsters and demons are weird, but full of humor. </br></br>
+                                    View the scroll in its entirety and zoom in on details at the <a class='color-dark-tan font-weight-bolder' href='http://lapis.nichibun.ac.jp/ema/Detail?tid=20&sid=01&did=01' target='_blank'><i>International Research Center for Japanese Studies (Nichibunken)</i></a>`    
 								},
 							],
 						},
@@ -203,7 +210,7 @@ var data = {
                     subtitle:"How Stage Performance Made Yokai Popular",
                     body:`<p>Like visual arts, performance is one of the cultural modes that popularized yokai stories and imagery. Stage theater was particularly popular during the Edo period (1603–1867) and numerous classical plays featured ghost, demon, and monster-like characters. These characters and their stories have enjoyed long-lasting appeal. Ghostly stage presentations from centuries ago inform today’s iconic image of vengeful female ghosts, with long disheveled hair, a white death kimono, and no feet. A number of contemporary Japanese horror films feature these images and they have also made their way into Hollywood blockbusters, such as like <i>The Ring</i> (2002).</p><p>Among the forms of traditional Japanese stage performance that portray demons and ghosts are puppetry, noh, and kabuki theater.</p>`,
                     featured:{
-                        src:"Content/yokai/performance/noh-mask.jpg",
+                        src:"Content/yokai/performance/FA.2018.33.1a-f.jpg",
                     },
                     sections:[
                         {
@@ -247,8 +254,8 @@ var data = {
                             body: `<p>Noh theater is a formal masked dance drama with musical accompaniment. Plays often involve deities, ghosts, and demons. Established as a theatrical form in the fourteenth century, noh developed through the Edo period (1603–1867) but declined in popularity when Japan was (forced) open to the outside world after 1868. Actors played an active role in ensuring that the tradition continued. Today, noh theater is inscribed on UNESCO’s list of Intangible Cultural Heritage.</p>`, 
                             cards:[
                                 {
-                                    src:"Content/yokai/performance/noh-mask.jpg",
-                                    msrc:"Content/yokai/performance/noh-mask.jpg",
+                                    src:"Content/yokai/performance/FA.2018.33.1a-f.jpg",
+                                    msrc:"Content/yokai/performance/FA.2018.33.1a-f.jpg",
                                     w:600,
                                     h:900,
                                     credit:
@@ -309,7 +316,7 @@ var data = {
                     subtitle:"Toys & Games made Yokai Popular",
                     body:`<p>Toys and games are an important part of yokai culture and a fun way that children have learned about yokai through the ages. Similar to Pokémon cards, children were especially delighted by paper-based toys with yokai images that they collected and traded. Toys and games reflect the popular culture of their time and those  played with centuries ago still bring joy and challenges to children today.</p>`,
                     featured:{
-                        src:"Content/yokai/toys-and-games/menko-cards.jpg",
+                        src:"Content/yokai/toys-and-games/menko-cards-plate.7.5.jpg",
                     },
                     sections:
                     [
@@ -440,8 +447,8 @@ var data = {
                             cards:
                             [
                                 {
-                                    src:"Content/yokai/toys-and-games/plate.7.5.jpg",
-                                    msrc:"Content/yokai/toys-and-games/plate.7.5..jpg",
+                                    src:"Content/yokai/toys-and-games/menko-cards-plate.7.5.jpg",
+                                    msrc:"Content/yokai/toys-and-games/menko-cards-plate.7.5.jpg",
                                     w:3786,
                                     h:2948,
                                     credit:
@@ -460,8 +467,8 @@ var data = {
                             cards:
                             [
                                 {
-                                    src:"Content/yokai/toys-and-games/plate.7.7.jpg",
-                                    msrc:"Content/yokai/toys-and-games/plate.7.7.jpg",
+                                    src:"Content/yokai/toys-and-games/pop-out-yokai-plate.7.7.jpg",
+                                    msrc:"Content/yokai/toys-and-games/pop-out-yokai-plate.7.7.jpg",
                                     w:5809,
                                     h:3886,
                                     credit:
@@ -481,12 +488,12 @@ var data = {
                             [
                                 {
                                     src:"Content/yokai/toys-and-games/plate.7.3.jpg",
-                                    msrc:"Content/yokai/toys-and-games/plate.7.5.jpg",
+                                    msrc:"Content/yokai/toys-and-games/plate.7.3.jpg",
                                     w:1207,
                                     h:900,
                                     credit:
                                     {
-                                        title:'"Heroes going into the Mountain of Hell"<br> <i>Sugoroku</i> (illustrated board game)',
+                                        title:'"Heroes going into the Mountain of Hell" <i>Sugoroku</i> (illustrated board game)',
                                         artist:"Hasegawa Konobu",
                                         date:"1875",
                                         location:"Japan",
@@ -888,16 +895,48 @@ var data = {
                 },
                 {
                     slug: "monster-house",
-                    title:"Monster House",
+                    title:"OBAKE YASHIKI (“Monster House”)",
                     subtitle:"Hyakumonogatari  Kaidan  Yashiki (The House of One Hundred Ghost Stories)",
                     featured: {
                         src:"Content/exhibit/monster-house/Y200331042.jpg",
                     },
-                    body:`<p><i>Obake yashiki</i> (“monster houses”) are considered a traditional form of Japanese amusement. They are particularly popular in the summertime because, as people often say, spine-chilling experiences cool you down! The late-summer festival Obon is a time when people honor their ancestors, perhaps another explanation for the Japanese association between summer and spirits. Obake yashiki may date back to the Edo period (1603–1867), as an amusing way for warriors to prove their bravery during a time of relative peace. Japanese-style haunted houses gained popularity after World War II and draw upon folklore and traditional imagery to create a scary walk-through experience in a maze-like setting. Similar to American haunted house traditions, obake yashiki are often found in amusement parks. Although the point is to frighten people, it is meant to be a fun experience. After all, sometimes it is fun to be scared.</p><p>The Museum of International Folk Art and yokai scholar and artist Kono Junya, who is also a lecturer at Saga University of the Arts in Kyoto, collaborated on a monster house for the yokai exhibition.</p>Kono Junya spent two and a half weeks at the Museum of International Folk Art to handcraft the monsters that populate the house, all based on traditional Japanese folklore and art. Hyakuyobako artists participated as actors, writers, and collaborators on the ghost story videos. Learn more about the collective’s activities <a class='color-red font-weight-bolder' href='www.KyotoHyakki.com.'>here</a>`,
+                    body:`<p><i>Obake yashiki</i> (“monster houses”) are considered a traditional form of Japanese amusement. They are particularly popular in the summertime because, as people often say, spine-chilling experiences cool you down! The late-summer festival Obon is a time when people honor their ancestors, perhaps another explanation for the Japanese association between summer and spirits. Obake yashiki may date back to the Edo period (1603–1867), as an amusing way for warriors to prove their bravery during a time of relative peace. Japanese-style haunted houses gained popularity after World War II and draw upon folklore and traditional imagery to create a scary walk-through experience in a maze-like setting. Similar to American haunted house traditions, obake yashiki are often found in amusement parks. Although the point is to frighten people, it is meant to be a fun experience. After all, sometimes it is fun to be scared.</p><p>The Museum of International Folk Art and yokai scholar and artist Kono Junya, who is also a lecturer at Saga University of the Arts in Kyoto, collaborated on a monster house for the yokai exhibition.</p>`,
                     sections:
                     [
+						{
+							title: "About the Artist/Collaboration",
+							body: `<p>Kono Junya spent two and a half weeks at the Museum of International Folk Art to handcraft the monsters that populate the house, all based on traditional Japanese folklore and art. Hyakuyobako artists participated as actors, writers, and collaborators on the ghost story videos. Learn more about the collective’s activities <a class='color-red font-weight-bolder' href='www.KyotoHyakki.com.'>here</a></p>
+                            <p>Since 2005 Kono Junya has promoted yokai tourism in Japan with projects such as Kyoto’s Yokai Street and an annual haunted city train ride. In 2008 he founded Saga University of the Arts student-based art collective Hyakuyobako (Box of 100 Yokai), which organizes and runs numerous yokai-themed events including an annual Hyakki Yagyo (Night Parade of One Hundred Demons) and Mononoke Ichi, a festive art market featuring handmade yokai arts and crafts.</p>`,
+                            cards:[
+                                {
+                                  src:'Content/exhibit/monster-house/10530985663148.jpg',
+                                  msrc:'Content/exhibit/monster-house/10530985663148.jpg',
+                                  w:960,
+                                  h:1706,
+								  credit:{
+									  title: "Kono Junya Crafting Monsters",
+									  artist:"Kono Junya",
+									  date:'August 2019',
+									  collection:'Courtesy of Kono Junya',
+								  },
+                                  //caption:``,
+                                },
+                                {
+                                  src:'Content/exhibit/monster-house/hyako.jpg',
+                                  msrc:'Content/exhibit/monster-house/hyako.jpg',
+                                  w:1023,
+                                  h:340,
+                                  credit:{
+                                      artist:'Hyakuyobako',
+                                      date:'October 2019',
+                                      collection:'Courtesy of Kono Junya',
+                                  },
+                                },
+                            ]
+							
+						},
                         {
-                            title:'OBAKE YASHIKI (“Monster House”)',
+                            title:'Gallery',
                             body:`<p>View images of Kono’s monsters in the obake yashiki.</p>`,
                             slides:
                             [
@@ -913,27 +952,9 @@ var data = {
                                 {src:"Content/exhibit/monster-house/IMG_8633.jpg"},
                                 
                             ],
-                            cards:[
-                                {
-                                  src:'Content/exhibit/monster-house/10530985663148.jpg',
-                                  msrc:'Content/exhibit/monster-house/10530985663148.jpg',
-                                  w:960,
-                                  h:1706,
-                                  caption:`Kono Junya Crafting Monsters, August 2019. Courtesy of Kono Yukiko.<br><br>Since 2005 Kono Junya has promoted yokai tourism in Japan with projects such as Kyoto’s Yokai Street and an annual haunted city train ride. In 2008 he founded Saga University of the Arts student-based art collective Hyakuyobako (Box of 100 Yokai), which organizes and runs numerous yokai-themed events including an annual Hyakki Yagyo (Night Parade of One Hundred Demons) and Mononoke Ichi, a festive art market featuring handmade yokai arts and crafts`,
-                                },
-                                {
-                                  src:'Content/exhibit/monster-house/hyako.jpg',
-                                  msrc:'Content/exhibit/monster-house/hyako.jpg',
-                                  w:1023,
-                                  h:340,
-                                  credit:{
-                                      artist:'Hyakuyobako',
-                                      date:'October 2019',
-                                      collection:'Courtesy of Kono Junya',
-                                  },
-                                },
-                            ]
-                        }
+                            
+                        },
+						
                     ]
                 },
                 {
@@ -944,61 +965,60 @@ var data = {
                     `,
                     featured: {
                         src:"Content/exhibit/catalogue/book-cover-crop2.jpg",
-                        link: {
-                            url: "https://shopmuseum.org/collections/exhibit-related-books/products/yokai-ghosts-demons-monsters-of-japan",
-                            text: "Available at the Museum of International Folk Art Shop"
-                        }
+                        
                     },
-                    sections:[{
-                    botbody:`<p><u>Buy the Book</u><br><a class='color-red font-weight-bolder' href='https://shopmuseum.org/collections/exhibit-related-books/products/yokai-ghosts-demons-monsters-of-japan' target='_blank'><i> Museum of International Folk Art Shop</i></a></p><p>Vivid in Japanese art and imagination are creatures that are at once ghastly and humorous. The Japanese word <i>yokai</i> generally refers to a range of supernatural beings such as ghosts, demons, monsters, shapeshifters, tricksters, and other strange kinds of creatures. While their status is commonly described as supernatural, they intermingle with and appear in the natural, human world. Today, yokai are wildly popular in Japan—prevalent across contemporary entertainment genres such as manga (“comics”) and anime (“animation”) series, horror movies, and video games, and they also manifest as the subject of related material culture objects like game cards, character t-shirts, cuddly plushies, and collectable gashapon capsule toys. This diverse array of yokai imagery and materiality is deeply rooted in the past. Yokai images and their stories are enduring, and there is no question that what we see in hot commodities today is closely aligned with the traditional Japanese folklore. This book explores yokai through multiple perspectives: what they are, their associated tales, how people engage with or interpret them in different contexts, and why they remain so popular in Japan. The contributors to this book are eminent scholars, creators, and promoters of various aspects of yokai culture. The interdisciplinary nature of this book’s presentation vibrantly illustrates yokai from different angles, allowing for a broad view of their cultural scope in Japan. In addition, the contributors delve into popular culture themes, connecting traditional folklore, folk art, and imagery to trends in Japan as well as in the United States.</p><p>Contents:<br>
-                    CHAPTER 1<br>
-                    Yokai: The Persistent Presence of Japanese Ghosts, Demons & Monsters<br>
-                    <a class='color-red font-weight-bolder' href='http://www.internationalfolkart.org/about/our-staff.html' target='_blank'>Felicia Katz-Harris</a><br><br>
-
-                    CHAPTER 2<br>
-                    What Is a Yokai?<br>
-                    <a class='color-red font-weight-bolder' href='http://research.nichibun.ac.jp/pc1/en/researcher/staff/s014/' target='_blank'>Komatsu Kazuhiko</a><br><br>
-
-                    CHAPTER 3<br>
-                    The Life and Lore of Oni<br>
-                    <a class='color-red font-weight-bolder' href='https://miamioh.edu/cas/academics/departments/gramelac/about/faculty-staff/reider/index.html' target='_blank'>Noriko Tsunoda Reider, PhD</a><br><br>
-
-                    CHAPTER 4<br>
-                    Ghosts & Demons in Japanese Theatrical Performance<br>
-                    <a class='color-red font-weight-bolder' href='https://www.alc.ucla.edu/person/satoko-shimazaki/' target='_blank'>Satoko Shimazaki, PhD</a><br><br>
-
-                    CHAPTER 5<br>
-                    Raihoshin: Visiting Deities, Masked Rituals, and the Affect of Fear<br>
-                    <a class='color-red font-weight-bolder' href='https://ealc.ucdavis.edu/people/michael-dylan-foster' target='_blank'>Michael Dylan Foster, PhD</a><br><br>
-
-                    CHAPTER 6<br>
-                    Kusazoshi: Monster Comics of Edo<br>
-                    <a class='color-red font-weight-bolder' href='#missing' target='_blank'>Adam Kabat, PhD</a><br><br>
-
-                    CHAPTER 7<br>
-                    Yokai and Toys: From the Edo Period to Pokémon<br>
-                    <a class='color-red font-weight-bolder' href='#missing' target='_blank'>Kagawa Masanobu, PhD</a><br><br>
-
-                    CHAPTER 8<br>
-                    Yokai Evolution: Mizuki Shigeru and Yokai Transformation from Folklore to Pop Culture<br>
-                    <a class='color-red font-weight-bolder' target='_blank' href='https://hyakumonogatari.com/about/'>Zack Davisson</a><br><br>
-
-                    CHAPTER 9<br>
-                    Collecting Yokai: On Creating a Yokai Museum<br>
-                    <a class='color-red font-weight-bolder' target='_blank' href='https://miyoshi-mononoke.jp/introduction/introduction-yumoto/?SLANG=ja&TLANG=en&XMODE=0&XCHARSET=utf-8&XJSID=0#profile'>Yumoto Koichi</a><br><br>
-
-                    CHAPTER 10<br>
-                    Yokai: An Artist’s Perspective<br>
-                    <a class='color-red font-weight-bolder' target='_blank' href='https://kyoto-saga.ac.jp/about/teachers/48461'>Kono Junya</a></p>`,
-                    slides:
-                    [
+                    sections:[
                         {
-                            src:'Content/exhibit/catalogue/book-cover.jpg',
-                        }
-                        ],}
+                            featured: {
+                                src:"Content/exhibit/catalogue/book-cover.jpg",                               
+                                caption: `<p><b>Buy the Book</b><br>Available at the <a class='color-red font-weight-bolder' href='https://shopmuseum.org/collections/exhibit-related-books/products/yokai-ghosts-demons-monsters-of-japan' target='_blank'><i> Museum of International Folk Art Shop</i></a></p>`
+                                
+                            },
+                            body:`<p>Vivid in Japanese art and imagination are creatures that are at once ghastly and humorous. The Japanese word <i>yokai</i> generally refers to a range of supernatural beings such as ghosts, demons, monsters, shapeshifters, tricksters, and other strange kinds of creatures. While their status is commonly described as supernatural, they intermingle with and appear in the natural, human world. Today, yokai are wildly popular in Japan—prevalent across contemporary entertainment genres such as manga (“comics”) and anime (“animation”) series, horror movies, and video games, and they also manifest as the subject of related material culture objects like game cards, character t-shirts, cuddly plushies, and collectable gashapon capsule toys. This diverse array of yokai imagery and materiality is deeply rooted in the past. Yokai images and their stories are enduring, and there is no question that what we see in hot commodities today is closely aligned with the traditional Japanese folklore. This book explores yokai through multiple perspectives: what they are, their associated tales, how people engage with or interpret them in different contexts, and why they remain so popular in Japan. The contributors to this book are eminent scholars, creators, and promoters of various aspects of yokai culture. The interdisciplinary nature of this book’s presentation vibrantly illustrates yokai from different angles, allowing for a broad view of their cultural scope in Japan. In addition, the contributors delve into popular culture themes, connecting traditional folklore, folk art, and imagery to trends in Japan as well as in the United States.</p><p>Contents:<br>
+                            CHAPTER 1<br>
+                            Yokai: The Persistent Presence of Japanese Ghosts, Demons & Monsters<br>
+                            <a class='color-red font-weight-bolder' href='http://www.internationalfolkart.org/about/our-staff.html' target='_blank'>Felicia Katz-Harris</a><br><br>
+
+                            CHAPTER 2<br>
+                            What Is a Yokai?<br>
+                            <a class='color-red font-weight-bolder' href='http://research.nichibun.ac.jp/pc1/en/researcher/staff/s014/' target='_blank'>Komatsu Kazuhiko</a><br><br>
+
+                            CHAPTER 3<br>
+                            The Life and Lore of Oni<br>
+                            <a class='color-red font-weight-bolder' href='https://miamioh.edu/cas/academics/departments/gramelac/about/faculty-staff/reider/index.html' target='_blank'>Noriko Tsunoda Reider, PhD</a><br><br>
+
+                            CHAPTER 4<br>
+                            Ghosts & Demons in Japanese Theatrical Performance<br>
+                            <a class='color-red font-weight-bolder' href='https://www.alc.ucla.edu/person/satoko-shimazaki/' target='_blank'>Satoko Shimazaki, PhD</a><br><br>
+
+                            CHAPTER 5<br>
+                            Raihoshin: Visiting Deities, Masked Rituals, and the Affect of Fear<br>
+                            <a class='color-red font-weight-bolder' href='https://ealc.ucdavis.edu/people/michael-dylan-foster' target='_blank'>Michael Dylan Foster, PhD</a><br><br>
+
+                            CHAPTER 6<br>
+                            Kusazoshi: Monster Comics of Edo<br>
+                            <a class='color-red font-weight-bolder' href='#missing' target='_blank'>Adam Kabat, PhD</a><br><br>
+
+                            CHAPTER 7<br>
+                            Yokai and Toys: From the Edo Period to Pokémon<br>
+                            <a class='color-red font-weight-bolder' href='#missing' target='_blank'>Kagawa Masanobu, PhD</a><br><br>
+
+                            CHAPTER 8<br>
+                            Yokai Evolution: Mizuki Shigeru and Yokai Transformation from Folklore to Pop Culture<br>
+                            <a class='color-red font-weight-bolder' target='_blank' href='https://hyakumonogatari.com/about/'>Zack Davisson</a><br><br>
+
+                            CHAPTER 9<br>
+                            Collecting Yokai: On Creating a Yokai Museum<br>
+                            <a class='color-red font-weight-bolder' target='_blank' href='https://miyoshi-mononoke.jp/introduction/introduction-yumoto/?SLANG=ja&TLANG=en&XMODE=0&XCHARSET=utf-8&XJSID=0#profile'>Yumoto Koichi</a><br><br>
+
+                            CHAPTER 10<br>
+                            Yokai: An Artist’s Perspective<br>
+                            <a class='color-red font-weight-bolder' target='_blank' href='https://kyoto-saga.ac.jp/about/teachers/48461'>Kono Junya</a></p>`,
+                        
+                    
+                        },
                     ]
-                    
-                    
+                        
                 },
                 {
                     externalURL:"http://collection.internationalfolkart.org/collections/24685/yokai-exhibit/objects",
@@ -1020,12 +1040,9 @@ var data = {
                 src:"Content/resources/tengucard.jpg"
             },
             //ul of links
-        
             subpages: 
             [   
-                
                 {
-                    
                     slug:'create',
                     title: "Create Yokai!",
                     body:`Download these puppets and figures to create your own yokai!<br><br>We’d love to see what you create. Share your yokai creations with us through your favorite social media platform, use the tags:<br><br>
@@ -1035,10 +1052,12 @@ var data = {
                     featured:{
                         src:"Content/resources/tengucard.jpg"
                     },
-                    links: [
+                    resources: {
+                        title: "Download",
+                        downloads: [
                         {
                             title: "Figures",
-                            links:
+                            files:
                             [
                                 {
                                     text:'Tengu',
@@ -1061,7 +1080,7 @@ var data = {
                         },
                         {
                             title: "Puppets",
-                            links:
+                            files:
                             [
                                  {
                                      text:'Bakeneko (Monster Cat)',
@@ -1073,7 +1092,10 @@ var data = {
                                 }
                             ]
                         },
-                    ]   
+                    ] 
+                        
+                    },
+                      
                 },
                 {
                     slug:'pandemic',
@@ -1083,11 +1105,12 @@ var data = {
                     <span class='color-red'><b>#moifayokai<br>  
                     #yokai<br>   
                     #moifa</b><span>`,
+                    
                     featured: {
                         src:"Content/resources/amabie.jpg",
-                        
                     },
-                    links: [
+                    resources: {
+                        links: [
                         {
                             text:'Mythical "Amabie" Emerges From 19th Century Folklore',
                             extUrl:'https://www.npr.org/sections/coronavirus-live-updates/2020/04/22/838323775/in-japan-mythical-amabie-emerges-from-19th-century-folklore-to-fight-covid-19?utm_campaign=storyshare&utm_source=facebook.com&utm_medium=social&fbclid=IwAR12GpQoEOei3SQI4Z8W_qqIk4bmznkj2mrChXUzMiQOHedWfzXrzYQebog'
@@ -1102,16 +1125,18 @@ var data = {
                         },
                         
                     ]
+                    }
                 },
                 {
                     slug:'learn-more',
                     title: "Learn More About Yokai",
-                    body:'visit these resources',
+                    //body:'',
                     featured:{
                         src:"Content/resources/tengucard.jpg"
                     },
-                    links:
-                    [
+                    resources: {
+                        title: "Visit these Resources",
+                        links:[
                         {
                             text:'Yokai.com Database & Artwork by Matthew Meyers',
                             extUrl:'http://yokai.com/category/youkai/'
@@ -1161,6 +1186,9 @@ var data = {
                             extUrl:'https://theculturetrip.com/asia/japan/articles/12-of-the-best-japanese-horror-films-of-all-time/'
                         }
                     ]
+                        
+                    }
+                    
                 },
                 
             ]
@@ -1291,11 +1319,10 @@ var data = {
                 }, 
                 {
                     title:'Website / Online Exhibition',
-                    body:`<p>Lauren Addario<br>
-                            Rianne Trujillo<br>
-                            Jonathan lee<br>
-                            Jonah Spear<br>
-                            Chris Romero<br><br>
+                    body:`<p>Lauren Addario, Internship Coordinator<br>
+                            Rianne Trujillo, Fauculty Advisement<br>
+                            Jonah Spear, Web Developer Intern<br>
+                            Chris Romero, Web Designer Intern<br><br>
                             Gallery and Object Photography: Addison Doty<br>
                             Special thanks to Dr. Elizabeth Lillehoj for editorial contributions and review</p>`
                 }, 

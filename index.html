@@ -18,7 +18,7 @@
   <body>
 	<!-- nav/header-->
 	<div id="app" class="p-0 m-0">
-         <nav class="navbar navbar-expand-xl sticky-top navbar-light bg-red p-0 m-0">
+         <nav class="navbar navbar-expand-xl sticky-top navbar-light bg-red p-2 m-0">
               <router-link class="navbar-brand p-0 m-0" to="/">
                     <img class="img-fluid logo" src="Assets/Logos/yokai_logo_color.svg"/>
                </router-link>    
@@ -26,13 +26,13 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-end " id="navbarNav">
-                <ul class="navbar-nav d-flex align-items-center">
+                <ul class="navbar-nav text-center text-md-left">
                     
 					<li class="nav-item dropdown"> 
                         <router-link to="/culture" class="nav-link dropdown-toggle" data-toggle="dropdown">Yokai History to Pop Culture</router-link>
-                        <div class="dropdown-menu bg-red ">
+                        <div class="dropdown-menu bg-red text-center text-md-left">
                             <template v-for='subpage in pages[1].subpages'>
-                                <router-link class="dropdown-item color-tan" :to='"/culture/"+subpage.slug'> {{subpage.title}}</router-link>
+                                <router-link class="dropdown-item color-tan  " :to='"/culture/"+subpage.slug'> {{subpage.title}}</router-link>
                             </template>
                         </div>
                     </li>
@@ -41,7 +41,7 @@
                         <router-link to="/lore" class="nav-link dropdown-toggle" data-toggle="dropdown" >
                             Yokai Lore and Ghost Stories
                         </router-link>
-                        <div class="dropdown-menu bg-red ">
+                        <div class="dropdown-menu bg-red text-center text-md-left ">
                             <template v-for='subpage in pages[2].subpages'>
                                 <router-link class="dropdown-item color-tan" :to='"/lore/"+subpage.slug'> {{subpage.title}}</router-link>
                             </template>
@@ -50,7 +50,7 @@
                     
                     <li class="nav-item dropdown"> 
                         <router-link to="/exhibition" class="nav-link dropdown-toggle" data-toggle="dropdown " >Exhibition and Catalog</router-link>
-                        <div class="dropdown-menu bg-red">
+                        <div class="dropdown-menu bg-red text-center text-md-left">
                             <template v-for='subpage in pages[3].subpages'>
                                 <a v-if='subpage.externalURL' class="dropdown-item color-tan" :href="subpage.externalURL"  target="_blank"> learn more about the artist and collaboration</a>
                                 <router-link v-else class="dropdown-item color-tan" :to='"/exhibition/"+subpage.slug'> {{subpage.title}}</router-link>
@@ -59,7 +59,7 @@
                     </li>
                     <li class="nav-item dropdown"> 
                         <router-link to="/resources" class="nav-link dropdown-toggle" data-toggle="dropdown " >Create And Learn More</router-link>
-                        <div class="dropdown-menu bg-red">
+                        <div class="dropdown-menu bg-red text-center text-md-left">
                             <template v-for='subpage in pages[4].subpages'>
                                 <a v-if='subpage.externalURL' class="dropdown-item color-tan" :href="subpage.externalURL"  target="_blank"> learn more about the artist and collaboration</a>
                                 <router-link v-else class="dropdown-item color-tan" :to='"/resources/"+subpage.slug'> {{subpage.title}}</router-link>
@@ -79,10 +79,10 @@
       
       <!--  footer piece -->
       <footer class="container-fluid p-0 m-0 bg-tan footer border-top border-secondary">
-            <div class="row">
-                <div class="col-12 col-md-2 p-2 pl-5 align-self-start">
+            <div class="row p-0 m-0">
+                <div class="col-12 col-md-3 col-md-offset-1 p-2 ">
                     <div class='container-fluid'>
-                        <ul class="nav align-items-center">
+                        <ul class="nav text-center text-md-left">
                             <li class="nav-item header"> 
                                 <a class="nav-link disabled font-size-1" href="#" ><u>Site Map</u></a>
                             </li>
@@ -105,10 +105,10 @@
 			             </ul>
                     </div>
                 </div>
-                <div class="col-12 col-md-5 pb-4 pt-4 pr-4 p-2 align-self-center text-center">
+                <div class="col-12 col-md-4 pb-4 pt-4 pr-4 p-2 align-self-center text-center">
                     <img src="Assets/Logos/MOIFA_logo.png" class="img-fluid"/>
                 </div>
-                <div class="col-12 col-md-5 p-4 align-self-center text-center">
+                <div class="col-12 col-md-4 p-4 align-self-center text-center">
                     <img src="Assets/Logos/DCA_logo.png" class="img-fluid"/>
                 </div>
             </div>

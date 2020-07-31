@@ -29,12 +29,12 @@ main{
 /*assign font, size, colors to actual elements insted of having multiple classes in your templates.*/
 h1, h2, h3, h4, h5, h6{
     font-family: "HypatiaSansProBold";
+
 }
 p, span{
   font-family: "AkrobatRegular";
   font-size: 1.2rem;
   color: black;
-  
 }
 
 .blockquote {
@@ -368,8 +368,13 @@ figure, .figure-img, figure > .img-container{
     object-position: 10% 50% !important;
 }
 .credit-spacing{
-    line-height: 1.5em !important;
+    line-height: 1.2em !important;
 }
 
 
+
+ 
+.text-responsive {
+  font-size: calc(100% + 1vw) !important;
+}
 

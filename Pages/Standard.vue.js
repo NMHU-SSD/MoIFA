@@ -20,9 +20,10 @@ var Standard = {
     <div class='container-fluid p-0 m-0'>
 
           <!--features-img/title-->
-		  <div class='container-fluid p-0 m-0 border-bottom border-secondary'>
+		  <div class='container-fluid p-0 m-0 border-bottom border-secondary' v-if="page.featured">
                     <div class='img-container p-0 m-0'>
                         <img class="fluid-width fixed-height-1" v-lazy="page.featured.src"/>
+
                         <!--<div class='container-fluid bg-red overlay-text'>    
                             <!--<h1 class="col-12 color-tan pb-0 pl-2 pr-2 pt-2 m-0">{{page.title}}</h1>
                             <h5 v-if='page.featured.link' class='col-12'> <a class='font-weight-bolder color-dark-tan' :href='page.featured.link.url' target="_blank">{{page.featured.link.text}}</a></h5>
@@ -72,14 +73,14 @@ var Standard = {
                     <!--show subpages-->
                     <!--even-->
                     <div v-if='index%2' class='row p-0 m-0'>
-                        <div class='col-9 col-md-8 col-lg-9 d-none d-sm-none d-md-block d-lg-block p-5 m-0'>
+                        <div class='col-8 col-md-8 col-lg-8 d-none d-sm-none d-md-block d-lg-block p-5 m-0'>
                             <div class='img-container p-0 m-0'>
                                 <img v-lazy='subpage.featured.src' class='fixed-height-3'/>
                             </div>
                         </div>
-                         <div class='col-xs-12 col-sm-12 col-md-4 col-lg-3 p-5 m-0 d-flex justify-content-center flex-column '>
+                         <div class='col-xs-12 col-sm-12 col-md-4 col-lg-4 p-5 m-0 d-flex justify-content-center flex-column '>
                         
-                                <h1 class="text-center color-red text-uppercase align-self-center" v-html="subpage.title"></h1>
+                                <h1 class="text-center color-red text-uppercase align-self-center text-responsive" v-html="subpage.title"></h1>
                                     
                                 <button v-if="subpage.externalURL" class='btn  btn-block btn-lg color-tan bg-red align-self-center' @click="gotoExternalURL(subpage.externalURL)">EXPLORE</button>
                                 <router-link v-else class='btn  btn-block btn-lg color-tan bg-red align-self-center' :to='"/"+page.slug+"/"+subpage.slug'>EXPLORE</router-link>
@@ -88,9 +89,9 @@ var Standard = {
                     </div> 
                     <!--odd-->
                     <div v-else class='row bg-light-tan p-0 m-0'>
-                        <div class='col-xs-12 col-sm-12 col-md-4 col-lg-3 p-5 m-0 d-flex justify-content-center flex-column'>
+                        <div class='col-xs-12 col-sm-12 col-md-4 col-lg-4 p-5 m-0 d-flex justify-content-center flex-column'>
                         
-                                <h1 class="text-center font-bold color-red text-uppercase align-self-center" v-html="subpage.title"></h1>
+                                <h1 class="text-center font-bold color-red text-uppercase align-self-center text-responsive" v-html="subpage.title"></h1>
 
 
                                 <button v-if="subpage.externalURL" class='btn  btn-block btn-lg color-tan bg-red align-self-center'  v-on:click="gotoExternalURL(subpage.externalURL)">EXPLORE</button>
@@ -98,7 +99,7 @@ var Standard = {
                                 <router-link v-else class='btn  btn-block btn-lg color-tan bg-red align-self-center' :to='"/"+page.slug+"/"+subpage.slug'>EXPLORE</router-link>
 
                         </div>
-                        <div class='col-9 col-lg-9 col-md-8 d-none d-sm-none d-md-block d-lg-block p-5 m-0'>
+                        <div class='col-8 col-lg-8 col-md-8 d-none d-sm-none d-md-block d-lg-block p-5 m-0'>
                             <div class='img-container p-0 m-0'>
                                 <img v-lazy="subpage.featured.src" class='fixed-height-3'/>
                             </div>

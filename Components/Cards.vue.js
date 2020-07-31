@@ -4,7 +4,7 @@ var Cards = {
     template:`
         <!-- cards -->
         <div class='row p-0 m-0'>
-            <div class='col p-3' v-for='card,index in cards'>
+            <div :class="[(cards.length >= 1 ? 'col' : ''), (cards.length >= 3 ? 'col-sm-12 col-md-12 col-lg-4' : ''), (cards.length == 2 ? 'col-sm-12 col-md-12 col-lg-6' : ''),  'p-2']" v-for='card,index in cards'>
                 <div class="card h-100 carousel-card bg-red">
 
                     <!-- credit and caption -->
@@ -93,7 +93,7 @@ var Cards = {
                             <!-- caption -->
                             <template v-if="card.caption && !card.credit && !card.credits ">
                                 <div class="col-12 pt-2 pb-2 pl-5 pr-5 m-0 card-text" >
-                                    <p class="h5 color-white text-justify" v-html="card.caption"></p>
+                                    <p class="h6 color-white text-left" v-html="card.caption"></p>
                                 </div>
                             </template>
 
