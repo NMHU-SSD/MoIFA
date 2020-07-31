@@ -15,11 +15,10 @@ var data = {
                         date: "2006, Kyoto",
                         medium: "Papier-mache, craft foam, paint",
                         collection: "International Folk Art Foundation Collection, Museum of International Folk Art (T.2019.48.1)",
-                        link: {
-                            url: "http://kyotohyakki.com/",
-                            text: "learn more about the artist and collaboration"
-                        }
-                    //'<a class="color-red font-weight-bolder" href="http://kyotohyakki.com/"  target="_blank"> learn more about the artist and collaboration</a>'
+                },
+                link: {
+                    url: "#/exhibition/monster-house",
+                    text: "learn more about the artist and collaboration"
                 }
             } 
         },
@@ -55,10 +54,7 @@ var data = {
                                             date:"Probably Edo period (1603–1867)",
                                             medium: "Ink and natural pigment on paper",
                                             collection:"Courtesy of <a class='color-dark-tan' href='https://www.nichibun.ac.jp/graphicversion/dbase/yokai-view.htm?_ga=2.163639743.147748806.1595814556-1397091298.1595329694'><i>International Research Center for Japanese Studies (Nichibunken)</i></a>",
-                                            link: {
-                                                url: "",
-                                                text: ""
-                                            }
+                                            
                                     },
 									caption:`
                                     The Night Parade of One Hundred Demons scroll features demons, ghosts, shapeshifters, and objects that come to life as monsters (<i>tsukumogami</i>) on parade carrying festival banners. According to one interpretation, the scroll originated from a legend about a horde of demons and monsters streaming down a street one night in Kyoto. The monsters and demons are weird, but full of humor. </br></br>
