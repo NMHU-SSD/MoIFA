@@ -87,21 +87,28 @@ var Subpage = {
         </template>
 
         <!-- links/files -->
-        <div class="container-fluid pb-5" v-if='subpage.resources'>
+        <div class="container-fluid pb-5" v-if='subpage.resources'>     
+            <template v-if='subpage.resources.featured'>
+                <div class='container text-center'>
+                    <img class='img-fluid' v-lazy='subpage.resources.featured.src'>
+                </div>
+            </template>
             <h3 class="text-center" v-if='subpage.resources.title'>{{subpage.resources.title}}</h3>
-            <h3 class="text-center" v-else>Resources</h3>
+            <h3 class="text-center pt-3" v-else>Resources</h3>
             <div class="row justify-content-center">
-
+                
                 <template v-if='subpage.resources.downloads' v-for="downloads in subpage.resources.downloads">
                    <div class='col-12 pt-5 pb-0 m-0' >
                       <h5 class='font-weight-bolder text-center' v-html='downloads.title'></h5>
                    </div> 
                    <div class='col-12'>
                         <div class="row p-0 m-0">
-                            <div class="col-sm-4 col-md-3 col-12 color-red p-5 " v-for="file in downloads.files">
-                                    <a class='color-red ' :href='file.src' download>
-                                    <img class='img-fluid border border-red' v-lazy='file.src'>
+                            <div class="col-sm-4 col-md-3 col-12 color-red p-0 m-5 " v-for="file in downloads.files">
+                                    <a class='color-red img-container' :href='file.src' download>
+                                        <img class='img-fluid border border-red' v-lazy='file.src'>
+                                        <i class="fas fa-download img-overlay-1 color-red"></i>
                                     </a>
+                                    
                                     
                                 <!--<p class="mt-2" >{{file.text}}</p>-->
                             </div>
@@ -110,14 +117,13 @@ var Subpage = {
 			     </template>
 
                 <template v-for='link in subpage.resources.links'>
-		
                 <template v-if='link.src'>
                         <div class='col-12 p-0 m-0'>
                             <p class='font-weight-bolder text-center' v-html='link.text'></p>
                         </div>
                         <div class='col-12 p-0 m-0'>
                             <a class='color-red p-5 img-container' :href='link.src' download>
-                                <img class='img-fluid fixed-width-1 border border-red' v-lazy='link.src'>
+                                <img class='img-fluid fixed-width-1 border border-red' v-lazy='link.src'/>   
                             </a>
                         </div>
               </template>

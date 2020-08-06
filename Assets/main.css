@@ -200,6 +200,13 @@ footer ul.nav .nav-item .disabled{
   left: 3%;
   padding: 3em;
 }
+.img-overlay-1{
+    position: absolute;
+    bottom: 2%;
+    left:3%;
+    z-index: 999;
+    pointer-events: none;
+}
 
 
 /*carousel*/

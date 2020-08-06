@@ -52,7 +52,7 @@
                         <router-link to="/exhibition" class="nav-link dropdown-toggle" data-toggle="dropdown " >Exhibition and Catalog</router-link>
                         <div class="dropdown-menu bg-red text-center text-md-left">
                             <template v-for='subpage in pages[3].subpages'>
-                                <a v-if='subpage.externalURL' class="dropdown-item color-tan" :href="subpage.externalURL"  target="_blank"> learn more about the artist and collaboration</a>
+                                <a v-if='subpage.externalURL' class="dropdown-item color-tan" :href="subpage.externalURL"  target="_blank"> {{subpage.title}}</a>
                                 <router-link v-else class="dropdown-item color-tan" :to='"/exhibition/"+subpage.slug'> {{subpage.title}}</router-link>
                             </template>
                         </div>

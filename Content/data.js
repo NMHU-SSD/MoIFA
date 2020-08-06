@@ -5,7 +5,7 @@ var data = {
         {
             slug: "home",
             title:"YOKAI: Ghosts & Demons of Japan",
-            body:"<p><span class='h2'>Yokai</span> is a catchall word for, ghosts, demons, monsters, shapeshifters, tricksters, and other kinds of supernatural beings and mysterious phenomena. Yokai interact with the human world and spark common notions of frightful things.</p><p>Although sometimes scary,   these frightening beings are often portrayed as playful, relatable, and even cute creatures, meaning the experience of fear can also be amusing and fun.</p><p><a <a class='color-red' href='#/culture/'>Explore all kinds of yokai and the ways that they became pop-culture sensations in Japan!</a></p>",
+            body:"<p><span class='h2'>Yokai</span> is a catchall word for, ghosts, demons, monsters, shapeshifters, tricksters, and other kinds of supernatural beings and mysterious phenomena. Yokai interact with the human world and spark common notions of frightful things.</p><p>Although sometimes scary,   these frightening beings are often portrayed as playful, relatable, and even cute creatures, meaning the experience of fear can also be amusing and fun.</p><p><a class='color-red' href='#/culture/'>Explore all kinds of yokai and the ways that they became pop-culture sensations in Japan!</a></p>",
             featured:  {
                 src:"Content/homepage/UNADJUSTEDNONRAW_thumb_441d.jpg",
                 credit:
@@ -832,7 +832,7 @@ var data = {
         /*3*/
         {
             slug: "exhibition",
-            title:"Exhibition & Catalog",
+            title:"Exhibition Photo Gallery & Catalog",
             featured:   {
                 src:"Content/exhibit/gallery/Y200331002.jpg",
             },
@@ -891,7 +891,7 @@ var data = {
                 },
                 {
                     slug: "monster-house",
-                    title:"OBAKE YASHIKI (“Monster House”)",
+                    title:"OBAKE YASHIKI (“The Monster House”)",
                     subtitle:"Hyakumonogatari  Kaidan  Yashiki (The House of One Hundred Ghost Stories)",
                     featured: {
                         src:"Content/exhibit/monster-house/Y200331042.jpg",
@@ -904,6 +904,14 @@ var data = {
 							body: `<p>Kono Junya spent two and a half weeks at the Museum of International Folk Art to handcraft the monsters that populate the house, all based on traditional Japanese folklore and art. Hyakuyobako artists participated as actors, writers, and collaborators on the ghost story videos. Learn more about the collective’s activities <a class='color-red font-weight-bolder' href='www.KyotoHyakki.com.'>here</a></p>
                             <p>Since 2005 Kono Junya has promoted yokai tourism in Japan with projects such as Kyoto’s Yokai Street and an annual haunted city train ride. In 2008 he founded Saga University of the Arts student-based art collective Hyakuyobako (Box of 100 Yokai), which organizes and runs numerous yokai-themed events including an annual Hyakki Yagyo (Night Parade of One Hundred Demons) and Mononoke Ichi, a festive art market featuring handmade yokai arts and crafts.</p>`,
                             cards:[
+                                 {
+                                  src:'Content/exhibit/monster-house/kono-monster-selfie.jpg',
+                                  msrc:'Content/exhibit/monster-house/kono-monster-selfie.jpg',
+                                  w:1476,
+                                  h:1110,
+                                  caption:`Kono Junya and Ao Bozu selfie (traveling from Kyoto to Santa Fe), August 2019. Courtesy of Kono Junya.<br><br>Kono Junya is a Kyoto-based yokai artist and scholar. He teaches at Saga University of the Arts, where he founded the artist collective <a class='color-dark-tan font-weight-bolder' href='http://kyotohyakki.com/' target='_blank'>Hyakuyobako</a> (Box of 100 Yokai) artist collective<br><br>The artist wants us to recognize yokai as an important feature of Japanese heritage. That is why Ao Bozu points to himself and says, “Look at me; I am a Yokai!” Kono created this sculpture of Ao Bozu out of a desire to give life to a two-dimensional image that traditionally had been painted. The artist stated, “[I wanted to] sit and talk in the same room as a yokai.” In Kono’s words, “Ao Bozu is now a member of the ‘US-branch of Box of 100 Yokai;’ through him, I hope Americans can see how much fun yokai are in Japan.”
+`,
+                                },
                                 {
                                   src:'Content/exhibit/monster-house/10530985663148.jpg',
                                   msrc:'Content/exhibit/monster-house/10530985663148.jpg',
@@ -1020,8 +1028,7 @@ var data = {
                     externalURL:"http://collection.internationalfolkart.org/collections/24685/yokai-exhibit/objects",
                     title:"Exhibition Objects",
                     featured: {                       
-						 src:"Content/exhibit/collection/emuseum.jpg",
-                        caption:"name,artist,date,locations"
+						 src:"Content/exhibit/collection/emuseum.jpg"
                     }
                 }   
             ]  
@@ -1095,7 +1102,8 @@ var data = {
                 },
                 {
                     slug:'pandemic',
-                    title: "Amabie: the yokai that protects from pandemics",
+                    title: "Amabie",
+                    subtitle:'the yokai that protects from pandemics',
                     body:`During the COVID-19 pandemic, many artists around the world have been sharing their own interpretations of Amabie through social media. Explore their creations searching the tags #Amabie and #AmabieChallenge.<br><br> 
                     Join the challenge and tag us:<br><br>
                     <span class='color-red'><b>#moifayokai<br>  
@@ -1106,6 +1114,9 @@ var data = {
                         src:"Content/resources/amabie.jpg",
                     },
                     resources: {
+                        featured: {
+                            src:"Content/resources/amabie.jpg",
+                        },
                         links: [
                         {
                             text:'Mythical "Amabie" Emerges From 19th Century Folklore',
