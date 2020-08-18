@@ -613,6 +613,7 @@ var data = {
             ]
         },
         /*2*/
+         /*2*/
         {
             slug:'lore',
             title:'Yokai Lore And Ghost Stories',
@@ -645,16 +646,16 @@ var data = {
                                         title:"Tanuki",
                                         date: "CA 1960",
                                         medium: "Paper, Fiber",
-                                        collection: "Museum of International Folk Art", link:'http://collection.internationalfolkart.org/collections/30224/yokai-tanuki/objects'
-                                        
+                                        collection: "Museum of International Folk Art", 
+                                        link:{
+                                            url:'http://collection.internationalfolkart.org/collections/30224/yokai-tanuki/objects',
+                                            text:'See the full Tanuki collection here'
+                                        }
                                     }, 
 									src:"Content/yokai/creature-lore/tanuki-plate.1.6.jpg",
                                     msrc:"Content/yokai/creature-lore/tanuki-plate.1.6.jpg",
                                     w:450,
                                     h:581,
-                                    
-                                   
-                                    
                                 },
                                
                             ]
@@ -669,38 +670,40 @@ var data = {
                                     msrc:"Content/yokai/creature-lore/kitsune-plate.1.2.jpg",
                                     w:1200,
                                     h:1200,
-
                                     credit: {
-                                        title:"Nine-tailed fox",
+                                        title:"Nine-Tailed Fox",
                                         artist: "Peascod",
                                         location: "Japan",
                                         date: "2019",
-                                        collection: "Museum of International Folk Art", link:"http://collection.internationalfolkart.org/collections/30218/yokai-kitsune/objects"
+                                        collection: "Museum of International Folk Art", 
+                                        link:{
+                                            url:"http://collection.internationalfolkart.org/collections/30218/yokai-kitsune/objects",
+                                            text:'See the full Nine-Tailed Fox collection here'
+                                        }
                                     }, 
                                 },
-							]
-                                
+							]    
                         },
                         {
                             title:"TSUKUMOGAMI",
                             body:`<p><i>Tsukumogami</i> are spirited tools or haunted objects. In ancient times, yokai were limited in their physical forms to <i>oni</i> (demons) and religious contexts. The Muromachi period (1336–1573) introduced new sorts of beings with a famous narrative scroll painting called the “Tsukumogami ki (The Record of Tool Specters).” According to the story, if tools and other implements are discarded without a proper show of thanks, they become resentful of their former owners and haunt them with a vengeance. The scroll likely served the purpose of spreading Shingon Buddhism, but sarcasm and wit narrate the illustrations.</p><p>Tsukumogami are something to be feared, but they definitely have a comical and entertaining side. Additionally, these spirited objects freed oni from its depiction as a menacing demon, allowing a nearly limitless array of forms. By the Edo period (1603–1867) all sorts of “things” could come to life and transform into yokai.</p>`,
 							cards:
                             [
-                                
                                 {
                                     credit:
                                     {
                                         title:"Tsukumogami",
-                                        collection:"Museum of International Folk Art", link:"http://collection.internationalfolkart.org/collections/30221/yokai-tsukumogami/objects"
-
+                                        collection:"Museum of International Folk Art",
+                                        link:{
+                                            url:"http://collection.internationalfolkart.org/collections/30221/yokai-tsukumogami/objects",
+                                            text:'See the full Tsukumogami collection here'
+                                        }
                                     }, 
-                                     src:"http://collection.internationalfolkart.org/internal/media/dispatcher/131614/resize%3Aformat%3Dfull",
+                                    src:"http://collection.internationalfolkart.org/internal/media/dispatcher/131614/resize%3Aformat%3Dfull",
                                     msrc:"http://collection.internationalfolkart.org/internal/media/dispatcher/131614/resize%3Aformat%3Dfull",
                                     w:658,
-                                    h:900,
-                                    
+                                    h:900,                                    
                                 },
-                                
                             ]
                         },
                         {
@@ -713,7 +716,11 @@ var data = {
                                     credit:
                                     {
                                         title:"Kappa",
-                                        collection:"Museum of International Folk Art", link:"http://collection.internationalfolkart.org/collections/30221/yokai-kappa/objects"
+                                        collection:"Museum of International Folk Art", 
+                                        link:{
+                                            url:"http://collection.internationalfolkart.org/collections/30221/yokai-kappa/objects",
+                                            text:'See the full Kappa collection here'
+                                        }
                                     }, 
 									src:"Content/yokai/creature-lore/kappa-plate.8.1.jpg",
                                     msrc:"Content/yokai/creature-lore/kappa-plate.8.1.jpg",
@@ -733,7 +740,11 @@ var data = {
                                     credit:
                                     {
                                         title:"Tengu",
-                                        collection:"Museum of International Folk Art", link:"http://collection.internationalfolkart.org/collections/30221/yokai-tengu/objects"
+                                        collection:"Museum of International Folk Art", 
+                                        link:{
+                                            url:"http://collection.internationalfolkart.org/collections/30221/yokai-tengu/objects",
+                                            text:'See the full Tengu collection here'
+                                        }
                                     }, 
 									src:"Content/yokai/creature-lore/tengu-plate.2.5.jpg",
                                     msrc:"Content/yokai/creature-lore/tengu-plate.2.5.jpg",
@@ -747,17 +758,20 @@ var data = {
                             body:`<p>Yurei are spirits of the deceased, or ghosts, and arguably a type of yokai. Japanese ghosts are typically portrayed wearing a white death kimono. Their hair is disheveled, and they do not have feet. A common theme for Japanese ghosts is that of scorned women who endured abuse or heartache by men in their lifetime. After death, these female spirits find their voice and seek retribution as vengeful ghosts and haunt the men who have hurt or killed them. </p>`,
 							cards:
                             [
-                                
                                 {
                                     credit:
                                     {
                                         title:"Yurei",
-                                        collection:"Museum of International Folk Art", link:"http://collection.internationalfolkart.org/collections/30221/yokai-yurei/objects"
+                                        collection:"Museum of International Folk Art", 
+                                        link:{
+                                            url:"http://collection.internationalfolkart.org/collections/30221/yokai-yurei/objects",
+                                            text:'See the full Yurei collection here'
+                                        }
                                     }, 
 									src:"Content/yokai/creature-lore/yurei-plate.4.9.jpg",
                                     msrc:"Content/yokai/creature-lore/yurei-plate.4.9.jpg",
-                                    w:301,
-                                    h:900,
+                                    w:1417,
+                                    h:2228,
 								}
                             ]
                         },
@@ -766,22 +780,23 @@ var data = {
                             body:`<p>Oni are demons, ogres, or goblins; they are visual representations of ancient ideas of <i>mononoke</i> (weird, unexplainable events and invisible beings).Images of oni were assigned to represent different forms of mononoke, producing the first yokai characters. In religious contexts, oni—fierce, frightening, and powerful creatures—became protective guardians and deities as well as evil transgressors. Early ideas of yokai not only centered specifically around oni, representations of yokai were limited to oni forms with horns and fangs.</p>`,
 							cards:
                             [
-                                
                                 {
                                     credit:
                                     {
                                         title:"Oni",
-                                        collection:"Museum of International Folk Art", link:"http://collection.internationalfolkart.org/collections/30221/yokai-oni/objects"
+                                        collection:"Museum of International Folk Art",
+                                        link:{
+                                            url:"http://collection.internationalfolkart.org/collections/30221/yokai-oni/objects",
+                                            text:'See the full Oni collection here'
+                                        }
                                     }, 
-									src:"http://collection.internationalfolkart.org/internal/media/dispatcher/128850/resize%3Aformat%3Dfull",
-                                    msrc:"http://collection.internationalfolkart.org/internal/media/dispatcher/128850/resize%3Aformat%3Dfull",
-                                    w:1200,
-                                    h:1200,
-									
+									src:"Content/yokai/creature-lore/oni-plate.3.6.jpg",
+                                    msrc:"Content/yokai/creature-lore/oni-plate.3.6.jpg",
+                                    w:3323,
+                                    h:3729,		
 								}
                             ]
                         },
-						
                     ]
                 },
                 {
@@ -853,38 +868,216 @@ var data = {
                            body:`<p>Click through the images to view the exhibition gallery</p>`,
                            slides: 
                            [
-                               {src:"Content/exhibit/gallery/Y200331001.jpg"},
-                               {src:"Content/exhibit/gallery/Y200331002.jpg"},
-                               {src:"Content/exhibit/gallery/Y200331003.jpg"},
-                               {src:"Content/exhibit/gallery/Y200331004.jpg"},
-                               {src:"Content/exhibit/gallery/Y200331006.jpg"},
-                               {src:"Content/exhibit/gallery/Y200331007.jpg"},
-                               {src:"Content/exhibit/gallery/Y200331008.jpg"},
-                               {src:"Content/exhibit/gallery/Y200331009.jpg"},
-                               {src:"Content/exhibit/gallery/Y200331010.jpg"},
-                               {src:"Content/exhibit/gallery/Y200331012.jpg"},
-                               {src:"Content/exhibit/gallery/Y200331014.jpg"},
-                               {src:"Content/exhibit/gallery/Y200331015.jpg"},
-                               {src:"Content/exhibit/gallery/Y200331016.jpg"},
-                               {src:"Content/exhibit/gallery/Y200331018.jpg"},
-                               {src:"Content/exhibit/gallery/Y200331019.jpg"},
-                               {src:"Content/exhibit/gallery/Y200331020.jpg"},
-                               {src:"Content/exhibit/gallery/Y200331021.jpg"},
-                               {src:"Content/exhibit/gallery/Y200331022.jpg"},
-                               {src:"Content/exhibit/gallery/Y200331023.jpg"},
-                               {src:"Content/exhibit/gallery/Y200331024.jpg"},
-                               {src:"Content/exhibit/gallery/Y200331025.jpg"},
-                               {src:"Content/exhibit/gallery/Y200331044.jpg"},
-                               {src:"Content/exhibit/gallery/Y200331045.jpg"},
-                               {src:"Content/exhibit/gallery/Y200331046.jpg"},
-                               {src:"Content/exhibit/gallery/Y200331047.jpg"},
-                               {src:"Content/exhibit/gallery/Y200331048.jpg"},
-                               {src:"Content/exhibit/gallery/Y200331050.jpg"},
-                               {src:"Content/exhibit/gallery/Y200331052.jpg"},
-                               {src:"Content/exhibit/gallery/Y200331054.jpg"},
-                               {src:"Content/exhibit/gallery/Y200331056.jpg"},
-                               {src:"Content/exhibit/gallery/Y200331058.jpg"},
-                               {src:"Content/exhibit/gallery/Y200331059.jpg"}
+                                {
+                                   src:"Content/exhibit/gallery/Y200331001.jpg",
+                                   msrc:"Content/exhibit/gallery/Y200331001.jpg",
+                                   w:6480,
+                                   h:4320
+                               },
+                               {
+                                   src:"Content/exhibit/gallery/Y200331002.jpg",
+                                   msrc:"Content/exhibit/gallery/Y200331002.jpg",
+                                   w:6251,
+                                   h:4278
+                               },
+                               {
+                                   src:"Content/exhibit/gallery/Y200331003.jpg",
+                                   msrc:"Content/exhibit/gallery/Y200331003.jpg",
+                                   w:4320,
+                                   h:5680
+                               },
+                               {
+                                   src:"Content/exhibit/gallery/Y200331004.jpg",
+                                   msrc:"Content/exhibit/gallery/Y200331004.jpg",
+                                   w:6219,
+                                   h:4321
+                               },
+                               {
+                                   src:"Content/exhibit/gallery/Y200331006.jpg",
+                                   msrc:"Content/exhibit/gallery/Y200331006.jpg",
+                                   w:6480,
+                                   h:4320
+                               },
+                               {
+                                   src:"Content/exhibit/gallery/Y200331007.jpg",
+                                   msrc:"Content/exhibit/gallery/Y200331007.jpg",
+                                   w:5892,
+                                   h:4072
+                               },
+                               {
+                                   src:"Content/exhibit/gallery/Y200331008.jpg",
+                                   msrc:"Content/exhibit/gallery/Y200331008.jpg",
+                                   w:4032,
+                                   h:5083
+                               },
+                               { 
+                                   src:"Content/exhibit/gallery/Y200331009.jpg",
+                                   msrc:"Content/exhibit/gallery/Y200331009.jpg",
+                                   w:5490,
+                                   h:4326
+                               },
+                               {
+                                   src:"Content/exhibit/gallery/Y200331010.jpg",
+                                   msrc:"Content/exhibit/gallery/Y200331010.jpg",
+                                   w:3803,
+                                   h:5346
+                               },
+                               {
+                                   src:"Content/exhibit/gallery/Y200331012.jpg",
+                                   msrc:"Content/exhibit/gallery/Y200331012.jpg",
+                                   w:6125,
+                                   h:3834
+                               },
+                               {
+                                   src:"Content/exhibit/gallery/Y200331013.jpg",
+                                   msrc:"Content/exhibit/gallery/Y200331013.jpg",
+                                   w:6016,
+                                   h:4227
+                               },
+                               {
+                                   src:"Content/exhibit/gallery/Y200331014.jpg",
+                                   msrc:"Content/exhibit/gallery/Y200331014.jpg",
+                                   w:6480,
+                                   h:4320
+                               },
+                               {
+                                   src:"Content/exhibit/gallery/Y200331015.jpg",
+                                   msrc:"Content/exhibit/gallery/Y200331015.jpg",
+                                   w:6271,
+                                   h:4327
+                               },
+                               {
+                                   src:"Content/exhibit/gallery/Y200331016.jpg",
+                                   msrc:"Content/exhibit/gallery/Y200331016.jpg",
+                                   w:4317,
+                                   h:5860
+                               },
+                               {
+                                   src:"Content/exhibit/gallery/Y200331017.jpg",
+                                   msrc:"Content/exhibit/gallery/Y200331017.jpg",
+                                   w:4320,
+                                   h:6076
+                               },
+                               {
+                                   src:"Content/exhibit/gallery/Y200331018.jpg",
+                                   msrc:"Content/exhibit/gallery/Y200331018.jpg",
+                                   w:6055,
+                                   h:4382
+                               },
+                               {
+                                   src:"Content/exhibit/gallery/Y200331019.jpg",
+                                   msrc:"Content/exhibit/gallery/Y200331019.jpg",
+                                   w:5657,
+                                   h:3943
+                               },
+                               {
+                                   src:"Content/exhibit/gallery/Y200331020.jpg",
+                                   msrc:"Content/exhibit/gallery/Y200331020.jpg",
+                                   w:6480,
+                                   h:4320
+                               },
+                               {
+                                   src:"Content/exhibit/gallery/Y200331021.jpg",
+                                   msrc:"Content/exhibit/gallery/Y200331021.jpg",
+                                   w:5842,
+                                   h:4320
+                               },
+                               {
+                                   src:"Content/exhibit/gallery/Y200331022.jpg",
+                                   msrc:"Content/exhibit/gallery/Y200331022.jpg",
+                                   w:6140,
+                                   h:4327
+                               },
+                               {
+                                   src:"Content/exhibit/gallery/Y200331023.jpg",
+                                   msrc:"Content/exhibit/gallery/Y200331023.jpg",
+                                   w:6280,
+                                   h:4320
+                               },
+                               {
+                                   src:"Content/exhibit/gallery/Y200331024.jpg",
+                                   msrc:"Content/exhibit/gallery/Y200331024.jpg",
+                                   w:5318,
+                                   h:3904
+                               },
+                               {
+                                   src:"Content/exhibit/gallery/Y200331043.jpg",
+                                   msrc:"Content/exhibit/gallery/Y200331043.jpg",
+                                   w:6322,
+                                   h:4255
+                               },
+                               {
+                                   src:"Content/exhibit/gallery/Y200331044.jpg",
+                                   msrc:"Content/exhibit/gallery/Y200331044.jpg",
+                                   w:6480,
+                                   h:4320
+                               },
+                               {
+                                   src:"Content/exhibit/gallery/Y200331045.jpg",
+                                   msrc:"Content/exhibit/gallery/Y200331045.jpg",
+                                   w:6280,
+                                   h:4320
+                               },
+                               {
+                                   src:"Content/exhibit/gallery/Y200331046.jpg",
+                                   msrc:"Content/exhibit/gallery/Y200331046.jpg",
+                                   w:4623,
+                                   h:4320
+                               },
+                               {
+                                   src:"Content/exhibit/gallery/Y200331047.jpg",
+                                   msrc:"Content/exhibit/gallery/Y200331047.jpg",
+                                   w:6480,
+                                   h:4320
+                               },
+                               {
+                                   src:"Content/exhibit/gallery/Y200331048.jpg",
+                                   msrc:"Content/exhibit/gallery/Y200331048.jpg",
+                                   w:5092,
+                                   h:4110
+                               },
+                               {
+                                   src:"Content/exhibit/gallery/Y200331050.jpg",
+                                   msrc:"Content/exhibit/gallery/Y200331050.jpg",
+                                   w:5058,
+                                   h:4027
+                               },
+                               {
+                                   src:"Content/exhibit/gallery/Y200331052.jpg",
+                                   msrc:"Content/exhibit/gallery/Y200331052.jpg",
+                                   w:4257,
+                                   h:5819
+                               },
+                               {
+                                   src:"Content/exhibit/gallery/Y200331054.jpg",
+                                   msrc:"Content/exhibit/gallery/Y200331054.jpg",
+                                   w:5484,
+                                   h:4327
+                               },
+                               {
+                                   src:"Content/exhibit/gallery/Y200331056.jpg",
+                                   msrc:"Content/exhibit/gallery/Y200331056.jpg",
+                                   w:5419,
+                                   h:4113
+                               },
+                               {
+                                   src:"Content/exhibit/gallery/Y200331057.jpg",
+                                   msrc:"Content/exhibit/gallery/Y200331057.jpg",
+                                   w:4266,
+                                   h:5460
+                               },
+                               {
+                                   src:"Content/exhibit/gallery/Y200331058.jpg",
+                                   msrc:"Content/exhibit/gallery/Y200331058.jpg",
+                                   w:4320,
+                                   h:5656
+                               },
+                               {
+                                   src:"Content/exhibit/gallery/Y200331059.jpg",
+                                   msrc:"Content/exhibit/gallery/Y200331059.jpg",
+                                   w:6249,
+                                   h:4074
+                               }
                        ]
                        }
                     ]
@@ -944,16 +1137,66 @@ var data = {
                             body:`<p>View images of Kono’s monsters in the obake yashiki.</p>`,
                             slides:
                             [
-                                {src:"Content/exhibit/monster-house/Y200331028.jpg"},
-                                {src:"Content/exhibit/monster-house/IMG_8625.jpg"},
-                                {src:"Content/exhibit/monster-house/Y200331033.jpg"},
-                                {src:"Content/exhibit/monster-house/Y200331034.jpg"},
-                                {src:"Content/exhibit/monster-house/Y200331035.jpg"},
-                                {src:"Content/exhibit/monster-house/IMG_8615.jpg"},
-                                {src:"Content/exhibit/monster-house/IMG_8629.jpg"},
-                                {src:"Content/exhibit/monster-house/Y200331042.jpg"},
-                                {src:"Content/exhibit/monster-house/IMG_8632.jpg"},
-                                {src:"Content/exhibit/monster-house/IMG_8633.jpg"},
+                                {
+                                    src:"Content/exhibit/monster-house/Y200331028.jpg",
+                                    msrc:"Content/exhibit/monster-house/Y200331028.jpg",
+                                    w:600,
+                                    h:907
+                                },
+                                {
+                                    src:"Content/exhibit/monster-house/IMG_8625.jpg",
+                                    msrc:"Content/exhibit/monster-house/IMG_8625.jpg",
+                                    w:3024,
+                                    h:4032
+                                },
+                                {
+                                    src:"Content/exhibit/monster-house/Y200331033.jpg",
+                                    msrc:"Content/exhibit/monster-house/Y200331033.jpg",
+                                    w:600,
+                                    h:993
+                                },
+                                {
+                                    src:"Content/exhibit/monster-house/Y200331034.jpg",
+                                    msrc:"Content/exhibit/monster-house/Y200331034.jpg",
+                                    w:600,
+                                    h:926
+                                },
+                                {
+                                    src:"Content/exhibit/monster-house/Y200331035.jpg",
+                                    msrc:"Content/exhibit/monster-house/Y200331035.jpg",
+                                    w:600,
+                                    h:967
+                                },
+                                {
+                                    src:"Content/exhibit/monster-house/IMG_8615.jpg",
+                                    msrc:"Content/exhibit/monster-house/IMG_8615.jpg",
+                                    w:4032,
+                                    h:3024
+                                },
+                                {
+                                    src:"Content/exhibit/monster-house/IMG_8629.jpg",
+                                    msrc:"Content/exhibit/monster-house/IMG_8629.jpg",
+                                    w:3024,
+                                    h:4032
+                                },
+                                {
+                                    src:"Content/exhibit/monster-house/Y200331042.jpg",
+                                    msrc:"Content/exhibit/monster-house/Y200331042.jpg",
+                                    w:600,
+                                    h:400
+                                },
+                                {
+                                    src:"Content/exhibit/monster-house/IMG_8632.jpg",
+                                    msrc:"Content/exhibit/monster-house/IMG_8632.jpg",
+                                    w:3024,
+                                    h:4032
+                                },
+                                {
+                                    src:"Content/exhibit/monster-house/IMG_8633.jpg",
+                                    msrc:"Content/exhibit/monster-house/IMG_8633.jpg",
+                                    w:3024,
+                                    h:4032
+                                },
                                 
                             ],
                             
@@ -1087,11 +1330,14 @@ var data = {
                             [
                                  {
                                      text:'Bakeneko (Monster Cat)',
-                                     src:'Content/resources/2020_06-yokai-activity-sheets-2-BAKENEKO.jpg'
+                                     src:'Content/resources/2020_06-yokai-activity-sheets-2-BAKENEKO.jpg',
+                                     caption:'are cats that turn into yokai when they reach great old age. They can become as large as people and love to wear clothes and dance. The oldest ones develop two tails and are called Nekomata.'
+                               
                                 },
                                 {
                                     text:'Yurei (Ghost)',
-                                    src:'Content/resources/2020_06-yokai-activity-sheets-3-YUREI.jpg'
+                                    src:'Content/resources/2020_06-yokai-activity-sheets-3-YUREI.jpg',
+                                    caption:'are the ghosts of people who were mistreated in life. They wear a tattered burial kimono and haunt whoever wronged them.'
                                 }
                             ]
                         },
@@ -1139,7 +1385,7 @@ var data = {
                     title: "Learn More About Yokai",
                     //body:'',
                     featured:{
-                        src:"Content/resources/tengucard.jpg"
+                        src:"Content/resources/akugyo.jpg"
                     },
                     resources: {
                         title: "Visit these Resources",
@@ -1355,4 +1601,3 @@ var data = {
         }
     ]
 }
-//console.log(data);

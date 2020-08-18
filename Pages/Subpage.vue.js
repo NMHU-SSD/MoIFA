@@ -103,14 +103,17 @@ var Subpage = {
                    </div> 
                    <div class='col-12'>
                         <div class="row p-0 m-0">
-                            <div class="col-sm-4 col-md-3 col-12 color-red p-0 m-5 " v-for="file in downloads.files">
+                            <div class="col-md-3 col-12 color-red p-5 m-0" v-for="file in downloads.files">
+                                <div class='img-container'>
                                     <a class='color-red img-container' :href='file.src' download>
                                         <img class='img-fluid border border-red' v-lazy='file.src'>
                                         <i class="fas fa-download img-overlay-1 color-red"></i>
                                     </a>
-                                    
-                                    
-                                <!--<p class="mt-2" >{{file.text}}</p>-->
+                                </div>
+                                <div class='blockquote'>
+                                     <p v-if='file.text' class="mt-2 h4 text-uppercase color-red font-weight-bolder" v-html='file.text'></p>
+                                    <p v-if='file.caption' class="mt-2 h6" v-html='file.caption'></p>
+                                </div>
                             </div>
                         </div>
                    </div>
@@ -132,7 +135,6 @@ var Subpage = {
                    <a class='color-red' :href='link.extUrl' target="_blank"> {{ link.text }}</a>
               </div>
             </template>
-
             
     </div>
 </div>

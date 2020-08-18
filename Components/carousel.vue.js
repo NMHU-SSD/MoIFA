@@ -15,16 +15,16 @@ var Carousel = {
 	
             <div class="carousel-inner carousel-main">
                 <!-- slide show -->
-                <div v-for="(slide,i) in slides" :class="['carousel-item', (i==0 ? 'active' : '')]">
+                <div v-for="(slide,i) in slides" :class="['carousel-item gal-img', (i==0 ? 'active' : '')]">
                     <!-- inner-content -->
-                    <div class=" img-container  container-fluid p-0 m-0 position-absolute">                      
+                    <div class="gal-image-container  container-fluid p-0 m-0 position-absolute">                      
                         <template v-if='slide.vidSrc'>
                              <video class="d-block img-fluid mx-auto pointer" controls> 
                                 <source :src="slide.vidSrc" type='video/mp4'></source>
                             </video>
                         </template>
                         <template v-else>
-                            <img class="d-block img-fluid mx-auto" v-lazy="slide.src"/>
+                            <vue-preview class="pointer d-block container-fluid p-0 m-0 mx-auto" :slides="[slide]"></vue-preview>
                         </template>
                     </div>
                     

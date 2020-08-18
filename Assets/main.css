@@ -207,8 +207,6 @@ footer ul.nav .nav-item .disabled{
     z-index: 999;
     pointer-events: none;
 }
-
-
 /*carousel*/
 .carousel-control-prev-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%238c2a1c ' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
@@ -222,16 +220,13 @@ footer ul.nav .nav-item .disabled{
 .carousel-control-next-icon-white {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23FFF' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
 }
-
-
-
-.card-img-top{
+.card-img-top,.gal-img{
     width: 100% !important;
     height: 400px !important;
     overflow: hidden;
 }
 
-.card-image-container{
+.card-image-container,.gal-image-container{
     height: 400px !important;
     overflow: hidden;
 }
@@ -240,7 +235,7 @@ footer ul.nav .nav-item .disabled{
   text-align: left !important
 }
 
-.card-image-container > div > div > figure > a > img {
+.card-image-container > div > div > figure > a > img,.gal-image-container > div > div > figure > a > img {
     width: 100% !important;
     height: 400px !important;
     object-fit: contain !important;
@@ -255,16 +250,12 @@ footer ul.nav .nav-item .disabled{
     max-height: 400px !important;
     margin: 0px auto !important;
 }
-
 .card-body .carousel, .card-body .carousel .carousel-inner{
     min-height: 200px !important;
 }
-
-
 .carousel-indicators {
     position: absolute;
     bottom: -20px !important;
-/*    margin-top: 30px !important;*/
     right: 0px !important;
 }
 .carousel-indicators li {
@@ -273,8 +264,6 @@ footer ul.nav .nav-item .disabled{
   border-radius: 100%;
   z-index: 9999;
 }
-
-
 .fixed-indicators{
     top:10px;
     text-align: right;
@@ -282,7 +271,6 @@ footer ul.nav .nav-item .disabled{
     right: 0px !important;
     left: inherit;
 }
-
 .carousel-main > .carousel-item {
     height: 30em;
 }
@@ -377,10 +365,6 @@ figure, .figure-img, figure > .img-container{
 .credit-spacing{
     line-height: 1.2em !important;
 }
-
-
-
- 
 .text-responsive {
   font-size: calc(100% + 1vw) !important;
 }
