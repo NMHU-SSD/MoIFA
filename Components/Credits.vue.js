@@ -12,7 +12,7 @@ var Credits = {
                         <p class="credit-spacing font-weight-lighter p-0 m-0 color-white font-size-1" v-if="credit.medium">{{credit.medium}}</p>
                         <p class="credit-spacing font-weight-lighter p-0 m-0 color-white font-size-1" v-if="credit.collection" v-html='credit.collection'></p>
                         <template v-if='credit.link'>
-                        <i><p class='credit-spacing p-0 m-0 color-dark-tan'><a  class='credit-spacing p-0 m-0 color-dark-tan font-weight-bolder font-size-1' target="_blank" :href='credit.link.url'> {{credit.link.text}} </a></p></i>
+                        <p class='credit-spacing p-0 m-0 color-dark-tan'><a  class='credit-spacing p-0 m-0 color-dark-tan font-weight-bolder font-size-1' target="_blank"  :href='credit.link.url'><b><i>{{credit.link.text}}</i></b></a></p>
                         </template>
                     </div>
                 </div>

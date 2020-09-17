@@ -22,7 +22,7 @@ var Home = {
                     <p class='credit-spacing font-weight-lighter p-0 m-0 font-size-1'>{{page.featured.credit.date}}</p>
                     <p class='credit-spacing font-weight-lighter p-0 m-0 font-size-1'>{{page.featured.credit.medium}}</p>
                     <p class='credit-spacing font-weight-lighter p-0 m-0 font-size-1'>{{page.featured.credit.collection}}</p>
-                    <a class='color-red font-weight-bolder p-0 m-0 font-size-1' :href="page.featured.link.url">{{page.featured.link.text}}</a>
+                    <a class='color-red font-weight-bolder p-0 m-0 font-size-1' :href="page.featured.link.url" target='_blank'><b><i>{{page.featured.link.text}}</i></b></a>
                 </div>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 m-0 p-0 img-container">
@@ -37,7 +37,7 @@ var Home = {
                     <p class='credit-spacing font-weight-lighter p-0 m-0 font-size-1'>{{page.featured.credit.date}}</p>
                     <p class='credit-spacing font-weight-lighter p-0 m-0 font-size-1'>{{page.featured.credit.medium}}</p>
                     <p class='credit-spacing font-weight-lighter p-0 m-0 font-size-1'>{{page.featured.credit.collection}}</p>
-                    <a class='color-red font-weight-bolder p-0 m-0 font-size-1' :href="page.featured.link.url">{{page.featured.link.text}}</a>
+                    <a class='color-red font-weight-bolder p-0 m-0 font-size-1' :href="page.featured.link.url" target='_blank'><b><i>{{page.featured.link.text}}</i></b></a>
              </div>
              <h3 class="text-left color-red text-uppercase" v-html="page.title"></h3>
              <div v-html="page.body"></div>
