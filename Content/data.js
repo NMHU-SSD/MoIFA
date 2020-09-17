@@ -393,10 +393,10 @@ var data = {
                                         medium:"Ink on paper, Adhesive",
                                         collection:"Gift of David M. Kahn, Museum of International Folk Art (A.2018.40.1)"
                                     },
-                                    caption:`<p>Some kinds of <i>omocha-e</i> woodblock prints were meant to be cut, pasted, and arranged into  a three-dimensional paper toy. This example is an andon (floor lantern) that transforms into an obake yashiki (monster house). Lifting paper flaps reveals various yokai, including a tanuki (raccoon-dog), O-Nyudo (a stretchy-necked monk-monster), tsukumogami (in the form of a tea kettle), skeleton musicians, and a buriburi (shaking ghost).</p>`
+                                    caption:`Some kinds of <i>omocha-e</i> woodblock prints were meant to be cut, pasted, and arranged into  a three-dimensional paper toy. This example is an andon (floor lantern) that transforms into an obake yashiki (monster house). Lifting paper flaps reveals various yokai, including a tanuki (raccoon-dog), O-Nyudo (a stretchy-necked monk-monster), tsukumogami (in the form of a tea kettle), skeleton musicians, and a buriburi (shaking ghost).`
                                 }
                             ],
-                            body:`<p>Omocha-e are woodblock prints meant to be cut, pasted, and arranged to craft a three dimensional paper toy. This example is an <i>andon</i> (floor lantern) that transforms into an <i>obake yashiki</i> (ghost house). Lifting paper flaps reveals various yokai, including <i>tanuki</i> (raccoon-dog), O-Nyudo (a stretchy-necked monk), <i>tsukumogami</i> (in the form of a tea kettle), skeleton musicians, and a <i>buriburi</i> (shaking ghost).</p>`
+                            body:`Omocha-e are woodblock prints meant to be cut, pasted, and arranged to craft a three dimensional paper toy. This example is an <i>andon</i> (floor lantern) that transforms into an <i>obake yashiki</i> (ghost house). Lifting paper flaps reveals various yokai, including <i>tanuki</i> (raccoon-dog), O-Nyudo (a stretchy-necked monk), <i>tsukumogami</i> (in the form of a tea kettle), skeleton musicians, and a <i>buriburi</i> (shaking ghost).`
                         },
                         {
                             cards:
@@ -439,10 +439,10 @@ var data = {
                                         location:"Japan",
                                         medium:"Ink on cardstock"
                                     },
-                                    caption:`<p>The word <i>karuta</i> derives from the Portuguese word for “card.” Portuguese traders introduced playing cards to Japan during the sixteenth century. Some karuta games involved finding images to match written Japanese syllables. In the case of these monster cards, the name of a monster would be matched to its picture.</p>`
+                                    caption:`The word <i>karuta</i> derives from the Portuguese word for “card.” Portuguese traders introduced playing cards to Japan during the sixteenth century. Some karuta games involved finding images to match written Japanese syllables. In the case of these monster cards, the name of a monster would be matched to its picture.`
                                 }
                             ],
-                            body:`<p>The word karuta derives from the Portuguese word for “card.” Portuguese traders introduced playing cards to Japan during the sixteenth century. Some karuta games involved finding images to match written Japanese syllables. In the case of these monster cards, the name of a monster would be matched to its picture.</p>`,
+                            body:`The word karuta derives from the Portuguese word for “card.” Portuguese traders introduced playing cards to Japan during the sixteenth century. Some karuta games involved finding images to match written Japanese syllables. In the case of these monster cards, the name of a monster would be matched to its picture.`,
                         },
                         {
                             cards:
