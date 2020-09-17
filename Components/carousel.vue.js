@@ -8,7 +8,7 @@ var Carousel = {
     },
     template:`
         <div :id="id" class="carousel slide bg-black" data-ride="slide" data-interval="false">
-			<ol class="carousel-indicators text-right">
+			<ol class="carousel-indicators d-none d-md-block mx-auto text-center">
                 <!--- indicators -->
                 <li v-for="(slide,i) in slides" :data-target="'#'+id" :data-slide-to="i" :class="[ 'fixed-indicator',(i==0 ? 'active' : '')]"></li>
 			</ol>

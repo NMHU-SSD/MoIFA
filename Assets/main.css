@@ -209,16 +209,18 @@ footer ul.nav .nav-item .disabled{
 }
 /*carousel*/
 .carousel-control-prev-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%238c2a1c ' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='rgba(168, 133, 50)' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+    opacity: 1 !important;
 }
 .carousel-control-next-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%238c2a1c' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='rgba(168, 133, 50)' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+    opacity: 1 !important;
 }
-.carousel-control-prev-icon-white {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23FFF ' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+.carousel-control-next, .carousel-control-prev{
+    opacity: 1 !important;
 }
-.carousel-control-next-icon-white {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23FFF' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+.carousel-control-next:hover, .carousel-control-prev:hover{
+    opacity: .5 !important;
 }
 .card-img-top,.gal-img{
     width: 100% !important;
@@ -253,16 +255,20 @@ footer ul.nav .nav-item .disabled{
 .card-body .carousel, .card-body .carousel .carousel-inner{
     min-height: 200px !important;
 }
-.carousel-indicators {
+.carousel-indicators{
     position: absolute;
     bottom: -20px !important;
     right: 0px !important;
+    margin-left: 0;
+    margin-right: 0;
 }
 .carousel-indicators li {
   width: 10px;
   height: 10px;
-  border-radius: 100%;
+  border-radius: 50%;
   z-index: 9999;
+  display: inline-block;
+    
 }
 .fixed-indicators{
     top:10px;
@@ -270,6 +276,8 @@ footer ul.nav .nav-item .disabled{
     float: right;
     right: 0px !important;
     left: inherit;
+    width:5px;
+    height:5px
 }
 .carousel-main > .carousel-item {
     height: 30em;

@@ -93,13 +93,14 @@ var Subpage = {
                     <img class='img-fluid' v-lazy='subpage.resources.featured.src'>
                 </div>
             </template>
-            <h3 class="text-center" v-if='subpage.resources.title'>{{subpage.resources.title}}</h3>
-            <h3 class="text-center pt-3" v-else>Resources</h3>
+            <h3 class="text-cente text-uppercaser" v-if='subpage.resources.title'>{{subpage.resources.title}}</h3>
+            <h3 class="text-center pt-3 text-uppercase" v-else>Resources</h3>
             <div class="row justify-content-center">
                 
                 <template v-if='subpage.resources.downloads' v-for="downloads in subpage.resources.downloads">
                    <div class='col-12 pt-5 pb-0 m-0' >
-                      <h5 class='font-weight-bolder text-center' v-html='downloads.title'></h5>
+                      <h5 class='font-weight-bolder text-center text-uppercase' v-html='downloads.title'></h5>
+                      <h4 class='color-red font-weight-bolder text-center text-uppercase' v-html='downloads.subtitle'></h4>
                    </div> 
                    <div class='col-12'>
                         <div class="row p-0 m-0">
@@ -107,7 +108,6 @@ var Subpage = {
                                 <div class='img-container'>
                                     <a class='color-red img-container' :href='file.src' download>
                                         <img class='img-fluid border border-red' v-lazy='file.src'>
-                                        <i class="fas fa-download img-overlay-1 color-red"></i>
                                     </a>
                                 </div>
                                 <div class='blockquote'>
@@ -142,7 +142,7 @@ var Subpage = {
         <!-- section carousel or single image-->
         <template v-if="subpage.sections">
 
-            <div v-for='section, index in subpage.sections' :class='["container-fluid", "p-5", (index%2 == 0 ? "bg-light-tan" : "")]'>
+            <div v-for='section, index in subpage.sections' :class='["container-fluid", "p-3", (index%2 == 0 ? "bg-light-tan" : "")]'>
                 <div class='container-fluid'>
 
                 <div class='row mb-2 d-flex justify-content-center' v-if="section.featured">

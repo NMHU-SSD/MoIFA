@@ -171,11 +171,15 @@ var data = {
                                     w:251,
 									h:398,
                                     credit:{
-                                        title:'<i>Nura: Rise of the Yokai Clan</i> <br> Shiibashi Hiroshi et al',
-                                        artist:'Publisher: Shonen Jump manga; San Francisco, CA (Viz Media)',
+                                        title:'<i>Nura: Rise of the Yokai Clan</i>',
+                                        artist:'Shiibashi Hiroshi',
                                         date:'2011',
-                                        medium:'Graphic novel',
-                                        collection:"Courtesy of <a class='color-dark-tan font-weight-bolder' href='https://en.wikipedia.org/wiki/Nura:_Rise_of_the_Yokai_Clan#/media/File:Nurarihyon_no_Mago_Japanese_Vol_1_Cover.jpg' target='_blank'> <b><i>Wikipedia</i></b></a>"
+                                        medium:'Graphic novel/Manga',
+                                        collection:'Publisher: Shonen Jump Manga; San Francisco, CA. (Viz Media)',
+                                        link:{
+                                            text:'Courtesy of viz.com',
+                                            url:'https://www.viz.com/read/manga/nura-rise-of-the-yokai-clan-volume-1/product/2738'
+                                        }
                                     },
                                     caption:`
                                            Cover art for the first tankobon of the Nurarihyon no Mago manga released in Japan by Shueisha.<br>
@@ -185,7 +189,7 @@ var data = {
                         },
                          {
                             title:"ANIME", 
-                            body: `<p>Japanese anime (animation) has become an international pop-culture phenomenon over the past twenty years. Anime is an outgrowth of manga. It grew in popularity after World War II but especially in the 1960s, when animation premiers captured the attention of young television viewers.</p>
+                            body: `<p>Japanese anime (animation) has become an international pop-culture phenomenon over the past twenty years. Anime is an outgrowth of manga. It grew in popularity after World War II but especially in the 1960s, when animation premieres captured the attention of young television viewers.</p>
                             <p>The award-winning films of Studio Ghibli are at the forefront of anime productions. <i>My Neighbor Totoro</i> (1988) and <i>Spirited Away</i> (2001) are some of the highest-grossing anime films ever. Both were created by Miyazaki Hayao, who is a writer, illustrator, and co-founder of Studio Ghibli. Miyazaki is praised as one of the greatest animation filmmakers of all time. His films tend to deal with the challenge of balancing traditional values and contemporary demands</p>`, 
                             cards:
                             [
@@ -196,8 +200,14 @@ var data = {
                                     h:1200,
                                     credit:
                                     {
-                                        title:"My Neighbor Totoro",
-                                        artist:"Director: Hayao Miyazaki", link:'https://ghibli.fandom.com/wiki/Ghibli_Wiki'
+                                        title:"Tonari no Totoro (My Neighbor Totoro)",
+                                        artist:"Animated film written and directed by Miyazaki Hayao",
+                                        collection:'Produced by Studio Ghibli',
+                                        date:'©1988 Studio Ghibli',
+                                        link:{
+                                            url:' http://www.ghibli.jp/works/#totoro',
+                                            text:'Courtesy of Studio Ghibli'
+                                        }
                                     },
 									
                                 }
@@ -209,7 +219,7 @@ var data = {
                     slug: "stage-performance",
                     title:"Stage Performance",
                     subtitle:"How Stage Performance Made Yokai Popular",
-                    body:`<p>Like visual arts, performance is one of the cultural modes that popularized yokai stories and imagery. Stage theater was particularly popular during the Edo period (1603—1867) and numerous classical plays featured ghost, demon, and monster-like characters. These characters and their stories have enjoyed long-lasting appeal. Ghostly stage presentations from centuries ago inform today’s iconic image of vengeful female ghosts, with long disheveled hair, a white death kimono, and no feet. A number of contemporary Japanese horror films feature these images and they have also made their way into Hollywood blockbusters, such as like <i>The Ring</i> (2002).</p><p>Among the forms of traditional Japanese stage performance that portray demons and ghosts are puppetry, noh, and kabuki theater.</p>`,
+                    body:`<p>Like visual arts, performance is one of the cultural modes that popularized yokai stories and imagery. Stage theater was particularly popular during the Edo period (1603—1867) and numerous classical plays featured ghost, demon, and monster-like characters. These characters and their stories have enjoyed long-lasting appeal. Ghostly stage presentations from centuries ago inform today’s iconic image of vengeful female ghosts, with long disheveled hair, a white death kimono, and no feet. A number of contemporary Japanese horror films feature these images and they have also made their way into Hollywood blockbusters, such as <i>The Ring</i> (2002).</p><p>Among the forms of traditional Japanese stage performance that portray demons and ghosts are puppetry, noh, and kabuki theater.</p>`,
                     featured:{
                         src:"Content/yokai/performance/FA.2018.33.1a-f.jpg",
                     },
@@ -217,7 +227,7 @@ var data = {
                         {
                             title:"AWA NINGYO JORURI (Puppetry)", 
                             body: `
-                                <p>The play <i>Hidakagawa iriaizakura</i>, centers on the lovelorn Kiyohime and a monk named Anchin.  Set at Dojoji Temple in Wakayama in the year 929, the play details the destructive nature of obsessive passion. Kiyohime falls in love with Anchin but he rejects her. Kiyohime’s rage, damaged pride, and emotional pain overtake her and she loses complete control of herself and her humanity. She transforms into a serpent-demon, swims across a river, and makes her way to Dojoji Temple, where Anchin hides from her under a large bronze bell. She finds him, coils herself around the bell, spitting flames until Anchin burns to ashes.</p><p>Awa ningyo joruri is a regional style of puppet theater specific to Tokushima, where performances take place on an open‑air, village stage. It takes three puppeteers to operate one puppet: one each for the head, hands, and feet. Puppetry is one of Japan’s oldest performance genres and some forms are inscribed on UNESCO’s list of Intangible Cultural Heritage</p>`, 
+                                <p>Awa ningyo joruri is a regional style of puppet theater specific to Tokushima, where performances take place on an open‑air, village stage. It takes three puppeteers to operate one puppet: one each for the head, hands, and feet. Puppetry is one of Japan’s oldest performance genres and some forms are inscribed on UNESCO’s list of Intangible Cultural Heritage.</p><p>The play <i>Hidakagawa iriaizakura</i> centers on the lovelorn Kiyohime and a monk named Anchin.  Set at Dojoji Temple in Wakayama in the year 929, the play details the destructive nature of obsessive passion. Kiyohime falls in love with Anchin but he rejects her. Kiyohime’s rage, damaged pride, and emotional pain overtake her and she loses complete control of herself and her humanity. She transforms into a serpent-demon, swims across a river, and makes her way to Dojoji Temple, where Anchin hides from her under a large bronze bell. She finds him, coils herself around the bell, spitting flames until Anchin burns to ashes.</p><p><i>Learn more about Awa Ningyo Joruri at the <a class='color-red font-weight-bolder' href='http://joruri.info/jurobe/english/' target='_blank'><b>Tokushima Prefectural Puppet Theater and Museum</b></a><i></p>`, 
                             cards:
                             [
                                 {
@@ -233,6 +243,7 @@ var data = {
                                         date:"2019, commissioned by the Museum of International Folk Art",
                                         location:"Tokushima",
                                         date:"Wood, natural pigments, lacquer, hair, silk cloth, metal springs, paper, cord",
+                                        collection:'2019, commissioned by the Museum of International Folk Art',
                                         medium:"Museum of New Mexico Foundation purchase with funds from the E. Rhodes and Leona B. Carpenter Foundation, Museum of International Folk Art (T.2019.51.1)"
                                     }
                                 },
@@ -246,13 +257,13 @@ var data = {
                                     msrc:"Content/yokai/performance/puppet-artist-amari.jpg",
                                     w:6000,
 									h:4000,
-                                    caption:`Amari Yoichiro, from Tokushima, is a renowned maker of Awa ningyo joruri. He explains that Kiyohime is a challenging character to create because her articulated structure is complex and her emotions are intense; this makes her a favorite character for him to craft.` 
+                                    caption:`Amari Yoichiro, from Tokushima, is a renowned maker of Awa ningyo joruri. He explains that Kiyohime is a challenging character to create because her articulated structure is complex and her emotions are intense; this makes her a favorite character for him to craft. <br><br> Mr. Amari and Mr. Sato (director of the Tokushima Prefectural Puppet Theater and Museum) hand-carried the commissioned Kiyohime to Santa Fe in 2019 to work with museum staff and train them in proper handling and preservation methods. Pictured (from left to right): Amari Yoichiri, Maureen Russell (senior conservator) and Sato Kenji` 
                                 },
                             ]
                         },
                          {
                             title:"NOH THEATER", 
-                            body: `<p>Noh theater is a formal masked dance drama with musical accompaniment. Plays often involve deities, ghosts, and demons. Established as a theatrical form in the fourteenth century, noh developed through the Edo period (1603—1867) but declined in popularity when Japan was (forced) open to the outside world after 1868. Actors played an active role in ensuring that the tradition continued. Today, noh theater is inscribed on UNESCO’s list of Intangible Cultural Heritage.</p>`, 
+                            body: `<p>Noh theater is a formal masked dance drama with musical accompaniment. Plays often involve deities, ghosts, and demons. Established as a theatrical form in the fourteenth century, noh developed through the Edo period (1603—1867) but declined in popularity when Japan was (forced) open to the outside world after 1868. Actors played an active role in ensuring that the tradition continued. Today, noh theater is inscribed on UNESCO’s list of Intangible Cultural Heritage.</p><p>Hannya is a female demon transformed from a human woman due to jealousy and rage. An example of a hannya character is Lady Rokujo from the noh play <i>Aoi no Ue</i> (“Lady Aoi”), based on a chapter from <i>Tale of Genji.</i> The story is primarily about the life, loves, and exploits of Prince Genji, who is married to Lady Aoi. A known philanderer, Genji takes Lady Rokujo as a mistress.  She falls in love with him, but her love remains unrequited. Cast aside by her lover and in a jealous rage, Lady Rokujo loses control of her emotions and she transforms into a vengeful demon.</p>`, 
                             cards:[
                                 {
                                     src:"Content/yokai/performance/FA.2018.33.1a-f.jpg",
@@ -262,13 +273,12 @@ var data = {
                                     credit:
                                     {
                                         title:"White Hannya, Noh Mask",
-                                        artist:"Terai Ichiyu",
+                                        artist:"<a class='color-dark-tan font-weight-bolder' href='https://nohmask.jp/' target='_blank'><b><i>Terai Ichiyu</i></b></a>",
                                         date:"2017, commissioned by the Museum of International Folk Art",
                                         location:"Kyoto",
                                         medium:"Wood (cypress), natural paints (shell, mercury, carbon [sumi], ocher, gold), cotton cord",
                                         collection:"International Folk Art Foundation, Museum of International Folk Art (FA.2018.33.1)"
-                                    },
-                                    caption:`Hannya is a female demon transformed from a human woman due to jealousy and rage. An example of a hannya character is Lady Rokujo from the noh play <i>Aoi no Ue</i> (“Lady Aoi”), based on a chapter from <i>Tale of Genji.</i> The story is primarily about the life, loves, and exploits of Prince Genji, who is married to Lady Aoi. A known philanderer, Genji takes Lady Rokujo as a mistress.  She falls in love with him, but her love remains unrequited. Cast aside by her lover and in a jealous rage, Lady Rokujo loses control of her emotions and she transforms into a vengeful demon.`
+                                    }
                                 },
                                 {
                                     src:"Content/yokai/performance/noh-artist-terai.jpg",
@@ -280,7 +290,7 @@ var data = {
                             ]
                         },
                         {
-                            title:"KABUKI", 
+                            title:"KABUKI THEATER", 
                             body: `
                             <p>Kabuki theatrical performance developed in the Edo period (1603–1867), a time of relative prosperity with new markets for leisure activities. People of all social classes were drawn to the theater to see the newest plays. Kabuki was especially popular for its stage tricks, special effects, and action. Ghost stories were very popular and often challenged social norms, especially those related to gender roles and economic status. Kabuki is inscribed on UNESCO’s list of Intangible Cultural Heritage.</p><p><i>Tokaido Yotsuya kaidan</i> (“Ghost Story of Yotsuya Road”) was written by Tsuruya Nanboku in 1825 and is one of Japan’s most famous ghost stories. The story centers on a woman, Oiwa, whose husband, Iemon, decides he wants to marry a wealthier woman. He poisons his wife’s cosmetics, which horribly disfigures her face. He then tries to set her up to look like she was having an affair with a man named Kohei so he could divorce her. She eventually dies in a dramatic, self-inflicted accident and Kohei is killed. Iemon nailed their corpses to opposite sides of a door and throws it in a river. Oiwa’s strong emotions transform into an uncontrollable, terrifying rage and she comes back as a vengeful ghost, haunting Iemon for the rest of his life. This theater print demonstrates stage effects created by the playwriter. In Act III of the kabuki play, Iemon finds the door floating down the river. When he hoists it out of the water, Oiwa’s corpse comes to life as a ghost and haunts him; when Iemon flips the door over, Kohei’s corpse does the same. The effect inspired this “trick” print, using a flap to allow the viewer to flip back and forth between the two ghosts. A flap on the middle panel of this triptych opens to reveal Iemon holding Oiwa’s corpse nailed to a door; when the flap is closed we see Kohei.</p>`,
                             cards:
@@ -298,12 +308,12 @@ var data = {
                                     ],
                                     credit:
                                         {
-                                            title:'“Tokaido Yotsuya kaidan (Ghost Story of the Yotsuya Road) at the Ichimura Theater.” ',
-                                            artist:"Pictured is the middle panel of a triptych, portraying the actors: Kataoka Gato as Tamiya Iemon and Onoe Kikugoro V as Oiwa<br>Toyohara Kunichika (1835–1900)",
+                                            title:'Tokaido Yotsuya kaidan ("Ghost Story of the Yotsuya Road") at the Ichimura Theater. ',
+                                            artist:"Toyohara Kunichika (1835–1900)",
                                             date:"1884",
                                             location:"Tokyo",
-                                            medium:"Silk, metal, paper, wood, cord",
-                                            collection:"Courtesy of U.S. Kabuki Kenkyū Kai in cooperation with Shochiku Costume, LTD."
+                                            medium:"Ink on paper",
+                                            collection:"International Folk Art Foundation Collection, Museum of International Folk Art (FA.2018.71.1a-c)"
                                          }
                                 }
 							
@@ -333,9 +343,12 @@ var data = {
                                     {
                                         title:'<i>Bakemono Zukushi</i> ("All about Bakemono") woodblock print',
                                         artist:"Unknown Artist",
-                                        date:"Edo Perriod (1603—1867)",
+                                        date:"Edo period (1603—1867)",
                                         location:"Japan",
-                                        collection:"Courtesy of the Yumoto Koichi Memorial Yokai Museum of Japan (Miyoshi Mononoke Museum)"
+                                        link:{
+                                            text:"Courtesy of the Yumoto Koichi Memorial Yokai Museum of Japan (Miyoshi Mononoke Museum)",
+                                            url:'http://www.miyoshi-dmo.jp/mononoke/'
+                                        }
                                     }
                                 }
                             ],
@@ -347,12 +360,6 @@ var data = {
                             [
                                 {
                                     sources: [
-										{
-											src:"Content/yokai/toys-and-games/A.2018.40.1.jpg",
-											msrc:"Content/yokai/toys-and-games/A.2018.40.1.jpg",
-											w:600,
-											h:900,
-										},
 										{
 											src:"Content/yokai/toys-and-games/A.2018.40.1a-e/A.2018.40.1.1a.jpg",
 											msrc:"Content/yokai/toys-and-games/A.2018.40.1a-e/A.2018.40.1.1a.jpg",
@@ -386,17 +393,17 @@ var data = {
 									],
                                     credit:
                                     {
-                                        title:'<i>Kawari-e: obake andon</i> ("Trick monster lantern")',
+                                        title:'<i>Kawari-e obake andon</i> ("Trick monster lantern")',
                                         artist:"Unknown Artist",
                                         date:"Meiji period (1868–1912)",
                                         location:"Japan",
-                                        medium:"Ink on paper, Adhesive",
+                                        medium:"Ink on paper, adhesive",
                                         collection:"Gift of David M. Kahn, Museum of International Folk Art (A.2018.40.1)"
                                     },
                                     caption:`Some kinds of <i>omocha-e</i> woodblock prints were meant to be cut, pasted, and arranged into  a three-dimensional paper toy. This example is an andon (floor lantern) that transforms into an obake yashiki (monster house). Lifting paper flaps reveals various yokai, including a tanuki (raccoon-dog), O-Nyudo (a stretchy-necked monk-monster), tsukumogami (in the form of a tea kettle), skeleton musicians, and a buriburi (shaking ghost).`
                                 }
                             ],
-                            body:`Omocha-e are woodblock prints meant to be cut, pasted, and arranged to craft a three dimensional paper toy. This example is an <i>andon</i> (floor lantern) that transforms into an <i>obake yashiki</i> (ghost house). Lifting paper flaps reveals various yokai, including <i>tanuki</i> (raccoon-dog), O-Nyudo (a stretchy-necked monk), <i>tsukumogami</i> (in the form of a tea kettle), skeleton musicians, and a <i>buriburi</i> (shaking ghost).`
+                            body:`Omocha-e are woodblock prints meant to be cut, pasted, and arranged to craft a three-dimensional paper toy. This example is an <i>andon</i> (floor lantern) that transforms into an <i>obake yashiki</i> (monster house). Lifting paper flaps reveals various yokai, including a <i>tanuki</i> (raccoon-dog), O-Nyudo (a stretchy-necked monk-monster), <i>tsukumogami</i> (in the form of a tea kettle), skeleton musicians, and a <i>buriburi</i> (shaking ghost).`
                         },
                         {
                             cards:
@@ -406,29 +413,29 @@ var data = {
                                         {
                                             src:"Content/yokai/toys-and-games/karuta1.jpg",
                                             msrc:"Content/yokai/toys-and-games/karuta1.jpg",
-                                            w:2694,
-                                            h:2532,
+                                            w:697,
+                                            h:1053,
                                     
                                         },
                                         {
                                             src:"Content/yokai/toys-and-games/karuta2.jpg",
                                             msrc:"Content/yokai/toys-and-games/karuta2.jpg",
-                                            w:2694,
-                                            h:2532,
+                                            w:680,
+                                            h:1036,
                                     
                                         },
                                         {
                                             src:"Content/yokai/toys-and-games/karuta3.jpg",
                                             msrc:"Content/yokai/toys-and-games/karuta3.jpg",
-                                            w:2694,
-                                            h:2532,
+                                            w:646,
+                                            h:1031,
                                     
                                         },
                                         {
                                             src:"Content/yokai/toys-and-games/karuta4.jpg",
                                             msrc:"Content/yokai/toys-and-games/karuta4.jpg",
-                                            w:2694,
-                                            h:2532,
+                                            w:726,
+                                            h:1152,
                                     
                                         }
                                     ],
@@ -455,7 +462,7 @@ var data = {
                                     credit:
                                     {
                                         title:"Menko playing cards with yokai characters",
-                                        artist:"Unknown Artist/Manufacturer",
+                                        artist:"Artist/Manufacturer Unknown",
                                         date:"1970s",
                                         location:"Japan",
                                         medium:"Cardboard, Ink"
@@ -475,7 +482,7 @@ var data = {
                                     credit:
                                     {
                                         title:"Unpunched, die-cut paper yokai toys",
-                                        artist:"Unknown Artist/Manufacturer",
+                                        artist:"Artist/Manufacturer Unknown",
                                         date:"1950s—1960s",
                                         location:"Japan",
                                         medium:"Coated cardboard, Ink"
@@ -512,7 +519,7 @@ var data = {
                     slug: "festivals",
                     title:"Festivals",
                     subtitle:"Yokai In Japanese Festivals",
-                    body:`<p>Some demons are actually regional deities and  are viewed differently than other kinds of demons. Special, seasonal rituals are performed at specific Shinto shrines to honor these demon-like deities and  garner blessings and good fortune for people, their families, and communities.</p><p>With an emphasis on visual and visceral experiences, these celebrations are a spectacle:” they feature deities that are massive, intense, colorful, dramatic visions. As such, they have become popular tourist attractions. In the post-war era in Japan, some cities created large festivals featuring these demon-like deities specifically to increase tourism . These grand festivals are considered secular community events, as opposed to the sacred rituals that take place in the shrines.</p>`,
+                    body:`<p>Some demons are actually regional deities and  are viewed differently than other kinds of demons. Special, seasonal rituals are performed at specific Shinto shrines to honor these demon-like deities and  garner blessings and good fortune for people, their families, and communities.</p><p>With an emphasis on visual and visceral experiences, these celebrations are a spectacle: they feature deities that are massive, intense, colorful, dramatic visions. As such, they have become popular tourist attractions. In the post-war era in Japan, some cities created large festivals featuring these demon-like deities specifically to increase tourism. These grand festivals are considered secular community events, as opposed to the sacred rituals that take place in the shrines.</p>`,
                     featured:{
                         src:"Content/yokai/festivals/ushioni-matsuri.jpg",
                     },
@@ -535,7 +542,10 @@ var data = {
                                         title:"Ushioni Matsuri",
                                         location:"Uwajima, Ehime Prefecture",
                                         collection:"Photo courtesy of the Uwajima City Tourist Association",
-                                        link:"http://www.uwajima-cci.or.jp/"
+                                        link:{
+                                            url:"http://www.uwajima-cci.or.jp/",
+                                            text:'Uwajima City Tourist Association'
+                                        }
                                     }
                                 },
                                 {
@@ -552,13 +562,24 @@ var data = {
                                         medium:"Washi paper, lacquer, brass, paint, oak wood, horsehair, cotton fabric, twine, white paper, ink",
                                         collection:"International Folk Art Foundation, Museum of International Folk Art (FA.2018.76.1; FA.2018.75.1)"
                                     },
-                                    caption:`This special float head was completed shortly before the  festival in 2018.  Sadly, due to record rains that caused floods and landslides in July 2018 the festival was canceled for the first time in forty years. The community focused on rescue and recovery efforts and offeringsupport to families that lost loved ones.`
+                                    caption:`This special float head was completed shortly before the  festival in 2018.  Sadly, due to record rains that caused floods and landslides in July 2018 the festival was canceled for the first time in forty years. The community focused on rescue and recovery efforts and offering support to families that lost loved ones.`
                                 },
                                 {
-                                    src:"Content/yokai/festivals/utsunomiya.jpg",
-                                    msrc:"Content/yokai/festivals/utsunomiya.jpg",
-                                    w:3024,
-                                    h:4032,
+                                    sources:[
+                                    {
+                                        src:"Content/yokai/festivals/utsunomiya.jpg",
+                                        msrc:"Content/yokai/festivals/utsunomiya.jpg",
+                                        w:3024,
+                                        h:4032,
+                                    },
+                                    {
+                                        src:"Content/yokai/festivals/DSC00814.JPG",
+                                        msrc:"Content/yokai/festivals/DSC00814.JPG",
+                                        w:6000,
+                                        h:4000
+                                    }
+                                    ],
+                                    
                                     caption:`Utsunomiya Yoshiwo II is Uwajima’s master ushioni-head maker, who learned from his father, Utsunomiya Yoshiwo. The artist reminds us that there is a distinction between festival ushioni, which are secular, and the ushioni that are involved in the Warei Jinja rituals, which are  deities. Both are important and the artist takes great care to create ushioni according to traditional conventions and that are strong enough to survive the lively ushioni battles.`
                                 }
                             ]
@@ -589,8 +610,8 @@ var data = {
                                             artist:"Unknown Artist",
                                             date:"1960s",
                                             location:"Oga City, Akita Prefecture",
-                                            medium:"Wood, paint, horsehair, Velcro, nylon, baseball catcher’s mask, fiber, straw, plastic, cotton",
-                                            collection:"Museum of New Mexico Foundation, Museum of International Folk Art (A.2013.1.1-2)",
+                                            medium:"Wood, foil, paint",
+                                            collection:"Gift of Gift of Yamamoto Tsugio, Museum of International Folk Art (T.2019.1.1)",
                                                 
                                         }
                                     ],
@@ -623,21 +644,21 @@ var data = {
             slug:'lore',
             title:'Yokai Lore And Ghost Stories',
             featured:{
-                src:"Content/yokai/storytelling/bancho-screenshot.png",
+                src:"Content/yokai/storytelling/candle2.jpg",
             },
             subpages:[
                 {
                     slug: "creatures",
                     title:"Yokai: Creature-Lore",
                     subtitle:"What Are Yokai?",
-                    body:`<p>In Japan today, debates exist as to what exactly is a “yokai.” They are generally considered to be a catchall term for beings like ghosts, demons, and a wide variety of monsters as well as “mysterious phenomena.”</p>  
+                    body:`<p>In Japan today, debates exist as to what exactly is a “yokai.” Yokai is a catchall term for beings like ghosts, demons, and a wide variety of monsters as well as “mysterious phenomena.”</p>  
                     <p>Some people prefer words such as <i>bakemono</i> (changing things), <i>obake</i> (spooky things), and <i>mononoke</i> (weird, mysterious occurrences) to describe specific categories of beings. People began using the word “yokai” during the Meiji period (1868—1912) when scholars began studying Japanese folklore.</p>
                     <p>Despite ambiguities, scholars generally agree that yokai include <em><b>tanuki</b></em> (raccoon-dogs), <em><b>kitsune</b></em> (foxes), <em><b>tsukumogami</b></em> (haunted tools or objects), <em><b>kappa</b></em> (water yokai), <em><b>tengu</b></em> (mountain spirits or goblins), and <em><b>oni</b></em> (demons).</p> 
                     <p><em><b>Yurei</b></em> (ghosts) are included in this museum exhibition as a kind of a yokai, but not everyone agrees. Yurei are spirits of deceased humans with intense emotions and lingering ties or resentments in this world, whereas yokai were never human, are very much alive, and can be playful (yurei are not playful!). Looking at representations of yokai in popular media and art from the last five centuries, we find all sorts of beings: tormented ghosts, ogres, demons, monsters, shapeshifters, and personified animals. They all seem to categorically belong. Do you agree?</p>
-					<p>Explore these categories of yokai in the collection of the Museum of International Folk Art. </p>
-                     <a class='font-weight-bolder color-red text-center h4' target="_blank" href="/index.html#/resources"><b><i>Learn More about yokai and explore some additional yokai resources</i></b></a>`,
+					<p>Explore these categories of yokai in the collection of the Museum of International Folk Art. </p><p>
+                     <a class='font-weight-bolder color-red' href="/index.html#/resources/learn-more"><b><i>Learn more about yokai and explore additional yokai website resources</i></b></a></p><p><u>Explore these categories of yokai in the collection of the Museum of International Folk Art.</u></p>`,
                     featured:{
-                        src:"Content/yokai/creature-lore/tengu-plate.2.5.jpg"
+                        src:"Content/yokai/creature-lore/tengu-plate2.2.5.jpg"
                     },
                     sections:[
                         {
@@ -648,19 +669,19 @@ var data = {
                                 {   
                                     credit:
                                     {
-                                        title:"Tanuki",
-                                        date: "CA 1960",
+                                        title:"Various Tanuki figures",
+                                        date: "1960s",
+                                        location:'Japan',
                                         medium: "Paper, Fiber",
-                                        collection: "Museum of International Folk Art", 
                                         link:{
                                             url:'http://collection.internationalfolkart.org/collections/30224/yokai-tanuki/objects',
-                                            text:'See the full Tanuki collection here'
+                                            text:'Click here to view tanuki in the collection of the Museum of International Folk Art'
                                         }
                                     }, 
 									src:"Content/yokai/creature-lore/tanuki-plate.1.6.jpg",
                                     msrc:"Content/yokai/creature-lore/tanuki-plate.1.6.jpg",
-                                    w:450,
-                                    h:581,
+                                    w:5182,
+                                    h:3744,
                                 },
                                
                             ]
@@ -673,17 +694,16 @@ var data = {
                                 {
                                     src:"Content/yokai/creature-lore/kitsune-plate.1.2.jpg",
                                     msrc:"Content/yokai/creature-lore/kitsune-plate.1.2.jpg",
-                                    w:1200,
-                                    h:1200,
+                                    w:5792,
+                                    h:7501,
                                     credit: {
-                                        title:"Nine-Tailed Fox",
-                                        artist: "Peascod",
+                                        title:"Kitsune (fox) mask",
                                         location: "Japan",
-                                        date: "2019",
-                                        collection: "Museum of International Folk Art", 
+                                        date: "1960s",
+                                        collection: "Girard Foundation Collection", 
                                         link:{
                                             url:"http://collection.internationalfolkart.org/collections/30218/yokai-kitsune/objects",
-                                            text:'See the full Nine-Tailed Fox collection here'
+                                            text:'Click here to view kitsune in the collection of the Museum of International Folk Art'
                                         }
                                     }, 
                                 },
@@ -697,11 +717,13 @@ var data = {
                                 {
                                     credit:
                                     {
-                                        title:"Tsukumogami",
-                                        collection:"Museum of International Folk Art",
+                                        title:'"The Battle of the Crab and the Monkey (Japanese Fairy Tale Series No.3)”',
+                                        artist:'Nishinimiya Hangaten',
+                                        location:'Japan',
+                                        date:'early to mid-20th century',
                                         link:{
                                             url:"http://collection.internationalfolkart.org/collections/30221/yokai-tsukumogami/objects",
-                                            text:'See the full Tsukumogami collection here'
+                                            text:'Click here to view tsukumogami in the collection of the Museum of International Folk Art'
                                         }
                                     }, 
                                     src:"http://collection.internationalfolkart.org/internal/media/dispatcher/131614/resize%3Aformat%3Dfull",
@@ -720,17 +742,18 @@ var data = {
                                 {
                                     credit:
                                     {
-                                        title:"Kappa",
-                                        collection:"Museum of International Folk Art", 
+                                        title:"various kappa souvenir figures",
+                                        location:'Japan',
+                                        date:'1960s', 
                                         link:{
-                                            url:"http://collection.internationalfolkart.org/collections/30221/yokai-kappa/objects",
-                                            text:'See the full Kappa collection here'
+                                            url:"http://collection.internationalfolkart.org/collections/30217/yokai-kappa/objects",
+                                            text:'Click here to view kappa in the collection of the Museum of International Folk Art '
                                         }
                                     }, 
 									src:"Content/yokai/creature-lore/kappa-plate.8.1.jpg",
                                     msrc:"Content/yokai/creature-lore/kappa-plate.8.1.jpg",
-                                    w:262,
-                                    h:262,
+                                    w:5092,
+                                    h:3436,
 								}
                             ]
                         },
@@ -744,17 +767,19 @@ var data = {
                                 {
                                     credit:
                                     {
-                                        title:"Tengu",
-                                        collection:"Museum of International Folk Art", 
+                                        title:"Tengu Kokeshi Dolls",
+                                        location:'Japan',
+                                        date:'1960s',
+                                        collection: "Gist of the Girard Foundation Collection", 
                                         link:{
-                                            url:"http://collection.internationalfolkart.org/collections/30221/yokai-tengu/objects",
-                                            text:'See the full Tengu collection here'
+                                            url:"http://collection.internationalfolkart.org/collections/30220/yokai-tengu/objects",
+                                            text:'Click here to view tengu in the collection of the Museum of International Folk Art'
                                         }
                                     }, 
 									src:"Content/yokai/creature-lore/tengu-plate.2.5.jpg",
                                     msrc:"Content/yokai/creature-lore/tengu-plate.2.5.jpg",
-                                    w:420,
-                                    h:451,
+                                    w:3619,
+                                    h:4641,
 								}
                             ]
                         },
@@ -766,11 +791,14 @@ var data = {
                                 {
                                     credit:
                                     {
-                                        title:"Yurei",
-                                        collection:"Museum of International Folk Art", 
+                                        title:"Ghost with a Sword",
+                                        artist:'Shoen Uemura',
+                                        date:'1922',
+                                        location:'Japan',
+                                        collection:"IFAF Collection", 
                                         link:{
-                                            url:"http://collection.internationalfolkart.org/collections/30221/yokai-yurei/objects",
-                                            text:'See the full Yurei collection here'
+                                            url:"http://collection.internationalfolkart.org/collections/30222/yokai-yurei/objects",
+                                            text:'Click here to view yurei in the collection of the Museum of International Folk Art '
                                         }
                                     }, 
 									src:"Content/yokai/creature-lore/yurei-plate.4.9.jpg",
@@ -781,24 +809,51 @@ var data = {
                             ]
                         },
                         {
-                            title:"ONI: DEMONS, OGRES, AND GOBLINS",
+                            title:"ONI",
                             body:`<p>Oni are demons, ogres, or goblins; they are visual representations of ancient ideas of <i>mononoke</i> (weird, unexplainable events and invisible beings).Images of oni were assigned to represent different forms of mononoke, producing the first yokai characters. In religious contexts, oni—fierce, frightening, and powerful creatures—became protective guardians and deities as well as evil transgressors. Early ideas of yokai not only centered specifically around oni, representations of yokai were limited to oni forms with horns and fangs.</p>`,
 							cards:
                             [
                                 {
                                     credit:
                                     {
-                                        title:"Oni",
-                                        collection:"Museum of International Folk Art",
+                                        title:"Sake cup",
+                                        location:'Japan',
+                                        date:'Meiji perion (1868—1912)',
+                                        collection:"IFAF Collection",
                                         link:{
-                                            url:"http://collection.internationalfolkart.org/collections/30221/yokai-oni/objects",
-                                            text:'See the full Oni collection here'
+                                            url:"http://collection.internationalfolkart.org/collections/30219/yokai-oni/objects",
+                                            text:'Click here to view oni in the collection of the Museum of International Folk Art'
                                         }
                                     }, 
-									src:"Content/yokai/creature-lore/oni-plate.3.6.jpg",
-                                    msrc:"Content/yokai/creature-lore/oni-plate.3.6.jpg",
-                                    w:3323,
-                                    h:3729,		
+									src:"http://collection.internationalfolkart.org/internal/media/dispatcher/128850/resize%3Aformat%3Dfull",
+                                    msrc:"http://collection.internationalfolkart.org/internal/media/dispatcher/128850/resize%3Aformat%3Dfull",
+                                    w:804,
+                                    h:400,		
+								}
+                            ]
+                        },
+                        {
+                            title:"Other Yokai",
+                            body:`<p>As weird beings, shapeshifters, and inexplicable phenomena, there are a vast number of yokai that do not quite fit into specific yokai categories.</p>`,
+							cards:
+                            [
+                                {
+                                    credit:
+                                    {
+                                        title:"Rokurokubi",
+                                        artist:'Shibai Ranyoutei',
+                                        location:'Japan',
+                                        date:'2019',
+                                        collection:"IFAF Collection",
+                                        link:{
+                                            url:"http://collection.internationalfolkart.org/collections/30223/yokai-obake/objects",
+                                            text:'Click here to view other yokai in the collection of the Museum of International Folk Art'
+                                        }
+                                    }, 
+									src:"Content/yokai/creature-lore/FA.2019.36.1_1.jpg",
+                                    msrc:"Content/yokai/creature-lore/FA.2019.36.1_1.jpg",
+                                    w:3097,
+                                    h:3097,		
 								}
                             ]
                         },
@@ -811,37 +866,37 @@ var data = {
                     body:`<p>Storytelling was one of the ways that yokai types expanded during the medieval period in Japan. <i>Kaidan</i> (stories of strange and mysterious things) from different regions of Japan circulated in the city of Edo (modern-day Tokyo). A popular pastime surrounding kaidan emerged sometime in the early Edo period (1603—1867), known as <i>hyakumonogatari kaidankai</i> (special gatherings for the telling of one hundred ghost stories). At these events, people told regional ghost stories they knew or they invented new ghost stories. Traditionally, the storytelling began with lighting one hundred candles and at the end of each story, a candle was extinguished. When the last flame went out and darkness descended, yokai were said to appear.</p>`,
                     caption:`Japanese Ghost Storytelling and Gatherings for 100 Weird Tales (Hyakumonogatari kaidankai)<br>Produced in collaboration with <a class='color-red font-weight-bolder' href='http://kyotohyakki.com/' target='_blank'><b><i>Hyakuyobako</i></b></a> (Box of 100 Yokai) artist collective`,
                     featured:{
-                        src:"Content/yokai/storytelling/bancho-screenshot.png",
+                        src:"Content/yokai/storytelling/Candle2.jpg",
                     },
                     gallery:{
                         title:"Japanese Ghost Storytelling and Gatherings for 100 Weird Tales (Hyakumonogatari kaidankai)",
-                        caption:`Produced in collaboration with <a class='color-red font-weight-bolder' target='_blank' href='http://kyotohyakki.com/'><b><i>Hyakuyobako</i></b></a>(Box of 100 Yokai) artist collective<br>These <i>hyakumonogatari kaidankai</i>-style videos were co-produced by the Museum of International Folk Art and Kyoto-based yokai-artist collective <i>Hyakuyobako</i> (Box of 100 Yokai). These kaidan include traditional and contemporary Japanese ghost stories.`,
+                        caption:`These kaidan include traditional and contemporary Japanese ghost stories.`,
                         videos: 
                         [
                             {
                                 title:"Black Photo", 
                                 url: "https://www.youtube.com/embed/wTVPZ6n9gQI",
-                                artist:'Written by Kono Junya; told by Maeda Ai'
+                                artist:'Written and told by Yasaka Misaki'
                             },
                             {
                                 title:"Kudan (The Human-Faced Crow)", 
                                 url: "https://www.youtube.com/embed/TJ1VE2__Gvw",
-                                artist:'Written and told by Yasaka Misaki'
+                                artist:'Written by Nakaguchi Kanta; told by Maeda Ai'
                             },
                             {
                                 title:"Hyakki Yagyo (The Night Parade of 100 Demons)", 
                                 url: "https://www.youtube.com/embed/lIouEKd74MM",
-                                artist:'Written and told by Maeda Ai'
+                                artist:'Written by Kono Junya; told by Yasaka Misaki'
                             },
                             {
                                 title:"Bancho Sarayashiki (The Dish Mansion at Bancho)", 
                                 url: "https://www.youtube.com/embed/0NMwrbQcvGo",
-                                artist:'Written by Kono Junya; told by Yasaka Misaki'
+                                artist:'Written by Kono Junya; told by Maeda Ai'
                             },
                             {
                                 title:"At the Graveyard", 
                                 url: "https://www.youtube.com/embed/dXKmkox0WKs",
-                                artist:'Written by Nakaguchi Kanta; told by Maeda Ai'
+                                artist:'Written and told by Maeda Ai'
                             }
                         ]  
                     },
@@ -859,17 +914,17 @@ var data = {
             [
                 {
                     slug: "gallery",
-                    title:"Yokai Exhibition At The Museum Of International Folk Art",
-                    subtitle: "Yokai: Ghosts & Demons Of Japan (December 6, 2019 — Spring 2022 / TBD)",
-                    body:`<p>The exhibition, <i>Yokai: Ghosts & Demons of Japan</i> is on display through Spring 2022. This special exhibition includes narrative arts such as Edo period scroll paintings and woodblock prints; contemporary folk art that depicts yokai and illustrates their eerie tales; ghost and demon characters from classical noh and kabuki performances; and special festival costumes and float elements. Toys, games, comic books, and anime connect the past to the present, and the classical to the popular in terms of visual arts and culture. In addition to participatory gallery crafts, the exhibition features an immersive, family-friendly <i>obake yashiki</i> (a Japanese “monster house”), a popular form of entertainment in Japanese amusement parks.</p><a href='http://collection.internationalfolkart.org/collections/24685/yokai-exhibit/objects' class='color-red font-weight-bolder'><b><i>Explore the exhibition art and objects in the museum’s online database</i></b></a>`,
+                    title:"Yokai: Ghosts & Demons of Japan",
+                    subtitle: "Museum of International Folk Art (December 6, 2019 — Spring 2022 / TBD)",
+                    body:`<p>The exhibition, <i>Yokai: Ghosts & Demons of Japan</i> is on display through Spring 2022. This special exhibition includes narrative arts such as Edo period scroll paintings and woodblock prints; contemporary folk art that depicts yokai and illustrates their eerie tales; ghost and demon characters from classical noh and kabuki performances; and special festival costumes and float elements. Toys, games, comic books, and anime connect the past to the present, and the classical to the popular in terms of visual arts and culture. In addition to participatory gallery crafts, the exhibition features an immersive, family-friendly <a class='font-weight-bolder color-red' href="/index.html#/exhibition/monster-house"><b><i>obake yashiki</i></b></a> (a Japanese “monster house”), a popular form of entertainment in Japanese amusement parks.</p><a href='http://collection.internationalfolkart.org/collections/24685/yokai-exhibit/objects' class='color-red font-weight-bolder' target='_blank'><b><i>Explore the exhibition art and objects in the museum’s online database</i></b></a>`,
                     featured: {
                         src:"Content/exhibit/gallery/Y200331002.jpg"
                     },
                     sections:
                     [
                        {
-                           title:"Yokai Gallery",
-                           body:`<p>Click through the images to view the exhibition gallery</p>`,
+                           title:"Exhibition Gallery",
+                           body:`<p>Click through the images to view photographs of the exhibition or <a href='https://fivedmedia.com/3d-model/yokai-ghosts-demons-monsters-of-japan/skinned/' class='color-red font-weight-bolder' target='_blank'><b><i>take a 3D tour.</i></b></p>`,
                            slides: 
                            [
                                 {
@@ -1088,57 +1143,18 @@ var data = {
                 },
                 {
                     slug: "monster-house",
-                    title:"OBAKE YASHIKI (“The Monster House”)",
-                    subtitle:"Hyakumonogatari  Kaidan  Yashiki (The House of One Hundred Ghost Stories)",
+                    title:"THE MONSTER HOUSE (“Obake Yashiki”)",
+                    subtitle:"The Monster House at the Museum",
                     featured: {
-                        src:"Content/exhibit/monster-house/Y200331042.jpg",
+                        src:"Content/exhibit/monster-house/IMG_8615.jpg",
                     },
-                    body:`<p><i>Obake yashiki</i> (“monster houses”) are considered a traditional form of Japanese amusement. They are particularly popular in the summertime because, as people often say, spine-chilling experiences cool you down! The late-summer festival Obon is a time when people honor their ancestors, perhaps another explanation for the Japanese association between summer and spirits. Obake yashiki may date back to the Edo period (1603—1867), as an amusing way for warriors to prove their bravery during a time of relative peace. Japanese-style haunted houses gained popularity after World War II and draw upon folklore and traditional imagery to create a scary walk-through experience in a maze-like setting. Similar to American haunted house traditions, obake yashiki are often found in amusement parks. Although the point is to frighten people, it is meant to be a fun experience. After all, sometimes it is fun to be scared.</p><p>The Museum of International Folk Art and yokai scholar and artist Kono Junya, who is also a lecturer at Saga University of the Arts in Kyoto, collaborated on a monster house for the yokai exhibition.</p>`,
+                    body:`<p><i>Obake yashiki</i> (“monster houses”) are considered a traditional form of Japanese amusement. They are particularly popular in the summertime because, as people often say, spine-chilling experiences cool you down! The late-summer festival Obon is a time when people honor their ancestors, perhaps another explanation for the Japanese association between summer and spirits. Obake yashiki may date back to the Edo period (1603—1867), as an amusing way for warriors to prove their bravery during a time of relative peace. Japanese-style haunted houses gained popularity after World War II and draw upon folklore and traditional imagery to create a scary walk-through experience in a maze-like setting. Similar to American haunted house traditions, obake yashiki are often found in amusement parks. Although the point is to frighten people, it is meant to be a fun experience. After all, sometimes it is fun to be scared.</p><p>The Museum of International Folk Art collaborated with Kyoto-based yokai artist, Kono Junya to create an obake yashiki as part of the museum’s yokai exhibition.</p>`,
                     sections:
                     [
-						{
-							title: "About the Artist/Collaboration",
-							body: `<p>Kono Junya spent two and a half weeks at the Museum of International Folk Art to handcraft the monsters that populate the house, all based on traditional Japanese folklore and art. Hyakuyobako artists participated as actors, writers, and collaborators on the ghost story videos. Learn more about the collective’s activities <a class='color-red font-weight-bolder' href='www.KyotoHyakki.com.'><b><i>here</i></b></a></p>
-                            <p>Since 2005 Kono Junya has promoted yokai tourism in Japan with projects such as Kyoto’s Yokai Street and an annual haunted city train ride. In 2008 he founded Saga University of the Arts student-based art collective Hyakuyobako (Box of 100 Yokai), which organizes and runs numerous yokai-themed events including an annual Hyakki Yagyo (Night Parade of One Hundred Demons) and Mononoke Ichi, a festive art market featuring handmade yokai arts and crafts.</p>`,
-                            cards:[
-                                 {
-                                  src:'Content/exhibit/monster-house/kono-monster-selfie.jpg',
-                                  msrc:'Content/exhibit/monster-house/kono-monster-selfie.jpg',
-                                  w:1476,
-                                  h:1110,
-                                  caption:`Kono Junya and Ao Bozu selfie (traveling from Kyoto to Santa Fe), August 2019. Courtesy of Kono Junya.<br><br>Kono Junya is a Kyoto-based yokai artist and scholar. He teaches at Saga University of the Arts, where he founded the artist collective <a class='color-dark-tan font-weight-bolder' href='http://kyotohyakki.com/' target='_blank'><b><i>Hyakuyobako</i></b></a> (Box of 100 Yokai) artist collective<br><br>The artist wants us to recognize yokai as an important feature of Japanese heritage. That is why Ao Bozu points to himself and says, “Look at me; I am a Yokai!” Kono created this sculpture of Ao Bozu out of a desire to give life to a two-dimensional image that traditionally had been painted. The artist stated, “[I wanted to] sit and talk in the same room as a yokai.” In Kono’s words, “Ao Bozu is now a member of the ‘US-branch of Box of 100 Yokai;’ through him, I hope Americans can see how much fun yokai are in Japan.”
-`,
-                                },
-                                {
-                                  src:'Content/exhibit/monster-house/10530985663148.jpg',
-                                  msrc:'Content/exhibit/monster-house/10530985663148.jpg',
-                                  w:960,
-                                  h:1706,
-								  credit:{
-									  title: "Kono Junya Crafting Monsters",
-									  artist:"Kono Junya",
-									  date:'August 2019',
-									  collection:'Courtesy of Kono Junya',
-								  },
-                                  //caption:``,
-                                },
-                                {
-                                  src:'Content/exhibit/monster-house/hyako.jpg',
-                                  msrc:'Content/exhibit/monster-house/hyako.jpg',
-                                  w:1023,
-                                  h:340,
-                                  credit:{
-                                      artist:'Hyakuyobako',
-                                      date:'October 2019',
-                                      collection:'Courtesy of Kono Junya',
-                                  },
-                                },
-                            ]
-							
-						},
+						
                         {
-                            title:'Gallery',
-                            body:`<p>View images of Kono’s monsters in the obake yashiki.</p>`,
+                            title:'OBAKE YASHIKI: The Monster House at the Museum',
+                            body:`<p>Click through the images to view the monsters in the museums’s obake yashiki</p>`,
                             slides:
                             [
                                 {
@@ -1205,12 +1221,73 @@ var data = {
                             ],
                             
                         },
+                        {
+							title: "About the Artist and Monster House Collaboration",
+							body: `<p>Kono Junya is a Kyoto-based yokai artist and scholar. He teaches at Kyoto Saga University of the Arts, where he founded the student yokai artist collective <a class='color-red font-weight-bolder' href='www.KyotoHyakki.com' target='_blank'><b><i>Hyakuyobako (Box of 100 Yokai).</i></b></a> Since 2005, Mr. Kono has promoted yokai tourism in Japan with projects such as Kyoto’s  <a class='color-red font-weight-bolder' href='https://www.yokaistreet.com/yokai-street/' target='_blank'><b><i>Yokai Street</i></b></a> and, with the help of his collective, organizes and runs numerous yokai-themed events including an annual </i>Hyakki Yagyo</i> (Night Parade of One Hundred Demons), an annual haunted city train ride, and <i>Mononoke Ichi</i>, a festive art market featuring handmade yokai arts and crafts.</p>
+                            <p>The Museum of International Folk Art worked with Kono Junya and subsequently members of Hyakuyobako to collaborate on parts of the museum’s <i>Yokai: Ghosts & Demons of Japan</i> exhibition. Over the course of eighteen months, Mr. Kono helped imagine, design, and plan the exhibition’s obake yashiki. He spent almost three weeks in Santa Fe to handcraft the monsters that populate the house, all based on traditional Japanese folklore and art. In another aspect of the collaboration, he co-produced the series of ghost story videos, engaging colleagues and student members of Hyakuyobako who participated as actors, writers, and set and costume designers.</p>`,
+                            cards:[
+                                 {
+                                  src:'Content/exhibit/monster-house/kono-monster-selfie.jpg',
+                                  msrc:'Content/exhibit/monster-house/kono-monster-selfie.jpg',
+                                  w:1476,
+                                  h:1110,
+                                  credit:{
+                                      title:'Kono Junya and Ao Bozu selfie',
+                                      date:'August 2019',
+                                      location:'Kyoto, on the way to Santa Fe',
+                                      collection:'Courtesy of Kono Junya'
+                                      
+                                  },
+                                  caption:`The artist wants us to recognize yokai as an important aspect of Japanese heritage. Ao Bozu points to himself as if to say, “Look at me; I am a Yokai!” Kono explains that his desire to “sit and talk in the same room as a yokai” was his motivation for creating this sculpture. When the museum purchased Ao Bozu for the collection, Kono said: “He is now a member of the ‘US-branch of Box of 100 Yokai;’ through him, I hope Americans can see how much fun yokai are in Japan."' 
+`,
+                                },
+                                {
+                                  src:'Content/exhibit/monster-house/hyako.jpg',
+                                  msrc:'Content/exhibit/monster-house/hyako.jpg',
+                                  w:1023,
+                                  h:340,
+                                  credit:{
+                                      artist:'Hyakuyobako',
+                                      location:'Kyoto',
+                                      date:'October 2019',
+                                      collection:'Courtesy of Kono Junya',
+                                  },
+                                  caption:`Members of the yokai artist collective, <i>Hyakuyobak</i> (Box of 100 Yokai), gather before the annual Night Parade of 100 Demons in 2019. Parade participants are required to make their own costumes based on traditional yokai images; no newly imagined yokai; no gore.`
+                                },
+                                {
+                                  src:'Content/exhibit/monster-house/c6a57b49-52ba-4ebf-880e-01cff0c3935c.jpg',
+                                  msrc:'Content/exhibit/monster-house/c6a57b49-52ba-4ebf-880e-01cff0c3935c.jpg',
+                                  w:1600,
+                                  h:1200,
+                                  credit:{
+                                      artist:'Monster House and Ghost Story Planning',
+                                      location:'Kyoto',
+                                      date:'May 2019',
+                                      collection:'Photo by Asahi Fumiyo, courtesy of the Museum of International Folk Art',
+                                  },
+                                  caption:`Collaborators gather for planning in Kono Junya’s office. Left to right: exhibition designer, Matt Celeskey (Museum Resources Division, NMDCA); exhibition curator, Felicia Katz-Harris (Museum of International Folk Art); artist/scholar, Kono Junya (Hyakuyobako); artist, conservator, & logistics coordinator, Kono Yukiko (Hyakuyobako); artist, Tottori Hana also known as Sakyu (Hyakuyobako); and student artist, Yasaka Misaki (Hyakuyobako).`
+                                },
+                                {
+                                  src:'Content/exhibit/monster-house/10530985663148.jpg',
+                                  msrc:'Content/exhibit/monster-house/10530985663148.jpg',
+                                  w:960,
+                                  h:1706,
+                                  credit:{
+                                      artist:'Kono Making Monster',
+                                      location:'Santa Fe',
+                                      date:'August 2019',
+                                      collection:'Photo by Kono Yukiko, Courtesy of Kono Junya',
+                                  },
+                                }
+                            ]
+							
+						},
 						
                     ]
                 },
                 {
                     slug: "catalogue",
-                    title:"Exhibition Catalogue",
+                    title:"Exhibition Catalog",
                     subtitle: "Yokai: Ghosts, Demons & Monsters of Japan",
                     body: `<p>Edited by: Felicia Katz-Harris<br>Foreword by: Khristaan Villela, PhD<br>Contributors: Komatsu Kazuhiko; Noriko Tsunoda Reider, PhD; Satoko Shimazaki, PhD; Michael Dylan Foster, PhD; Adam Kabat, PhD; Kagawa Masanobu, PhD; Zack Davisson; Yumoto Koichi; Kono Junya</p>
                     `,
@@ -1222,7 +1299,7 @@ var data = {
                         {
                             featured: {
                                 src:"Content/exhibit/catalogue/book-cover.jpg",                               
-                                caption: `<p><b>Buy the Book</b><br>Available at the <a class='color-red font-weight-bolder' href='https://shopmuseum.org/collections/exhibit-related-books/products/yokai-ghosts-demons-monsters-of-japan' target='_blank'><b><i> Museum of International Folk Art Shop</i></b></a></p>`
+                                caption: `<p class='m-0 p-3'><b class='h2'>Buy the Book</b><br>Available at the <a class='color-red font-weight-bolder' href='https://shopmuseum.org/collections/exhibit-related-books/products/yokai-ghosts-demons-monsters-of-japan' target='_blank'><b><i> Museum of International Folk Art Shop</i></b></a></p>`
                                 
                             },
                             body:`<p>Vivid in Japanese art and imagination are creatures that are at once ghastly and humorous. The Japanese word <i>yokai</i> generally refers to a range of supernatural beings such as ghosts, demons, monsters, shapeshifters, tricksters, and other strange kinds of creatures. While their status is commonly described as supernatural, they intermingle with and appear in the natural, human world. Today, yokai are wildly popular in Japan—prevalent across contemporary entertainment genres such as manga (“comics”) and anime (“animation”) series, horror movies, and video games, and they also manifest as the subject of related material culture objects like game cards, character t-shirts, cuddly plushies, and collectable gashapon capsule toys. This diverse array of yokai imagery and materiality is deeply rooted in the past. Yokai images and their stories are enduring, and there is no question that what we see in hot commodities today is closely aligned with the traditional Japanese folklore. This book explores yokai through multiple perspectives: what they are, their associated tales, how people engage with or interpret them in different contexts, and why they remain so popular in Japan. The contributors to this book are eminent scholars, creators, and promoters of various aspects of yokai culture. The interdisciplinary nature of this book’s presentation vibrantly illustrates yokai from different angles, allowing for a broad view of their cultural scope in Japan. In addition, the contributors delve into popular culture themes, connecting traditional folklore, folk art, and imagery to trends in Japan as well as in the United States.</p><p>Contents:<br>
@@ -1248,11 +1325,11 @@ var data = {
 
                             CHAPTER 6<br>
                             Kusazoshi: Monster Comics of Edo<br>
-                            <a class='color-red font-weight-bolder' href='#missing' target='_blank'><b><i>Adam Kabat, PhD</i></b></a><br><br>
+                            <a class='color-red font-weight-bolder' href='https://up.musashi.ac.jp/pfm/japanese/researchersHtml/RT2C88001/RT2C88001_Researcher.html' target='_blank'><b><i>Adam Kabat, PhD</i></b></a><br><br>
 
                             CHAPTER 7<br>
                             Yokai and Toys: From the Edo Period to Pokémon<br>
-                            <a class='color-red font-weight-bolder' href='#missing' target='_blank'><b><i>Kagawa Masanobu, PhD</i></b></a><br><br>
+                            <a class='color-red font-weight-bolder' href='https://www.hyogo-c.ed.jp/~rekihaku-bo/historystation/rekihaku-info/curators/masanobu_kagawa.html' target='_blank'><b><i>Kagawa Masanobu, PhD</i></b></a><br><br>
 
                             CHAPTER 8<br>
                             Yokai Evolution: Mizuki Shigeru and Yokai Transformation from Folklore to Pop Culture<br>
@@ -1264,7 +1341,7 @@ var data = {
 
                             CHAPTER 10<br>
                             Yokai: An Artist’s Perspective<br>
-                            <a class='color-red font-weight-bolder' target='_blank' href='https://kyoto-saga.ac.jp/about/teachers/48461'><b><i>Kono Junya</i></b></a></p>`,
+                            <a class='color-red font-weight-bolder' target='_blank' href='https://www.kyoto-saga.ac.jp/about/teachers/48461'><b><i>Kono Junya</i></b></a></p>`,
                         
                     
                         },
@@ -1287,7 +1364,7 @@ var data = {
             subtitle:"Additional Yokai Resources",
             body:``,
             featured:   {
-                src:"Content/resources/tengucard.jpg"
+                src:"Content/resources/create-learn.jpg"
             },
             //ul of links
             subpages: 
@@ -1295,18 +1372,14 @@ var data = {
                 {
                     slug:'create',
                     title: "Create Yokai!",
-                    body:`Download these puppets and figures to create your own yokai!<br><br>We’d love to see what you create. Share your yokai creations with us through your favorite social media platform, use the tags:<br><br>
-                    <span class='color-red'><b> #moifayokai <br>
-                    #yokai<br> 
-                    #moifa</b></span>`,
+                    subtitle:'Download and print these yokai picture cards and puppets to color, or create your own yokai!',
                     featured:{
-                        src:"Content/resources/tengucard.jpg"
+                        src:"Content/resources/create-yokai.jpg"
                     },
                     resources: {
-                        title: "Download",
                         downloads: [
                         {
-                            title: "Figures",
+                            title: "Yokai Picture Cards",
                             files:
                             [
                                 {
@@ -1345,6 +1418,13 @@ var data = {
                                 }
                             ]
                         },
+                        {
+                            subtitle: `We’d love to see what you create. Share your yokai creations with us through your favorite social media platform, use the tags:<br><br>
+                            <span class='color-red'><b> #moifayokai <br>
+                            #yokai<br> 
+                            #moifa</b></span>`,
+                        },
+                            
                     ] 
                         
                     },
@@ -1354,19 +1434,17 @@ var data = {
                     slug:'pandemic',
                     title: "Amabie",
                     subtitle:'the yokai that protects from pandemics',
-                    body:`During the COVID-19 pandemic, many artists around the world have been sharing their own interpretations of Amabie through social media. Explore their creations searching the tags #Amabie and #AmabieChallenge.<br><br> 
-                    Join the challenge and tag us:<br><br>
-                    <span class='color-red'><b>#moifayokai<br>  
-                    #yokai<br>   
-                    #moifa</b><span>`,
+                    body:`It is said that in 1846, a yokai emerged from the sea in Higo province (modern-day Kumamoto Prefecture). This yokai is known as Amabie, a creature that predicted six years of good harvest, but also a wave of epidemics. Amabie told people to draw and share pictures of it, as a means to ward off pandemics.`,
                     
                     featured: {
                         src:"Content/resources/amabie.jpg",
                     },
+                    cards:[
+                      {
+                          
+                      }
+                    ],
                     resources: {
-                        featured: {
-                            src:"Content/resources/amabie.jpg",
-                        },
                         links: [
                         {
                             text:'Mythical "Amabie" Emerges From 19th Century Folklore',
@@ -1389,7 +1467,7 @@ var data = {
                     title: "Learn More About Yokai",
                     //body:'',
                     featured:{
-                        src:"Content/resources/akugyo.jpg"
+                        src:"Content/resources/hyakkiyakou.jpg"
                     },
                     resources: {
                         title: "Visit these Resources",

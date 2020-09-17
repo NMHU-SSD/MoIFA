@@ -13,7 +13,7 @@ var Standard = {
             return this.pages.indexOf(page);//return index position
          },
          gotoExternalURL(url){
-             location.href = url
+             window.open(url);
          }
     },
 	template: `
