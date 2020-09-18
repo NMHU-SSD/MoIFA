@@ -1910,8 +1910,8 @@ var data = {
                     New Mexico Highlands University<br>
                     Jonah Spear, Web Developer Intern<br>
                     Chris Romero, Web Designer Intern<br>
-                    Lauren Addario, Media Arts & Technology Faculty; Internship Program Director<br>
-                    Rianne Trujillo, Media Arts & Technology Faculty Advisor<br>
+                    Lauren Addario, Media Arts & Technology Faculty, Internship Program Director<br>
+                    Rianne Trujillo, Software Systems Design, Faculty Advisor<br>
                     Museum of International Folk Art - Museum Resources Division - NM Department of Cultural Affairs<br>
                     Matt Celeskey, Senior Exhibition Designer<br>
                     Dr. Margaret DePond, Copy Editor<br>
