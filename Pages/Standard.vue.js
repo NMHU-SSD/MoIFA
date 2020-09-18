@@ -23,11 +23,9 @@ var Standard = {
 		  <div class='container-fluid p-0 m-0 border-bottom border-secondary' v-if="page.featured">
                     <div class='img-container p-0 m-0'>
                         <img class="fluid-width fixed-height-1" v-lazy="page.featured.src"/>
-
-                        <!--<div class='container-fluid bg-red overlay-text'>    
-                            <!--<h1 class="col-12 color-tan pb-0 pl-2 pr-2 pt-2 m-0">{{page.title}}</h1>
-                            <h5 v-if='page.featured.link' class='col-12'> <a class='font-weight-bolder color-dark-tan' :href='page.featured.link.url' target="_blank">{{page.featured.link.text}}</a></h5>
-                        </div>-->
+                        <div v-if='page.featured.watermark' class='overlay-text-2'>
+                            <p class='color-white' v-html='subpage.featured.watermark'></p>
+                        </div>
                     </div>
             </div>
 
@@ -76,6 +74,9 @@ var Standard = {
                         <div class='col-8 col-md-8 col-lg-8 d-none d-sm-none d-md-block d-lg-block p-5 m-0'>
                             <div class='img-container p-0 m-0'>
                                 <img v-lazy='subpage.featured.src' class='fixed-height-3'/>
+                                <div v-if='subpage.featured.watermark' class='overlay-text-2'>
+                                    <p class='color-white' v-html='subpage.featured.watermark'></p>
+                                </div>
                             </div>
                         </div>
                          <div class='col-xs-12 col-sm-12 col-md-4 col-lg-4 p-5 m-0 d-flex justify-content-center flex-column '>
@@ -102,6 +103,9 @@ var Standard = {
                         <div class='col-8 col-lg-8 col-md-8 d-none d-sm-none d-md-block d-lg-block p-5 m-0'>
                             <div class='img-container p-0 m-0'>
                                 <img v-lazy="subpage.featured.src" class='fixed-height-3'/>
+                                <div v-if='subpage.featured.watermark' class='overlay-text-2'>
+                                    <p class='color-white' v-html='subpage.featured.watermark'></p>
+                                </div>
                             </div>
                         </div>
                     </div>

@@ -1559,7 +1559,8 @@ var data = {
                     subtitle:'Explore These Websites to Discover More about Yokai',
                     //body:'',
                     featured:{
-                        src:"Content/resources/hyakkiyakou.jpg"
+                        src:"Content/resources/hyakkiyakou.jpg",
+                        watermark:'©Matthew Meyer www.yokai.com',
                     },
                     resources: {
                         sections:[
