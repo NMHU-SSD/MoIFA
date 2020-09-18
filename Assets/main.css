@@ -240,9 +240,9 @@ footer ul.nav .nav-item .disabled{
     height: 400px !important;
     overflow: hidden;
 }
-.card-img-overlay > i { 
+.card-img-overlay{ 
   pointer-events: none !important;
-  text-align: center !important;
+  text-align: left !important;
 }
 
 .card-image-container > div > div > figure > a > img,.gal-image-container > div > div > figure > a > img {

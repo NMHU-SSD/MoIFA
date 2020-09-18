@@ -251,11 +251,19 @@ var data = {
                                 },
                                 {
 									
-                                    src:"Content/yokai/performance/puppet-artist-amari.jpg",
-                                    msrc:"Content/yokai/performance/puppet-artist-amari.jpg",
+                                    src:"Content/yokai/performance/puppet-artist-amari-1.jpg",
+                                    msrc:"Content/yokai/performance/puppet-artist-amari-1.jpg",
                                     w:6000,
 									h:4000,
-                                    caption:`Amari Yoichiro, from Tokushima, is a renowned maker of Awa ningyo joruri. He explains that Kiyohime is a challenging character to create because her articulated structure is complex and her emotions are intense; this makes her a favorite character for him to craft. <br><br> Mr. Amari and Mr. Sato (director of the Tokushima Prefectural Puppet Theater and Museum) hand-carried the commissioned Kiyohime to Santa Fe in 2019 to work with museum staff and train them in proper handling and preservation methods. Pictured (from left to right): Amari Yoichiri, Maureen Russell (senior conservator) and Sato Kenji` 
+                                    caption:`Amari Yoichiro, from Tokushima, is a renowned maker of Awa ningyo joruri. He explains that Kiyohime is a challenging character to create because her articulated structure is complex and her emotions are intense; this makes her a favorite character for him to craft. ` 
+                                },
+                                {
+									
+                                    src:"Content/yokai/performance/puppet-artist-amari-2.jpg",
+                                    msrc:"Content/yokai/performance/puppet-artist-amari-2.jpg",
+                                    w:2957,
+									h:3024,
+                                    caption:` Mr. Amari and Mr. Sato (director of the Tokushima Prefectural Puppet Theater and Museum) hand-carried the commissioned Kiyohime to Santa Fe in 2019 to work with museum staff and train them in proper handling and preservation methods. Pictured (from left to right): Amari Yoichiri, Maureen Russell (senior conservator) and Sato Kenji` 
                                 },
                             ]
                         },
@@ -1247,7 +1255,7 @@ var data = {
 				    body: `<p>Kono Junya is a Kyoto-based yokai artist and scholar. He teaches at Kyoto Saga University of the Arts, where he founded the student yokai artist collective <a class='color-red font-weight-bolder' href='www.KyotoHyakki.com' target='_blank'><b><i>Hyakuyobako (Box of 100 Yokai).</i></b></a> Since 2005, Mr. Kono has promoted yokai tourism in Japan with projects such as Kyoto’s  <a class='color-red font-weight-bolder' href='https://www.yokaistreet.com/yokai-street/' target='_blank'><b><i>Yokai Street</i></b></a> and, with the help of his collective, organizes and runs numerous yokai-themed events including an annual </i>Hyakki Yagyo</i> (Night Parade of One Hundred Demons), an annual haunted city train ride, and <i>Mononoke Ichi</i>, a festive art market featuring handmade yokai arts and crafts.</p>
                     <p>The Museum of International Folk Art worked with Kono Junya and subsequently members of Hyakuyobako to collaborate on parts of the museum’s <i>Yokai: Ghosts & Demons of Japan</i> exhibition. Over the course of eighteen months, Mr. Kono helped imagine, design, and plan the exhibition’s obake yashiki. He spent almost three weeks in Santa Fe to handcraft the monsters that populate the house, all based on traditional Japanese folklore and art. In another aspect of the collaboration, he co-produced the series of ghost story videos, engaging colleagues and student members of Hyakuyobako who participated as actors, writers, and set and costume designers.</p>`,
                     featured:{
-                      src:'Content/exhibit/monster-house/kono-monster-selfie-cropped.jpg', 
+                      src:'Content/exhibit/collaboration/collab-banner.jpg', 
                     },
                     sections:
                     [
@@ -1255,8 +1263,8 @@ var data = {
 							
                             cards:[
                                  {
-                                  src:'Content/exhibit/monster-house/kono-monster-selfie.jpg',
-                                  msrc:'Content/exhibit/monster-house/kono-monster-selfie.jpg',
+                                  src:'Content/exhibit/collaboration/kono-monster-selfie.jpg',
+                                  msrc:'Content/exhibit/collaboration/kono-monster-selfie.jpg',
                                   w:1476,
                                   h:1110,
                                   credit:{
@@ -1270,8 +1278,8 @@ var data = {
 `,
                                 },
                                 {
-                                  src:'Content/exhibit/monster-house/hyako.jpg',
-                                  msrc:'Content/exhibit/monster-house/hyako.jpg',
+                                  src:'Content/exhibit/collaboration/hyako.jpg',
+                                  msrc:'Content/exhibit/collaboration/hyako.jpg',
                                   w:1023,
                                   h:340,
                                   credit:{
@@ -1283,8 +1291,8 @@ var data = {
                                   caption:`Members of the yokai artist collective, <i>Hyakuyobak</i> (Box of 100 Yokai), gather before the annual Night Parade of 100 Demons in 2019. Parade participants are required to make their own costumes based on traditional yokai images; no newly imagined yokai; no gore.`
                                 },
                                 {
-                                  src:'Content/exhibit/monster-house/c6a57b49-52ba-4ebf-880e-01cff0c3935c.jpg',
-                                  msrc:'Content/exhibit/monster-house/c6a57b49-52ba-4ebf-880e-01cff0c3935c.jpg',
+                                  src:'Content/exhibit/collaboration/c6a57b49-52ba-4ebf-880e-01cff0c3935c.jpg',
+                                  msrc:'Content/exhibit/collaboration/c6a57b49-52ba-4ebf-880e-01cff0c3935c.jpg',
                                   w:1600,
                                   h:1200,
                                   credit:{
@@ -1296,8 +1304,8 @@ var data = {
                                   caption:`Collaborators gather for planning in Kono Junya’s office. Left to right: exhibition designer, Matt Celeskey (Museum Resources Division, NMDCA); exhibition curator, Felicia Katz-Harris (Museum of International Folk Art); artist/scholar, Kono Junya (Hyakuyobako); artist, conservator, & logistics coordinator, Kono Yukiko (Hyakuyobako); artist, Tottori Hana also known as Sakyu (Hyakuyobako); and student artist, Yasaka Misaki (Hyakuyobako).`
                                 },
                                 {
-                                  src:'Content/exhibit/monster-house/10530985663148.jpg',
-                                  msrc:'Content/exhibit/monster-house/10530985663148.jpg',
+                                  src:'Content/exhibit/collaboration/10530985663148.jpg',
+                                  msrc:'Content/exhibit/collaboration/10530985663148.jpg',
                                   w:960,
                                   h:1706,
                                   credit:{
