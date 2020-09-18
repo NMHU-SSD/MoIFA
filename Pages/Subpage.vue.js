@@ -123,9 +123,7 @@ var Subpage = {
 
                     <!-- cards -->
                     <template v-if="section.cards">
-                        <div class='row'>
-                            <cards-component :cards="section.cards" :id="'section'+index" />
-                        </div>
+                        <cards-component :cards="section.cards" :id="'section'+index" />
                     </template>
                    
                     
@@ -156,7 +154,7 @@ var Subpage = {
                                 </div>
                                 <div class='blockquote'>
                                      <p v-if='file.text' class="mt-2 h4 text-uppercase color-red font-weight-bolder" v-html='file.text'></p>
-                                    <p v-if='file.caption' class="mt-2 h6" v-html='file.caption'></p>
+                                    <p v-if='file.caption' class="mt-2" v-html='file.caption'></p>
                                 </div>
                             </div>
                         </div>
