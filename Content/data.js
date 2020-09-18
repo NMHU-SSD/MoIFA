@@ -17,7 +17,7 @@ var data = {
                         collection: "International Folk Art Foundation Collection, Museum of International Folk Art (T.2019.48.1)",
                 },
                 link: {
-                    url: "#/exhibition/monster-house",
+                    url: "#/exhibition/artist",
                     text: "learn more about the artist and collaboration"
                 }
             } 
@@ -925,6 +925,20 @@ var data = {
                        {
                            title:"Exhibition Gallery",
                            body:`<p>Click through the images to view photographs of the exhibition or <a href='https://fivedmedia.com/3d-model/yokai-ghosts-demons-monsters-of-japan/skinned/' class='color-red font-weight-bolder' target='_blank'><b><i>take a 3D tour.</i></b></p>`,
+                           cards:[
+                               {
+                                  src:'Content/exhibit/gallery/3D_Tour_Capture.jpg',
+                                  msrc:'Content/exhibit/gallery/3D_Tour_Capture.jpg',
+                                  w:640,
+                                  h:336,
+                                  credit:{
+                                      link:{
+                                          text:'Take a 3D tour of the exhibition!',
+                                          url:'https://fivedmedia.com/3d-model/yokai-ghosts-demons-monsters-of-japan/skinned/'
+                                      }  
+                                  },
+                                },
+                           ],
                            slides: 
                            [
                                 {
@@ -1221,7 +1235,7 @@ var data = {
                             ],
                             
                         },
-                        {
+                        /*{
 							title: "About the Artist and Monster House Collaboration",
 							body: `<p>Kono Junya is a Kyoto-based yokai artist and scholar. He teaches at Kyoto Saga University of the Arts, where he founded the student yokai artist collective <a class='color-red font-weight-bolder' href='www.KyotoHyakki.com' target='_blank'><b><i>Hyakuyobako (Box of 100 Yokai).</i></b></a> Since 2005, Mr. Kono has promoted yokai tourism in Japan with projects such as Kyoto’s  <a class='color-red font-weight-bolder' href='https://www.yokaistreet.com/yokai-street/' target='_blank'><b><i>Yokai Street</i></b></a> and, with the help of his collective, organizes and runs numerous yokai-themed events including an annual </i>Hyakki Yagyo</i> (Night Parade of One Hundred Demons), an annual haunted city train ride, and <i>Mononoke Ichi</i>, a festive art market featuring handmade yokai arts and crafts.</p>
                             <p>The Museum of International Folk Art worked with Kono Junya and subsequently members of Hyakuyobako to collaborate on parts of the museum’s <i>Yokai: Ghosts & Demons of Japan</i> exhibition. Over the course of eighteen months, Mr. Kono helped imagine, design, and plan the exhibition’s obake yashiki. He spent almost three weeks in Santa Fe to handcraft the monsters that populate the house, all based on traditional Japanese folklore and art. In another aspect of the collaboration, he co-produced the series of ghost story videos, engaging colleagues and student members of Hyakuyobako who participated as actors, writers, and set and costume designers.</p>`,
@@ -1281,8 +1295,78 @@ var data = {
                                 }
                             ]
 							
-						},
+						},*/
 						
+                    ]
+                },
+                {
+                    slug:'artist',
+                    title: "About the Artist and Monster House Collaboration",
+				    body: `<p>Kono Junya is a Kyoto-based yokai artist and scholar. He teaches at Kyoto Saga University of the Arts, where he founded the student yokai artist collective <a class='color-red font-weight-bolder' href='www.KyotoHyakki.com' target='_blank'><b><i>Hyakuyobako (Box of 100 Yokai).</i></b></a> Since 2005, Mr. Kono has promoted yokai tourism in Japan with projects such as Kyoto’s  <a class='color-red font-weight-bolder' href='https://www.yokaistreet.com/yokai-street/' target='_blank'><b><i>Yokai Street</i></b></a> and, with the help of his collective, organizes and runs numerous yokai-themed events including an annual </i>Hyakki Yagyo</i> (Night Parade of One Hundred Demons), an annual haunted city train ride, and <i>Mononoke Ichi</i>, a festive art market featuring handmade yokai arts and crafts.</p>
+                    <p>The Museum of International Folk Art worked with Kono Junya and subsequently members of Hyakuyobako to collaborate on parts of the museum’s <i>Yokai: Ghosts & Demons of Japan</i> exhibition. Over the course of eighteen months, Mr. Kono helped imagine, design, and plan the exhibition’s obake yashiki. He spent almost three weeks in Santa Fe to handcraft the monsters that populate the house, all based on traditional Japanese folklore and art. In another aspect of the collaboration, he co-produced the series of ghost story videos, engaging colleagues and student members of Hyakuyobako who participated as actors, writers, and set and costume designers.</p>`,
+                    featured:{
+                      src:'Content/exhibit/monster-house/kono-monster-selfie.jpg', 
+                    },
+                    sections:
+                    [
+                        {
+							
+                            cards:[
+                                 {
+                                  src:'Content/exhibit/monster-house/kono-monster-selfie.jpg',
+                                  msrc:'Content/exhibit/monster-house/kono-monster-selfie.jpg',
+                                  w:1476,
+                                  h:1110,
+                                  credit:{
+                                      title:'Kono Junya and Ao Bozu selfie',
+                                      date:'August 2019',
+                                      location:'Kyoto, on the way to Santa Fe',
+                                      collection:'Courtesy of Kono Junya'
+                                      
+                                  },
+                                  caption:`The artist wants us to recognize yokai as an important aspect of Japanese heritage. Ao Bozu points to himself as if to say, “Look at me; I am a Yokai!” Kono explains that his desire to “sit and talk in the same room as a yokai” was his motivation for creating this sculpture. When the museum purchased Ao Bozu for the collection, Kono said: “He is now a member of the ‘US-branch of Box of 100 Yokai;’ through him, I hope Americans can see how much fun yokai are in Japan."' 
+`,
+                                },
+                                {
+                                  src:'Content/exhibit/monster-house/hyako.jpg',
+                                  msrc:'Content/exhibit/monster-house/hyako.jpg',
+                                  w:1023,
+                                  h:340,
+                                  credit:{
+                                      artist:'Hyakuyobako',
+                                      location:'Kyoto',
+                                      date:'October 2019',
+                                      collection:'Courtesy of Kono Junya',
+                                  },
+                                  caption:`Members of the yokai artist collective, <i>Hyakuyobak</i> (Box of 100 Yokai), gather before the annual Night Parade of 100 Demons in 2019. Parade participants are required to make their own costumes based on traditional yokai images; no newly imagined yokai; no gore.`
+                                },
+                                {
+                                  src:'Content/exhibit/monster-house/c6a57b49-52ba-4ebf-880e-01cff0c3935c.jpg',
+                                  msrc:'Content/exhibit/monster-house/c6a57b49-52ba-4ebf-880e-01cff0c3935c.jpg',
+                                  w:1600,
+                                  h:1200,
+                                  credit:{
+                                      artist:'Monster House and Ghost Story Planning',
+                                      location:'Kyoto',
+                                      date:'May 2019',
+                                      collection:'Photo by Asahi Fumiyo, courtesy of the Museum of International Folk Art',
+                                  },
+                                  caption:`Collaborators gather for planning in Kono Junya’s office. Left to right: exhibition designer, Matt Celeskey (Museum Resources Division, NMDCA); exhibition curator, Felicia Katz-Harris (Museum of International Folk Art); artist/scholar, Kono Junya (Hyakuyobako); artist, conservator, & logistics coordinator, Kono Yukiko (Hyakuyobako); artist, Tottori Hana also known as Sakyu (Hyakuyobako); and student artist, Yasaka Misaki (Hyakuyobako).`
+                                },
+                                {
+                                  src:'Content/exhibit/monster-house/10530985663148.jpg',
+                                  msrc:'Content/exhibit/monster-house/10530985663148.jpg',
+                                  w:960,
+                                  h:1706,
+                                  credit:{
+                                      artist:'Kono Making Monster',
+                                      location:'Santa Fe',
+                                      date:'August 2019',
+                                      collection:'Photo by Kono Yukiko, Courtesy of Kono Junya',
+                                  },
+                                }
+                            ]
+                        }
                     ]
                 },
                 {
@@ -1439,12 +1523,61 @@ var data = {
                     featured: {
                         src:"Content/resources/amabie.jpg",
                     },
-                    cards:[
-                      {
-                          
-                      }
+                    sections:[
+                        {
+                            cards:[
+                                {
+                                    credit:
+                                    {
+                                        title:"Amabie",
+                                        date:'1846',
+                                        link:{
+                                            url:"https://rmda.kulib.kyoto-u.ac.jp/item/rb00000122?fbclid=IwAR0LvvDhh1aS-PzMeM2Sh1ltVkTB8AHy2Qh3EdqvaT5BaBgW7bv23Ixnul4#?c=0&m=0&s=0&cv=83&r=0&xywh=-9234%2C-430%2C27979%2C8468",
+                                            text:'Courtesy of Kyoto University Library'
+                                        }
+                                    }, 
+								    src:"Content/resources/amabie.jpg",
+                                    msrc:"Content/resources/amabie.jpg",
+                                    w:1726,
+                                    h:1347		
+				                },
+                                {
+                                    credit:
+                                    {
+                                        title:"Amabie",
+                                        date:'2019',
+                                        collection:'Courtesy of the artist Kono Junya'
+                                    }, 
+								    src:"Content/resources/amabie_kono.jpg",
+                                    msrc:"Content/resources/amabie_kono.jpg",
+                                    w:1123,
+                                    h:2899		
+				                },
+                                {
+                                    credit:
+                                    {
+                                        title:"Amabie",
+                                        date:'2020',
+                                        collection:'Courtesy of the artist Matthew Meyer',
+                                        link:{
+                                            url:"http://yokai.com/",
+                                            text:'Yokai.com'
+                                        }
+                                    }, 
+								    src:"Content/resources/amabie_meyer.jpg",
+                                    msrc:"Content/resources/amabie_meyer.jpg",
+                                    w:1250,
+                                    h:1633		
+				                }
+                            ],
+                        },
+                        {
+                            body:`<p>During the COVID-19 pandemic, many artists around the world have been sharing their own interpretations of Amabie through social media. Explore their creations searching the tags <a class='color-red' target='_blank' href='https://www.google.com/search?q=%23Amabie&rlz=1C1CHFX_enUS558US558&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjy2e3Nws3rAhWFcc0KHe2oBMUQ_AUoAXoECBMQAw&biw=1184&bih=505'><b><i>#amabie</i></b></a>
+                            and <a class='color-red' target='_blank'  href='https://www.instagram.com/explore/tags/amabiechallenge/?hl=en'><b><i>#amabiechallenge</i></b></a></p>`
+                        }
                     ],
                     resources: {
+                        body:`You can learn more about Amabie by visiting these websites:`,
                         links: [
                         {
                             text:'Mythical "Amabie" Emerges From 19th Century Folklore',
@@ -1458,68 +1591,186 @@ var data = {
                             text:'Plague-fighting monster Amabie goes viral amid COVID-19 crisis ',
                             extUrl:'http://www.asahi.com/ajw/articles/13416948?fbclid=IwAR3FAQv9dU7FnI3FG_JMGnh2U3M3MyqUCJmSImLjn2fnPdJ77OmzuHAZj3A'
                         },
+                        {
+                            text:'Japanese Yokai Amabie Floods Social Media',
+                            extUrl:'https://www.youtube.com/watch?v=o5G0UCyZvAE&feature=youtu.be'
+                        },
+                        {
+                            text:'A Japanese Spirit Battles COVID-19',
+                            extUrl:'https://www.sapiens.org/culture/amabie-covid-19/)'
+                        },
                         
-                    ]
+                        ]
                     }
                 },
                 {
                     slug:'learn-more',
-                    title: "Learn More About Yokai",
+                    title: "Dive Deeper!",//"Learn More About Yokai",
+                    subtitle:'Explore These Websites to Discover More about Yokai',
                     //body:'',
                     featured:{
                         src:"Content/resources/hyakkiyakou.jpg"
                     },
                     resources: {
-                        title: "Visit these Resources",
-                        links:[
+                        sections:[
                         {
-                            text:'Yokai.com Database & Artwork by Matthew Meyers',
-                            extUrl:'http://yokai.com/category/youkai/'
+                            title:'Institutional Webites',
+                            links:[
+                            {
+                                text:'Yumoto Koichi Memorial Yokai Museum (Miyoshi Mononoke Museum)',
+                                extUrl:'http://www.miyoshi-dmo.jp/mononoke/'
+                            },
+                            {
+                                text:'Smithsonian Libraries',
+                                extUrl:'https://library.si.edu/books-online/subjects/monsters-in-art'
+                            },
+                            {
+                                text:'Tokushima Prefectural Awa Jurobe Yashiki (Puppet Theater and Museum)',
+                                extUrl:'http://joruri.info/jurobe/english/)'
+                            },
+                            {
+                                text:'GeGeGe no Kitaro; The Mizuki Shigeru Museum ',
+                                extUrl:'http://mizuki.sakaiminato.net/lang-en/'
+                            },
+                            {
+                                text:'International Research Center for Japanese Studies (Nichibunken)',
+                                extUrl:'https://www.nichibun.ac.jp/YoukaiGazouMenu/?_ga=2.244696263.396860331.1593190240-2145049707.1593190240)'
+                            },
+                            {
+                                text:'Kyoto International Manga Museum ',
+                                extUrl:'https://www.kyotomm.jp/)'
+                            },
+                                
+                            ]
                         },
                         {
-                            text:'Yokai Museum (Miyoshi, Hiroshima Prefecture, Japan)',
-                            extUrl:'https://miyoshi-mononoke.jp/'
+                            title:'Artists Webites',
+                            links:[
+                            {
+                                text:'Matthew Meyer: Yokai Art & Database ',
+                                extUrl:'http://yokai.com/'
+                            },
+                            {
+                                text:'Kono Junya & Hyakuyobako collective ',
+                                extUrl:'(http://kyotohyakki.com/'
+                            },
+                            {
+                                text:'Terai Ichiyu',
+                                extUrl:'https://nohmask.jp/'
+                            },
+                            {
+                                text:'Sakyu',
+                                extUrl:'https://sakyuworks.tumblr.com/'
+                            },
+                            {
+                                text:'Mizuki Productions ',
+                                extUrl:'https://www.mizukipro.com/'
+                            },
+                                
+                            ]
                         },
                         {
-                            text:'International Research Center for Japanese Studies (Nichibunken)',
-                            extUrl:'https://www.nichibun.ac.jp/YoukaiGazouMenu/?_ga=2.244696263.396860331.1593190240-2145049707.1593190240'
+                            title:'Pokemon & Folklore',
+                            links:[
+                            {
+                                text:'medium.com',
+                                extUrl:'https://medium.com/super-jump/how-pok%C3%A9mon-tapped-into-japanese-folklore-37ed5483e06c'
+                            },
+                            {
+                                text:'M. Lucero',
+                                extUrl:'https://mluce.ro/articles/the-yokai-roots-of-pokemon/'
+                            },
+                             
+                            ]
                         },
                         {
-                            text:'Yokai & Pokémon',
-                            extUrl:'https://mluce.ro/articles/the-yokai-roots-of-pokemon/'
+                            title:'Ghost Storytelling & Japanese Horror Films',
+                            links:[
+                            {
+                                text:'Hyakumonogatari Kaidankai',
+                                extUrl:'https://hyakumonogatari.com/'
+                            },
+                            {
+                                text:'J-Horror',
+                                extUrl:'https://theculturetrip.com/asia/japan/articles/12-of-the-best-japanese-horror-films-of-all-time/'
+                            },
+                            {
+                                text:'Yokai Hyaku Monogatari Film Series',
+                                extUrl:'https://www.imdb.com/title/tt0200301/'
+                            },
+                             
+                            ]
                         },
                         {
-                            text:'Hyakuyobako (Box of 100 Yokai) artist collective',
-                            extUrl:'http://kyotohyakki.com/'
-                        },
-                         {
-                            text:'Hyakumonogatari Kaidankai',
-                            extUrl:'https://hyakumonogatari.com/'
-                        },
-                        {
-                            text:'Kyoto International Manga Museum',
-                            extUrl:'https://www.kyotomm.jp/'
-                        },
-                        {
-                            text:'GeGeGe no Kitaro; The Mizuki Shigeru Museum',
-                            extUrl:'http://mizuki.sakaiminato.net/lang-en/'
-                        },
-                        {
-                            text:'Studio Ghibli & Yokai Anime Movies',
-                            extUrl:'https://www.syfy.com/syfywire/9-fantastical-studio-ghibli-characters-from-japanese-folklore'
-                        },
-                        {
-                            text:'Namahage Sedo Matsuri',
-                            extUrl:'https://www.namahage-oga.akita.jp/english/index.html'
-                        },
-                        {
-                            text:'Ushioni Matsuri',
-                            extUrl:'https://www.namahage-oga.akita.jp/english/index.html'
+                            title:'Manga & Anime',
+                            links:[
+                            {
+                                text:'Studio Ghibli',
+                                extUrl:'http://www.ghibli.jp/'
+                            },
+                            {
+                                text:'Nura: Rise of the Yokai Clan',
+                                extUrl:'https://www.viz.com/read/manga/nura-rise-of-the-yokai-clan-volume-1/product/2738'
+                            },
+                            {
+                                text:'GeGeGe no Kitaro, 1968',
+                                extUrl:'https://www.imdb.com/title/tt0189268/?ref_=tt_sims_tt'
+                            },
+                            {
+                                text:'GeGeGe no Kitaro, 2018',
+                                extUrl:'https://www.imdb.com/title/tt7899522/'
+                            },
+                            {
+                                text:'More Yokai Manga',
+                                extUrl:'https://www.viz.com/shonenjump'
+                            },
+                             
+                            ]
                         },
                         {
-                            text:'Japanese Horror Movies',
-                            extUrl:'https://theculturetrip.com/asia/japan/articles/12-of-the-best-japanese-horror-films-of-all-time/'
-                        }
+                            title:'Festival Websites',
+                            links:[
+                            {
+                                text:'Ushioni Matsuri',
+                                extUrl:'https://ushioni.gaina.ne.jp/'
+                            },
+                            {
+                                text:'Namahage Sedo Matsuri',
+                                extUrl:'https://www.namahage-oga.akita.jp/english/index.html'
+                            },
+                            {
+                                text:'Yokai Street',
+                                extUrl:'https://www.yokaistreet.com/yokai-street/'
+                            },
+                             
+                            ]
+                        },
+                        {
+                            title:'Amabie: The Yokai that wards off pandemics',
+                            links:[
+                            {
+                                text:'Mythical "Amabie" Emerges From 19th Century Folklore',
+                                extUrl:'https://www.npr.org/sections/coronavirus-live-updates/2020/04/22/838323775/in-japan-mythical-amabie-emerges-from-19th-century-folklore-to-fight-covid-19?utm_campaign=storyshare&utm_source=facebook.com&utm_medium=social&fbclid=IwAR12GpQoEOei3SQI4Z8W_qqIk4bmznkj2mrChXUzMiQOHedWfzXrzYQebog'
+                            },
+                            {
+                                text:'From Japan, A Mascot for the Pandemic',
+                                extUrl:'https://www.newyorker.com/culture/cultural-comment/from-japan-a-mascot-for-the-pandemic?fbclid=IwAR1W4EECJXXDUWP5Tamt_MuZE52xXpO7OzWFc3wNyIwJehrmEa0_SlzQxvc'
+                            },
+                            {
+                                text:'Plague-Fighting Monster Amabie Goes Viral Amid COVID-19 Crisis',
+                                extUrl:'http://www.asahi.com/ajw/articles/13416948?fbclid=IwAR3FAQv9dU7FnI3FG_JMGnh2U3M3MyqUCJmSImLjn2fnPdJ77OmzuHAZj3A'
+                            },
+                            {
+                                text:'Japanese Yokai Amabie Floods Social Media',
+                                extUrl:'https://www.youtube.com/watch?v=o5G0UCyZvAE&feature=youtu.be'
+                            },
+                            {
+                                text:'A Japanese Spirit Battles COVID-19',
+                                extUrl:'https://www.sapiens.org/culture/amabie-covid-19/'
+                            },
+                             
+                            ]
+                        },
                     ]
                         
                     }
@@ -1532,154 +1783,146 @@ var data = {
         {
             slug: "acknowledgements",
             title:"Acknowledgements",
-            subtitle:'Exhibition',
             featured:   {
                 src:"Content/acknowledements/A.2017.91.1a-c4.jpg"
             },
-            body:`The Museum of International Folk Art is indebted to collaborators, volunteers, and consultants for their generous and informed contributions.`,
-            sections:
-            [
-                {
-                    title:'Curatorial Collaborators and Consultants',
-                    body:`<p>Dr. Michael Dylan Foster<br>
-                            Kōno Junya<br> 
-                            Yumoto Kōichi<br>
-                            Komatsu Kozuhiko<br>
-                            Dr. Noriko Reider<br> 
-                            Dr. Satoko Shimazaki<br> 
-                            Zack Davisson<br> 
-                            Dr. Adam Kabat<br>
-                            Dr. Kagawa Masanobu<br>
-                            Suzy Cincone</p>`
-                }, 
-                {
-                    title:'Contributors',
-                    body:`<p>Asahi Fumiyo<br>
-                            Kikkawa Naoko<br>
-                            Fushimi Yuki<br>
-                            Ueda Chikaho<br>
-                            Matsubara Kaori<br>
-                            Satō Kenji<br>
-                            Ōno Shunjo Roshi<br> 
-                            Terai Ichiyu<br>
-                            Terai Shuhei<br> 
-                            Terai Junko<br>
-                            Kurabayashi Akira<br>
-                            Utsunomiya Yoshiwo II<br>
-                            Yamashita Tadafumi<br> 
-                            Yoshida Kohiko<br> 
-                            Satori Murata<br>
-                            Kuniko Kusuda<br>
-                            Matono Yuko<br> 
-                            Jill Heppenheimer<br> 
-                            Kumi Masumoto<br>
-                            John Ruddy<br> 
-                            Sam Takenuchi<br>
-                            David Kahn<br>
-                            Tottori Hana (Sakyu)<br>
-                            Chloe Accardi<br> 
-                            Matthew Meyer<br>
-                            Dr. Kirk Nakumura</p>`
-                }, 
-                {
-                    title:'Ghost House Collaborators',
-                    body:`<p>Kōno Junya<br> 
-                    Kōno Yukiko<br>
-                    Yasaka Misaki<br>
-                    Maeda Ai<br>
-                    Matsuno Yukito<br>
-                    Nakaguchi Kanta<br> 
-                    Otsuka Yuki<br>
-                    Travis FX (James Travis III, Doug Alan Bailey)</p>`
-                }, 
-                {
-                    title:'Exhibition Lenders',
-                    body:`<p>Yumoto Kōichi Memorial Yōkai Museum of Japan (Miyoshi Mononoke Museum)<br> 
-                    Minneapolis Institute of Art · Los Angeles County Museum of Art · Freer | Sackler Smithsonian Galleries of Asian Art<br> 
-                    Dr. Kirk Nakumura of U.S. Kabuki Kenkyū Kai in cooperation with Shochiku Costume, LTD (Tokyo)<br>
-                    Geraldine Whitman<br>
-                    Dr. Robert Bell<br>
-                    Brian, Samuel, & Alexander Katz<br>
-                    Ari and Maya Harris</p>`
-                }, 
-                {
-                    title:'Specail thanks also go to',
-                    body:`<p>Hollis Goodall<br>
-                            Dr. Andreas Marks<br>
-                            Dr. Aaron Rio <br>
-                            Dr. Janice Katz<br>
-                            Dr. Frank Feltens<br>
-                            Rebecca Merritt <br>
-                            Tanya Morrison <br>
-                            Megan Smith <br>
-                            Egami Toshinori <br>
-                            Nichibunken <br>
-                            Saga University of the Arts<br> 
-                            Mizuki Productions (Hakui Maki, Minegishi Yasutaka, Haraguchi Tomohiro, and Haraguchi Naoko)<br> 
-                            Ito Yu <br>
-                            Jenny Ramo and Dr. David Kutz<br> 
-                            Jason and Kelly Smith<br>
-                            David Harris</p>`
-                }, 
-                {
-                    title:'Exhibition Staff',
-                    body:`<p>Curator: Felicia Katz-Harris<br>
-                            Exhibition Designer: Matt Celeskey<br>
-                            Exhibition Graphic Designer: Monica Meehan<br>
-                            Director of Education: Leslie Fagre<br>
-                            Educator: Dawn Kaufmann<br>
-                            Educator: Kemely Gomez<br>
-                            Exhibition Manager: Bryan Johnson-French<br>
-                            Lead Conservator: Maureen Russel<br>
-                            Conservator: Larry Humetewa<br>
-                            Head of Fabrication & Preparation: David Levine<br>
-                            Lead Preparator: Tim Jag<br>
-                            Preparator: Tom Miller<br>
-                            Preparator: Doug Jewel<br>
-                            Copy Editor: Margaret DePond<br>
-                            Director of Museum Resources Division: David Rohr<br>
-                            Director of Collections: Polina Smutko<br>
-                            Acting Registrar: Valerie Verzuh<br>
-                            Curatorial Assistant: Parker Webber<br>
-                            Curatorial Assistant: Owen Kobascz<br>
-                            Curatorial Assistant: Maggie Wanschik<br>
-                            Finance Manager: Ellen Castellano<br>
-                            Finance and Events: Kathryn Risley<br>
-                            Security Co-Captain: Richard Lujan<br>
-                            Security Co-Captain: Cruz Lujan<br>
-                            Security Staff: Fred Salazar<br>
-                            Deputy Director: Aurelia Gomez<br>
-                            Executive Director: Khristaan Villela<br>
-                            Chief Information Officer (NM Department of Cultural Affairs): Doug Patinka</p>`
-                }, 
-                {
-                    title:'Website / Online Exhibition',
-                    body:`<p>Lauren Addario, Internship Coordinator<br>
-                            Rianne Trujillo, Fauculty Advisement<br>
-                            Jonah Spear, Web Developer Intern<br>
-                            Chris Romero, Web Designer Intern<br><br>
-                            Gallery and Object Photography: Addison Doty<br>
-                            Special thanks to Dr. Elizabeth Lillehoj for editorial contributions and review</p>`
-                }, 
-                {
-                    title:'Donators',
-                    body:`<p>The Museum of International Folk Art extends its appreciation to the many donors to this exhibition. We thank the International Folk Art Foundation, the Friends of Folk Art Board, the Museum of New Mexico Foundation, and the following contributors for their generosity, as of November 1, 2019:<br><br>
+            body:`<p><b>The Museum of International Folk Art extends its appreciation to the donors who helped realize this museum exhibition. We thank the International Folk Art Foundation, the Friends of Folk Art Board, the Museum of New Mexico Foundation, and the following contributors for their generosity, as of November 1, 2019:</b><br><br>
                     Jane and Jene Alexander<br>
-                    William and Judith Alger <br>
-                    Keith Anderson and Barbara Lenssen<br> 
-                    Kathryn King Coleman and Hank Coleman <br>
+                    William and Judith Alger<br>
+                    Keith Anderson and Barbara Lenssen<br>
+                    Kathryn King Coleman and Hank Coleman<br>
                     Tom and Jan Collette<br>
-                    Rosalind and Lowell Doherty <br>
-                    Kirk and Sheila Ellis <br>
-                    Edelma and David Huntley 
+                    Rosalind and Lowell Doherty<br>
+                    Kirk and Sheila Ellis<br>
+                    Edelma and David Huntley<br>
+                    David Kahn<br>
                     Duke Klauck and Deborah Fleig, Ten Thousand Waves<br>
                     Ayame Fukuda<br>
                     Catherine and Guy Gronquist<br>
                     Jon Gurrola<br>
-                    Steven and Rosalie Harris<br> 
-                    Jill Heppenheimer</p>`
-                }, 
-            ]
+                    Steven and Rosalie Harris<br>
+                    Jill Heppenheimer<br>
+                    Nicole Hixon<br>
+                    Deirdre Howley<br>
+                    David Lamb<br>
+                    Bruce and Mary Anne Larsen<br>
+                    Kathryn Milligan Lee<br>
+                    Art and Joy McHaffie<br>
+                    Dee Ann McIntyre<br>
+                    Kumi Masumoto and John Ruddy<br>
+                    Mark Naylor and Dale Gunn<br>
+                    Michael and Cindi Pettit<br>
+                    Jennifer Ramo and Dr. David Kutz<br>
+                    John Rochester and Lawrence Fodor<br>
+                    Robert and Judy Sherman<br>
+                    Suzanne and Joel Sugg<br>
+                    Courtney and Scott Taylor<br>
+                    Michael and Laurel Vander Velde<br>
+                    Jo Ann Ward<br><br>
+                    <b>The Museum of International Folk Art is indebted to artists, collaborators, and consultants for their generous and informed contributions to the exhibition:</b><br><br>
+                    <u>ARTISTS</u><br>
+                    Amari Yoichiri<br>
+                    Kono Junya<br>
+                    Kono Yukiko<br>
+                    Kurabayashi Akira<br>
+                    Maeda Ai<br>
+                    Matsuno Yukito<br>
+                    Matthew Meyer<br>
+                    Nakaguchi Kanta<br>
+                    Otsuka Yuki<br>
+                    Terai Ichiyu<br>
+                    Tottori Hana (Sakyu)<br>
+                    Utsunomiya Yoshiwo II<br>
+                    Yasaka Misaki<br><br>
+                    <u>CONTENT SPECIALISTS</u><br>
+                    Zack Davisson<br>
+                    Dr. Michael Dylan Foster<br>
+                    Fushimi Yuki<br>
+                    Dr. Adam Kabat<br>
+                    Dr. Kagawa Masanobu<br>
+                    Kikkawa Naoko<br>
+                    Komatsu Kozuhiko<br>
+                    Kono Junya<br>
+                    Dr. Elizabeth Lillehoj<br>
+                    Matsubara Kaori<br>
+                    Ono Shunjo Roshi<br>
+                    Dr. Noriko Reider<br>
+                    Sato Kenji<br>
+                    Dr. Satoko Shimazaki<br>
+                    Terai Junko<br>
+                    Terai Shuhei<br>
+                    Ueda Chikaho<br>
+                    Yamashita Tadafumi<br>
+                    Yoshida Kohiko<br>
+                    Yumoto Koichi<br><br>
+                    <u>INTERPRETERS & TRANSLATORS</u><br>
+                    Asahi Fumiyo<br>
+                    Kuniko Kusuda<br>
+                    Matono Yuko<br>
+                    Satori Murata<br><br>
+                    <u>EXHIBITION LENDERS</u><br>
+                    Dr. Robert Bell<br>
+                    Maya & Ari Harris<br>
+                    Dr. Kirk Kanesaka (Nakamura Gankyo) of U.S. Kabuki Kenkyu Kai in cooperation with Shochiku Costume, LTD (Tokyo)<br>
+                    Brian, Samuel, & Alexander Katz<br>
+                    Geraldine Whitman<br>
+                    Freer | Sackler Smithsonian Galleries of Asian Art<br>
+                    Los Angeles County Museum of Art<br>
+                    Minneapolis Institute of Art<br>
+                    Yumoto Koichi Memorial Yokai Museum of Japan (Miyoshi Mononoke Museum)<br><br>
+                    <u>NON-MUSEUM IMAGES COURTESY OF:</u><br>
+                    International Research Center for Japanese Studies (Nichibunken)<br>
+                    Kokusho Publishing<br>
+                    Kono Junya and Yukiko<br>
+                    Kyoto University Library<br>
+                    Matthew Meyer (Yokai.com)<br>
+                    Smithsonian Libraries<br>
+                    Studio Ghibli<br>
+                    Terai Shuhei<br>
+                    Uwajima City Tourist Association<br>
+                    Viz.com<br>
+                    Yumoto Koichi Memorial Yokai Museum of Japan (Miyoshi Mononoke Museum)<br><br>
+                    <u>ADDITIONAL THANKS TO:</u><br>
+                    Dr. Frank Feltens<br>
+                    Hollis Goodall<br>
+                    David Harris<br>
+                    Ito Yu<br>
+                    Kyoto Saga University of the Arts<br>
+                    Dr. Andreas Marks<br>
+                    Rebecca Merritt<br>
+                    Mizuki Productions (Haraguchi Tomohiro, Haraguchi Naoko, Hakui Maki, Minegishi Yasutaka)<br>
+                    Tanya Morrison<br>
+                    Jason and Kelly Smith<br>
+                    Megan Smith<br>
+                    Sam Takenuchi<br><br>
+                    <u>MONSTER HOUSE DESIGN & TECHNOLOGY</u>
+                    Kono Junya, Designer & Artist<br>
+                    Travis FX (James Travis III, Doug Alan Bailey), Haunted House Engineers<br>
+                    Museum of International Folk Art & Museum Resources Division (NMDCA)<br>
+                    Bryan Johnson-French, Exhibition Manager<br>
+                    Richard Lujan, Security Co-Captain<br>
+                    Cruz Lujan, Security Co-Captain<br>
+                    David Rohr, Museum Resources Division Director<br>
+                    Fred Salazar, Security Staff<br><br>
+                    <u>ONLINE EXHIBITION DEVELOPMENT</u><br>
+                    Gallery and Object Photography: Addison Doty<br>
+                    3D Tour: 5D Media<br>
+                    New Mexico Highlands University<br>
+                    Jonah Spear, Web Developer Intern<br>
+                    Chris Romero, Web Designer Intern<br>
+                    Lauren Addario, Media Arts & Technology Faculty; Internship Program Director<br>
+                    Rianne Trujillo, Media Arts & Technology Faculty Advisor<br>
+                    Museum of International Folk Art - Museum Resources Division - NM Department of Cultural Affairs<br>
+                    Matt Celeskey, Senior Exhibition Designer<br>
+                    Dr. Margaret DePond, Copy Editor<br>
+                    Leslie Fagre, Director of Education<br>
+                    Kemely Gomez, Educator<br>
+                    Felicia Katz-Harris, Senior Curator | Curator of Asian Folk Art<br>
+                    Dawn Kaufmann, Educator<br>
+                    Monica Meehan, Exhibition Graphic Design<br>
+                    Doug Patinka, Chief Information Officer (NM Department of Cultural Affairs)<br>
+                    </p>`
+            
         }
     ]
 }

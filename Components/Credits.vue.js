@@ -8,7 +8,8 @@ var Credits = {
                         <p v-if='credit.title' class='credit-spacing p-0 m-0 font-weight-bolder color-white h4 mb-1' v-html='credit.title'></p>
                         <p class="credit-spacing font-weight-bolder p-0 m-0 color-white h5" v-if="credit.artist" v-html='credit.artist'></p>
                         <p class='credit-spacing p-0 m-0'>
-                            <span class="credit-spacing font-weight-lighter p-0 m-0 color-white font-size-1" v-if="credit.location">{{credit.location}}</span> <span class="credit-spacing font-weight-lighter p-0 m-0 color-white font-size-1" v-if="credit.date">{{credit.date}}</span>
+                            <span class="credit-spacing font-weight-lighter p-0 m-0 color-white font-size-1" v-if="credit.location">{{credit.location}}</span>
+                            <span class="credit-spacing font-weight-lighter p-0 m-0 color-white font-size-1" v-if="credit.date">{{credit.date}}</span>
                         </p>
                         <p class="credit-spacing font-weight-lighter p-0 m-0 color-white font-size-1" v-if="credit.medium">{{credit.medium}}</p>
                         <p class="credit-spacing font-weight-lighter p-0 m-0 color-white font-size-1" v-if="credit.collection" v-html='credit.collection'></p>

@@ -16,10 +16,8 @@ var Cards = {
                             <div class="carousel-inner ">
                                  <div v-for="(source,i) in card.sources" :class="['carousel-item p-0 m-0', 'card-image-container', (i==0 ? 'active' : '')]">
                                     <vue-preview class="pointer  d-block container-fluid p-0 m-0" :slides="[source]"></vue-preview>
-                                    <div class='card-img-overlay'> 
-                                        <i class="fas fa-expand color-white"></i>
-                                    </div>
                                 </div>
+
                             </div>
                             <a class="carousel-control-prev" :href="'#carouselCard'+index+'-TopIndicators-'+id" role="button" data-slide="prev">
                                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -29,7 +27,11 @@ var Cards = {
                                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                 <span class="sr-only">Next</span>
                             </a>
+                            <div class='card-img-overlay'> 
+                                <i class="fas fa-expand color-white opacity-1"></i>
+                            </div>
                         </div>
+                            
                     </template>
 
                     
@@ -40,7 +42,7 @@ var Cards = {
                             <vue-preview  class="pointer d-block mh-100 container-fluid p-0 m-0" :slides="[card.sources[0]]"></vue-preview>
                         </div>
                         <div class='card-img-overlay'> 
-                            <i class="fas fa-expand color-white"></i>
+                            <i class="fas fa-expand color-white opacity-1"></i>
                         </div>
                     </div>
                     <div v-else  class='card-img-top bg-black'>
@@ -48,8 +50,9 @@ var Cards = {
                             <vue-preview  class="pointer d-block mh-100 container-fluid p-0 m-0" :slides="[card]"></vue-preview>
                         </div>
                         <div class='card-img-overlay'> 
-                            <i class="fas fa-expand color-white"></i>
+                            <i class="fas fa-expand color-white opacity-1"></i>
                         </div>
+
                     </div>
                     <div class="card-body pl-1 pr-1 pt-3 m-0">
                         <div class="row-fluid mh-100">
