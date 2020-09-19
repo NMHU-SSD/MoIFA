@@ -32,13 +32,14 @@ var Subpage = {
 	template: `
     <div class="container-fluid p-0">
         <!-- featured  header image -->
-        <div class='container-fluid p-0 m-0 border-bottom border-dark' v-if="subpage.featured">
-            <div class='img-container p-0 m-0'>
+        <div class='container-fluid p-0 m-0 border-bottom border-dark ' v-if="subpage.featured">
+            <div class='img-container p-0 m-0 position-relative'>
                 <img class="fluid-width fixed-height-1" v-lazy="subpage.featured.src"/>
-                <div v-if='subpage.featured.watermark' class='h6 text-white position-absolute overlay-text-header'>
+                <div v-if='subpage.featured.watermark' class='h6 text-white overlay-watermark'>
                     {{subpage.featured.watermark}}
                 </div>
             </div>
+
         </div>
 
         <!-- body content container-->

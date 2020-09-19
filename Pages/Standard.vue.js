@@ -21,9 +21,9 @@ var Standard = {
 
           <!--features-img/title-->
 		  <div class='container-fluid p-0 m-0 border-bottom border-secondary' v-if="page.featured">
-                    <div class='img-container p-0 m-0'>
+                    <div class='img-container p-0 m-0 position-relative'>
                         <img class="fluid-width fixed-height-1" v-lazy="page.featured.src"/>
-                        <div v-if='page.featured.watermark' class='h6 text-white position-absolute overlay-text-header'>
+                        <div v-if='page.featured.watermark' class='h6 text-white overlay-watermark'>
                             {{subpage.featured.watermark}}
                         </div>
                     </div>
@@ -72,9 +72,9 @@ var Standard = {
                     <!--even-->
                     <div v-if='index%2' class='row p-0 m-0'>
                         <div class='col-8 col-md-8 col-lg-8 d-none d-sm-none d-md-block d-lg-block p-5 m-0'>
-                            <div class='img-container p-0 m-0'>
+                            <div class='img-container p-0 m-0 position-relative'>
 								<img v-lazy="subpage.featured.src" class='fixed-height-3 img-fluid'/>
-								<span v-if='subpage.featured.watermark' class='h6 text-white position-absolute overlay-text'>
+								<span v-if='subpage.featured.watermark' class='h6 text-white overlay-watermark'>
 									{{subpage.featured.watermark}}
 								</span>
                             </div>
@@ -101,9 +101,9 @@ var Standard = {
 
                         </div>
                         <div class='col-8 col-lg-8 col-md-8 d-none d-sm-none d-md-block d-lg-block p-5 m-0'>
-                            <div class='img-container p-0 m-0'>
+                            <div class='img-container p-0 m-0 position-relative'>
                                 <img v-lazy="subpage.featured.src" class='fixed-height-3 img-fluid'/>
-                                <span v-if='subpage.featured.watermark' class='h6 text-white position-absolute overlay-text'>
+                                <span v-if='subpage.featured.watermark' class='h6 text-white overlay-watermark'>
 									{{subpage.featured.watermark}}
                                 </span>
                             </div>
