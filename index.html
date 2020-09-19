@@ -120,14 +120,15 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 	
-	
 	<!-- Vue development version, includes helpful console warnings -->
-	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+	<!-- <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script> -->
 	<!-- Vue production version, optimized for size and speed -->
 	<!-- <script src="https://cdn.jsdelivr.net/npm/vue"></script> -->
+	<script src="Libraries/vue/vue.min.js"></script>
 	
 	<!-- Vue Router -->
-	<script src="https://unpkg.com/vue-router"></script>
+	<!-- <script src="https://unpkg.com/vue-router"></script> -->
+	<script src="Libraries/vue-router/vue-router.js"></script>
 	
 	<!-- App Content -->
     <script src="Content/data.js"></script>
@@ -135,26 +136,27 @@
     <!-- vue plugins -->
     <!--lazy loading -->
     <script src="https://unpkg.com/vue-lazyload/vue-lazyload.js"></script>
+	
     <!-- vue gallery -->
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/blueimp-gallery@2.27.0/css/blueimp-gallery.min.css">
     <script type="text/javascript" src="https://unpkg.com/blueimp-gallery@2.27.0/js/blueimp-helper.js"></script>
     <script type="text/javascript" src="https://unpkg.com/blueimp-gallery@2.27.0/js/blueimp-gallery.js"></script>
     <script type="text/javascript" src="https://unpkg.com/blueimp-gallery@2.27.0/js/blueimp-gallery-fullscreen.js"></script>
     <script type="text/javascript" src="https://unpkg.com/vue-gallery@2.0.1/dist/js/vue-gallery.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="https://unpkg.com/blueimp-gallery@2.27.0/css/blueimp-gallery.min.css">
       
-    <!-- preview/photoswipe-->
+    <!-- Vue Preview/Photoswipe-->
+    <link rel="stylesheet" type="text/css" href="Libraries/photoswipe/photoswipe.css">
+    <link rel="stylesheet" type="text/css" href="Libraries/photoswipe/default-skin/default-skin.css">
     <script src="Libraries/photoswipe/photoswipe.min.js"></script>
     <script src="Libraries/photoswipe/photoswipe-ui-default.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="Libraries/photoswipe/photoswipe.css">
-    <link rel="stylesheet" type="text/css" href="Libraries/photoswipe/default-skin/default-skin.css"> 
-    <script src="Libraries/vue-preview.min.js"></script>
+	<script src="Libraries/vue-preview.min.js"></script>
     
     <!-- Vue components -->
     <script src="Components/Cards.vue.js"></script>
 	<script src="Components/Carousel.vue.js"></script>
 	<script src="Components/SingleImage.vue.js"></script>
     <script src="Components/Credits.vue.js"></script>
-     <script src="Components/VideoGallery.vue.js"></script>
+    <script src="Components/VideoGallery.vue.js"></script>
 
 	<!-- Vue Pages -->
 	<script src="Pages/Home.vue.js"></script>
