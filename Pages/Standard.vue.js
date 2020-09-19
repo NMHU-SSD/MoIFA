@@ -23,8 +23,8 @@ var Standard = {
 		  <div class='container-fluid p-0 m-0 border-bottom border-secondary' v-if="page.featured">
                     <div class='img-container p-0 m-0'>
                         <img class="fluid-width fixed-height-1" v-lazy="page.featured.src"/>
-                        <div v-if='page.featured.watermark' class='overlay-text-2'>
-                            <p class='color-white' v-html='subpage.featured.watermark'></p>
+                        <div v-if='page.featured.watermark' class='h6 text-white position-absolute overlay-text-header'>
+                            {{subpage.featured.watermark}}
                         </div>
                     </div>
             </div>
@@ -73,10 +73,10 @@ var Standard = {
                     <div v-if='index%2' class='row p-0 m-0'>
                         <div class='col-8 col-md-8 col-lg-8 d-none d-sm-none d-md-block d-lg-block p-5 m-0'>
                             <div class='img-container p-0 m-0'>
-                                <img v-lazy='subpage.featured.src' class='fixed-height-3'/>
-                                <div v-if='subpage.featured.watermark' class='overlay-text-2'>
-                                    <p class='color-white' v-html='subpage.featured.watermark'></p>
-                                </div>
+								<img v-lazy="subpage.featured.src" class='fixed-height-3 img-fluid'/>
+								<span v-if='subpage.featured.watermark' class='h6 text-white position-absolute overlay-text'>
+									{{subpage.featured.watermark}}
+								</span>
                             </div>
                         </div>
                          <div class='col-xs-12 col-sm-12 col-md-4 col-lg-4 p-5 m-0 d-flex justify-content-center flex-column '>
@@ -102,10 +102,10 @@ var Standard = {
                         </div>
                         <div class='col-8 col-lg-8 col-md-8 d-none d-sm-none d-md-block d-lg-block p-5 m-0'>
                             <div class='img-container p-0 m-0'>
-                                <img v-lazy="subpage.featured.src" class='fixed-height-3'/>
-                                <div v-if='subpage.featured.watermark' class='overlay-text-2'>
-                                    <p class='color-white' v-html='subpage.featured.watermark'></p>
-                                </div>
+                                <img v-lazy="subpage.featured.src" class='fixed-height-3 img-fluid'/>
+                                <span v-if='subpage.featured.watermark' class='h6 text-white position-absolute overlay-text'>
+									{{subpage.featured.watermark}}
+                                </span>
                             </div>
                         </div>
                     </div>

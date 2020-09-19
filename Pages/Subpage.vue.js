@@ -35,8 +35,8 @@ var Subpage = {
         <div class='container-fluid p-0 m-0 border-bottom border-dark' v-if="subpage.featured">
             <div class='img-container p-0 m-0'>
                 <img class="fluid-width fixed-height-1" v-lazy="subpage.featured.src"/>
-                <div v-if='subpage.featured.watermark' class='overlay-text-3'>
-                    <p class='color-white' v-html='subpage.featured.watermark'></p>
+                <div v-if='subpage.featured.watermark' class='h6 text-white position-absolute overlay-text-header'>
+                    {{subpage.featured.watermark}}
                 </div>
             </div>
         </div>

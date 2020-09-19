@@ -207,12 +207,14 @@ footer ul.nav .nav-item .disabled{
   bottom: 0;
   left: 0;
 }
-.overlay-text-3{
+.overlay-text-header{
   width: auto;
   height: auto;
   position: absolute;
-  top: 25%;
-  left: 0;
+  top: 58%;
+  right: 0px;
+  padding: 1em;
+  
 }
 .img-overlay-1{
     position: absolute;
