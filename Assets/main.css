@@ -387,7 +387,7 @@ figure, .figure-img, figure > .img-container{
     cursor: pointer;
     color: #E5E2C4  !important; 
     background: #8C2A1C !important;
-    z-index: 9999;
+    z-index: 99999999;
 }
 .font-size-1{
     font-size: .8em;

@@ -102,7 +102,7 @@ var Subpage = {
 
                     <div class='row pb-4'>
                         <div class="col-sm-12 col-md-12 col-lg-12 ">
-                            <h3 class='font-weight-bolder text-uppercase'>{{section.title}}</h3>
+                            <h3 class='font-weight-bolder text-uppercase' v-html='section.title'></h3>
                             <div v-html='section.body'></div>
                         </div>
                     </div>
@@ -132,8 +132,7 @@ var Subpage = {
         </template>
         <!-- links/files -->
         <div class="container-fluid pb-5" v-if='subpage.resources'>     
-            <h3 class="text-center text-uppercase color-red" v-if='subpage.resources.title'>{{subpage.resources.title}}</h3>
-            <h3 class="text-center color-red text-uppercase" v-else>Resources</h3>
+            <h3 class="text-center text-uppercase color-red" v-if='subpage.resources.title' v-html='subpage.resources.title'></h3>
             <template v-if='subpage.resources.body'>
                 <div class="text-center color-red text-uppercase pb-3" v-html='subpage.resources.body'></div>
             </template>
