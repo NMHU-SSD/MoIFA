@@ -3,7 +3,7 @@ var Cards = {
     props: ['cards','id'],
     template:`
         <!-- cards -->
-        <div class='row p-0 m-0'>
+        <div class='row container-fluid p-0 m-0'>
             <div :class="[(cards.length >= 1 ? 'col' : ''), (cards.length >= 3 ? 'col-sm-12 col-md-12 col-lg-4' : ''), (cards.length == 2 ? 'col-sm-12 col-md-12 col-lg-6' : ''),  'p-2']" v-for='card,index in cards'>
                 <div class="card h-100 carousel-card bg-red">
 
@@ -17,7 +17,6 @@ var Cards = {
                                  <div v-for="(source,i) in card.sources" :class="['carousel-item p-0 m-0', 'card-image-container', (i==0 ? 'active' : '')]">
                                     <vue-preview class="pointer  d-block container-fluid p-0 m-0" :slides="[source]"></vue-preview>
                                 </div>
-
                             </div>
                             <a class="carousel-control-prev" :href="'#carouselCard'+index+'-TopIndicators-'+id" role="button" data-slide="prev">
                                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>

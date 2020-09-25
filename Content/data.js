@@ -698,8 +698,8 @@ var data = {
                                 {
                                     src:"Content/yokai/creature-lore/kitsune-plate.1.2.jpg",
                                     msrc:"Content/yokai/creature-lore/kitsune-plate.1.2.jpg",
-                                    w:5792,
-                                    h:7501,
+                                    w:2316,
+                                    h:3000,
                                     credit: {
                                         title:"Kitsune (fox) mask",
                                         location: "Japan",
@@ -734,7 +734,7 @@ var data = {
                                     msrc:"http://collection.internationalfolkart.org/internal/media/dispatcher/131614/resize%3Aformat%3Dfull",
                                     w:658,
                                     h:900,                                    
-                                },
+                                }
                             ]
                         },
                         {
@@ -1451,7 +1451,7 @@ var data = {
                             ]
                         },
                         {
-                            subtitle: `We would love to see what you create.<br> Share your yokai creations with us through your favorite social media platform,<br> use the tags:<br><br>
+                            subtitle: `We would love to see what you create!<br> Share your yokai creations with us through your favorite social media platform,<br> use the tags:<br><br>
                             <span class='color-red'><b> #moifayokai <br>
                             #yokai<br> 
                             #moifa</b></span>`,
@@ -1868,8 +1868,8 @@ var data = {
                     Felicia Katz-Harris, Senior Curator | Curator of Asian Folk Art<br>
                     Dawn Kaufmann, Educator & Docent Coordinator<br>
                     Monica Meehan, Exhibition Graphic Design<br>
-                    Doug Patinka, Chief Information Officer (NM Department of Cultural Affairs)<br>
-                    NON-MOIFA IMAGES COURTESY OF:<br>
+                    Doug Patinka, Chief Information Officer (NM Department of Cultural Affairs)<br><br>
+                    <u>NON-MOIFA IMAGES COURTESY OF:</u><br>
                     International Research Center for Japanese Studies (Nichibunken)<br>
                     Kokusho Publishing<br>
                     Kono Junya and Yukiko<br>

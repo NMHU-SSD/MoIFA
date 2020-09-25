@@ -121,9 +121,7 @@ var Subpage = {
 
                     <!-- cards -->
                     <template v-if="section.cards">
-                        <div class='row'>
                             <cards-component :cards="section.cards" :id="'section'+index" />
-                        </div>
                     </template>
                    
                     

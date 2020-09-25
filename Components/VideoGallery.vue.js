@@ -19,7 +19,7 @@ var VideoGallery = {
         <div class="w-100 p-0 m-0 container-fluid">
             <div class ="row bg-light-tan">
                 <div class= "col-12">
-                    <h3 class="font-weight-bolder pl-4 pr-4 pt-4 m-0"> {{gallery.title}}</h3>
+                    <h3 class="font-weight-bolder pl-4 pr-4 pt-4 m-0" v-html="gallery.title" ></h3>
                 </div>
                 <div class= "col-12">
                     <p class="pb-4 pl-4 pr-4 m-0" v-html='gallery.caption'></p>

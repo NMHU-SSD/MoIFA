@@ -3,14 +3,14 @@ function toTop() {
 }
 
 var prevScrollpos = window.pageYOffset;
-document.getElementById("fixed-button").style.visibility = "hidden";
+document.getElementById("fixed-button").style.visibility = "visible";
 window.onscroll = function() {
     var currentScrollPos = window.pageYOffset
-    if (($(document).height()*.75) > currentScrollPos) {
+    /*if (($(document).height()*.50) > currentScrollPos) {
         document.getElementById("fixed-button").style.visibility = "hidden";
     } 
     else {
         document.getElementById("fixed-button").style.visibility = "visible";
-    }
+    }*/
     prevScrollpos = currentScrollPos;
 } 
