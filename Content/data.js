@@ -352,8 +352,8 @@ var data = {
                                         date:"Edo period (1603—1867)",
                                         location:"Japan",
                                         link:{
-                                            text:"Courtesy of the Yumoto Koichi Memorial Yokai Museum of Japan (Miyoshi Mononoke Museum)",
-                                            url:'http://www.miyoshi-dmo.jp/mononoke/'
+                                            text:"Courtesy of the Yumoto Koichi Memorial JAPAN YOKAI MUSEUM (Miyoshi Mononoke Museum) 湯本豪一記念日本妖怪博物館（三次もののけミュージアム）",
+                                            url:'https://miyoshi-mononoke.jp/'
                                         }
                                     }
                                 }
@@ -660,8 +660,7 @@ var data = {
                     <p>Some people prefer words such as <i>bakemono</i> (changing things), <i>obake</i> (spooky things), and <i>mononoke</i> (weird, mysterious occurrences) to describe specific categories of beings. People began using the word “yokai” during the Meiji period (1868—1912) when scholars began studying Japanese folklore.</p>
                     <p>Despite ambiguities, scholars generally agree that yokai include <em><b>tanuki</b></em> (raccoon-dogs), <em><b>kitsune</b></em> (foxes), <em><b>tsukumogami</b></em> (haunted tools or objects), <em><b>kappa</b></em> (water yokai), <em><b>tengu</b></em> (mountain spirits or goblins), and <em><b>oni</b></em> (demons).</p> 
                     <p><em><b>Yurei</b></em> (ghosts) are included in this museum exhibition as a kind of a yokai, but not everyone agrees. Yurei are spirits of deceased humans with intense emotions and lingering ties or resentments in this world, whereas yokai were never human, are very much alive, and can be playful (yurei are not playful!). Looking at representations of yokai in popular media and art from the last five centuries, we find all sorts of beings: tormented ghosts, ogres, demons, monsters, shapeshifters, and personified animals. They all seem to categorically belong. Do you agree?</p>
-					<p>Explore these categories of yokai in the collection of the Museum of International Folk Art. </p><p>
-                     <a class='font-weight-bolder color-red' href="/index.html#/resources/learn-more"><b><i>Learn more about yokai and explore additional yokai website resources</i></b></a></p><p><u>Explore these categories of yokai in the collection of the Museum of International Folk Art.</u></p>`,
+                    <p><a class='font-weight-bolder color-red' href="/index.html#/resources/learn-more" target='_blank'><b><i>Learn more about yokai and explore additional yokai website resources</i></b></a></p><br><h3 class="justify-text text-uppercase color-red">Explore these categories of yokai in the collection of The Museum of International Folk Art</h3>`, 
                     featured:{
                         src:"Content/yokai/creature-lore/tengu-plate2.2.5.jpg"
                     },
@@ -928,7 +927,7 @@ var data = {
                     [
                        {
                            title:"Exhibition Gallery",
-                           body:`<p>Click through the images to view photographs of the exhibition or <a href='https://fivedmedia.com/3d-model/yokai-ghosts-demons-monsters-of-japan/skinned/' class='color-red font-weight-bolder' target='_blank'><b><i>take a 3D tour.</i></b></p>`,
+                           body:`<p>Click through the images to view photographs of the exhibition or <a href='https://fivedmedia.com/3d-model/yokai-ghosts-demons-monsters-of-japan/skinned/' class='color-red font-weight-bolder' target='_blank'><b><i>take a virtual tour.</i></b></p>`,
                            slides: 
                            [
                                 {
@@ -1144,7 +1143,7 @@ var data = {
                        ]
                        },
                        {
-                           title:'Take a 3D Tour',
+                           title:'Take a Virtual Tour',
                             cards:[
                                {
                                   src:'Content/exhibit/gallery/3D_Tour_Capture.jpg',
@@ -1153,8 +1152,26 @@ var data = {
                                   h:336,
                                   credit:{
                                       link:{
-                                          text:'Take a 3D tour of the exhibition!',
+                                          text:'Click here to take a Virtual tour of the exhibition!',
                                           url:'https://fivedmedia.com/3d-model/yokai-ghosts-demons-monsters-of-japan/skinned/'
+                                      }  
+                                  },
+                                },
+                           ],
+                           
+                       },
+                       {
+                           title:'Visit the Monster House ("Obake Yashiki")',
+                            cards:[
+                               {
+                                  src:"Content/exhibit/monster-house/Y200331028.jpg",
+                                  msrc:"Content/exhibit/monster-house/Y200331028.jpg",
+                                  w:600,
+                                  h:907,
+                                  credit:{
+                                      link:{
+                                          text:'Click here to enter the Monster House at the Museum!',
+                                          url:'/index.html#/exhibition/monster-house'
                                       }  
                                   },
                                 },
@@ -1369,7 +1386,7 @@ var data = {
 
                             CHAPTER 9<br>
                             Collecting Yokai: On Creating a Yokai Museum<br>
-                            <a class='color-red font-weight-bolder' target='_blank' href='https://miyoshi-mononoke.jp/introduction/introduction-yumoto/?SLANG=ja&TLANG=en&XMODE=0&XCHARSET=utf-8&XJSID=0#profile'><b><i>Yumoto Koichi</i></b></a><br><br>
+                            <a class='color-red font-weight-bolder' target='_blank' href='https://miyoshi-mononoke.jp/introduction/introduction-yumoto/'><b><i>Yumoto Koichi</i></b></a><br><br>
 
                             CHAPTER 10<br>
                             Yokai: An Artist’s Perspective<br>
@@ -1572,8 +1589,8 @@ var data = {
                             title:'Institutional Webites',
                             links:[
                             {
-                                text:'Yumoto Koichi Memorial Yokai Museum (Miyoshi Mononoke Museum)',
-                                extUrl:'http://www.miyoshi-dmo.jp/mononoke/'
+                                text:'Yumoto Koichi Memorial JAPAN YOKAI MUSEUM (Miyoshi Mononoke Museum) 湯本豪一記念日本妖怪博物館（三次もののけミュージアム）',
+                                extUrl:'https://miyoshi-mononoke.jp/'
                             },
                             {
                                 text:'Smithsonian Libraries',
@@ -1745,8 +1762,8 @@ var data = {
             featured:   {
                 src:"Content/acknowledements/A.2017.91.1a-c4.jpg"
             },
-            body:`<p><b>The Museum of International Folk Art extends its appreciation to the donors who helped realize this museum exhibition. We thank the International Folk Art Foundation, the Friends of Folk Art Board, the Museum of New Mexico Foundation, and the following contributors for their generosity, as of November 1, 2019:</b><br><br>
-            <span>&#9;Jane and Jene Alexander</span><br>
+            body:`<b>The Museum of International Folk Art extends its appreciation to the donors who helped realize this museum exhibition. We thank the International Folk Art Foundation, the Friends of Folk Art Board, the Museum of New Mexico Foundation, and the following contributors for their generosity, as of November 1, 2019:</b><br><br>
+            <span>  Jane and Jene Alexander</span><br>
                     William and Judith Alger<br>
                     Keith Anderson and Barbara Lenssen<br>
                     Kathryn King Coleman and Hank Coleman<br>
@@ -1829,7 +1846,7 @@ var data = {
                     Freer | Sackler Smithsonian Galleries of Asian Art<br>
                     Los Angeles County Museum of Art<br>
                     Minneapolis Institute of Art<br>
-                    Yumoto Koichi Memorial Yokai Museum of Japan (Miyoshi Mononoke Museum)<br><br>
+                    Yumoto Koichi Memorial JAPAN YOKAI MUSEUM (Miyoshi Mononoke Museum)<br><br>
                     <u>ADDITIONAL THANKS TO:</u><br>
                     Dr. Frank Feltens<br>
                     Hollis Goodall<br>
@@ -1842,33 +1859,39 @@ var data = {
                     Tanya Morrison<br>
                     Jason and Kelly Smith<br>
                     Megan Smith<br>
-                    Sam Takenuchi<br><br>
+                    Sam Takenouchi<br><br>
                     <u>MONSTER HOUSE DESIGN & TECHNOLOGY</u><br>
                     Kono Junya, Designer & Artist<br>
                     Travis FX (James Travis III, Doug Alan Bailey), Haunted House Engineers<br>
-                    Museum of International Folk Art & Museum Resources Division (NMDCA)<br>
-                    Bryan Johnson-French, Exhibition Manager<br>
-                    Richard Lujan, Security Co-Captain<br>
-                    Cruz Lujan, Security Co-Captain<br>
-                    David Rohr, Museum Resources Division Director<br>
-                    Fred Salazar, Security Staff<br><br>
+                    Museum of International Folk Art & Museum Resources Division (NMDCA)
+                    <ul>
+                        <li>Bryan Johnson-French, Exhibition Manager<br>
+                        <li>Richard Lujan, Security Co-Captain</li>
+                        <li>Cruz Lujan, Security Co-Captain</li>
+                        <li>David Rohr, Museum Resources Division Director</li>
+                        <li>Fred Salazar, Security Staff</li>
+                    </ul>
                     <u>ONLINE EXHIBITION DEVELOPMENT</u><br>
                     Addison Doty, Gallery and Object Photography<br>
                     Lisa Hinson (5D Media), 3D Tour<br>
-                    New Mexico Highlands University<br>
-                    Jonah Spear, Web Developer Intern<br>
-                    Chris Romero, Web Designer Intern<br>
-                    Lauren Addario, Media Arts & Technology Faculty, Internship Program Director<br>
-                    Rianne Trujillo, Software Systems Design, Faculty Advisor<br>
-                    Museum of International Folk Art - Museum Resources Division - NM Department of Cultural Affairs<br>
-                    Matt Celeskey, Senior Exhibition Designer<br>
-                    Dr. Margaret DePond, Copy Editor<br>
-                    Leslie Fagre, Director of Education<br>
-                    Kemely Gomez, Bilingual Educator<br>
-                    Felicia Katz-Harris, Senior Curator | Curator of Asian Folk Art<br>
-                    Dawn Kaufmann, Educator & Docent Coordinator<br>
-                    Monica Meehan, Exhibition Graphic Design<br>
-                    Doug Patinka, Chief Information Officer (NM Department of Cultural Affairs)<br><br>
+                    <a class='color-red' href='https://www.nmhu.edu/' target='_blank'>New Mexico Highlands University</a><br>
+                    <ul>
+                        <li>Jonah Spear, Web Developer Intern</li>
+                        <li>Chris Romero, Web Designer Intern</li>
+                        <li>Lauren Addario, Media Arts & Technology Faculty, Internship Program Director</li>
+                        <li>Rianne Trujillo, Software Systems Design, Faculty Advisor</li>
+                    </ul>
+                    <a class='color-red' href='http://www.internationalfolkart.org' target='_blank'>Museum of International Folk Art</a> - <a class='color-red' href='http://nmculture.org/museum-resources' taget='_blank'>Museum Resources Division</a> - <a class='color-red' href='http://www.newmexicoculture.org/' target='_blank'>NM Department of Cultural Affairs</a><br>
+                    <ul>
+                        <li>Matt Celeskey, Senior Exhibition Designer</li>
+                        <li>Dr. Margaret DePond, Copy Editor</li>
+                        <li>Leslie Fagre, Director of Education</li>
+                        <li>Kemely Gomez, Bilingual Educator</li>
+                        <li>Felicia Katz-Harris, Senior Curator | Curator of Asian Folk Art</li>
+                        <li>Dawn Kaufmann, Educator & Docent Coordinator</li>
+                        <li>Monica Meehan, Exhibition Graphic Design</li>
+                        <li>Doug Patinka, Chief Information Officer (NM Department of Cultural Affairs)</li>
+                    </ul>
                     <u>NON-MOIFA IMAGES COURTESY OF:</u><br>
                     International Research Center for Japanese Studies (Nichibunken)<br>
                     Kokusho Publishing<br>
