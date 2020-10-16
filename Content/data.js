@@ -1145,7 +1145,7 @@ var data = {
                        {
                            title:'Take a Virtual Tour',
                            body:`<p><a href='https://fivedmedia.com/3d-model/yokai-ghosts-demons-monsters-of-japan/skinned/' target='_blank' class='color-red font-weight-bolder'>Click here to take a Virtual tour of the exhibition!</a></p>`,
-                            cards:[
+                            slides:[
                                {
                                   src:'Content/exhibit/gallery/3D_Tour_Capture.jpg',
                                   msrc:'Content/exhibit/gallery/3D_Tour_Capture.jpg',
@@ -1158,7 +1158,7 @@ var data = {
                        {
                            title:'Visit the Monster House ("Obake Yashiki")',
                            body:`<p><a href='#/exhibition/monster-house' target='_blank' class='color-red font-weight-bolder'>Click here to enter the Monster House at the Museum!</a></p>`,
-                            cards:[
+                            slides:[
                                {
                                   src:"Content/exhibit/monster-house/Y200331028.jpg",
                                   msrc:"Content/exhibit/monster-house/Y200331028.jpg",
