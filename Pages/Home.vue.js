@@ -7,10 +7,10 @@ var Home = {
 		
 	},
 	template:  `
-<div class="container-fluid p-0">
+<div class="container-fluid p-0 m-0">
     
     <!--landing description and image/2 displays-->
-    <div class="row bg-black">
+    <div class="row bg-black p-0 m-0">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 bg-tan m-0 p-5 d-none d-sm-none d-lg-inline">
                 <h3 class="text-left color-red text-uppercase" v-html="page.title">
                 </h3>
