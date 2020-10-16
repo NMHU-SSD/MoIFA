@@ -660,7 +660,7 @@ var data = {
                     <p>Some people prefer words such as <i>bakemono</i> (changing things), <i>obake</i> (spooky things), and <i>mononoke</i> (weird, mysterious occurrences) to describe specific categories of beings. People began using the word “yokai” during the Meiji period (1868—1912) when scholars began studying Japanese folklore.</p>
                     <p>Despite ambiguities, scholars generally agree that yokai include <em><b>tanuki</b></em> (raccoon-dogs), <em><b>kitsune</b></em> (foxes), <em><b>tsukumogami</b></em> (haunted tools or objects), <em><b>kappa</b></em> (water yokai), <em><b>tengu</b></em> (mountain spirits or goblins), and <em><b>oni</b></em> (demons).</p> 
                     <p><em><b>Yurei</b></em> (ghosts) are included in this museum exhibition as a kind of a yokai, but not everyone agrees. Yurei are spirits of deceased humans with intense emotions and lingering ties or resentments in this world, whereas yokai were never human, are very much alive, and can be playful (yurei are not playful!). Looking at representations of yokai in popular media and art from the last five centuries, we find all sorts of beings: tormented ghosts, ogres, demons, monsters, shapeshifters, and personified animals. They all seem to categorically belong. Do you agree?</p>
-                    <p><a class='font-weight-bolder color-red' href="/index.html#/resources/learn-more" target='_blank'><b><i>Learn more about yokai and explore additional yokai website resources</i></b></a></p><br><h3 class="justify-text text-uppercase color-red">Explore these categories of yokai in the collection of The Museum of International Folk Art</h3>`, 
+                    <p><a class='font-weight-bolder color-red' href="#/resources/learn-more" target='_blank'><b><i>Learn more about yokai and explore additional yokai website resources</i></b></a></p><br><h3 class="justify-text text-uppercase color-red">Explore these categories of yokai in the collection of The Museum of International Folk Art</h3>`, 
                     featured:{
                         src:"Content/yokai/creature-lore/tengu-plate2.2.5.jpg"
                     },
@@ -927,7 +927,7 @@ var data = {
                     [
                        {
                            title:"Exhibition Gallery",
-                           body:`<p>Click through the images to view photographs of the exhibition or <a href='https://fivedmedia.com/3d-model/yokai-ghosts-demons-monsters-of-japan/skinned/' class='color-red font-weight-bolder' target='_blank'><b><i>take a virtual tour.</i></b></p>`,
+                           body:`<p>Click through the images to view photographs of the exhibition</p>`,
                            slides: 
                            [
                                 {
@@ -1144,36 +1144,26 @@ var data = {
                        },
                        {
                            title:'Take a Virtual Tour',
+                           body:`<p><a href='https://fivedmedia.com/3d-model/yokai-ghosts-demons-monsters-of-japan/skinned/' target='_blank' class='color-red font-weight-bolder'>Click here to take a Virtual tour of the exhibition!</a></p>`,
                             cards:[
                                {
                                   src:'Content/exhibit/gallery/3D_Tour_Capture.jpg',
                                   msrc:'Content/exhibit/gallery/3D_Tour_Capture.jpg',
                                   w:640,
                                   h:336,
-                                  credit:{
-                                      link:{
-                                          text:'Click here to take a Virtual tour of the exhibition!',
-                                          url:'https://fivedmedia.com/3d-model/yokai-ghosts-demons-monsters-of-japan/skinned/'
-                                      }  
-                                  },
                                 },
                            ],
                            
                        },
                        {
                            title:'Visit the Monster House ("Obake Yashiki")',
+                           body:`<p><a href='#/exhibition/monster-house' target='_blank' class='color-red font-weight-bolder'>Click here to enter the Monster House at the Museum!</a></p>`,
                             cards:[
                                {
                                   src:"Content/exhibit/monster-house/Y200331028.jpg",
                                   msrc:"Content/exhibit/monster-house/Y200331028.jpg",
                                   w:600,
                                   h:907,
-                                  credit:{
-                                      link:{
-                                          text:'Click here to enter the Monster House at the Museum!',
-                                          url:'/index.html#/exhibition/monster-house'
-                                      }  
-                                  },
                                 },
                            ],
                            
@@ -1874,14 +1864,14 @@ var data = {
                     <u>ONLINE EXHIBITION DEVELOPMENT</u><br>
                     Addison Doty, Gallery and Object Photography<br>
                     Lisa Hinson (5D Media), 3D Tour<br>
-                    <a class='color-red' href='https://www.nmhu.edu/' target='_blank'>New Mexico Highlands University</a><br>
+                    <a class='color-red' href='http://www.cctnewmexico.org/' target='_blank'>New Mexico Highlands University</a><br>
                     <ul>
                         <li>Jonah Spear, Web Developer Intern</li>
                         <li>Chris Romero, Web Designer Intern</li>
                         <li>Lauren Addario, Media Arts & Technology Faculty, Internship Program Director</li>
                         <li>Rianne Trujillo, Software Systems Design, Faculty Advisor</li>
                     </ul>
-                    <a class='color-red' href='http://www.internationalfolkart.org' target='_blank'>Museum of International Folk Art</a> - <a class='color-red' href='http://nmculture.org/museum-resources' taget='_blank'>Museum Resources Division</a> - <a class='color-red' href='http://www.newmexicoculture.org/' target='_blank'>NM Department of Cultural Affairs</a><br>
+                    <a class='color-red' href='http://www.internationalfolkart.org' target='_blank'>Museum of International Folk Art</a> - <a class='color-red' href='http://nmculture.org/museum-resources' target='_blank'>Museum Resources Division</a> - <a class='color-red' href='http://www.newmexicoculture.org/' target='_blank'>NM Department of Cultural Affairs</a><br>
                     <ul>
                         <li>Matt Celeskey, Senior Exhibition Designer</li>
                         <li>Dr. Margaret DePond, Copy Editor</li>
