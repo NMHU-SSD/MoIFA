@@ -729,8 +729,8 @@ var data = {
                                             text:'Click here to view tsukumogami in the collection of the Museum of International Folk Art'
                                         }
                                     }, 
-                                    src:"http://collection.internationalfolkart.org/internal/media/dispatcher/131614/resize%3Aformat%3Dfull",
-                                    msrc:"http://collection.internationalfolkart.org/internal/media/dispatcher/131614/resize%3Aformat%3Dfull",
+                                    src:"Content/yokai/creature-lore/A.1984.206.6.jpg",
+                                    msrc:"Content/yokai/creature-lore/A.1984.206.6.jpg",
                                     w:658,
                                     h:900,                                    
                                 }
@@ -828,8 +828,8 @@ var data = {
                                             text:'Click here to view oni in the collection of the Museum of International Folk Art'
                                         }
                                     }, 
-									src:"http://collection.internationalfolkart.org/internal/media/dispatcher/128850/resize%3Aformat%3Dfull",
-                                    msrc:"http://collection.internationalfolkart.org/internal/media/dispatcher/128850/resize%3Aformat%3Dfull",
+									src:"Content/yokai/creature-lore/FA.2018.73.1_1.jpg",
+                                    msrc:"Content/yokai/creature-lore/FA.2018.73.1_1.jpg",
                                     w:1200,
                                     h:1200,		
 								}
